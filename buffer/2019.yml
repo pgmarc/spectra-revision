@@ -229,7 +229,7 @@ usageLimits:
     unit: user
     type: NON_RENEWABLE
   postsReportTemporalThreshold:
-    description: ''
+    description: The time period for which basic information about posts (when they were published and how they have performed) is retained.
     valueType: NUMERIC
     defaultValue: 30
     unit: day
