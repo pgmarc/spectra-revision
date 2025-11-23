@@ -68,7 +68,7 @@ features:
     type: INTEGRATION
     integrationType: WEB_SAAS
   tiktokBusinessAccounts:
-    description: ''
+    description: TikTok Business Accounts
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
