@@ -120,7 +120,7 @@ features:
     defaultValue: false
     type: DOMAIN
   passwordPolicies:
-    description: ''
+    description: Enforce specific rules and requirements for user passwords to enhance security.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
