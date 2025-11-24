@@ -8,201 +8,235 @@ currency: USD
 url: https://web.archive.org/web/20220209035208/https://www.canva.com/pricing/
 features:
   freeTemplates:
-    description: ''
+    tag: Design and Publishing
+    description: Free templates.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freeLogos:
-    description: ''
+    tag: Design and Publishing
+    description: Free Logos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freeFonts:
-    description: ''
+    tag: Design and Publishing
+    description: Free Fonts.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freePhotos:
-    description: ''
+    tag: Design and Publishing
+    description: Free Photos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freeGraphics:
-    description: ''
+    tag: Design and Publishing
+    description: Free Graphics.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   premiumStockImages:
-    description: ''
+    tag: Design and Publishing
+    description: Premium stock images library.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createDesignsWithCustomDimesions:
-    description: ''
+    tag: Design and Publishing
+    description: Create designs with custom dimensions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsPDF:
-    description: ''
+    tag: Design and Publishing
+    description: Export designs as PDF.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsPNG:
-    description: ''
+    tag: Design and Publishing
+    description: Export designs as PNG.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsJPG:
-    description: ''
+    tag: Design and Publishing
+    description: Export designs as JPG.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   builtInSocialSharing:
-    description: ''
+    tag: Design and Publishing
+    description: Built-in social sharing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   presentationMode:
-    description: ''
+    tag: Design and Publishing
+    description: Presentation mode.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   canvaApp:
-    description: ''
+    tag: Design and Publishing
+    description: Canva App for designing on the run.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   oneClickDesignResizing:
-    description: ''
+    tag: Design and Publishing
+    description: One-click design Magic Resize.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   oneClickPhotoBackgroundRemoval:
-    description: ''
+    tag: Design and Publishing
+    description: One-click photo background removal.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createCustomTemplates:
-    description: ''
+    tag: Design and Publishing
+    description: Create custom templates.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   uploadYourPhotosAndFonts:
-    description: ''
+    tag: Design and Publishing
+    description: Upload your photos and fonts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   downloadDesignsWithTransparentBackground:
-    description: ''
+    tag: Design and Publishing
+    description: Download designs with transparent background.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizeDownloadQuality:
-    description: ''
+    tag: Design and Publishing
+    description: Customize download quality.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportDesignsAsAnimatedGIF:
-    description: ''
+    tag: Design and Publishing
+    description: Export designs as animated GIFs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsMP4:
-    description: ''
+    tag: Design and Publishing
+    description: Export designs as MP4 videos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createAndPublishToSocialMediaFromCanva:
-    description: ''
+    tag: Design and Publishing
+    description: Create and publish social media content directly from the Canva Editor to 7 platforms.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   publishToSocialMediaOnlyAllowedToAdmins:
-    description: ''
+    description: Template and Admin users only allowed to Create and publish social media content directly from the Canva Editor to 7 platforms.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   teamSharing:
-    description: ''
+    tag: Collaboration
+    description: Team sharing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareView:
-    description: ''
+    tag: Collaboration
+    description: Share view access to designs with people outside your team through a design link or with select people within your team.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   editAccessToDesigns:
-    description: ''
+    tag: Collaboration
+    description: Share edit access to designs with people outside your team through a design link or with select people within your team.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   addCommentsToDesigns:
-    description: ''
+    tag: Collaboration
+    description: Add comments to designs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   assignTasksToTeamMembers:
-    description: ''
+    tag: Collaboration
+    description: Assign tasks to team members.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   approvalsWorkflow:
-    description: ''
+    tag: Collaboration
+    description: Built-in workflows to get approval on your designs.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   brandKit:
-    description: ''
+    tag: Brand Management
+    description: Establish your brand's visual identity across logos, colours and fonts with Brand Kits.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   brandControls:
-    description: ''
+    tag: Brand Management
+    description: Set brand controls to ensure your team stays on brand
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedTemplateLocking:
-    description: ''
+    tag: Brand Management
+    description: Protect any part of your design from team edits with advanced template locking.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   cloudStorage:
-    description: ''
+    description: Cloud storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   folders:
-    description: ''
+    description: Folders
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   24/7support:
-    description: ''
+    tag: Security and Support
+    description: Support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   twoFactorAuthentication:
-    description: ''
+    tag: Security and Support
+    description: Two factor authentication (2FA)
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   singleSignOn:
-    description: ''
+    tag: Security and Support
+    description: Security with single sign-on integrations.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   usersLimit:
-    description: ''
+    description: Users limit
     valueType: NUMERIC
     defaultValue: 1000000000
     unit: users
     type: NON_RENEWABLE
   brandKitUnits:
-    description: ''
+    description: Brand Kits limit
     valueType: NUMERIC
     defaultValue: 0
     unit: Brand Kit
@@ -210,7 +244,7 @@ usageLimits:
     linkedFeatures:
     - brandKit
   cloudStorageLimit:
-    description: ''
+    description: Cloud storage limit
     valueType: NUMERIC
     defaultValue: 5
     unit: GB
@@ -218,7 +252,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   foldersLimit:
-    description: ''
+    description: Folders limit
     valueType: NUMERIC
     defaultValue: 2
     unit: folder

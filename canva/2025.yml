@@ -30,6 +30,7 @@ features:
     tag: Design and publishing
     type: DOMAIN
   customDimensionDesigns:
+    description: Create designs with custom dimensions
     valueType: BOOLEAN
     defaultValue: true
     tag: Design and publishing
@@ -66,6 +67,7 @@ features:
     tag: Design and publishing
     type: DOMAIN
   saveDesingsAsTemplates:
+    description: Save designs as templates (incluede template locking)
     valueType: BOOLEAN
     defaultValue: false
     tag: Design and publishing
@@ -189,6 +191,7 @@ features:
     tag: AI-powered design tools
     type: DOMAIN
   backgroundRemover:
+    description: Background remover
     valueType: BOOLEAN
     defaultValue: false
     tag: AI-powered design tools
@@ -365,6 +368,7 @@ features:
     tag: Brand management and controls
     type: MANAGEMENT
   inviteTeamMembers:
+    description: Invite team members
     valueType: BOOLEAN
     defaultValue: false
     tag: Team management and permissions
@@ -508,6 +512,7 @@ features:
     tag: Security
     type: INFORMATION
   folders:
+    description: Folders
     valueType: BOOLEAN
     defaultValue: true
     tag: Storage and organisation
@@ -519,6 +524,7 @@ features:
     tag: Storage and organisation
     type: DOMAIN
   cloudStorage:
+    description: Cloud storage
     valueType: BOOLEAN
     defaultValue: true
     tag: Storage and organisation
@@ -591,16 +597,19 @@ features:
     type: PAYMENT
 usageLimits:
   minimumUsersRequired:
+    description: Minimum users required
     valueType: NUMERIC
     defaultValue: 0
     unit: user
     type: NON_RENEWABLE
   usersLimit:
+    description: Users limit
     valueType: NUMERIC
     defaultValue: 1
     unit: user
     type: NON_RENEWABLE
   dreamLabUses:
+    description: Dream Lab uses
     valueType: NUMERIC
     defaultValue: 20
     unit: user/month
@@ -608,6 +617,7 @@ usageLimits:
     linkedFeatures:
     - dreamLab
   magicDesignUsageTokens:
+    description: Magic Design usage tokens
     valueType: NUMERIC
     defaultValue: 10
     unit: use
@@ -615,6 +625,7 @@ usageLimits:
     linkedFeatures:
     - magicDesign
   magicWriteTotalUsages:
+    description: Magic Write total usages
     valueType: NUMERIC
     defaultValue: 50
     unit: use
@@ -622,6 +633,7 @@ usageLimits:
     linkedFeatures:
     - magicWrite
   magicWriteReusableTokens:
+    description: Magic Write reusable tokens
     valueType: NUMERIC
     defaultValue: 500
     unit: use
@@ -629,6 +641,7 @@ usageLimits:
     linkedFeatures:
     - magicWrite
   magicText2ImageTotalTokens:
+    description: Magic Text to Image total tokens
     valueType: NUMERIC
     defaultValue: 50
     unit: use
@@ -636,6 +649,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Image
   magicText2ImageReusableTokens:
+    description: Magic Text to Image reusable tokens
     valueType: NUMERIC
     defaultValue: 500
     unit: use
@@ -643,6 +657,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Image
   magicText2VideoTotalTokens:
+    description: Magic Text to Video total tokens
     valueType: NUMERIC
     defaultValue: 5
     unit: use
@@ -650,6 +665,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Video
   magicText2VideoReusableTokens:
+    description: Magic Text to Video reusable tokens
     valueType: NUMERIC
     defaultValue: 50
     unit: use
@@ -657,6 +673,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Video
   translatorTotalPages:
+    description: Translator total pages
     valueType: NUMERIC
     defaultValue: 50
     unit: page
@@ -664,6 +681,7 @@ usageLimits:
     linkedFeatures:
     - translator
   translatorReusablePages:
+    description: Translator reusable pages
     valueType: NUMERIC
     defaultValue: 500
     unit: page
@@ -671,6 +689,7 @@ usageLimits:
     linkedFeatures:
     - translator
   brandKitsUnits:
+    description: Brand Kits units
     valueType: NUMERIC
     defaultValue: 1
     unit: kit
@@ -678,6 +697,7 @@ usageLimits:
     linkedFeatures:
     - brandKits
   cloudStorageLimit:
+    description: Cloud storage limit
     valueType: NUMERIC
     defaultValue: 5
     unit: GB
@@ -685,6 +705,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   availableOnlyIfMoreThan100SeatsInvoiced:
+    description: Available only if more than 100 seats invoiced
     valueType: BOOLEAN
     defaultValue: false
     type: NON_RENEWABLE

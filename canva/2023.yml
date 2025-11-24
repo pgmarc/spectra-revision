@@ -13,12 +13,12 @@ features:
     defaultValue: 1+ million
     type: DOMAIN
   freeFonts:
-    description: ''
+    description: Free Fonts
     valueType: TEXT
     defaultValue: 1,000+
     type: DOMAIN
   assets2:
-    description: Fre templates, logos & 100+ design types (Social Media Posts, Presentations,
+    description: Free templates, logos & 100+ design types (Social Media Posts, Presentations,
       Letters, Posters)
     valueType: TEXT
     defaultValue: 8,000+
@@ -126,31 +126,31 @@ features:
     defaultValue: Manually sync your video footage to your soundtrack
     type: DOMAIN
   magicSwitch:
-    description: ''
+    description: Instantly swap formats, languages, and design dimensions
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   magicMorph:
-    description: ''
+    description: Give words and shapes new textures and patterns
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   magicGrab:
-    description: ''
+    description: Isolate objects in images and move or alter them as needed
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   magicExpand:
-    description: ''
+    description: Extend images past the frame using AI
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   magicAnimate:
-    description: ''
+    description: Let AI analyze your design and apply relevant animations
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -161,27 +161,27 @@ features:
     defaultValue: false
     type: MANAGEMENT
   comments:
-    description: ''
+    description: Easily communicate by commenting on designs
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   linkSharing:
-    description: ''
+    description: Share links for others to view, comment, or edit your design
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   teamOnlyLinks:
-    description: ''
+    description: Create and share links to designs only your team can access
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   assignTasks:
-    description: ''
+    description: Tag team members in comments to notify them or assign tasks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   approvals:
-    description: ''
+    description: Check design amends with easy approver notifications
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -201,12 +201,12 @@ features:
     defaultValue: false
     type: MANAGEMENT
   ownerShipTransfer:
-    description: ''
+    description: Transfer ownership of content to someone else in the team
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   inviteTeamMembers:
-    description: ''
+    description: Invite team members
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -216,7 +216,7 @@ features:
     defaultValue: true
     type: DOMAIN
   basicDesignInsights:
-    description: ''
+    description: See how many people have viewed your design
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
@@ -256,17 +256,17 @@ features:
     defaultValue: true
     type: DOMAIN
   brandControls:
-    description: ''
+    description: Set brand controls to ensure your team stays on brand
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   brandTemplates:
-    description: ''
+    description: Design templates for your team to create branded content
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   brandKits:
-    description: ''
+    description: All your brand assets and guides in one place
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -286,12 +286,12 @@ features:
     defaultValue: false
     type: DOMAIN
   cloudStorage:
-    description: ''
+    description: Cloud storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   folders:
-    description: ''
+    description: Folders
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -302,7 +302,7 @@ features:
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   payAsYouGrowBilling:
-    description: ''
+    description: Reconcile costs for new users before your next bill
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
@@ -329,7 +329,7 @@ features:
     type: SUPPORT
 usageLimits:
   magicDesignUsageTokens:
-    description: ''
+    description: Magic Design usage tokens
     valueType: NUMERIC
     defaultValue: 10
     unit: use
@@ -337,7 +337,7 @@ usageLimits:
     linkedFeatures:
     - magicDesign
   brandKitsUnits:
-    description: ''
+    description: Brand Kits units
     valueType: NUMERIC
     defaultValue: 0
     unit: kit
@@ -345,7 +345,7 @@ usageLimits:
     linkedFeatures:
     - brandKits
   cloudStorageLimit:
-    description: ''
+    description: Cloud storage limit
     valueType: NUMERIC
     defaultValue: 5
     unit: GB

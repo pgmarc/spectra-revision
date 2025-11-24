@@ -8,173 +8,173 @@ currency: USD
 url: https://web.archive.org/web/20200720161814/https://www.canva.com/pricing/
 features:
   freeTemplates:
-    description: ''
+    description: Free templates.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freeLogos:
-    description: ''
+    description: Free Logos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freeFonts:
-    description: ''
+    description: Free Fonts.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freePhotos:
-    description: ''
+    description: Free Photos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   freeGraphics:
-    description: ''
+    description: Free Graphics.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   premiumStockImages:
-    description: ''
+    description: Premium stock images library.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createDesignsWithCustomDimesions:
-    description: ''
+    description: Create designs with custom dimensions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsPDF:
-    description: ''
+    description: Export designs as PDF.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsPNG:
-    description: ''
+    description: Export designs as PNG.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsJPG:
-    description: ''
+    description: Export designs as JPG.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   builtInSocialSharing:
-    description: ''
+    description: Built-in social sharing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   presentationMode:
-    description: ''
+    description: Presentation mode.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   oneClickDesignResizing:
-    description: ''
+    description: One-click design Magic Resize.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createCustomTemplates:
-    description: ''
+    description: Create custom templates.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   uploadYourPhotosAndFonts:
-    description: ''
+    description: Upload your photos and fonts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   downloadDesignsWithTransparentBackground:
-    description: ''
+    description: Download designs with transparent background.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizeDownloadQuality:
-    description: ''
+    description: Customize download quality.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportDesignsAsAnimatedGIF:
-    description: ''
+    description: Export designs as animated GIFs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportDesignsAsMP4:
-    description: ''
+    description: Export designs as MP4 videos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teamSharing:
-    description: ''
+    description: Team sharing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareView:
-    description: ''
+    description: Share view access to designs with people outside your team through a design link or with select people within your team.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   editAccessToDesigns:
-    description: ''
+    description: Share edit access to designs with people outside your team through a design link or with select people within your team.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   addCommentsToDesigns:
-    description: ''
+    description: Add comments to designs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   bluitInCommenting:
-    description: ''
+    description: Add comments to designs.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   approvalsWorkflow:
-    description: ''
+    description: Built-in workflows to get approval on your designs.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   brandKit:
-    description: ''
+    description: Establish your brand's visual identity across logos, colours and fonts with Brand Kits.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   brandControls:
-    description: ''
+    description: Set brand controls to ensure your team stays on brand
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedTemplateLocking:
-    description: ''
+    description: Protect any part of your design from team edits with advanced template locking.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   cloudStorage:
-    description: ''
+    description: Cloud storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   folders:
-    description: ''
+    description: Folders
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   24/7support:
-    description: ''
+    description: Support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   twoFactorAuthentication:
-    description: ''
+    description: Two factor authentication (2FA)
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   singleSignOn:
-    description: ''
+    description: Security with single sign-on and two-factor authentication
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   brandKitUnits:
-    description: ''
+    description: Brand Kits limit
     valueType: NUMERIC
     defaultValue: 0
     unit: Brand Kit
@@ -182,7 +182,7 @@ usageLimits:
     linkedFeatures:
     - brandKit
   cloudStorageLimit:
-    description: ''
+    description: Cloud storage limit
     valueType: NUMERIC
     defaultValue: 1
     unit: GB
@@ -190,7 +190,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   foldersLimit:
-    description: ''
+    description: Folders limit
     valueType: NUMERIC
     defaultValue: 2
     unit: folder

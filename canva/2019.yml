@@ -8,103 +8,103 @@ currency: USD
 url: https://web.archive.org/web/20191117054241/https://www.canva.com/es_es/precios/
 features:
   templates:
-    description: ''
+    description: Templates for social media, presentations, logos, and more
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   uploadYourOwnImages:
-    description: ''
+    description: Upload your own images.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   cloudStorage:
-    description: ''
+    description: Cloud storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   folders:
-    description: ''
+    description: Folders
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   exclusiveAccessToPhotosIllustrattionsAndTemplates:
-    description: ''
+    description: Exclusive Access to 400,000 free photos, illustrations and templates.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   magicResize:
-    description: ''
+    description: Instantly swap formats, languages, and design dimensions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   uploadCustomFonts:
-    description: ''
+    description: Upload custom fonts for your brand.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   setBrandColorPalletes:
-    description: ''
+    description: Set color palettes for your brand.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   saveTemplates:
-    description: ''
+    description: Save templates for you and your team.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   designSearch:
-    description: ''
+    description: Easily find your designs with search.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createDesignsWithCustomDimesions:
-    description: ''
+    description: Create and resize designs into custom dimensions.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   downloadDesignsWithTransparentBackground:
-    description: ''
+    description: Download designs with transparent background.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportDesignsAsAnimatedGIF:
-    description: ''
+    description: Export designs as animated GIFs.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   prioritySupport:
-    description: ''
+    description: Priority support.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   teamAdministrativeControls:
-    description: ''
+    description: Team administrative controls.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   teamPricingPlans:
-    description: ''
+    description: Team Pricing Plans.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   onboardingIncentives:
-    description: ''
+    description: Onboarding incentives.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   dedicatedAccountManager:
-    description: ''
+    description: Dedicated account manager.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   99.9UptimeSLA:
-    description: ''
+    description: 99.9% Uptime SLA.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
 usageLimits:
   cloudStorageLimit:
-    description: ''
+    description: Cloud storage limit
     valueType: NUMERIC
     defaultValue: 1
     unit: GB
@@ -112,7 +112,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   foldersLimit:
-    description: ''
+    description: Folders limit
     valueType: NUMERIC
     defaultValue: 2
     unit: folder

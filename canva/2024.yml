@@ -12,7 +12,7 @@ features:
     defaultValue: 3.2+ million
     type: DOMAIN
   templates:
-    description: ''
+    description: Templates for social media, presentations, logos, and more
     valueType: TEXT
     defaultValue: 2.1+ million
     type: DOMAIN
@@ -32,12 +32,12 @@ features:
     defaultValue: false
     type: DOMAIN
   multiplePresentationModes:
-    description: ''
+    description: Present with presenter notes, record presentations, and more
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   socialSharing:
-    description: ''
+    description: Single-click design sharing on social, email, and apps
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -53,22 +53,22 @@ features:
     defaultValue: false
     type: DOMAIN
   basicDesignInsights:
-    description: ''
+    description: See how many people have viewed your design
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   advancedDesignInsights:
-    description: ''
+    description: Advanced insights such as number of unique views and clicks
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   socialContentPlanner:
-    description: ''
+    description: Create, plan, and schedule social content across platforms
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   soundEffects:
-    description: ''
+    description: Add sound effects to elements in your design
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -97,18 +97,18 @@ features:
     type: AUTOMATION
     automationType: BOT
   magicMorph:
-    description: ''
+    description: Give words and shapes new textures and patterns
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   resize:
-    description: ''
+    description: Instantly swap formats, languages, and design dimensions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   magicSwitch:
-    description: ''
+    description: Instantly swap formats, languages, and design dimensions
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -120,13 +120,13 @@ features:
     type: AUTOMATION
     automationType: BOT
   magicAnimate:
-    description: ''
+    description: Let AI analyze your design and apply relevant animations
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   magicEdit:
-    description: ''
+    description: Add to, replace, or edit your image with a short prompt
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
@@ -138,24 +138,24 @@ features:
     type: AUTOMATION
     automationType: BOT
   magicGrab:
-    description: ''
+    description: Isolate objects in images and move or alter them as needed
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   magicExpand:
-    description: ''
+    description: Extend images past the frame using AI
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   mockups:
-    description: ''
+    description: Generate professional mockups instantly with AI
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   backgroundRemover:
-    description: ''
+    description: Background remover
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -171,114 +171,114 @@ features:
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   highlights:
-    description: ''
+    description: Generate short and snappy clips from your videos
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   enhanceVoice:
-    description: ''
+    description: Create high-quality videos with crystal-clear audio
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   socialMedia:
-    description: ''
+    description: Create videos, posts, and stories for social platforms
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   print:
-    description: ''
+    description: Design and print products for delivery or in-store pick-up
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   presentations:
-    description: ''
+    description: Collaborate and craft show-stopping presentations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   video:
-    description: ''
+    description: Create professional-style videos for any platform
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   websites:
-    description: ''
+    description: Quickly design and launch a website
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   whiteboards:
-    description: ''
+    description: Collaborate, brainstorm, and plan out projects
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   documents:
-    description: ''
+    description: Design visual docs with video, images, graphics, and charts
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   courses:
-    description: ''
+    description: Create and share sequenced courses for your team
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   recordings:
-    description: ''
+    description: Record your designs or your screen to watch on-demand
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeCollaboration:
-    description: ''
+    description: Work on your designs with others at the same time
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   comments:
-    description: ''
+    description: Easily communicate by commenting on designs
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   assignTasks:
-    description: ''
+    description: Tag team members in comments to notify them or assign tasks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   linkSharing:
-    description: ''
+    description: Share links for others to view, comment, or edit your design
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   anonymousCollaboration:
-    description: ''
+    description: Share and collaborate with non-Canva members
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   teamOnlyLinks:
-    description: ''
+    description: Create and share links to designs only your team can access
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   brandControls:
-    description: ''
+    description: Set brand controls to ensure your team stays on brand
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   brandTemplates:
-    description: ''
+    description: Design templates for your team to create branded content
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   brandKits:
-    description: ''
+    description: All your brand assets and guides in one place
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   foldersInBrandKits:
-    description: ''
+    description: Link folders to Brand Kits for easier access to assets
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   elementLocking:
-    description: ''
+    description: Lock design elements to prevent editing
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -288,221 +288,221 @@ features:
     defaultValue: false
     type: DOMAIN
   approvals:
-    description: ''
+    description: Check design amends with easy approver notifications
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   approvalWorkflows:
-    description: ''
+    description: Set how individuals and groups give and get design approval
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   orgWideBrandKitsAndTemplates:
-    description: ''
+    description: Manage Brand Kits and Templates across an organization
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   inviteTeamMembers:
-    description: ''
+    description: Invite team members
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   roleAssignments:
-    description: ''
+    description: Manage team access levels and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   ownerShipTransfer:
-    description: ''
+    description: Transfer ownership of content to someone else in the team
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   reports:
-    description: ''
+    description: Monitor and track how team members use Canva
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   multiTeamOrganizations:
-    description: ''
+    description: Set up multiple teams in Canva across one organization
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   aiAdminControls:
-    description: ''
+    description: Manage your team's access to AI-powered tools
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   restrictedSharedControls:
-    description: ''
+    description: Decide who can share content externally
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   templateLibraryPermissions:
-    description: ''
+    description: Control who has access to different templates
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   granularElementControls:
-    description: ''
+    description: Provide teams access to different graphic element sets
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   ipIndemnityContentControl:
-    description: ''
+    description: Restrict access to elements with additional guarantees
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   privateEmbeds:
-    description: ''
+    description: Embed designs on third-party sites and control access
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   appsMarketplace:
-    description: ''
+    description: Over 150 apps including AI tools and work integrations
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   appsSDKsAccess:
-    description: ''
+    description: Build bespoke apps for your team
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   connectApiForCustomIntegrations:
-    description: ''
+    description: Build custom integrations including Autofill API
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   multiFactorAuthentication:
-    description: ''
+    description: Enable extra security with multi-factor authentication
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   iso27001CertificationAndCompliance:
-    description: ''
+    description: Effective and compliant information security management
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   soc2TypeII:
-    description: ''
+    description: Provides independent assurance of Canva's security controls
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   canvaShield:
-    description: ''
+    description: Robust trust, safety, and privacy tools for AI products
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   domainReports:
-    description: ''
+    description: Discover how and who is using Canva across your organization
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   singleSignOn:
-    description: ''
+    description: Security with single sign-on and two-factor authentication
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   crossDomainIdentityManagement:
-    description: ''
+    description: (SCIM). Safely provision and deprovision organization accounts
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   auditLogs:
-    description: ''
+    description: Monitor usage to track and investigate suspicious activity
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   folders:
-    description: ''
+    description: Folders
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediaTagging:
-    description: ''
+    description: Tag images, videos, and designs for easier search
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   cloudStorage:
-    description: ''
+    description: Cloud storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   tutorials:
-    description: ''
+    description: Help and education with Design School and Help Centre
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   certifications:
-    description: ''
+    description: Help and education with Design School and Help Centre
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   selfHelp:
-    description: ''
+    description: Help and education with Design School and Help Centre
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   aiChatBot:
-    description: ''
+    description: Keep designing with our chatbot's instant answers
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   supportTickets:
-    description: ''
+    description: Live chat only available for certain issues
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   liveChat:
-    description: ''
+    description: Live chat only available for certain issues
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   priorityHandling:
-    description: ''
+    description: Faster 24/7 priority support for your organization
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedSupportCaseManagement:
-    description: ''
+    description: Admin support via email and Zoom during business hours
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedCustomerSuccessManager:
-    description: ''
+    description: Specialized support with onboarding and adoption
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   creativeServices:
-    description: ''
+    description: Tailored design support from our Enterprise Studio team
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   payAsYouGrowBilling:
-    description: ''
+    description: Reconcile costs for new users before your next bill
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
 usageLimits:
   minimumUsersRequired:
-    description: ''
+    description: Minimum users required
     valueType: NUMERIC
     defaultValue: 0
     unit: user
     type: NON_RENEWABLE
   usersLimit:
-    description: ''
+    description: Users limit
     valueType: NUMERIC
     defaultValue: 1
     unit: user
     type: NON_RENEWABLE
   magicDesignUsageTokens:
-    description: ''
+    description: Magic Design usage tokens
     valueType: NUMERIC
     defaultValue: 10
     unit: use
@@ -510,7 +510,7 @@ usageLimits:
     linkedFeatures:
     - magicDesign
   magicWriteTotalUsages:
-    description: ''
+    description: Magic Write total usages
     valueType: NUMERIC
     defaultValue: 50
     unit: use
@@ -518,7 +518,7 @@ usageLimits:
     linkedFeatures:
     - magicWrite
   magicWriteReusableTokens:
-    description: ''
+    description: Magic Write reusable tokens
     valueType: NUMERIC
     defaultValue: 500
     unit: use
@@ -526,7 +526,7 @@ usageLimits:
     linkedFeatures:
     - magicWrite
   magicText2ImageTotalTokens:
-    description: ''
+    description: Magic Text to Image total tokens
     valueType: NUMERIC
     defaultValue: 50
     unit: use
@@ -534,7 +534,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Image
   magicText2ImageReusableTokens:
-    description: ''
+    description: Magic Text to Image reusable tokens
     valueType: NUMERIC
     defaultValue: 500
     unit: use
@@ -542,7 +542,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Image
   magicText2VideoTotalTokens:
-    description: ''
+    description: Magic Text to Video total tokens
     valueType: NUMERIC
     defaultValue: 5
     unit: use
@@ -550,7 +550,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Video
   magicText2VideoReusableTokens:
-    description: ''
+    description: Magic Text to Video reusable tokens
     valueType: NUMERIC
     defaultValue: 50
     unit: use
@@ -558,7 +558,7 @@ usageLimits:
     linkedFeatures:
     - magicMediaText2Video
   translatorTotalPages:
-    description: ''
+    description: Translator total pages
     valueType: NUMERIC
     defaultValue: 50
     unit: page
@@ -566,7 +566,7 @@ usageLimits:
     linkedFeatures:
     - translator
   translatorReusablePages:
-    description: ''
+    description: Translator reusable pages
     valueType: NUMERIC
     defaultValue: 500
     unit: page
@@ -574,7 +574,7 @@ usageLimits:
     linkedFeatures:
     - translator
   brandKitsUnits:
-    description: ''
+    description: Brand Kits units
     valueType: NUMERIC
     defaultValue: 1
     unit: kit
@@ -582,7 +582,7 @@ usageLimits:
     linkedFeatures:
     - brandKits
   cloudStorageLimit:
-    description: ''
+    description: Cloud storage limit
     valueType: NUMERIC
     defaultValue: 5
     unit: GB
@@ -590,7 +590,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   availableOnlyIfMoreThan100SeatsInvoiced:
-    description: ''
+    description: Available only if more than 100 seats invoiced
     valueType: BOOLEAN
     defaultValue: false
     type: NON_RENEWABLE
