@@ -395,7 +395,7 @@ features:
     type: INFORMATION
 plans:
   FREE:
-    description: ''
+    description: Free Plan (Time Tracking)
     price: 0
     unit: user/month
     features: null
@@ -577,7 +577,7 @@ plans:
         value: true
     usageLimits: null
   ENTERPRISE:
-    description: ''
+    description: Control and Security
     price: 14.99
     unit: user/month
     features:

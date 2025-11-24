@@ -6,6 +6,11 @@ billing:
   monthly: 1.0
 currency: USD
 url: https://web.archive.org/web/20220209035208/https://www.canva.com/pricing/
+tags:
+- Design and Publishing
+- Collaboration
+- Brand Management
+- Security and Support
 features:
   freeTemplates:
     tag: Design and Publishing

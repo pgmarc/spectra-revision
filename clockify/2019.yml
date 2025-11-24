@@ -35,12 +35,12 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   emailSupport:
-    description: ''
+    description: Email support.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Chat support.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -139,7 +139,7 @@ features:
     type: MANAGEMENT
 usageLimits:
   trackingLimit:
-    description: ''
+    description: Tracking limit
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: track
@@ -147,7 +147,7 @@ usageLimits:
     linkedFeatures:
     - unlimitedTracking
   projectsLimit:
-    description: ''
+    description: Projects limit
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: project
@@ -155,7 +155,7 @@ usageLimits:
     linkedFeatures:
     - unlimitedProjects
   reportsLimit:
-    description: ''
+    description: Reports limit
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: report

@@ -411,7 +411,7 @@ features:
     defaultValue: false
     type: INFORMATION
   accessToAllCake.comProducts:
-    description: ''
+    description: Includes Time Tracking, Team Communication and Project Management.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -419,7 +419,7 @@ features:
     pricingUrls: null
 plans:
   FREE:
-    description: ''
+    description: Free Plan (Time Tracking)
     price: 0
     unit: user/month
     features: null
@@ -619,7 +619,7 @@ plans:
         value: true
     usageLimits: null
   ENTERPRISE:
-    description: ''
+    description: Control and Security
     price: 14.99
     unit: user/month
     features:
@@ -721,7 +721,7 @@ plans:
         value: true
     usageLimits: null
   CAKE_BUNDLE:
-    description: ''
+    description: Productivity Suite
     price: 15.99
     unit: user/month
     features:

@@ -35,7 +35,7 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   support:
-    description: ''
+    description: Support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -214,7 +214,7 @@ features:
     type: MANAGEMENT
 usageLimits:
   trackingLimit:
-    description: ''
+    description: Tracking limit
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: track
@@ -222,7 +222,7 @@ usageLimits:
     linkedFeatures:
     - unlimitedTracking
   projectsLimit:
-    description: ''
+    description: Projects limit
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: project
@@ -230,7 +230,7 @@ usageLimits:
     linkedFeatures:
     - unlimitedProjects
   reportsLimit:
-    description: ''
+    description: Reports limit
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: report
@@ -239,7 +239,7 @@ usageLimits:
     - unlimitedReports
 plans:
   FREE:
-    description: ''
+    description: For teams that just need a simple and easy to use time tracker
     price: 0
     unit: user/month
     features: null

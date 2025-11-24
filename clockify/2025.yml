@@ -472,6 +472,7 @@ features:
     tag: Support
     type: SUPPORT
   accessToAllCake.comProducts:
+    description: Includes Time Tracking, Team Communication and Project Management.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -479,7 +480,7 @@ features:
 usageLimits: null
 plans:
   FREE:
-    description: null
+    description: Free Plan (Time Tracking)
     price: 0
     unit: user/month
     features: null
@@ -681,7 +682,7 @@ plans:
         value: true
     usageLimits: null
   ENTERPRISE:
-    description: null
+    description: Control and Security
     price: 14.99
     unit: user/month
     features:
@@ -783,7 +784,7 @@ plans:
         value: true
     usageLimits: null
   CAKE_BUNDLE:
-    description: null
+    description: Productivity Suite
     price: 15.99
     unit: user/month
     features:
@@ -888,7 +889,7 @@ plans:
     usageLimits: null
 addOns:
   kioskBasic:
-    description: null
+    description: Pay less for limited users who access Clockify only via a kiosk.
     availableFor:
     - BASIC
     price: 0.99
@@ -897,7 +898,7 @@ addOns:
       kiosk:
         value: true
   kioskStandard:
-    description: null
+    description: Pay less for limited users who access Clockify only via a kiosk.
     availableFor:
     - STANDARD
     price: 1.49
@@ -906,7 +907,7 @@ addOns:
       kiosk:
         value: true
   kioskPro:
-    description: null
+    description: Pay less for limited users who access Clockify only via a kiosk.
     availableFor:
     - PRO
     price: 1.99
@@ -915,7 +916,7 @@ addOns:
       kiosk:
         value: true
   kioskEnterprise:
-    description: null
+    description: Pay less for limited users who access Clockify only via a kiosk.
     availableFor:
     - ENTERPRISE
     price: 2.99
