@@ -60,7 +60,7 @@ features:
     defaultValue: true
     type: DOMAIN
   tasks:
-    description: ''
+    description: Add dates, set reminders, assign tasks to others
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -418,12 +418,12 @@ features:
     defaultValue: false
     type: SUPPORT
   sharedSpaces:
-    description: ''
+    description: Add an extra layer of organization with Spaces
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralizedAccountAdministration:
-    description: ''
+    description: Access information on billing, users, and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT

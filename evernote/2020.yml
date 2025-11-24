@@ -50,7 +50,7 @@ features:
     type: INTEGRATION
     integrationType: EXTENSION
   attachFilesToNotes:
-    description: ''
+    description: Attach photos, PDFs, spreadsheets, Google Docs, and other files to your notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -213,7 +213,7 @@ features:
     defaultValue: true
     type: MANAGEMENT
   sharedSpaces:
-    description: ''
+    description: Add an extra layer of organization with Spaces
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -238,7 +238,7 @@ features:
     defaultValue: false
     type: SUPPORT
   centralizedAccountAdministration:
-    description: ''
+    description: Access information on billing, users, and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT

@@ -13,7 +13,7 @@ features:
     defaultValue: true
     type: DOMAIN
   richFormatting:
-    description: ''
+    description: Use a variety of fonts, highlight colors, and formatting tools
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -277,12 +277,12 @@ features:
     defaultValue: false
     type: DOMAIN
   centralizedAccountAdministration:
-    description: ''
+    description: Access information on billing, users, and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralizedUserManagement:
-    description: ''
+    description: Access information on billing, users, and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT

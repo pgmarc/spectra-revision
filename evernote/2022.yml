@@ -60,7 +60,7 @@ features:
     defaultValue: true
     type: DOMAIN
   tasks:
-    description: ''
+    description: Add dates, set reminders, assign tasks to others
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -103,7 +103,7 @@ features:
     type: INTEGRATION
     integrationType: EXTENSION
   connectWithPrimaryGoogleCalendar:
-    description: ''
+    description: Connect your personal and workplace Google Calendar accounts to Evernote
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION

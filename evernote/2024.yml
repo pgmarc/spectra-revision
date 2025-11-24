@@ -162,32 +162,32 @@ features:
     defaultValue: false
     type: SUPPORT
   spaces:
-    description: ''
+    description: Add an extra layer of organization with Spaces
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   maintainBusinessDataOwnership:
-    description: ''
+    description: Control all the information in your account
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   centralizedAccountAdministration:
-    description: ''
+    description: Access information on billing, users, and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralizedUserManagement:
-    description: ''
+    description: Access information on billing, users, and permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   userActivityLogs:
-    description: ''
+    description: Get complete oversight of your team's usage history
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   singleSignOn:
-    description: ''
+    description: Use existing credentials for a faster log in experience
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
