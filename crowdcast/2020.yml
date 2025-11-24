@@ -8,22 +8,21 @@ currency: USD
 url: https://web.archive.org/web/20201130045919/https://www.crowdcast.io/pricing
 features:
   liveStreaming:
-    description: ''
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   transactionFee:
-    description: ''
+    description: Charge a ticket price for your events. Choose a fixed price or sliding. Create coupons to give discounts. For every ticket sold there is a 5% transaction fee plus Stripe's processing fee of 2.9% + 30¢.
     valueType: TEXT
     defaultValue: 5%
     type: DOMAIN
   hdLiveVideoWithRecording:
-    description: ''
+    description: Your event has the option to be recorded and the recording will be available instantly for replay and download.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiSessionEvents:
-    description: ''
+    description: Create events that have multiple sessions at different times. This is great for creating live courses or online summits. Click here to learn more about live courses on crowdcast.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -34,12 +33,12 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   emailSupport:
-    description: ''
+    description: Our general support hours are Monday to Friday, 9am to 5pm (PST, or UTC-8). We will do our best to respond within 24 hours although our actual response times may vary and take longer for more advanced or technical inquiries.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Our general support hours are Monday to Friday, 9am to 5pm (PST, or UTC-8). We will do our best to respond within 24 hours although our actual response times may vary and take longer for more advanced or technical inquiries.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -52,7 +51,7 @@ features:
     pricingUrls:
     - https://www.patreon.com/pricing
   stripeIntegration:
-    description: ''
+    description: Connect Stripe to your account to accept payment for paid events and in-event contributions.
     valueType: TEXT
     defaultValue:
     - GATEWAY
@@ -68,7 +67,7 @@ features:
     defaultValue: false
     type: INFORMATION
   zapierIntegration:
-    description: ''
+    description: Sync your Crowdcast account with 5,000+ other web apps through automated workflows.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -92,22 +91,22 @@ features:
     pricingUrls:
     - https://www.drip.com/pricing
   exportEmailAddresses:
-    description: ''
+    description: Export all emails, chat messages and data from attendees into a CSV.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportChat:
-    description: ''
+    description: Export all emails, chat messages and data from attendees into a CSV.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportData:
-    description: ''
+    description: Export all emails, chat messages and data from attendees into a CSV.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multistreaming:
-    description: ''
+    description: Multistream your crowdcast stage to 3rd party sites like Facebook, Youtube, Twitch & more.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -117,7 +116,7 @@ features:
     defaultValue: false
     type: DOMAIN
   customRegistrationFields:
-    description: ''
+    description: Add custom inputs to the registration form to collect additional data like phone numbers, URLs, multiple choice questions, dates, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
