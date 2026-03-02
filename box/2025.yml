@@ -9,62 +9,87 @@ currency: USD
 url: https://web.archive.org/web/20250226131158/https://www.box.com/pricing/
 features:
   storage:
+    description: Presentations, design documents, videos, and photos — these files can
+      all be stored within Box storage cloud. Plus cloud storage ensure you always
+      have an online backup handy.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   enterpriseAppsIntegration:
+    description: Provides integration solutions connecting data from Box.com with other applications and services across the web.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   versionHistory:
+    description: Keep tracks of file changes within Box. yoou can refer or revert to a prior
+      version of a file at any time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   unlimitedExternalCollaborators:
+    description: Invite an unlimited number of collaborators from outside your organization.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   boxApi:
+    description: Allows developers to integrate and customize the capabilities of the Box
+      cloud content management system into their own applications and services.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   boxSign:
+    description: Box Sign is a secure, seamless e-signature solution built natively into Box
+      to eliminate content silos, reduce risk, and simplify signature-driven workflows. With Box Sign,
+      senders can select who needs to sign, approve, or get a final copy, specify the signing order,
+      configure signer authentication requirements per sign, and include various fields such as
+      signature, initials, date signed, name, and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   boxSignViaWebApp:
+    description: Access box sign the web application.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   boxSignVia3rdParty:
+    description: Box Sign integration with third party integrations like Salesforce, Workday, Hubspot, etc...
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   boxSignViaCustomApps:
+    description: Box Sign integration with third party integrations like Salesforce, Workday, Hubspot, etc...
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   boxAIQ&ASingleDoc/Image:
+    description: Query unlimited questions on a single document or image
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   boxAITextGeneration:
+    description: Sends an AI request to supported Large Language Models (LLMs) and
+      returns generated text based on the provided prompt.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   granularSharedPermissions:
+    description: Modify your sharing settings at both the folder level and across all content you own
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   accessControls:
+    description: Advanced administrative controls to restrict access to folders and files, available with higher-tier plans.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   microsoft365Integration:
+    description: This app provides users with a streamlined way to share and access Box
+      content where they work the most. By eliminating the need for users to toggle between
+      the two applications, this app boosts user productivity and accelerates team collaboration.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -72,6 +97,10 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products
   googleWorkspaceIntegration:
+    description: With the Box for Google Workspace Add-on, teams can 1. copy their favorite content
+      in its native Google format to Box from Google Drive, 2. seamlessly attach files to emails from Box,
+      and 3. save email attachments to Box. This way, users can now ensure their content is consistently
+      managed with Box's security, compliance and governance capabilities.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -79,6 +108,10 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   slackIntegration:
+    description: Box for Slack helps businesses of all sizes securely manage and collaborate on content
+      to drive more productive teamwork. Easily access your Box content from within Slack to share or
+      import files and eliminate time-consuming context switching between applications. Your content
+      remains centralized in Box, but quickly available where collaboration happens in Slack.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -86,165 +119,234 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   desktopAccess:
+    description: Access all your Box files directly from the Box desktop app, without taking up
+      much hard drive space.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mobileAccess:
+    description: Take your content anywhere with Box mobile application.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sslEncryption:
+    description: Content uploaded to Box is encrypted in transit when sent through Box's website
+      and Box-created applications, using high-strength TLS 1.2 encryption.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   atRestEncryption:
+    description: Content is also encrypted at rest by Box using 256-bit AES encryption, and is
+      further protected by an encryption key-wrapping strategy that also utilizes 256-bit AES encryption.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   twoFactorAuthentication:
+    description: Enables users to set up 2-factor authentication for their accounts.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   standardBusinessSupport:
+    description: Submit tickets, and get access to both general and specialist help during local business hours.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   userManagement:
+    description: Box helps you manage and share your enterprise content as simply and effectively as possible while
+      keeping that content secure. User management is your administrative tool to add, edit, and delete
+      both internal (managed) users and external users in your account and is where you define when, where,
+      and how users access your enterprise content.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   dataLossProtection:
+    description: Prevent data breaches with classification-based
+      security controls and intelligent threat detection.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   advancedUserReporting:
+    description: Use this report to view the actions made by your users within a given time period.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   advancedSecurityReporting:
+    description: See what settings have been changed within a given time period, and who made said changes.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   activeDirectoryIntegration:
+    description: Use Microsoft Entra ID (formerly Azure AD) to manage user access, provision user
+      accounts, and enable single sign-on with Box.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   singleSignOn:
+    description: Use a single set of credentials to log into several different applications
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   customBranding:
+    description: Enable custom branding to deliver a customized signing experience for signers and increase your brand awareness.
+      This feature allows you to upload a company logo, set custom company color, and email footer text.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mobileSecurityControls:
+    description: Allow end users to more securely access their Box accounts on their
+      mobile devices and give admins control over how their employees access company data.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   boxSignBoxRelayIntegration:
+    description: Enable users to automate steps that need to be taken following a transaction in Box Sign.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   advancedAdmin:
+    description: Advanced administrative features for user management, available with higher-tier plans.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedControls:
+    description: Advanced administrative controls to restrict access to folders and files, available with higher-tier plans.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   fullContentVisibility:
+    description: Provides crucial information to folder owners on how their data is being shared and collaborated on,
+      limited only to admins.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   fullContentManagement:
+    description: Fully featured, secure and user-friendly environment to store, organize, collaborate, and share files
+      seamlessly across teams and departments.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   fullUserActivityTracking:
+    description: Track user activity on files and folders you own. See shared links of folders, internal and
+      external collaborators for a folder or see previews, downloads, uploads and edits that have ocurred by collaborators.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   adminRoleDelegation:
+    description: Assign box users as a co-admin. Co-admins can perform most of the
+      same duties as the organization's Admin, depending on the permissions enabled for the co-admin.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   metadata:
+    description: Allows your managed users to define and store custom data associated with their files in Box.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customTemplates:
+    description: Enable custom grouping of metadata attributes that help classify content.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customTermsOfService:
+    description: Require that all collaborators view and agree to a Terms of Service
+      document before accessing your company's Box content.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   pciDssCompliance:
+    description: PCI DSS compliant. PCI DSS represents the a framework to guide
+      better protection of cardholder data.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   boxGovernance:
+    description: Use Box Governance to implement data retention rules, support defensible eDiscovery
+      and enforce content security policies.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   boxZones:
+    description: Meet global regulatory requirements with in-region data storage options with support
+      for Europe, Asia, Australia, and Canada.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   boxKeySafe:
+    description: Take independent control of encryption keys protecting your content while preserving
+      the usability and security capabilities of Box.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   boxShield:
+    description: Along with automated protection, Box Shield empowers admins with detailed,
+      nearreal-time alerts and extensive reporting capabilities to gain complete visibility
+      overtheir organizations' content, including how users are engaging with andcollaborating
+      on that content. This deep visibility enables admins to keep pacewith potential threats,
+      and remediate issues before they cause significant damage.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   hipaaCompliance:
+    description:  Health Insurance Portability and Accountability Act compliance.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   hitechCompliance:
+    description: Health Information Technology for Economic and Clinical Health Act (HITECH) compliance.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   fedrampCompliance:
+    description: Federal Risk and Authorization Management Program compliance.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   gxPComplianceWith21CfrPart11:
+    description: FDA 21 CFR Part 11 compliance
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   unlimitedDLPintegrations:
+    description: Integrations with data loss prevention tools.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   unlimitedeDiscovery:
+    description: streamline and improve how content is discovered and preserved for
+      litigation matters, all without impacting the experience of end users.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   deviceTrust:
+    description: Enforce your enterprise's compliance or security policies by defining
+      a minimum set of requirements for devices used to access Box.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   passwordPolicyEnforcement:
+    description: Determine what can and cannot be used to construct a password that
+      is considered acceptible and secure.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   documentWatermark:
+    description: Places a semi-transparent overlay across the file's contents.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   boxHubs:
+    description: With Box Hubs, teams and departments across your entire organization have a home
+      base for all the content they need to get work done faster. Whether you’re talking sales
+      enablement, brand assets, account planning (or anything in between), Box Hubs help build
+      more value into every aspect of your business by providing your people with self-service
+      access to essential information.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -253,42 +355,63 @@ features:
     defaultValue: false
     type: DOMAIN
   boxAIUnits:
+    description: Box AI helps teams fuel workflows and turn unstructured data into insights. It's is natively
+      embedded, model-agnostic, and secure — bringing powerful, permissions-aware intelligenceto your content.
+      Whether you're talking sales presentations, financial spreadsheets, productspecs, or anything in between —
+      you can harness its potential with the power of Box AI.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   boxFormsWeb:
+    description: Box Forms enables organizations to quickly and easily create web and mobile
+      forms withan intuitive drag-and-drop builder.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   boxFormsMobile:
+    description: Create box forms within mobile Box app.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   generateDocumentsNatively:
+    description: Box Doc Gen empowers you to generate endless custom documents, right where your content lives,
+      for any business need. Automate processes by collecting data with Box Forms, and fuel end-to-end AI
+      powered workflows, from generating documents with metadata collected via Box AI extract agents to
+      unlimited e-signatures and approvals.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   generateDocumentsInSalesforce:
+    description: Use Box Doc Gen inside Salesforce
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   docGenAPI:
+    description: Mark documents as Box Doc Gen templates, generate documents
+      based on Box Doc Gen templates you store in Box, and examine the details
+      of Box Doc Gen templates and document generation jobs using Box Doc Gen API.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   noCodeAppsWithCustomDashboards:
+    description: Create bespoke no-code applications and dashboards powered by metadata so
+      everyone can easily access what they need and quickly find information.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   customBoxAIAgents:
+    description: Customize AI models and Agents for critical business applications with our AI Studio API.
+      Select the model of your choice, get custom instructions for your unique use case, and speed up everything
+      from claims management to HR workflows.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
 usageLimits:
   storageLimit:
+    description: Disk space storage limit of yoru Box account.
     valueType: NUMERIC
     defaultValue: .inf
     unit: GB
@@ -296,6 +419,7 @@ usageLimits:
     linkedFeatures:
     - storage
   singleFileUploadLimit:
+    description: Maximun upload size of a file.
     valueType: NUMERIC
     defaultValue: 5
     unit: GB
@@ -303,6 +427,7 @@ usageLimits:
     linkedFeatures:
     - storage
   enterpriseAppsIntegrationLimit:
+    description: Maximun number of apps connections available in your Box account.
     valueType: NUMERIC
     defaultValue: 1
     unit: integration
@@ -310,6 +435,7 @@ usageLimits:
     linkedFeatures:
     - enterpriseAppsIntegration
   versionHistoryThreshold:
+    description: Maximun number of snapshots available in your file version history.
     valueType: NUMERIC
     defaultValue: 50
     unit: day
@@ -317,14 +443,17 @@ usageLimits:
     linkedFeatures:
     - versionHistory
   minUsers:
+    description: Minimum number of users is required.
     valueType: NUMERIC
     defaultValue: 3
     type: NON_RENEWABLE
   maxUsers:
+    description: Maximun number of users that can use your box account.
     valueType: NUMERIC
     defaultValue: .inf
     type: NON_RENEWABLE
   apiCallsLimit:
+    description: Maximun number of calls to perform to Box API.
     valueType: NUMERIC
     defaultValue: 50000
     unit: calls/month
@@ -332,6 +461,7 @@ usageLimits:
     linkedFeatures:
     - boxApi
   boxSignLimit:
+    description: Maximun number of documents each box user can sign in a month through the web app.
     valueType: NUMERIC
     defaultValue: .inf
     unit: document/user/month
@@ -339,6 +469,8 @@ usageLimits:
     linkedFeatures:
     - boxSignViaWebApp
   includedDocumentsFor3rdParty:
+    description: Maximum number of files that can be connected to third-party integrations.
+      This limit is shared across all integrations.
     valueType: NUMERIC
     defaultValue: 100
     unit: document
@@ -346,6 +478,7 @@ usageLimits:
     linkedFeatures:
     - boxSignVia3rdParty
   includedDocumentsForCustomApps:
+    description: Maximun limit of box sign documents through third party apps.
     valueType: NUMERIC
     defaultValue: 100
     unit: document
@@ -353,6 +486,7 @@ usageLimits:
     linkedFeatures:
     - boxSignViaCustomApps
   boxAIUnitsLimit:
+    description: Maximun units of use for Box AI.
     valueType: NUMERIC
     defaultValue: 0
     unit: unit/month
@@ -360,6 +494,7 @@ usageLimits:
     linkedFeatures:
       - boxAIUnits
   documentsGenerationLimit:
+    description: Maximun number of documents generated by Box Doc Gen.
     valueType: NUMERIC
     defaultValue: 0
     unit: document/call
@@ -367,6 +502,7 @@ usageLimits:
     linkedFeatures:
       - docGenAPI
   customBoxAIAgentsLimit:
+    description: Maximun number of custom AI Agents to use.
     valueType: NUMERIC
     defaultValue: 0
     unit: document/call
@@ -375,12 +511,13 @@ usageLimits:
       - customBoxAIAgents
 plans:
   BUSINESS:
+    description: Team collaboration for any business
     price: 15
     unit: user/month
     features: null
     usageLimits: null
   BUSINESS_PLUS:
-    description: ''
+    description: Content management for your entire organization
     price: 30
     unit: user/month
     features:
@@ -416,7 +553,7 @@ plans:
       includedDocumentsForCustomApps:
         value: 150
   ENTERPRISE:
-    description: ''
+    description: Advanced content management and data protection
     price: 42
     unit: user/month
     features:
@@ -474,7 +611,7 @@ plans:
       includedDocumentsForCustomApps:
         value: 250
   ENTERPRISE_PLUS:
-    description: ''
+    description: AI-powered collaboration and secure content management
     price: Contact Sales
     unit: user/month
     features:
@@ -633,6 +770,7 @@ plans:
         value: 100
 addOns:
   BOX_GOVERNANCE:
+    description: Set advanced retention policies, disposals, and legal holds on your content
     availableFor:
       - BUSINESS_PLUS
       - ENTERPRISE
@@ -641,6 +779,7 @@ addOns:
       boxGovernance:
         value: true
   BOX_ZONES:
+    description: Helping you comply with multi-regional data residency requirements
     availableFor:
       - BUSINESS_PLUS
       - ENTERPRISE
@@ -649,6 +788,7 @@ addOns:
       boxZones:
         value: true
   BOX_KEYSAFE:
+    description: Securely manage your own encryption keys
     availableFor:
       - BUSINESS_PLUS
       - ENTERPRISE
@@ -659,6 +799,7 @@ addOns:
       boxKeySafe:
         value: true
   BOX_SHIELD:
+    description: Prevent data breaches with classification-based security controls and intelligent threat detection
     availableFor:
       - ENTERPRISE
     price: Contact Sales
@@ -666,6 +807,7 @@ addOns:
       boxShield:
         value: true
   GxP_Compliance_With_21_CFR_Part11:
+    description: FDA 21 CFR Part 11 compliance
     price: Contact Sales
     availableFor:
       - ENTERPRISE_PLUS
