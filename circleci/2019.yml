@@ -8,197 +8,206 @@ currency: USD
 url: https://web.archive.org/web/20191101031017/https://circleci.com/pricing/
 features:
   parallelJobRuns:
-    description: ""
+    description: Jobs that run simultaneously, without queuing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   smallLinux:
-    description: ""
+    description: "Includes 1 vCPU and 2 GB RAM. Usage cost: 5 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediumLinux:
-    description: ""
+    description: "Includes 2 vCPU and 4 GB RAM. Usage cost: 10 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediumPlusLinux:
-    description: ""
+    description: "Includes 3 vCPU and 6 GB RAM. Usage cost: 15 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   largeLinux:
-    description: ""
+    description: "Includes 4 vCPU and 8 GB RAM. Usage cost: 20 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   xLargeLinux:
-    description: ""
+    description: "Includes 8 vCPU and 16 GB RAM. Usage cost: 40 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargeLinux:
-    description: ""
+    description: "Includes 16 vCPU and 32 GB RAM. Usage cost: 80 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargePlusLinux:
-    description: ""
+    description: "Includes 20 vCPU and 40 GB RAM. Usage cost: 100 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumWindows:
-    description: ""
+    description: "Includes 4 vCPU and 15 GB RAM. Usage cost: 40 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediumMacOs:
-    description: ""
+    description: "Includes 4 vCPU and 8 GB RAM. Usage cost: 50 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   largeMacOs:
-    description: ""
+    description: "Includes 8 vCPU and 16 GB RAM. Usage cost: 100 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   smallGpu:
-    description: ""
+    description: "Includes 16 vCPU and 122 GB RAM. Usage cost: 80 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumGpu:
-    description: ""
+    description: "Includes 32 vCPU and 244 GB RAM. Usage cost: 160 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   largeGpu:
-    description: ""
+    description: "Includes 64 vCPU and 488 GB RAM. Usage cost: 320 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dockerLayerCatching:
-    description: ""
+    description: "Cache the individual layers of any Docker image built during your jobs. Usage cost: 200 credits per job run"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   flexibleBillingOptions:
-    description: ""
+    description: Pay by credit card, or request invoices.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
   communitySupport:
-    description: ""
+    description: Access to our 24/7 community support forum.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   supportPortal:
-    description: ""
+    description: Access to support knowledge base of CircleCI
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   ticketBasedGlobalSupport:
-    description: ""
+    description: Our team of expert support engineers, based around the world.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   8x5SLA:
-    description: ""
+    description: Part of Silver support plan. 8x5 response times
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24x5SLA:
-    description: ""
+    description: Part of Gold support plan. Tickets and issues triaged 24 hours, 5 days a week with response times
+      in your local timezone.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24x7SLA:
-    description: ""
+    description: Part of Platinum support plan. Tickets triaged around the clock, including 30 minute response
+      SLAs for critical blockers.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedAccountManager:
-    description: ""
+    description: One-on-one interaction support with an expert.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedSuccessManager:
-    description: ""
+    description: One-on-one interaction with a dedicated expert to provide maximun value of CircleCI.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedSuccessEngineer:
-    description: ""
+    description: One-on-one interaction with a dedicated expert to implement sucessfully CircleCI into your workflow.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   checklistProjectPlanning:
-    description: ""
+    description: Part of Silver support plan. We will help you get started with CircleCI based on our implementation best practices.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   standardProjectPlanning:
-    description: ""
+    description: Part of Gold support plan. We will help you get started with CircleCI based on our implementation best practices.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   tailoredProjectPlanning:
-    description: ""
+    description: Part of Platinum support plan. We will help you get started with CircleCI based on our implementation best practices.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   documentedResourcesTraining:
-    description: ""
+    description: Part of Silver support plan. Use knowledge base portal to train you team.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   cseLedTraining:
-    description: ""
+    description: Get our customer success engineer (CSE)-led training sessions with the Gold and Platinum plans.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   emailSupport:
-    description: ""
+    description: Request support via email.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   regularRecurringMeetingsWithYourSuccessTeam:
-    description: ""
+    description: Meet with our sucess team to get the most out of CircleCI
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   goldLevelCommunications:
-    description: ""
+    description: Most fluent communications with the support team.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedSlackChannel:
-    description: ""
+    description: Dedicated slack channel to contact the support team
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   valueAddedServices:
-    description: ""
+    description: "Choose between these services annually:\n- Configuration migration assitance
+      (from alternate CI/CD)\n-Configuration review\nProduct roadmap session\n- New release training\n- General developer training
+      \n(Server only) health check\n- (Server only) assisted server migration & upgrade. Gold support plan chooses 3 annually.
+      Platinum support plan chooses 5 annually."
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   urgentSeverityLevel:
-    description: ""
+    description: "Highest priority, includes: fatal system failure such as a server that is down or
+      unresponsive, outage that impacts critical system operations, security breach or expired license."
     valueType: TEXT
     defaultValue: ""
     type: SUPPORT
   highSeverityLevel:
-    description: ""
+    description: High severity tickets are bug reports for critical parts of the
+      product that impact your business operations
     valueType: TEXT
     defaultValue: ""
     type: SUPPORT
   normalSeverityLevel:
-    description: ""
+    description: Technical requests including configuration changes and third-party integrations.
+      Normal severity tickets are bug reports for non-critical parts of the product.
     valueType: TEXT
     defaultValue: ""
     type: SUPPORT
   lowSeverityLevel:
-    description: ""
+    description: Non-technical requests such as general how-to questions and feature requests,
+      purchase requests, training requests or health checks.
     valueType: TEXT
     defaultValue: ""
     type: SUPPORT
@@ -239,13 +248,13 @@ usageLimits:
     - valueAddedServices
 plans:
   FREE:
-    description: ""
+    description: Start here, grow over time.
     price: 0
     unit: /month
     features: null
     usageLimits: null
   PERFORMANCE:
-    description: ""
+    description: Fast pipelines that scale.
     price: 15
     unit: /month
     features:
@@ -269,7 +278,7 @@ plans:
       parallelJobRunsLimit:
         value: .inf
   CUSTOM:
-    description: ""
+    description: Enterprise power & support.
     price: "Contact us"
     unit: /month
     features:
@@ -308,7 +317,7 @@ plans:
         value: .inf
 addOns:
   extraUsers:
-    description: ""
+    description: Give access to more user inside your CircleCI account.
     availableFor:
       - PERFORMANCE
     price: 15
@@ -317,7 +326,7 @@ addOns:
       maxUsers:
         value: 1
   extraCredits:
-    description: ""
+    description: Contract extra credits for your CircleCI account.
     availableFor:
       - PERFORMANCE
     price: 15

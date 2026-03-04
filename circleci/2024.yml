@@ -8,266 +8,270 @@ currency: USD
 url: https://web.archive.org/web/20240716021906/https://circleci.com/pricing/
 features:
   network:
-    description: ""
+    description: The network transfer limit applies to self-hosted runners only,
+      when restoring caches and workspaces.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   storage:
-    description: ""
+    description: Store the outputs of your build process.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   smallX86DockerVM:
-    description: ""
+    description: "Includes 1 vCPU and 2 GB RAM. Usage cost: 5 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediumX86DockerVM:
-    description: ""
+    description: "Includes 2 vCPU and 4 GB RAM. Usage cost: 10 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediumX86PlusDockerVM:
-    description: ""
+    description: "Includes 3 vCPU and 6 GB RAM. Usage cost: 15 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   largeX86DockerVM:
-    description: ""
+    description: "Includes 4 vCPU and 8 GB RAM. Usage cost: 20 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   xLargeX86DockerVM:
-    description: ""
+    description: "Includes 8 vCPU and 16 GB RAM. Usage cost: 40 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargeX86DockerVM:
-    description: ""
+    description: "Includes 16 vCPU and 32 GB RAM. Usage cost: 80 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargePlusX86DockerVM:
-    description: ""
+    description: "Includes 20 vCPU and 40 GB RAM. Usage cost: 100 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumArmDockerVM:
-    description: ""
+    description: "Includes 2 vCPU and 8 GB RAM. Usage cost: 13 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   largeArmDockerVM:
-    description: ""
+    description: "Includes 4 vCPU and 16 GB RAM. Usage cost: 26 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   xLargeArmDockerVM:
-    description: ""
+    description: "Includes 8 vCPU and 32 GB RAM. Usage cost: 52 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargeArmDockerVM:
-    description: ""
+    description: "Includes 16 vCPU and 64 GB RAM. Usage cost: 104 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumLinuxVM:
-    description: ""
+    description: "Includes 2 vCPU and 7.5 GB RAM. Usage cost: 10 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   largeLinuxVM:
-    description: ""
+    description: "Includes 4 vCPU and 15 GB RAM. Usage cost: 20 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   xLargeLinuxVM:
-    description: ""
+    description: "Includes 8 vCPU and 32 GB RAM. Usage cost: 100 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargeLinuxVM:
-    description: ""
+    description: "Includes 16 vCPU and 64 GB RAM. Usage cost: 200 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargePlusLinuxVM:
-    description: ""
+    description: "Includes 32 vCPU and 64 GB RAM. Usage cost: 300 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumArmVM:
-    description: ""
+    description: "Includes 2 vCPU and 8 GB RAM. Usage cost: 10 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   largeArmVM:
-    description: ""
+    description: "Includes 4 vCPU and 16 GB RAM. Usage cost: 20 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   xlargeArmVM:
-    description: ""
+    description: "Includes 8 vCPU and 32 GB RAM. Usage cost: 100 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   2xlargeArmVM:
-    description: ""
+    description: "Includes 16 vCPU and 64 GB RAM. Usage cost: 200 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediumWindowsVM:
-    description: ""
+    description: "Includes 4 and 16 GB RAM. Usage cost: 40 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   largeWindowsVM:
-    description: ""
+    description: "Includes 8 vCPU and 32 GB RAM. Usage cost: 120 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   xLargeWindowsVM:
-    description: ""
+    description: "Includes 16 vCPU and 64 GB RAM. Usage cost: 210 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   2xLargeWindowsVM:
-    description: ""
+    description: "Includes 32 vCPU and 128 GB RAM. Usage cost: 500 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   m1MediumMacOsVM:
-    description: ""
+    description: "Includes 4 vCPU and 6 GB RAM. Usage cost: 150 Credit/Min"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   m1LargeMacOsVM:
-    description: ""
+    description: "Includes 8 vCPU and 12 GB RAM. Usage cost: 250 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   smallGpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla P4 model. Includes 4 vCPU and 15 GB RAM. Usage cost: 160 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   smallMultiGpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla T4 model. Includes 4 vCPU and 15 GB RAM. Usage cost: 160 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   smallGen2GpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla P4 model. Includes 4 vCPU and 16 GB RAM. Usage cost: 200 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumGpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla T4 model. Includes 8 vCPU and 30 GB RAM. Usage cost: 240 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumMultiGpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla T4 model. Includes 8 vCPU and 30 GB RAM. Usage cost: 240 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mediumWindowsGpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla T4 model. Includes 16 vCPU and 60 GB RAM. Usage cost: 500 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   largeGpuNvidia:
-    description: ""
+    description: "Run with Nvidia Testla V100 model. Includes 8 vCPU and 30 GB RAM. Usage cost: 1000 Credit/Min"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   concurrentJobRuns:
-    description: ""
+    description: Jobs that run simultaneously, without queuing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   selfHostedRunners:
-    description: ""
+    description: Run jobs on your own infrastructure
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dockerLayerCatching:
-    description: ""
+    description: "Cache the individual layers of any Docker image built during your jobs. Usage cost: 200 credits per job run"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   ipRanges:
-    description: ""
+    description: Usage for IP ranges is billed at 450 credits/GB per job.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   flakyTestDetection:
-    description: ""
+    description: Provide visibility into the most failed, slowest, and flakiest tests in a given test suite
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   privateOrbs:
-    description: ""
+    description: Create reusable packages of YAML config, called orbs, to be used exclusively by your
+      organization
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   components:
-    description: ""
+    description: A collection of code and configuration that is updated through releases.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   componentsRelease:
-    description: "250 credits per release"
+    description: "An update of a component to a new version in specific environment. 250 credits per release"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   communitySupport:
-    description: ""
+    description: Access to our 24/7 community support forum.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   ticketBasedGlobalSupport:
-    description: ""
+    description: Our team of expert support engineers, based around the world.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   8x5SLA:
-    description: ""
+    description: 8x5 response times
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   12x5SLA:
-    description: ""
+    description: 12x5 response times
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24x5SLA:
-    description: ""
+    description: 24x5 response times
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24x7SLA:
-    description: ""
+    description: 24x7 response times
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   maxUsers:
-    description: ''
+    description: "Maximun number of users permited. User definition: Any user who
+      commits code changes on a project building on CircleCI."
     valueType: NUMERIC
     defaultValue: 5
     unit: user
     type: NON_RENEWABLE
   creditsLimit:
-    description: ''
+    description: Maximun number of credits of your CircleCI account. Credits are used to pay for your
+      team's usage based on number of active users, machine type and size and premium features
     valueType: NUMERIC
     defaultValue: 30000
     unit: credit/month
     type: RENEWABLE
   networkLimit:
-    description: ''
+    description: Maximun number of self hosted request in GB.
     valueType: NUMERIC
     defaultValue: 1
     unit: GB
@@ -275,7 +279,7 @@ usageLimits:
     linkedFeatures:
     - network
   storageLimit:
-    description: ''
+    description: Maximun number of disk space of your CircleCI account.
     valueType: NUMERIC
     defaultValue: 2
     unit: GB
@@ -283,7 +287,7 @@ usageLimits:
     linkedFeatures:
     - storage
   concurrentJobRunsLimitNonMacOs:
-    description: ''
+    description: Maximun number of concurrent jobs. macOS not included.
     valueType: NUMERIC
     defaultValue: 30
     unit: job
@@ -291,7 +295,7 @@ usageLimits:
     linkedFeatures:
     - concurrentJobRuns
   concurrentJobRunsLimitMacOs:
-    description: ''
+    description: Maximun number of concurrent jobs using macOS.
     valueType: NUMERIC
     defaultValue: 1
     unit: job
@@ -299,7 +303,7 @@ usageLimits:
     linkedFeatures:
     - concurrentJobRuns
   selfHostedRunnersLimit:
-    description: ''
+    description: Maximun number of self hosted runners to install on your account.
     valueType: NUMERIC
     defaultValue: 5
     unit: runner
@@ -307,7 +311,7 @@ usageLimits:
     linkedFeatures:
     - selfHostedRunners
   flakyTestDetectionLimit:
-    description: ''
+    description: Maximun number of flaky tests detections.
     valueType: NUMERIC
     defaultValue: 5
     unit: test
@@ -315,7 +319,7 @@ usageLimits:
     linkedFeatures:
     - flakyTestDetection
   componentsLimit:
-    description: ''
+    description: Maximun number of components in your CircleCI account.
     valueType: NUMERIC
     defaultValue: 3
     unit: component/month
@@ -324,13 +328,13 @@ usageLimits:
     - components
 plans:
   FREE:
-    description: ""
+    description: All our premium features. For free.
     price: 0
     unit: /month
     features: null
     usageLimits: null
   PERFORMANCE:
-    description: ""
+    description: Our most flexible plan. Pay only for what you use.
     price: 15
     unit: /month
     features:
@@ -364,7 +368,7 @@ plans:
       flakyTestDetectionLimit:
         value: .inf
   SCALE:
-    description: ""
+    description: Enterprise-level power. Talk to us to build your plan.
     price: "Contact us"
     unit: /month
     features:
@@ -431,7 +435,7 @@ plans:
         value: .inf
 addOns:
   extraUsers:
-    description: ""
+    description: Give access to more users inside your CircleCI account.
     availableFor:
       - PERFORMANCE
     price: 15
@@ -440,7 +444,7 @@ addOns:
       maxUsers:
         value: 1
   extraCredits:
-    description: ""
+    description: Contract extra credits for your CircleCI account.
     availableFor:
       - PERFORMANCE
     price: 15
