@@ -8,22 +8,25 @@ currency: USD
 url: https://web.archive.org/web/20201002131658/https://clickup.com/pricing
 features:
   tasks:
-    description: ''
+    description: Spaces and tasks do not count against storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   spaces:
-    description: ''
+    description: Arrange your different workflows or types of work. You can organize Spaces by
+      departments, teams, high-level initiatives, clients, or anything that makes sense for you to group.
+      Each Space has its own settings and can be shared with everyone in your Workspace or made private,
+      allowing you to choose who has access.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fileStorage:
-    description: ''
+    description: Available file storage in your ClickUp Workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   anytimeSupport:
-    description: ''
+    description: Contact Clickup support team at any time
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -44,130 +47,144 @@ features:
     defaultValue: true
     type: DOMAIN
   customFields:
-    description: ''
+    description: Enrich your tasks with Custom Fields to add important context and improve your Dashboard reporting.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   editPermissions:
-    description: ''
+    description: Permits the person to make changes to a location or item, including sharing it
+      with others. The person isn't able to delete the location or item.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   portfolios:
-    description: ''
+    description: The Portfolio card is a custom Dashboard card that lets you categorize and track the progress of tasks in your Workspace.
+      Free plans are limited to 100 uses of Goals, Portfolios, and Custom Fields - you'll get Unlimited use of these features.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   portfoliosPermissions:
-    description: ''
+    description: Manage an user portfolio permissions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   goals:
-    description: ''
+    description: Goals are high-level objectives that are made up of smaller, measurable Targets. Complete all of the Targets to finish your Goal!
+      Free plans are limited to 100 uses of Goals, Portfolios, and Custom Fields - you'll get Unlimited use of these features.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   forms:
-    description: ''
+    description: Forms gather all the info in one place so you can put it to work for your team!
+      Use our intuitive form-building experience to quickly create Feedback, Project Intake, Order,
+      Job Application, or IT Request Forms. Or start your Form from scratch and create whatever your team needs.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   formsBranding:
-    description: ''
+    description: Customize the design elements of your Form by changing the layout, theme, and colors, or adding a cover image.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mindMaps:
-    description: ''
+    description: Create a free-form Mind Map for planning and organizing projects, or build on what you've already created in ClickUp.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dashboards:
-    description: ''
+    description: Create a high-level look at your team's work by converting Workspace data,
+      like task info, into a visual representation. Use Dashboards to quickly see and measure
+      things like personal progress, your team's tracked time, and project performance.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   automations:
-    description: ''
+    description: Create Automations that do your task-related busy work, like adding a
+      group of stakeholders as followers, assigning comments, and sending emails.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   multipleActionsInAutomations:
-    description: ''
+    description: Additional trigger and events for automations
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   sprintAutomations:
-    description: ''
+    description: Reduce the amount of admin required to manage your sprints using Sprint Automations.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   pulseLiveOverview:
-    description: ''
+    description: View online status and overall activity for everyone in your Workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   viewHistoricalDataInPulse:
-    description: ''
+    description: Track user activity over a time period.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   activityView:
-    description: ''
+    description: Add an Activity view to get an aggregated view of all activity across that location.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   spreadsheets:
-    description: ''
+    description: If you're managing your work in an Excel, CSV, JSON, TSV, or TXT file, you can easily import
+      it into ClickUp. After you upload your file, the importer will guide you in mapping the data to
+      ClickUp task fields or Custom Fields. At the end of the import process, you'll have a List of tasks containing the data.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   boxView:
-    description: ''
+    description: Box view allows you to see what your team is working on, what
+      they've accomplished, and what their capacity is.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   timelineView:
-    description: ''
+    description: Timeline view is a linear way to visualize and schedule your tasks.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workloadView:
-    description: ''
+    description: Visualize your team's work and capacity over time. Keep everyone engaged and
+      balance all the work across your team every day, week, or month.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customCapacityForWorkloadView:
-    description: ''
+    description: Set custom capacity for workload view
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   additionalGroupsForWorkloadView:
-    description: ''
+    description: Set additional groups for workload view
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   sprints:
-    description: ''
+    description: This ClickApp provides settings specific to sprint project management while
+      maintaining ClickUp's core features and flexibility.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sprintPoints:
-    description: ''
+    description: Sprint points allow you to estimate the amount of effort to complete each item of work.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   granularTimeEstimates:
-    description: ''
+    description: The Time Estimates ClickApp allows you to set how long individual tasks are going to take,
+      so you can make decisions and see how much time your project should take!
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   goalFolders:
-    description: ''
+    description: Use Goal Folders to easily organize your Goals.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -177,129 +194,142 @@ features:
     defaultValue: false
     type: MANAGEMENT
   reporting:
-    description: ''
+    description: Visualize and report on time tracking data in your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   workInProgressLimits:
-    description: ''
+    description: You can manage your team's capacity with the Work in Progress Limits ClickApp.
+      Show when people are under, near, at, or over capacity on each Board view in your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   cloudStorage:
-    description: ''
+    description: Use cloud storage to attach files from outside of ClickUp to your tasks.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   ganttCharts:
-    description: ''
+    description: Use Gantt view to plan time, manage resources, visualize task Dependencies,
+      and more! Track project progress and resolve delays.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   milestones:
-    description: ''
+    description: You can turn tasks into Milestones to signify a major accomplishment,
+      like releasing a new feature. Use Milestones to organize and track progress on your epics.
+      Milestones are a custom task type.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   proofing:
-    description: ''
+    description: "Assign comments directly on task attachments with Proofing.\n\nProofing is perfect for:\n
+      - Providing clear markers on design mockups\n
+      - Highlighting markups needed on legal contracts\n
+      - Adding feedback for video content\n
+      - Streamlining the creative review process for marketing teams"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeCollaboration:
-    description: ''
+    description: Collaborative editing means everyone in your Workspace can
+      simultaneously edit Docs, List info, Task and Goal Descriptions, and Text cards.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teams:
-    description: ''
+    description: Add Teams to easily create groups of people you can assign to tasks, mention in comments, or add as followers.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dependencies:
-    description: ''
+    description: When part of your work depends on other tasks, you can use a Dependency Relationship.
+      Set tasks to block or wait on each other to create a dependency.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   recurringTasksOnCalendar:
-    description: ''
+    description: Eliminate admin work on repeatable items like weekly reports,
+      team meeting agendas, and client or customer updates with recurring tasks.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   delegateReminders:
-    description: ''
+    description: ClickUp reminders are the perfect way to delegate quick
+      action items to others without creating a new task.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customExporting:
-    description: ''
+    description: Export List and Table views as a CSV or Excel file for more insights. Export all Custom
+      fields to see everything about all your tasks, or select specific fields to be shown and exported.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customTasksIDs:
-    description: ''
+    description: Create unique task IDs for your Workspace. Custom task IDs are automatically applied to subtasks.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   privateViews:
-    description: ''
+    description: Private views are only visible to you. For example, you could make a List view containing only your tasks.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   protectedViews:
-    description: ''
+    description: Protect a view to prevent settings and preferences from being changed.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   defaultViews:
-    description: ''
+    description: When you make a view the default, it's the first view you see when you visit that location.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   shareEverythingView:
-    description: ''
+    description: Share work with contractors and clients without inviting them to your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   nativeIntegrations:
-    description: ''
+    description: Connect external apps to your Workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   timeTracking:
-    description: ''
+    description: Use one of our native time tracking integrations or create your own using time tracking API calls.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   notesInTimeTracking:
-    description: ''
+    description: Add extra notes in time tracking entries.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   labelsInTimeTracking:
-    description: ''
+    description: Clasify your time entries with custom labels.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   billableTimeInTimeTracking:
-    description: ''
+    description: Set your time entries as billable or non-billable to see them in the time report.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   timeSheets:
-    description: ''
+    description: View, track, and review time tracked on tasks across your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   zapier:
-    description: ''
+    description: Use the Zapier integration to connect ClickUp with thousands of apps.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   integromat:
-    description: ''
+    description: Think of Make (formerly Integromat) as glue that connects ClickUp with 1,000+ tools, with zero technical skill required!
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -307,7 +337,7 @@ features:
     pricingUrls:
     - https://www.make.com/en/pricing
   googleDrive:
-    description: ''
+    description: Connect your Google Drive account with ClickUp to attach files to tasks and comments.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -315,7 +345,7 @@ features:
     pricingUrls:
     - https://one.google.com/about/plans
   dropbox:
-    description: ''
+    description: Connect your Dropbox account with ClickUp to attach files to tasks and comments!
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -323,7 +353,7 @@ features:
     pricingUrls:
     - https://www.dropbox.com/plans
   boxCloudStorage:
-    description: ''
+    description: Connect your Box account with ClickUp to attach files to tasks and comments!
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -331,7 +361,7 @@ features:
     pricingUrls:
     - https://www.box.com/pricing
   oneDriveCloudStorage:
-    description: ''
+    description: Consolidate your work in ClickUp. Search OneDrive folders and documents.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -339,104 +369,113 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans
   prioritySupport:
-    description: ''
+    description: Faster, higher-priority assistance compared to standard support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedCustomerSuccessManager:
-    description: ''
+    description: An expert assigned to your long-term success with ClickUp
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customOnboardingAndTraining:
-    description: ''
+    description: Become more productive with ClickUp with training and courses.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   twoFactorAuthentication:
-    description: ''
+    description: Activate or deactivate two-factor authentication (2FA) for your account or require it for your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   googleSSO:
-    description: ''
+    description: Single sign on (SSO) via Google lets you login to ClickUp with your Google
+      account to save you time and provide peace of mind.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   microsoftSSO:
-    description: ''
+    description: Single sign-on (SSO) via Microsoft lets you sign up and/or log in with your Microsoft 365
+      / Entra account to save you time and provide peace of mind.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   customSamlSSO:
-    description: ''
+    description: Security Assertion Markup Language (SAML) is a standard communication between
+      Identity Providers (IDP) and Service Providers (SP) like ClickUp.
+      You can create a custom single sign-on with any IDP that supports SAML 2.0.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   oktaSSO:
-    description: ''
+    description: We provide an easy-to-use integration with Okta to support SSO for you or everyone in your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   hipaaCompliance:
-    description: ''
+    description: ClickUp can support HIPAA compliance for Enterprise customers
+      by agreeing to a BAA (Business Associate Agreement). Take a look at the Healthcare
+      use section of ClickUp AI Additional Terms for our PHI (Protected Health Information) policies.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   contractAndLegalReview:
-    description: ''
+    description: Contract review is a crucial step in the process of getting any business deal done.
+      It's important to have a contract review template that helps you properly analyze and review contracts quickly and accurately.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customPermissions:
-    description: ''
+    description: Change the default settings for Guests, Members and Admins.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   customRoles:
-    description: ''
+    description: Create unique roles to suit your team's needs.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   restrictPublicSharing:
-    description: ''
+    description: Public sharing can be customized with advanced settings that vary by item. Link expiration,
+      share links with search engines or embed codes can be customized.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   managePrivateSpaces:
-    description: ''
+    description: Beyond these Space privacy settings, you can also set permissions for Folders, Lists and tasks within a Space.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   restrictWhoCanAddGuests:
-    description: ''
+    description: Manage who can add guest to your ClickUp account
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   defaultPersonalViews:
-    description: ''
+    description: Personal List is a List of tasks that lives separately from the ClickUp Hierarchy.
+      You can quickly create new tasks in Personal List without having to navigate through your Spaces, Folders, and Lists.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   addAndRemoveUsersViaAPI:
-    description: ''
+    description: Add and delete an user from a Workspace via ClickUp API.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
 usageLimits:
   usersLimit:
-    description: ''
+    description: Maximum number of permitted users in your account
     valueType: NUMERIC
     defaultValue: 1000000
     unit: user
     type: NON_RENEWABLE
   tasksLimit:
-    description: ''
+    description: Maximun number of task permitted to create
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: task
@@ -444,7 +483,7 @@ usageLimits:
     linkedFeatures:
     - tasks
   spacesLimit:
-    description: ''
+    description: Maximum number of spaces permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 5
     unit: space
@@ -452,7 +491,7 @@ usageLimits:
     linkedFeatures:
     - spaces
   fileStorageLimit:
-    description: ''
+    description: Maximum number of disk space to store files in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: MB
@@ -460,7 +499,7 @@ usageLimits:
     linkedFeatures:
     - fileStorage
   guestsLimit:
-    description: ''
+    description: Maximum number of guests invitations
     valueType: NUMERIC
     defaultValue: 10000000
     unit: guest
@@ -468,7 +507,7 @@ usageLimits:
     linkedFeatures:
     - guests
   readOnlyGuestsLimit:
-    description: ''
+    description: Maximum number of guests with read only restrictions
     valueType: NUMERIC
     defaultValue: 0
     unit: guest
@@ -476,7 +515,7 @@ usageLimits:
     linkedFeatures:
     - guests
   customFieldsLimit:
-    description: ''
+    description: Maximum number of custom fields to create in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use/workspace
@@ -484,7 +523,7 @@ usageLimits:
     linkedFeatures:
     - customFields
   portfoliosLimit:
-    description: ''
+    description: Maximum number of portfolios permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use/workspace
@@ -492,7 +531,7 @@ usageLimits:
     linkedFeatures:
     - portfolios
   goalsLimit:
-    description: ''
+    description: Maximum number of goals permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use/workspace
@@ -500,7 +539,7 @@ usageLimits:
     linkedFeatures:
     - goals
   mindMapsLimit:
-    description: ''
+    description: Maximum number of mind maps permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use/workspace
@@ -508,7 +547,7 @@ usageLimits:
     linkedFeatures:
     - mindMaps
   dashboardsLimit:
-    description: ''
+    description: Maximum number of dashboards permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use/workspace
@@ -516,14 +555,14 @@ usageLimits:
     linkedFeatures:
     - dashboards
   dashboradsWidgetsLimited:
-    description: ''
+    description: Maximum number of dashboards widgets permitted in your ClickUp account
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dashboards
   automationsLimit:
-    description: ''
+    description: Maximum number of automations permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 10
     unit: automation/month
@@ -531,7 +570,7 @@ usageLimits:
     linkedFeatures:
     - automations
   pulseLiveOverviewLimit:
-    description: ''
+    description: Maximum number of pulse live overview permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use
@@ -539,7 +578,7 @@ usageLimits:
     linkedFeatures:
     - pulseLiveOverview
   activityViewThreshold:
-    description: ''
+    description: Maximum number of activity views permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 1
     unit: day
@@ -547,7 +586,7 @@ usageLimits:
     linkedFeatures:
     - activityView
   timelineViewLimit:
-    description: ''
+    description: Maximum number of timelines views permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use
@@ -555,7 +594,7 @@ usageLimits:
     linkedFeatures:
     - timelineView
   workloadViewLimit:
-    description: ''
+    description: Maximum number of workload views permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use
@@ -563,7 +602,7 @@ usageLimits:
     linkedFeatures:
     - workloadView
   ganttChartsLimit:
-    description: ''
+    description: Maximum number of gannt charts permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use
@@ -571,7 +610,7 @@ usageLimits:
     linkedFeatures:
     - ganttCharts
   milestonesLimit:
-    description: ''
+    description: Maximum number of milestones permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 10
     unit: use
@@ -579,7 +618,7 @@ usageLimits:
     linkedFeatures:
     - milestones
   proofingLimit:
-    description: ''
+    description: Maximum number of docs proofing permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 100
     unit: use
@@ -587,7 +626,7 @@ usageLimits:
     linkedFeatures:
     - proofing
   teamsLimit:
-    description: ''
+    description: Maximum number of teams permitted in your ClickUp account
     valueType: NUMERIC
     defaultValue: 0
     unit: team
@@ -766,7 +805,7 @@ plans:
       readOnlyGuestsLimit:
         value: .inf
   ENTERPRISE:
-    description: ''
+    description: Contracts, legal reviews, and advanced security
     price: Contact Sales
     unit: member/month
     features:

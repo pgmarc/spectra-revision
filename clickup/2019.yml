@@ -8,142 +8,146 @@ currency: USD
 url: https://web.archive.org/web/20191101035142/https://clickup.com/pricing
 features:
   storage:
-    description: ''
+    description: Upload up to 100mb of file attachments (you always get unlimited tasks, this limit is only for attachments)
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   tasks:
-    description: ''
+    description: Spaces and tasks do not count against storage
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   views:
-    description: ''
+    description: Free plans are limited to 100 saved views, you get Unlimited plus you'll get access to ClickUp's Box and Gantt views!
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   integrations:
-    description: ''
+    description: Use Google Drive, Dropbox, and OneDrive in ClickUp - you can even embed attachments directly inside of ClickUp.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   reporting:
-    description: ''
+    description: Access to all ClickUp reports that can be customized and exported + calculate sums,
+      averages, and more for any column in List View
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   guests:
-    description: ''
+    description: Unlimited read-only Guests, plus 5 full Guests and 2 more for each additional member.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   permissions:
-    description: ''
+    description: With custom permissions, you choose what people can do in ClickUp.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   goals:
-    description: ''
+    description: Goals are high-level objectives that are made up of smaller, measurable Targets. Complete all of the Targets to finish your Goal!
+      Free plans are limited to 100 uses of Goals, Portfolios, and Custom Fields - you'll get Unlimited use of these features.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   portfolio:
-    description: ''
+    description: The Portfolio card is a custom Dashboard card that lets you categorize and track the progress of tasks in your Workspace.
+      Free plans are limited to 100 uses of Goals, Portfolios, and Custom Fields - you'll get Unlimited use of these features.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customFields:
-    description: ''
+    description: Enrich your tasks with Custom Fields to add important context and improve your Dashboard reporting.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   twoFactorAuthentication:
-    description: ''
+    description: Enforce phone verification for people in your Workplace
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   googleSingleSignOn:
-    description: ''
+    description: Enforce Google SSO for people in your Workplace
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   goalFolders:
-    description: ''
+    description: Group aligned goals into folders for the ultimate OKR powerhouse!
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customExporting:
-    description: ''
+    description: Easily build custom reports and export them in the format of your choice
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   privateViews:
-    description: ''
+    description: Create personal views only you can see; protect views to prevent unwanted changes; and choose which view people see first.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   protectedViews:
-    description: ''
+    description: Protect a view to prevent settings and preferences from being changed.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   defaultViews:
-    description: ''
+    description: When you make a view the default, it's the first view you see when you visit that location.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   workload:
-    description: ''
+    description: See who's overloaded and who needs more tasks so you can manage resources like never before.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   extraGuests:
-    description: ''
+    description: You'll always get unlimited view-only guests. Plus you'll get 10 full Guests,
+      and 5 more for each additional member. Buy more Guests at 5 per seat.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   singleSignOn:
-    description: ''
+    description: Google, Microsoft Azure, Okta, and custom SAML SSO
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   contractReview:
-    description: ''
+    description: If you need changes to any legal agreements an Enterprise Plan with at least $5,000 commitment is required
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   hipaaCompliance:
-    description: ''
+    description: If you need changes to any legal agreements an Enterprise Plan with at least $5,000 commitment is required
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   api:
-    description: ''
+    description: Don't worry about being limited with the Enterprise Plan
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   customOnboarding:
-    description: ''
+    description: Receive personalized onboarding & training for you and your Workplace
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedSuccessManager:
-    description: ''
+    description: A dedicated ClickUp guru will get to know your team and make sure you're super productive!
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   advancedPermissions:
-    description: ''
+    description: Restrict who can delete items and enforce security protocols such as SSO.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   increasedApiLimit:
-    description: ''
+    description: Increase ClickUp API limits
     valueType: BOOLEAN
     defaultValue: false
     type: NON_RENEWABLE
@@ -217,7 +221,7 @@ plans:
         value: true
     usageLimits: null
   ENTERPRISE:
-    description: ''
+    description: Contracts, legal reviews, and advanced security
     price: Contact Sales
     unit: member/month
     features:
