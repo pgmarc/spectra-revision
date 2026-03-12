@@ -8,105 +8,104 @@ currency: USD
 url: https://web.archive.org/web/20231212010418/https://databox.com/pricing
 features:
   dataSources:
-    description: ''
+    description: Data Sources are platforms or applications that store your data.
+      Connect your Data Sources with Databox to establish Data Source Connections.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dataSyncFrequency:
-    description: ''
+    description: The sync frequency of your Data Source Connections.
     valueType: TEXT
     defaultValue: daily
     type: GUARANTEE
   15minPriorityConnections:
-    description: ''
+    description: Are hourly data syncs just not enough? Get more frequent data updates
+      with the 15-minute priority sync add-on for up to 5 Data Source Connections.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   historicalData:
-    description: The maximum amount of historical data that you can access in your
-      Databox Account.
+    description: The maximum amount of historical data that's available in your Databox Account.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   warehouseDataStorage:
-    description: ''
+    description: The maximum amount of data that will be stored by Databox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   databoxInteractions:
-    description: Choose between 60+ integrations
+    description: Connect HubSpot, Google Analytics, Facebook Ads, and more using a pre-built, one-click integration.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   thirdPartyIntegrations:
-    description: Choose between 2000+ integrations
+    description: Visualize performance from 2,000+ third-party integrations using Zapier and Make.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   pushCustomDataToAPI:
-    description: ''
+    description: Pull data from anywhere and push it into Databox using our secure and simple API.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   customApiIntegrations:
-    description: ''
+    description: Pull data from anywhere and push it into Databox using our secure and easy-to-use custom API integrations.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   sqlIntegrations:
-    description: Choose between 7 SQL integrations
+    description: Visualize your data from PostgreSQL, MySQL, AWS Redshift, Microsoft SQL Azure,
+      Microsoft SQL Service, Google BigQuery and Snowflake in Databox.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   spreadsheetsIntegration:
-    description: ''
+    description: Use Databox to visualize your Google Sheets and Excel data.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   databoards:
-    description: ''
+    description: Databoards are Databox dashboards.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   databoardTemplates:
-    description: Instantly use pre-built templates created by experts. Browse the
-      available templates on our website or inside our application.
+    description: Instantly visualize your performance using one of over 300
+      pre-built dashboard Templates created by our community of experts.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   databoardDesigner:
-    description: Create Databoards, no coding required. Use the Designer by starting
-      with a blank Databoard or choosing, then customizing a template. Use pre-built
-      datablocks or start with blank visualizations and choose vour datasource, metric,
-      time intervals and more. Re-arrange, resize, move and delete datablocks.
+    description: Visualize KPIs in a variety of ways, and build meaningful dashboards-no code or design skills necessary.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customAccountDataboardTemplates:
-    description: ''
+    description: Create and use custom dashboard templates in your Account to streamline your reporting process.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   databoardLoops:
-    description: ''
+    description: Loop multiple dashboards together to create a comprehensive presentation of performance data.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   metricBuilder:
-    description: ''
+    description: Use Metric Builder to create Custom Metrics and get a more granular view of your performance.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   customMetrics:
-    description: ''
+    description: Build Custom Metrics to monitor custom data, events, goals and more with just a few clicks.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -118,269 +117,276 @@ features:
     defaultValue: false
     type: DOMAIN
   customDateRanges:
-    description: ''
+    description: Define your own Date Ranges and Comparison Periods by selecting the
+      start and end dates, custom rolling periods, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   removableBrandingOnDataboards:
-    description: ''
+    description: Remove “Powered by Databox” and the Databox logo from dashboards in your Account.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   fiscalCalendars:
-    description: ''
+    description: Monitor, visualize, and report on all of your business data based on your fiscal calendar.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   personalizedPerformanceScreen:
-    description: ''
+    description: Keep an eye on what matters most, from critical KPIs to emerging trends.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   metricsScreen:
-    description: ''
+    description: Monitor all of your key metrics from one screen to see how performance is trending at a glance.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   slackIntegration:
-    description: Receive alerts in Slack. Share Databoards and datablocks in Slack.
-      Use the Databox Slackbot to ask questions about your data.
+    description: Get dashboards, alerts, scorecards, and more delivered directly to Slack.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   streamToTv:
-    description: View any of your Databoards on a wall-mounted TV in your office.
-      Broadcast your data in the office to motivate your team and keep the metrics
+    description: Easily stream your Databoards to any Smart TV using your own unique streaming code.
       that matter front and center.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   mobileAppAccess:
-    description: View all your Databoards, goals and receive alerts and scorecards
-      on your mobile device in our app. IOS and Android native apps available.
+    description: Monitor your performance data anytime, anywhere using the Databox Mobile app (available for iOS and Android).
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   goals:
-    description: Set a daily, weekly, monthly or annual goal for any metric you're
-      tracking. Assign the goal to someone on your team and receive alerts when you
-      hit thegoal or if you are at risk of missing it. View progress to all your Company's
-      goals on one screen.
+    description: Set, assign, and monitor progress toward S.M.A.R.T. Goals in Databox.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   shareableDataboardLinks:
-    description: ''
+    description: A unique URL used for sharing and viewing your dashboards outside of the Databox app.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scheduleDataboardSnapshots:
-    description: ''
+    description: Schedule regular exports of dashboards to be delivered via email as JPGs or a PDF.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   scorecards:
-    description: ''
+    description: Receive regular Scorecard updates on your most important KPIs
+      through email, mobile push notification, and/or Slack.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   weeklyDigest:
-    description: ''
+    description: Receive detailed metric performance updates directly in your inbox each week.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   databoardEmbedding:
-    description: ''
+    description: Use the simple embed code to share and publish live dashboards on any web page.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   annotations:
-    description: ''
+    description: Add additional context and insights as a comment directly on a data point in a visualization.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   alerts:
-    description: Receive alerts via the mobile app. Slack or via email for any metric
-      you want to monitor more closely. Alerts can be triggered when numbers go above
-      or below any number or change by a set percentage over a specified time interval.
+    description: Automatically and proactively monitor your most important KPIs and
+      stay up-to-date on performance trends using Alerts.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   basicReporting:
-    description: ''
+    description: Easily build and customize report presentation decks without leaving Databox.
+      Includes Cover slides and Databoard slides.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scheduleReports:
-    description: ''
+    description: Schedule Reports to be sent on a daily, weekly, monthly, or quarterly basis.
+      Add an automated reminder to be delivered to your inbox ahead of the scheduled send.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   publicReportTemplates:
-    description: ''
+    description: Instantly create Reports using pre-built Report Templates created by our community of experts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   reportAccountTemplates:
-    description: ''
+    description: Create and use custom Report Templates in your Account to streamline your reporting process.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shareReportPDFs:
-    description: ''
+    description: Send Report PDFs directly via email.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   downloadReportPDFs:
-    description: ''
+    description: Download Report PDFs directly in Databox.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   archiveReports:
-    description: ''
+    description: Access, view, and retrieve all of your Account's Report PDFs.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   removableBrandingOnReports:
-    description: ''
+    description: Remove “Powered by Databox” and the Databox logo from Reports in your Account.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedSlideTypes:
-    description: ''
+    description: Use Side-by-side slides, Image slides, Text slides, and Data story slides to enhance your Reports.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   reportsApprovalProcess:
-    description: ''
+    description: Initiate an approval process for Reports to ensure accuracy and consistency in Reports before they are shared.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   metricForecast:
-    description: ''
+    description: Predict future performace for your KPIs, optimize your strategy, and stay ahead of your competition.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   generativeAI:
-    description: ''
+    description: Artificial intelligence will assist you in discovering connections, patterns, and emerging trends in your data.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   anomalyDetection:
-    description: ''
+    description: Identify unusual patterns or outliers in data, which may indicate potential anomalies or areas of opportunity.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   advancedBenchmarks:
-    description: ''
+    description: Instantly compare your performance against other similar companies to
+      recognize areas of opportunity and sell/ upsell/ retain clients.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   metricCorrelations:
-    description: ''
+    description: Quickly identify relationships between metrics to understand how they
+      impact one another and how you can influence your overall performance.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   clientAccounts:
-    description: ''
+    description: Use Client Accounts to create a secure, repeatable, organized, and
+      valuable reporting process for both your Agency and Clients.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   clientPerformanceOverview:
-    description: ''
+    description: View every client's top KPIs in one screen. Eliminate the work required for internal review of client performance.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   clientGoalsOverview:
-    description: ''
+    description: View every client's goals in one screen. Eliminate the work required for internal review of goal achievement.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   whiteLabeling:
-    description: ''
+    description: Create an on-brand experience in your Databox Account. Allow users to login, view dashboards,
+      and receive emails with your company's branding. Perfect if you plan to resell Databox to your clients.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   chatSupport:
-    description: ''
+    description: Support via chat
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   emailSupport:
-    description: ''
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   prioritySupport:
-    description: ''
+    description: Move your cases to the top of our chat and email support queues.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   guidedOnboarding:
-    description: ''
+    description: Personalized guidance as you set up and roll out Databox to your company.
+      Includes 6 calls of one-on-one or team support, as well as priority support for 3 months.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedAnalyst:
-    description: ''
+    description: Meet with a Databox expert and business analyst twice a month to discuss your goals,
+      develop a plan for success, and assist with the creation of dashboards and reports.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   outsourcedAnalyst:
-    description: ''
+    description: Get ongoing assistance with your analysis and reporting process from a Databox expert.
+      We'll produce one report and have up to 2 calls per month.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   userManagement:
-    description: ''
+    description: Add and manage permissions for your team and clients in Databox.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   twoFactorAuthentication:
-    description: ''
+    description: Add an additional layer of security to your account by requiring more than just a password to log in.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   singleSignOn:
-    description: ''
+    description: We support Single Sign-on (SSO) over SAML 2.0 open authentication standard.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   quickstartOnboarding:
+    description: Setup of your initial set of metrics, dashboards, and reports along with
+      training on core Databox features and functionality.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   auditLog:
-    description: ''
+    description: Monitor activity in your Account from one screen.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   force2FA:
-    description: ''
+    description: Force users to use an additional layer of security when signing in.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   forceSSO:
-    description: ''
+    description: Force users to use an additional layer of security when signing in.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   includedDataSources:
-    description: ''
+    description: Maximum number of data sources. Data Sources are platforms or applications that store your data.
+      Connect your Data Sources with Databox to establish Data Source Connections.
     valueType: NUMERIC
     defaultValue: 3
     unit: data source
@@ -388,7 +394,7 @@ usageLimits:
     linkedFeatures:
     - dataSources
   dataSourcesLimit:
-    description: ''
+    description: Maximun number of datasources
     valueType: NUMERIC
     defaultValue: 3
     unit: data source
@@ -396,7 +402,7 @@ usageLimits:
     linkedFeatures:
     - dataSources
   historicalDataThreshold:
-    description: ''
+    description: Data update interval for each plan
     valueType: NUMERIC
     defaultValue: 11
     unit: month
@@ -404,7 +410,7 @@ usageLimits:
     linkedFeatures:
     - historicalData
   warehouseStorageLimit:
-    description: ''
+    description: Maximun number of disk space for a warehouse
     valueType: NUMERIC
     defaultValue: 5
     unit: GB
@@ -412,13 +418,14 @@ usageLimits:
     linkedFeatures:
     - warehouseDataStorage
   usersLimit:
-    description: ''
+    description: Users can log in to your Databox Account and view or edit different
+      features according to their user role and permissions.
     valueType: NUMERIC
     defaultValue: 3
     unit: user
     type: NON_RENEWABLE
   guidedOnboardingLimit:
-    description: ''
+    description: Maximun number of hours of onboarding.
     valueType: NUMERIC
     defaultValue: 0
     unit: hour
@@ -426,7 +433,7 @@ usageLimits:
     linkedFeatures:
     - guidedOnboarding
   dedicatedAnalystLimit:
-    description: ''
+    description: Maximum number of hours per month of a dedicated analyst.
     valueType: NUMERIC
     defaultValue: 0
     unit: hour/month
@@ -434,7 +441,7 @@ usageLimits:
     linkedFeatures:
     - dedicatedAnalyst
   outsourcedAnalystLimit:
-    description: ''
+    description: Maximum number of hours per month of a outsourced analyst.
     valueType: NUMERIC
     defaultValue: 0
     unit: hour/month
@@ -442,7 +449,7 @@ usageLimits:
     linkedFeatures:
     - outsourcedAnalyst
   15minPriorityConnectionsLimit:
-    description: ''
+    description: Maximun number of priority connections.
     valueType: NUMERIC
     defaultValue: 0
     unit: connection
@@ -451,13 +458,13 @@ usageLimits:
     - 15minPriorityConnections
 plans:
   FREE:
-    description: ''
+    description: Daily monitoring of your most-important metrics for up to 3 data sources.
     price: 0
     unit: /month
     features: null
     usageLimits: null
   STARTER:
-    description: ''
+    description: High-level performance management, monitoring and reporting from 70+ popular data sources.
     price: 59
     unit: connection/month
     features:
@@ -495,7 +502,7 @@ plans:
       usersLimit:
         value: 5
   PROFESSIONAL:
-    description: ''
+    description: Custom analytics, performance management, monitoring and reporting from any data source.
     price: 169
     unit: connection/month
     features:
@@ -553,7 +560,7 @@ plans:
       dataSourcesLimit:
         value: 1000000000
   GROWTH:
-    description: ''
+    description: AI-enhanced analytics & performance management for companies serious about growth.
     price: 399
     unit: connection/month
     features:
@@ -629,7 +636,8 @@ plans:
       dataSourcesLimit:
         value: 1000000000
   PREMIUM:
-    description: ''
+    description: All features, unlimited usage, enterprise-level security, faster data sync,
+      priority support and a dedicated analyst.
     price: 999
     unit: connection/month
     features:

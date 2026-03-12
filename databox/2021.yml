@@ -8,17 +8,19 @@ currency: USD
 url: https://web.archive.org/web/20211123145205/https://databox.com/pricing
 features:
   dataSources:
-    description: ''
+    description: Data sources are the locations or repositories from which Databox obtains
+      data for you to visualize, analyze, enhance, and derive insights.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dataSyncFrequency:
-    description: ''
+    description: The sync frequency of your Data Source Connections.
     valueType: TEXT
     defaultValue: daily
     type: GUARANTEE
   15minPriorityConnections:
-    description: ''
+    description: Are hourly data syncs just not enough? Get more frequent data updates
+      with the 15-minute priority sync add-on for up to 5 Data Source Connections.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -30,7 +32,7 @@ features:
     defaultValue: true
     type: DOMAIN
   warehouseDataStorage:
-    description: ''
+    description:  The maximum amount of data that will be stored by Databox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -47,7 +49,7 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   googleSheetsIntegration:
-    description: ''
+    description:  Use Databox to visualize your Google Sheets data.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -59,13 +61,13 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   pushCustomDataToAPI:
-    description: ''
+    description:  Pull data from anywhere and push it into Databox using our secure and simple API.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   databoards:
-    description: ''
+    description: Databoards are Databox dashboards.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -78,7 +80,7 @@ features:
     defaultValue: true
     type: DOMAIN
   queryBuilder:
-    description: ''
+    description:  Use Query Builder to create Custom Metrics and get a more granular view of your performance.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -91,7 +93,8 @@ features:
     defaultValue: false
     type: DOMAIN
   customDateRanges:
-    description: ''
+    description: Define your own Date Ranges and Comparison Periods by selecting
+      the start and end dates, custom rolling periods, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -102,12 +105,12 @@ features:
     defaultValue: true
     type: DOMAIN
   customAccountDataboardTemplates:
-    description: ''
+    description: Create custom dashboard templates to use in your Account.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fiscalCalendars:
-    description: ''
+    description:  Visualize all of your data based on your fiscal calendar.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -121,7 +124,8 @@ features:
     type: AUTOMATION
     automationType: TRACKING
   scorecards:
-    description: ''
+    description:  Receive regular Scorecard updates on your most important KPIs through
+      email, mobile push notification, and/or Slack.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
@@ -134,17 +138,18 @@ features:
     type: AUTOMATION
     automationType: TRACKING
   shareableDataboardLinks:
-    description: ''
+    description:  A unique URL outside of the Databox app where your Databoards are displayed
+      with the same visualizations and data sync frequency as you have set in the Databox Account.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   databoardLoops:
-    description: ''
+    description:  Loop multiple dashboards together to create a comprehensive presentation of performance data.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scheduleDataboardSnapshots:
-    description: ''
+    description:  Schedule regular exports of dashboards to be delivered via email as JPGs or a PDF.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
@@ -165,7 +170,7 @@ features:
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   databoardEmbedding:
-    description: ''
+    description: Use the simple embed code to share and publish live dashboards on any web page.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -178,29 +183,30 @@ features:
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   removeDataboxBrandingOnDataboards:
-    description: ''
+    description: Remove “Powered by Databox” and the Databox logo from dashboards in your Account.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   whiteLabeling:
-    description: ''
+    description: Provide fully-branded reports, performance alerts, log in access, and more to your team and/or clients.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   singleSignOn:
-    description: ''
+    description:  We support Single sign-on (SSO) over SAML 2.0 open authentication standard.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   prioritySupport:
-    description: ''
+    description: Move your cases to the top of our chat and email support queues and
+      connect with a Databox expert for one hour of phone support each month.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   dataSourcesLimit:
-    description: ''
+    description: Maximun number of datasources
     valueType: NUMERIC
     defaultValue: 4
     unit: data source
@@ -208,7 +214,7 @@ usageLimits:
     linkedFeatures:
     - dataSources
   historicalDataThreshold:
-    description: ''
+    description: Data update interval for each plan
     valueType: NUMERIC
     defaultValue: 11
     unit: month
@@ -216,7 +222,7 @@ usageLimits:
     linkedFeatures:
     - historicalData
   warehouseStorageLimit:
-    description: ''
+    description: Maximun number of disk space for a warehouse
     valueType: NUMERIC
     defaultValue: 5
     unit: GB
@@ -224,7 +230,7 @@ usageLimits:
     linkedFeatures:
     - warehouseDataStorage
   databoardsLimit:
-    description: ''
+    description: Maximun number of databoards
     valueType: NUMERIC
     defaultValue: 1
     unit: /connection
@@ -232,7 +238,7 @@ usageLimits:
     linkedFeatures:
     - databoards
   queryBuilderLimit:
-    description: ''
+    description: Maximun number of queries to build
     valueType: NUMERIC
     defaultValue: 0
     unit: metrics
@@ -240,13 +246,13 @@ usageLimits:
     linkedFeatures:
     - queryBuilder
   usersLimit:
-    description: ''
+    description: Maximun number of user to use the Databox account
     valueType: NUMERIC
     defaultValue: 5
     unit: user
     type: NON_RENEWABLE
   15minPriorityConnectionsLimit:
-    description: ''
+    description: Maximun number of priority connections
     valueType: NUMERIC
     defaultValue: 0
     unit: connection
@@ -272,13 +278,13 @@ plans:
       warehouseStorageLimit:
         value: 0
   STARTER:
-    description: ''
+    description: Daily monitoring and reporting of high-level metrics for small teams.
     price: 91
     unit: connection/month
     features: null
     usageLimits: null
   PROFESSIONAL:
-    description: ''
+    description: Hourly monitoring and analysis for small and mid-sized businesses.
     price: 169
     unit: connection/month
     features:
@@ -310,7 +316,7 @@ plans:
       dataSourcesLimit:
         value: 3
   PERFORMER:
-    description: ''
+    description: On-demand monitoring for companies serious about improving performance.
     price: 289
     unit: connection/month
     features:

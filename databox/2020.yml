@@ -8,17 +8,19 @@ currency: USD
 url: https://web.archive.org/web/20201201223603/https://databox.com/pricing
 features:
   dataSources:
-    description: ''
+    description: Data sources are the locations or repositories from which Databox obtains
+      data for you to visualize, analyze, enhance, and derive insights.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   databoards:
-    description: ''
+    description: Databoards help you communicate performance data clearly and keep teams aligned around key metrics.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dataRefresh:
-    description: ''
+    description: In Databox, data syncs automatically at regular intervals, even when you're
+      logged out or away, based on your subscription plan.
     valueType: TEXT
     defaultValue: daily
     type: GUARANTEE
@@ -202,7 +204,7 @@ features:
     defaultValue: false
 usageLimits:
   dataSourcesLimit:
-    description: ''
+    description: Maximun number of datasources
     valueType: NUMERIC
     defaultValue: 3
     unit: data source
@@ -210,13 +212,13 @@ usageLimits:
     linkedFeatures:
     - dataSources
   usersLimit:
-    description: ''
+    description: Maximun number of user in databox account
     valueType: NUMERIC
     defaultValue: 3
     unit: user
     type: NON_RENEWABLE
   databoardsLimit:
-    description: ''
+    description: Maximun number of databoards
     valueType: NUMERIC
     defaultValue: 3
     unit: databoard
@@ -224,7 +226,8 @@ usageLimits:
     linkedFeatures:
     - databoards
   historicalDataThreshold:
-    description: ''
+    description: The maximum amount of historical data that you can access in your
+      Databox Account.
     valueType: NUMERIC
     defaultValue: 11
     unit: month
@@ -233,13 +236,11 @@ usageLimits:
     - historicalData
 plans:
   FREE:
-    description: ''
     price: 0
     unit: forever
     features: null
     usageLimits: null
   BASIC:
-    description: ''
     price: 59
     unit: /month
     features:
@@ -255,7 +256,6 @@ plans:
       databoardsLimit:
         value: 10
   PLUS:
-    description: ''
     price: 119
     unit: /month
     features:
@@ -279,7 +279,6 @@ plans:
       historicalDataThreshold:
         value: 24
   BUSINESS:
-    description: ''
     price: 299
     unit: user/month
     features:

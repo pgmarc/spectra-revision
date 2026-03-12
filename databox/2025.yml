@@ -33,15 +33,15 @@ features:
     tag: Data Collection
     type: GUARANTEE
   15minPriorityConnections:
-    description: ''
+    description: Are hourly data syncs just not enough? Get more frequent data updates
+      with the 15-minute priority sync add-on for up to 5 Data Source Connections.
     valueType: BOOLEAN
     defaultValue: false
     tag: Data Collection
     type: INTEGRATION
     integrationType: API
   historicalData:
-    description: The maximum amount of historical data that you can access in your
-      Databox Account.
+    description: The maximum amount of historical data that's available in your Databox Account.
     valueType: BOOLEAN
     defaultValue: true
     tag: Data Collection
@@ -53,16 +53,14 @@ features:
     tag: Data Collection
     type: DOMAIN
   databoxIntegrations:
-    description: Connect HubSpot, Google Analytics, Facebook Ads, and more using a
-      pre-built, one-click integration.
+    description: Connect HubSpot, Google Analytics, Facebook Ads, and more using a pre-built, one-click integration.
     valueType: BOOLEAN
     defaultValue: true
     tag: Connect any Data Source
     type: INTEGRATION
     integrationType: MARKETPLACE
   thirdPartyIntegrations:
-    description: Visualize performance from 2,000+ third-party integrations using
-      Zapier and Make.
+    description: Visualize performance from 2,000+ third-party integrations using Zapier and Make.
     valueType: BOOLEAN
     defaultValue: false
     tag: Connect any Data Source
@@ -113,7 +111,7 @@ features:
     tag: Build Custom Dashboards
     type: DOMAIN
   databoardDesigner:
-    description: Visualize KPIs in a variety of ways, and build meaningful dashboards–no
+    description: Visualize KPIs in a variety of ways, and build meaningful dashboards-no
       code or design skills necessary.
     valueType: BOOLEAN
     defaultValue: true
@@ -394,15 +392,15 @@ features:
     tag: Partner only features
     type: DOMAIN
   clientPerformanceOverview:
-    description: View every client’s top KPIs and goals in one screen. Eliminate the
-      work required for internal review of client performance and goal achievement.
+    description: View every client's top KPIs in one screen. Eliminate the
+      work required for internal review of client performance.
     valueType: BOOLEAN
     defaultValue: true
     tag: Partner only features
     type: INFORMATION
   clientGoalsOverview:
-    description: View every client’s top KPIs and goals in one screen. Eliminate the
-      work required for internal review of client performance and goal achievement.
+    description: View every client's goals in one screen. Eliminate the
+      work required for internal review of goal achievement.
     valueType: BOOLEAN
     defaultValue: true
     tag: Partner only features
@@ -416,11 +414,13 @@ features:
     tag: Partner only features
     type: DOMAIN
   chatSupport:
+    description: Support via chat
     valueType: BOOLEAN
     defaultValue: true
     tag: Support and consulting
     type: SUPPORT
   emailSupport:
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     tag: Support and consulting
@@ -477,6 +477,7 @@ features:
     tag: Account management & security
     type: MANAGEMENT
   quickstartOnboarding:
+    description: Setup of your initial set of metrics, dashboards, and reports along with training on core Databox features and functionality.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -499,7 +500,7 @@ usageLimits:
     linkedFeatures:
     - dataSources
   historicalDataThreshold:
-    description: The maximum amount of historical data that’s available in your Databox
+    description: The maximum amount of historical data that's available in your Databox
       Account.
     valueType: NUMERIC
     defaultValue: 11
@@ -523,6 +524,7 @@ usageLimits:
     unit: user
     type: NON_RENEWABLE
   guidedOnboardingLimit:
+    description: Maximun number of hours of onboarding.
     valueType: NUMERIC
     defaultValue: 0
     unit: hour
@@ -530,6 +532,7 @@ usageLimits:
     linkedFeatures:
     - guidedOnboarding
   dedicatedAnalystLimit:
+    description: Maximum number of hours per month of a dedicated analyst.
     valueType: NUMERIC
     defaultValue: 0
     unit: hour/month
@@ -537,6 +540,7 @@ usageLimits:
     linkedFeatures:
     - dedicatedAnalyst
   15minPriorityConnectionsLimit:
+    description: Maximun number of priority connections.
     valueType: NUMERIC
     defaultValue: 0
     unit: connection
