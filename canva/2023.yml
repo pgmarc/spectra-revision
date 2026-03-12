@@ -186,17 +186,19 @@ features:
     defaultValue: false
     type: DOMAIN
   approvalsNotifications:
-    description: ''
+    description: If you're an approver, you're notified via email and through the
+      Notifications tab on the homepage when members request design approval.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   teamReports:
-    description: ''
+    description: You'll see an overview of designs created, active members,
+      brand template activity, and member performance.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   teamPermissions:
-    description: ''
+    description: Choose who gets to publish, access templates, use apps, or upload media.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -211,7 +213,7 @@ features:
     defaultValue: false
     type: MANAGEMENT
   basicContentPlanner:
-    description: ''
+    description: You can plan and schedule your Canva designs to social media directly from Content Planner or the editor.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -221,37 +223,37 @@ features:
     defaultValue: true
     type: INFORMATION
   workplaceSocialMedia:
-    description: ''
+    description: Create videos, posts, and stories for social platforms
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workplacePrint:
-    description: ''
+    description: Design and print products for delivery or in-store pick-up
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workplacePresentations:
-    description: ''
+    description: Collaborate and craft show-stopping presentations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workplaceVideo:
-    description: ''
+    description: Create professional-style videos for any platform
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workplaceSites:
-    description: ''
+    description: Quickly design and launch a website
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workplaceWhiteboards:
-    description: ''
+    description: Collaborate, brainstorm, and plan out projects
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workplaceDocuments:
-    description: ''
+    description: Design visual docs with video, images, graphics, and charts
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -276,7 +278,8 @@ features:
     defaultValue: false
     type: DOMAIN
   elementLockingAndApprovalWorkflows:
-    description: ''
+    description: Lock design elements to prevent editing and check design amends with easy approver
+      notifications
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -313,17 +316,17 @@ features:
     type: GUARANTEE
     docUrl: https://www.canva.com/pricing/
   contactMethod:
-    description: ''
+    description: Contact support by forms
     valueType: TEXT
     defaultValue: Forms
     type: SUPPORT
   location:
-    description: ''
+    description: Support team location
     valueType: TEXT
     defaultValue: MNL
     type: SUPPORT
   availability:
-    description: ''
+    description: Support availavility
     valueType: TEXT
     defaultValue: 24x7
     type: SUPPORT
