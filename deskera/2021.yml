@@ -8,122 +8,134 @@ currency: USD
 url: https://web.archive.org/web/20211014065819/https://www.deskera.com/pricing/
 features:
   allInOneDashboard:
-    description: ''
+    description: Access Deskera Books, CRM, People in one common place.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createInvoices:
-    description: ''
+    description: Generate custom invoices with a pdf editor.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createBills:
-    description: ''
+    description: Generate bills for purchases.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   connectYourBanks:
-    description: ''
+    description: It is tedious and time-consuming to manually reconcile each transaction between your book's and your bank's records.
+      Auto bank reconciliation helps you to simplify this process in just a few clicks. Spend less time reconciling your banking transactions and focus more time running your business.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   runPayroll:
-    description: ''
+    description: Efficiently manage payroll processing and accurately pay employees with ease.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createSalesPipelines:
-    description: ''
+    description: Plan out your pipelines to track the number of leads received and the number of deals closed.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   emailMarketing:
-    description: ''
+    description: Create beautiful, personalized marketing emails for your audience.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   emailSupport:
-    description: ''
+    description: Contact support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Contact support via live chat
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   accessToHelpCenter:
-    description: ''
+    description: See docomentation resources, API reference and FAQ
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   deskeraAcademy:
-    description: ''
+    description: Receive specialized training to use Deskera effectively in Deskera academy.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   noCodeLandingPages:
-    description: ''
+    description: Design fast, responsive landing pages in minutes without writing a single line of code.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiCurrency:
-    description: ''
+    description: Apply multi-currency in Deskera, enabling working with multiple currency.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   applyLeaves:
-    description: ''
+    description: From an employee's point of view, all the leave types assigned to you will be displayed along
+      with the amount of leave taken, leave earned, and the current balance.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   approveLeaves:
-    description: ''
+    description: Need to keep the right people informed? No problem. You don't need to worry about whether a manager
+      receives an employee's request, with automated notifications in the system, which ensures no request goes
+      unanswered or unseen. Once the employee submits a leave request, managers can approve it instantly with
+      a click of a button straight from the Dashboard. They can even add an explanation in case the application
+      was denied or needs modifications.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   dragAndDropCustomForms:
-    description: ''
+    description: Create forms with customized fields (Text, Number, Email, Date, Select, Multi-Select) to gather data
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   addCustomFields:
-    description: ''
+    description: Custom fields allow you to capture additional information and attributes for your data.
+      You can easily define the custom fields to meet the unique needs of your business.
+      These custom fields will complement the system default fields to provide you a more insightful and customized database.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   completeInventoryManagement:
-    description: ''
+    description: Keep track of your inventory in real-time and optimize your stock levels to reduce
+      holding costs and ordering costs tremendously.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   applyExpenses:
-    description: ''
+    description: Take a picture and submit the expense
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   approveExpenses:
-    description: ''
+    description: "Step 1: The employee submits a request, and the manager is instantly notified.
+      Step 2: Review and approve/reject expense requests with a single click right on your Dashboard while stating an appropriate reason for rejection.
+      Step 3: The employee is notified immediately regarding the status of the request."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   salesAutomation:
-    description: ''
+    description: Integrate automation into your sales pipeline
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   automateTasksOnDealStages:
-    description: ''
+    description: Automating tasks on deal stages in Deskera CRM allows for a more streamlined sales process,
+      reducing manual entry and ensuring consistent follow-up
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
 usageLimits:
   invoiceAndBillsLimit:
-    description: ''
+    description: Maximum number of invoice and bills
     valueType: NUMERIC
     defaultValue: 30
     unit: invoices/bills
@@ -132,7 +144,7 @@ usageLimits:
     - createInvoices
     - createBills
   runPayrollLimit:
-    description: ''
+    description: Maximun number of payrolls
     valueType: NUMERIC
     defaultValue: 15
     unit: employee
@@ -141,13 +153,13 @@ usageLimits:
     - runPayroll
 plans:
   STARTUP:
-    description: ''
+    description: The perfect choice for your new business. Setup integrated Accounting, CRM and Payroll in minutes.
     price: 35
     unit: user/month
     features: null
     usageLimits: null
   ESSENTIAL:
-    description: ''
+    description: The most popular choice for SMBs and growing companies. Suitable for growing businesses.
     price: 58
     unit: user/month
     features:
@@ -165,7 +177,7 @@ plans:
       runPayrollLimit:
         value: 30
   PROFESSIONAL:
-    description: ''
+    description: The ideal choice for companies that need advanced features and custom reporting.
     price: 119
     unit: user/month
     features:

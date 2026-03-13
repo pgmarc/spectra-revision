@@ -3,345 +3,394 @@ saasName: Deskera
 version: '2022-12-05'
 createdAt: '2022-12-05'
 currency: USD
-url: https://web.archive.org/web/20211014065819/https://www.deskera.com/pricing/
+url: https://web.archive.org/web/20221205071009/https://www.deskera.com/pricing
 features:
   dedicatedSuccessManager:
-    description: ''
+    description: A manager to help you succeed with Deskera by the long term
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   allInOneDashboard:
-    description: ''
+    description: Access Deskera Books, CRM, People in one common place.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   movileApp:
-    description: ''
+    description: Deskera Mobile is an always-on mobile application designed for the needs of today's workforce.
+      Deskera Mobile gives you all the key accounting functions you need to track your financial health easily and accurately at any time.
+      Every time you create a financial document we automatically record it for the books and it'll be available everywhere.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   createInvoices:
-    description: ''
+    description: Generate custom invoices with a pdf editor.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createBills:
-    description: ''
+    description: Generate bills for purchases.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createRecurringInvoices:
-    description: ''
+    description: Invoice at the time interval you decide and is sent from repeatedly
+      to the same client in this period of time given.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   connectYourBanks:
-    description: ''
+    description: It is tedious and time-consuming to manually reconcile each transaction between your book's and your bank's records.
+      Auto bank reconciliation helps you to simplify this process in just a few clicks. Spend less time reconciling your banking transactions and focus more time running your business.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   collectPaymentOnline:
-    description: ''
+    description: Collect client payments with a bank account or with third party platforms like PayPal.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   inviteYourAccountant:
-    description: ''
+    description: Invite your accountant to manage your company financial records.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiCurrency:
-    description: ''
+    description: Apply multi-currency in Deskera, enabling working with multiple currency.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   addCustomFields:
-    description: ''
+    description: Custom fields allow you to capture additional information and attributes for your data.
+      You can easily define the custom fields to meet the unique needs of your business.
+      These custom fields will complement the system default fields to provide you a more insightful and customized database.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   standardReports:
-    description: ''
+    description: Generate comprehensive production reports to monitor the cost, efficiency and profitability
+      of production operations. Track production processes, gain insight into process bottlenecks, and
+      identify cost-saving opportunities.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   smartReports:
-    description: ''
+    description: Deskera (Deskera Books) allows you to create Smart Reports that can be comprised of selected fields from one
+      or multiple modules combined together. You can choose to have a report consisting of only few fields
+      from default modules in Deskera (Deskera Books).
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   automationWorkflows:
-    description: ''
+    description: Create Automations in Deskera to simulate workflows based on specific events. You can trigger events
+      like Auto Emailing, Updation of Contacts, etc upon the occurrence of events like - submission of forms, completion of the campaign, creation of a contact, etc.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   standardInventoryTracking:
-    description: ''
+    description:  Deskera's inventory management software updates your stocks in real-time and allows
+      you to view the stock availability in each warehouse in seconds.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   pickPackShip:
-    description: ''
+    description: Pick, Pack, Ship is the optimal solution for streamlining order fulfillment. It enables
+      efficient management of the entire order process from order placement to delivery.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiWarehouse:
-    description: ''
+    description: Assign stock to each location and keep track of inventory across all warehouses.
+      Automate inventory tracking, stock allocation, and shipping processes across different warehouses.
+      Access real-time inventory reports to maintain optimal stock levels.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   productVariants:
-    description: ''
+    description: Create variants of a product with different characteristics. For example, image you are selling
+      a T-shirt with different sizes (S, M and L) and colors (blue or red).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   batchTracking:
-    description: ''
+    description: Trace and monitor groups of items with similar properties as they make their way through
+      production and distribution channels, all the way to consumers.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   serialTracking:
-    description: ''
+    description: Easily identify and trace specific items with serial numbers. Quickly locate current and past
+      inventory details with real-time visibility. Streamline inventory processes and maximize efficiency.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   billOfMaterials:
-    description: ''
+    description: Create a bill of materials (BoM) for your parts, components, stored in Deskera. A BoM comprises guidelines needed
+      for gathering and utilizing the mentioned materials.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   landedCost:
-    description: ''
+    description: Track landed costs. Landed cost is the total cost to have goods produced and delivered from one point to another.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   wipTracking:
-    description: ''
+    description: Track work-in-progress (WIP) with ease, Monitor production progress and identify
+      bottlenecks quickly with effective resources and materials tracking functionalities. Generate
+      real-time reports to analyze estimate WIP levels. Optimize production and ensure efficient utilization of resources.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   finishedGoodsTracking:
-    description: ''
+    description: Calculate yields and costs of finished goods with ease. Automatically capture production
+      costs and analyze product profitability. Generate reports that can be used to assess price competitiveness.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   multiLevelBom:
-    description: ''
+    description: Create multi level BoM. A multi-level BoM is a hierarchical list of parts and assemblies in two or more tiers assembly.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   productionSchedulling:
-    description: ''
+    description: Create realistic production schedules by aligning demand forecasts with material availability and capacity.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   jobOrders:
-    description: ''
+    description: Automate work order task creation and assignment, track progress, and
+      monitor completion with real-time updates. Monitor resources, costs and time associated
+      with each work order for improved accuracy and efficiency.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   qualityCheck:
-    description: ''
+    description: Streamline the entire production process so that the final products are more likely to
+      meet quality requirements before reaching the external market. Enforce quality control throughout
+      the manufacturing process to prevent the manufacturing of defective products and to ensure compliance
+      with customer demands and regulatory requirements.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   yieldCalculation:
-    description: ''
+    description: Eliminate the need to manually calculate yields and reduce the time it takes
+      to create cost estimates. Automatically calculate yields based on actual usage and scrap data.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   demandPlanning:
-    description: ''
+    description: Deskera MRP Demand Forecasting and Planning module improves forecast accuracy and responsiveness
+      to ever-changing customer demand. Using this module, you can analyze sales shipment history, calculate
+      forecasts and update demand for MRP Software.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   demandForecasting:
-    description: ''
+    description: Deskera MRP Demand Forecasting and Planning module improves forecast accuracy and responsiveness
+      to ever-changing customer demand. Using this module, you can analyze sales shipment history, calculate
+      forecasts and update demand for MRP Software.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   substituteBOM:
-    description: ''
+    description: In cases where substitute components are permissible, the BOM allows for evaluating the cost
+      impact of using different materials or parts. This helps in selecting cost-effective alternatives without
+      compromising product quality.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   contacts:
-    description: ''
+    description: Deskera CRM software enables you to view your contact's personal information,
+      email log, conversation history, assigned activities, and notes all on a single page.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   manageAllSalesConversation:
-    description: ''
+    description: Handle every communication with prospects and customers in one centralized place
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   trackSalesActivities:
-    description: ''
+    description: Track leads and prospects, monitor opportunities, and manage customer relationships.
+      Easily customize pipeline stages to fit specific business needs. Monitor performance with insightful
+      analytics for improved results.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customFields:
-    description: ''
+    description: Create custom fields in Deskera CRM.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dragAndDropCustomForms:
-    description: ''
+    description: Create forms with customized fields (Text, Number, Email, Date, Select, Multi-Select) to gather data
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   standardIntegrations:
-    description: ''
+    description: Integrate Deskera with third party integrations like Apix Drive, Zapier, Documentero
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   salesAutomationWorkflows:
-    description: ''
+    description: React to events when certain actions are taken during Sales workflow
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   marketingAutomationWorkflows:
-    description: ''
+    description: React to events when certain actions are taken during Marketing workflow
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   chat:
-    description: ''
+    description: Connect with customers in real-time via a live chat widget on the website.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sendEmailBlasts:
-    description: ''
+    description: Design and manage email campaigns, but also to track and manage all kind of campaigns
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   noCodeLandingPages:
-    description: ''
+    description: Design fast, responsive landing pages in minutes without writing a single line of code.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scheduleMeetings:
-    description: ''
+    description: Create meeting in the calendars.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   setupEmailHelpdesk:
-    description: ''
+    description: Automatically respond to customer emails with custom templates.
+      Track customer emails by assigning labels and tags for better organization.
+      Integrate with popular email services such as Gmail and Outlook for easy communication.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   hiringManagement:
-    description: ''
+    description: Track and access all your job applications in one place.
+      Design custom hiring workflows for your job roles and collaborate with your team.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   runPayroll:
-    description: ''
+    description: Efficiently manage payroll processing and accurately pay employees with ease.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   submitExpenses:
-    description: ''
+    description: Take a picture and submit the expense
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   approveExpenses:
-    description: ''
+    description: "Step 1: The employee submits a request, and the manager is instantly notified.
+      Step 2: Review and approve/reject expense requests with a single click right on your Dashboard while stating an appropriate reason for rejection.
+      Step 3: The employee is notified immediately regarding the status of the request."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   applyLeaves:
-    description: ''
+    description: From an employee's point of view, all the leave types assigned to you will be displayed along
+      with the amount of leave taken, leave earned, and the current balance.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   approveLeaves:
-    description: ''
+    description: Need to keep the right people informed? No problem. You don't need to worry about whether a manager
+      receives an employee's request, with automated notifications in the system, which ensures no request goes
+      unanswered or unseen. Once the employee submits a leave request, managers can approve it instantly with
+      a click of a button straight from the Dashboard. They can even add an explanation in case the application
+      was denied or needs modifications.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   paySlipDesigner:
-    description: ''
+    description: You can build your very own pay stub with our extraordinarily intuitive and flexible
+      pay stub designer. Deskera people provide you the tools and the sample templates necessary for you
+      to develop the pay stub sent to your employees.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   attendanceManagement:
-    description: ''
+    description: Monitor employees' hours worked.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shiftManagement:
-    description: ''
+    description: Assign shifts to employees in Deskera
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   geoFencing:
-    description: ''
+    description: Ensure employees mark attendance only when they are physically present at an approved location
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   phoneSupport:
-    description: ''
+    description: Support via phone
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   emailSupport:
-    description: ''
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Support via live chat
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   accessToHelpCenter:
-    description: ''
+    description: Access to Deskera help center portal
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   deskeraAcademy:
-    description: ''
+    description: Access to Deskera courses and training
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   reportsCustomization:
-    description: ''
+    description: Gain real-time insights into business performance with customizable graphical reports.
+      Monitor sales trends, track customer purchases, and manage inventory levels with ease.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   integrations:
-    description: ''
+    description: Add more features to Deskera by enabling modules to Deskera.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   customDashboards:
-    description: ''
+    description: View all data in one place with modern visualization. Customize dashboards with required features and data.
+      Get dynamic visualizations that update in real time.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
 plans:
   ALL_IN_ONE:
-    description: ''
     price: 200
     unit: user/month
     features: null
     usageLimits: null
   ESSENTIAL:
-    description: ''
     price: 300
     unit: user/month
     features:
@@ -369,7 +418,6 @@ plans:
         value: true
     usageLimits: null
   PROFESSIONAL:
-    description: ''
     price: Contact Sales
     unit: user/month
     features:
