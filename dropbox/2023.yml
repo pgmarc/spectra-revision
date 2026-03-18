@@ -8,396 +8,411 @@ currency: USD
 url: https://web.archive.org/web/20231203025118/https://www.dropbox.com/plans
 features:
   storage:
-    description: ''
+    description: The amount of space you receive by default
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   bestInClassSyncTechnology:
-    description: ''
+    description: Faster sync using our delta, LAN, and streaming sync technology
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   easyAndSecureSharing:
-    description: ''
+    description: No matter who you're working with, or what you're working on, we have easy ways to share files
+      and folders.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   anytimeAccess:
-    description: ''
+    description: Access your Dropbox account from any Windows, Mac, Linux, iOS, or Android device.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   anywhereAccess:
-    description: ''
+    description: Access your Dropbox account from any Windows, Mac, Linux, iOS, or Android device.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   connectUnlimitedDevices:
-    description: ''
+    description: Log in to an unlimited number of devices, with limits for users on Dropbox Basic.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   256BitAES:
-    description: ''
+    description: Dropbox uses 256-bit AES for files at rest.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   SSL/TLSEncryption:
-    description: ''
+    description: Dropbox uses SSL/TLS for data in transit, so your files are protected.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   selfSigning:
-    description: ''
+    description: Sign your documents on dropbox.com.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   signatureRequest:
-    description: ''
+    description: Prepare documents and request legally-binding signatures without ever leaving your Dropbox account.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   industryLeadingSecurity:
-    description: ''
+    description: All documents are tamper-proof and paired with a complete audit trail. Documents and data are encrypted and
+      compliant with ISO 27001, elIDAS, and GDPR.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   industryLeadingPrivacy:
-    description: ''
+    description: All documents are tamper-proof and paired with a complete audit trail. Documents and data are encrypted and
+      compliant with ISO 27001, elIDAS, and GDPR.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   templates:
-    description: ''
+    description: Streamline your signature request by turning frequently used documents into templates. Save your formatting
+      and fields once, then reuse that template again in seconds.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   branding:
-    description: ''
+    description: Personalize signature requests and stay on-brand by adding your company logo, tagline, and custom messaging.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   realTimeDocumentAnalytics:
-    description: ''
+    description: Know when shared links are opened, who uses them, and track document activity, page by page.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   passcodeVerification:
-    description: ''
+    description: Require a passcode to access shared content.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   emailVerfication:
-    description: ''
+    description: Require email to access shared content.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   viewerEngagementDashboard:
-    description: ''
+    description: Simplify viewer management with a consolidated view of all the files you share.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   backup:
-    description: ''
+    description: Automatically back up computers —and connected external drives— directly to the cloud. And quickly recover your content
+      if something ever goes wrong.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   accountRecovery:
-    description: ''
+    description: Recover from accidents or ransomware by reversing all changes to your content at the folder or account level.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   versionHistory:
-    description: ''
+    description: Recover from accidents or ransomware by reversing all changes to your content at the folder or account level.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   restoreDeletedFiles:
-    description: ''
+    description: Recover older versions and restore deleted files.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   passwordManagement:
-    description: ''
+    description: Store and sync your passwords across devices to seamlessly sign in to websites and apps.
+      Only you can access your passwords, not even Dropbox can.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   multiFactorAuthentication:
-    description: ''
+    description: Require six-digit security code or key in addition to a password to access to your account.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   documentScanning:
-    description: ''
+    description: Scan files directly to your Dropbox account or convert existing files to scans with the Dropbox mobile app.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   remoteDeviceWipe:
-    description: ''
+    description: Clear files from lost or stolen devices to keep company data in the right hands.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   watermarking:
-    description: ''
+    description: Protect your best ideas. Add a digital watermark to any file before sharing with collaborators or clients.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   sharedLinkControls:
-    description: ''
+    description: Manage visibility and access to shared files with password protection, download permissions, and expiration dates.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   accountTransferTool:
-    description: ''
+    description: Easy transfer files from one user to another when responsabilites change.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   granularPermissions:
-    description: ''
+    description: Control who can access folders and files, and what kind of access permissions they have for each one.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   enableHIPAACompliance:
-    description: ''
+    description: We're committed to helping customers subject to HIPAA/HITECH regulations safeguard protected health information (PHI).
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   deviceApprovals:
-    description: ''
+    description: dmin can control the number of connected devices and what happens to disconnected devices.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   externalSharingControls:
-    description: ''
+    description: Require a password and expiration date for externally shared links. And easily revoke access when needed.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   externalSharingReporting:
-    description: ''
+    description: View all files and folders shared outside of your team in a centralized dashboard.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   dataClassification:
-    description: ''
+    description: Stay comliant with privacy and security policies. Automatically track and report on sensitive or confidential info
+      stored in your Dropbox.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   ransomwareDetectionAndRecovery:
-    description: ''
+    description: Stay compliant with privacy and security policies. Automatically track and report on sensitive or confidential
+      into stored in your Dropbox.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   suspiciusActivityAlerts:
-    description: ''
+    description: "Get immediately alerted to suspicious behaviour like:\n\n- Ransomware attacks\n- Mass file delections or moves\n
+      - Too many sign-in attempts\n- Sign-in attemps from high-risk contries"
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   dropboxCapture:
-    description: ''
+    description: Create and share screen recordings, video messages, GIFs and screenshots.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videoTranscripts:
-    description: ''
+    description: View transcriptions for video files.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   closedCaptions:
-    description: ''
+    description: Turn on closed captions for video files.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videoEditing:
-    description: ''
+    description: Preview, crop, rotate, flip, or trim video files on the web.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videoCommenting:
-    description: ''
+    description: Add time-stamped comments on videos so others can jump to the exact sound you're referring to.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dropboxReplay:
-    description: ''
+    description: Review and approve videos, images, and audio faster with frame-accurate comment and markups — even if
+      collaborators don't have Dropbox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   largeFileDelivery:
-    description: ''
+    description: Securely send large files —up to 100 GB— to any recipient, even if they don't have Dropbox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fileRequests:
-    description: ''
+    description: Collect files from multiple people, even those without a Dropbox account,
+      while keeping file submissions visible only to you.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   integratedCloudContent:
-    description: ''
+    description: Work with any type of content —like Google Docs, Sheets, and Slides, or Microsoft Office files— right from Dropbox.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   onlineDocuments:
-    description: ''
+    description: Work in real-time on documents with your teams. Beautifully showcase embedded video, images, code and sound.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   onlineNoteTaking:
-    description: ''
+    description: Take notes. Beautifully showcase embedded video, images, code and sound.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   webPreviews:
-    description: ''
+    description: Preview files on the web.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   webComments:
-    description: ''
+    description: Leave comments directly on specific parts of the file.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   plusButton:
-    description: ''
+    description: Create new Microsoft Office files, upload photos, and scan documents straight from the Dropbox app on your
+      iPhone.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   pdfEditing:
-    description: ''
+    description: PDF editing to rearrange pages and add text —all within Dropbox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedPdfEditing:
-    description: ''
+    description: Advanced editing, includes editing existing text
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   annotatePDFs:
-    description: ''
+    description: Make edits to PDFs, including text highlighting, freeform drawing, directly using Dropbox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   signPDFs:
-    description: ''
+    description: Add signatures directly using Dropbox.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   imageEditing:
-    description: ''
+    description: Rotate, flip, and crop images. Adjust color and tone. Make edits while previewing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   imageSearch:
-    description: ''
+    description: Search images in your Dropbox account based on the content in them.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fullTextSearch:
-    description: ''
+    description: Easily search the content of all your files, including docs scanned with the Dropbox mobile app.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   brandedSharing:
-    description: ''
+    description: Present shared files with your logo, company name, and a background image.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   fileLocking:
-    description: ''
+    description: Lock files when editing to prevent unwanted changes and avoid conflicting copies.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   viewerHistory:
-    description: ''
+    description: See who has previously viewed your files and when.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   adminConsole:
-    description: ''
+    description: Monitor team activity, view connected devices, and audit sharing activity.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   multiTeamAdminLogin:
-    description: ''
+    description: Manage multiple Dropbox teams with a single admin login.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralizedBilling:
-    description: ''
+    description: Manage and pay for all employees' accounts with a single bill.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
   companyManagedGroups:
-    description: ''
+    description: Allow admins to create authoritative groups that users cannot modify.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   apiAccessToSecurityPlatformPartners:
-    description: ''
+    description: Get unlimited API access to SIEM, DLP & CASB, Network Security, Identity & Access Management, Enterprise
+      Mobility Management, and Legal Hold partners.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   apiAccessToProductivityPlatformPartners:
-    description: ''
+    description: Get unlimited access to our productivity partner ecosystem, with app integrations for Communication, Workflow,
+      Project Management, CRM, Productivity, Education, Media & Design, Finance, eSignature, and Marketing solutions.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   apiAccessToDataTransportPlatformPartners:
-    description: ''
+    description: Transfer data from your existing solutions with 1 billion included API calls per month to data transport
+      partners. For additional data transport needs, contact support.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   tieredAdminRoles:
-    description: ''
+    description: Allows teams to have multiple admin roles, each with a different set of permissions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   signInAsUser:
-    description: ''
+    description: Allows team admins to sign in to the Dropbox accounts of members of their teams.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   auditLogsWithFileEventTracking:
-    description: ''
+    description: Monitor the file-level actions your team members are taking.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   singleSignOn:
-    description: ''
+    description: Easily integrate Dropbox with any large identity provider.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   inviteEnforcement:
-    description: ''
+    description: Force invited users with a Dropbox account on your domain to join the team account.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   priorityEmailSupport:
-    description: ''
+    description: Get priority over other support request via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   liveChatSupport:
-    description: ''
+    description: Get priority over other support request via live chat
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   phoneSupportDuringBusinessHours:
-    description: ''
+    description: During business hours you can call the support team
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   storageLimit:
-    description: ''
+    description: Maximun disk space available in your account
     valueType: NUMERIC
     defaultValue: 2000
     unit: GB
@@ -405,13 +420,13 @@ usageLimits:
     linkedFeatures:
     - storage
   usersLimit:
-    description: ''
+    description: Maximun number of users associated with your plan.
     valueType: NUMERIC
     defaultValue: 1
     unit: user
     type: NON_RENEWABLE
   signatureRequestLimit:
-    description: ''
+    description: Maximum number of signature request per month
     valueType: NUMERIC
     defaultValue: 3
     unit: signature/month
@@ -419,7 +434,7 @@ usageLimits:
     linkedFeatures:
     - signatureRequest
   templatesLimit:
-    description: ''
+    description: Maximum number of templates
     valueType: NUMERIC
     defaultValue: 0
     unit: template
@@ -427,7 +442,7 @@ usageLimits:
     linkedFeatures:
     - templates
   accountRecoveryAndVersionHistoryThreshold:
-    description: ''
+    description: Maximun time period for recovery and version history restoration
     valueType: NUMERIC
     defaultValue: 30
     unit: day
@@ -436,7 +451,7 @@ usageLimits:
     - accountRecovery
     - versionHistory
   restoreDeletedFilesThreshold:
-    description: ''
+    description: Maximum time period to restore deleted files
     valueType: NUMERIC
     defaultValue: 30
     unit: day
@@ -444,7 +459,7 @@ usageLimits:
     linkedFeatures:
     - restoreDeletedFiles
   dropboxCaptureRecordingTimeLimit:
-    description: ''
+    description: Maximum time to capture in Dropbox capture
     valueType: NUMERIC
     defaultValue: 120
     unit: min
@@ -452,28 +467,28 @@ usageLimits:
     linkedFeatures:
     - dropboxCapture
   dropboxCaptureFullHDQuality:
-    description: ''
+    description: Wether to capture with full hd quality
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dropboxCapture
   dropboxCapture4kQuality:
-    description: ''
+    description: Wether to capture with 4k quality
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dropboxCapture
   dropboxCaptureAdvancedVideoEditing:
-    description: ''
+    description: Enable advanced video editing in Dropbox Capture.
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dropboxCapture
   dropboxReplayFileUploadsLimit:
-    description: ''
+    description: Maximum number of file uploads for Dropbox replay
     valueType: NUMERIC
     defaultValue: 4
     unit: file
@@ -481,28 +496,28 @@ usageLimits:
     linkedFeatures:
     - dropboxReplay
   dropboxReplayLiveReviews:
-    description: ''
+    description: Enable Dropbox replay live reviews
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dropboxReplay
   dropboxReplayVersions:
-    description: ''
+    description: Enable Dropbox replay versions
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dropboxReplay
   dropboxReplayVideoCollaboration:
-    description: ''
+    description: Enable dropbox replay video collaboration
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
     linkedFeatures:
     - dropboxReplay
   largeFileDeliveryLimit:
-    description: ''
+    description: Maximum number of file size to transfer
     valueType: NUMERIC
     defaultValue: 2
     unit: GB/transfer
@@ -510,7 +525,7 @@ usageLimits:
     linkedFeatures:
     - largeFileDelivery
   apiAccessToDataTransportPlatformPartnersLimit:
-    description: ''
+    description: Enable API access to data transport platform partners
     valueType: NUMERIC
     defaultValue: 0
     unit: request/month
@@ -519,13 +534,13 @@ usageLimits:
     - apiAccessToDataTransportPlatformPartners
 plans:
   PLUS:
-    description: ''
+    description: For personal use
     price: 9.99
     unit: /month
     features: null
     usageLimits: null
   ESSENTIALS:
-    description: ''
+    description: For professionals
     price: 16.58
     unit: /month
     features:
@@ -575,7 +590,7 @@ plans:
       largeFileDeliveryLimit:
         value: 100
   BUSINESS:
-    description: ''
+    description: For teams
     price: 15
     unit: user/month
     features:
@@ -667,7 +682,7 @@ plans:
       apiAccessToDataTransportPlatformPartnersLimit:
         value: 1000000000
   BUSINESS_PLUS:
-    description: ''
+    description: For companies
     price: 24
     unit: user/month
     features:
