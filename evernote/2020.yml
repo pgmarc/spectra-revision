@@ -8,38 +8,40 @@ currency: USD
 url: https://web.archive.org/web/20201130010053/https://evernote.com/compare-plans
 features:
   syncAcrossDevices:
-    description: ''
+    description: Sync your data automatically across devices
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   notes:
-    description: ''
+    description: Take great notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   offlineAccess:
-    description: ''
+    description: Evernote is designed to sync all of your notes and notebooks across all your devices when you have an internet connection.
     valueType: TEXT
     defaultValue: Desktop
     type: DOMAIN
   scanHadWrittenNotes:
-    description: ''
+    description: Scan handwritten notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scanWhiteboards:
-    description: ''
+    description: Effortlessly scan and save whiteboard notes with seamless integration, enhancing
+      classroom and office productivity with ease.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scanReceipts:
-    description: ''
+    description: Scanning receipts keeps your records organized and reduces paper clutter. It also
+      simplifies tax preparation and helps track expenses for small businesses.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scanMore:
-    description: ''
+    description: Scan more
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -60,53 +62,55 @@ features:
     defaultValue: true
     type: DOMAIN
   recordAudioNotes:
-    description: ''
+    description: You can record or upload audio directly in Evernote to capture ideas, conversations,
+      or meetings without leaving your notes. This makes it easy to store, replay, and organize everything
+      in one place — whether you're documenting a class, brainstorming, or taking meeting notes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   toDoLists:
-    description: ''
+    description: Stay on top of it all by creating to-dos in your notes and managing them your way.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   annotateImages:
-    description: ''
+    description: Annotate on images
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   applyTemplatesToNotes:
-    description: ''
+    description: Apply templates to your notes from a wide variety of options
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   annotatePdfs:
-    description: ''
+    description: Annotate PDFs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createCustomTemplates:
-    description: ''
+    description: Create your own custom templates
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   saveCustomTemplates:
-    description: ''
+    description: Save your own custom templates
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scanAndDigitalizeBusinessCardsToCreateContacts:
-    description: ''
+    description: Scan and digitize business cards to create a personal database of contacts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   forwardEmailsIntoEvernote:
-    description: ''
+    description: Forward emails directly into your Evernote account
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   addRemindersToNotes:
-    description: ''
+    description: Add reminders to your notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -121,7 +125,7 @@ features:
     defaultValue: true
     type: DOMAIN
   connectWithSlack:
-    description: ''
+    description: Connect Slack to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -129,7 +133,7 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   connectWithTeams:
-    description: ''
+    description: Connect MS Teams to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -137,7 +141,7 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software
   connectWithGmail:
-    description: ''
+    description: Connect your Gmail account to save important emails in Evernote
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -145,17 +149,17 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   searchTextInsideImages:
-    description: ''
+    description: Search text inside images with Optical character regcognition technology.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   searchTextInsideHandwrittenNotes:
-    description: ''
+    description: Search for text inside handwritten notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   connectWithOutlook:
-    description: ''
+    description: Connect your Outlook account to Evernote
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -163,52 +167,52 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook
   searchTextInsideOfficeDocs:
-    description: ''
+    description: Search text inside Office Docs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchTextInsidePdfs:
-    description: ''
+    description: Search text inside PDFs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   versionHistoryOfNotes:
-    description: ''
+    description: See a version history of your notes
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   restoreNotesFromOlderVersions:
-    description: ''
+    description: Restore notes to older versions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shareNotesWithPeople:
-    description: ''
+    description: Share notes with one or more people
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareNotebooksWithPeople:
-    description: ''
+    description: Share notebooks with one or more people
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   setPermissionsForEdittingNotes:
-    description: ''
+    description: Control permissions for others to edit notes
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForEdittingNotebooks:
-    description: ''
+    description: Control permissions for others to edit notebooks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForViewingNotes:
-    description: ''
+    description: Control permissions for others to view notes
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForViewingNotebooks:
-    description: ''
+    description: Control permissions for others to edit notebooks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
@@ -218,22 +222,25 @@ features:
     defaultValue: false
     type: MANAGEMENT
   twoStepVerification:
-    description: ''
+    description: Two-step verification, also known as two-factor authentication, adds an additional layer of
+      security to the login process, requiring you to enter a verification code from your phone in addition to
+      your regular username and password. The goal of this extra step is to combine something you know (your password)
+      with something only you would have access to (your phone).
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   forumSupport:
-    description: ''
+    description: Get help with the support forum
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   emailSupport:
-    description: ''
+    description: Get help via email
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Get help via chat
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
@@ -243,29 +250,35 @@ features:
     defaultValue: false
     type: MANAGEMENT
   userManagement:
-    description: ''
+    description: Access information on users,
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   singleSignOn:
-    description: ''
+    description: Evernote uses the secure and widely adopted industry standard Security Assertion Markup Language 2.0 (SAML 2.0).
+      This means that our implementation of SSO integrates easily with any large identity provider that support SAML 2.0.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   activityHistory:
-    description: ''
+    description: Activity History is a tool for account admins to monitor changes occurring in their
+      accounts. It provides detailed logs of activity in an account for the past 18 months,
+      and reports can be generated containing up to 90 days worth of data at a time. Activity History is searchable
+      and includes records of user actions like creating or deleting a note. It also includes the name and email address
+      of the user who performed the action, along with IP address, approximate location, version of Evernote, and operating
+      system used
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   businessDataOwnership:
-    description: ''
+    description: Control the information in your account
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   syncDevicesLimit:
-    description: ''
+    description: Maximum devices on account
     valueType: NUMERIC
     defaultValue: 2
     unit: device
@@ -273,7 +286,7 @@ usageLimits:
     linkedFeatures:
     - syncAcrossDevices
   maximumNoteSize:
-    description: ''
+    description: Maximum size for notes
     valueType: NUMERIC
     defaultValue: 25
     unit: MB/note
@@ -281,19 +294,19 @@ usageLimits:
     linkedFeatures:
     - notes
   globalMonthlyUploadLimit:
-    description: ''
+    description: Maximum upload limit of the account
     valueType: NUMERIC
     defaultValue: 60
     unit: MB
     type: RENEWABLE
   monthlyUploadLimitByUser:
-    description: ''
+    description: Maximum month upload limit by user
     valueType: NUMERIC
     defaultValue: 0
     unit: MB
     type: RENEWABLE
   users:
-    description: ''
+    description: Maximum number of users in one account
     valueType: NUMERIC
     defaultValue: 1
     unit: user
@@ -393,7 +406,7 @@ plans:
         value: 2048
 addOns:
   extraBusinessUser:
-    description: ''
+    description: Add an extra team user to your plan.
     price: 14.99
     unit: user/month
     features: null

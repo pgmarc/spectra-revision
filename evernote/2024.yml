@@ -8,47 +8,47 @@ currency: USD
 url: https://web.archive.org/web/20240707040421/https://evernote.com/compare-plans
 features:
   notes:
-    description: ''
+    description: Take great notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   notebooks:
-    description: ''
+    description: ooks contain a collection of notes, usually grouped around a single topic.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   syncAcrossDevices:
-    description: ''
+    description: Choose from mobile, desktop and web
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForIOS:
-    description: ''
+    description: App for iOS
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForAndroid:
-    description: ''
+    description: App for Android
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForWindows:
-    description: ''
+    description: App for Windows
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForMac:
-    description: ''
+    description: App for Mac
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForWeb:
-    description: ''
+    description: App for web
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -113,7 +113,7 @@ features:
     type: AUTOMATION
     automationType: BOT
   googleIntegration:
-    description: ''
+    description: Google (Gmail, Drive, Calendar)
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -121,7 +121,7 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   microsoftIntegration:
-    description: ''
+    description: Microsoft Outlook (Email, Calendar)
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -129,7 +129,7 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/microsoft-outlook-email-and-calendar-software
   slackIntegration:
-    description: ''
+    description: Connect Slack to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -137,27 +137,27 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   twoStepVerification:
-    description: ''
+    description: Two-step verification for added data security
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   applyInNoteEncryption:
-    description: ''
+    description: Apply in-note encryption on Mac and Windows
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   helpAndLearningCenter:
-    description: ''
+    description: Access to Evernote help and learning center
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   communityForum:
-    description: ''
+    description: Access to comunity forum
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   supportTickets:
-    description: ''
+    description: File a support ticket to get your questions answered
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
@@ -194,7 +194,7 @@ features:
     integrationType: IDENTITY_PROVIDER
 usageLimits:
   notesLimit:
-    description: ''
+    description: Maximum limit of notes
     valueType: NUMERIC
     defaultValue: 50
     unit: notes
@@ -202,7 +202,7 @@ usageLimits:
     linkedFeatures:
     - notes
   notebooksLimit:
-    description: ''
+    description: Maximum limit of notebooks
     valueType: NUMERIC
     defaultValue: 1
     unit: notebooks
@@ -210,7 +210,7 @@ usageLimits:
     linkedFeatures:
     - notebooks
   maximumNoteSize:
-    description: ''
+    description: Maximum note size limit
     valueType: NUMERIC
     defaultValue: 25
     unit: MB/note
@@ -218,19 +218,19 @@ usageLimits:
     linkedFeatures:
     - notes
   globalMonthlyUploadLimit:
-    description: ''
+    description: Maximum upload limit of the account
     valueType: NUMERIC
     defaultValue: 60
     unit: MB
     type: RENEWABLE
   monthlyUploadLimitByUser:
-    description: ''
+    description: Maximum month upload limit by user
     valueType: NUMERIC
     defaultValue: 0
     unit: MB
     type: RENEWABLE
   syncAccrossDevicesLimit:
-    description: ''
+    description: Maximum devices to sync in your account
     valueType: NUMERIC
     defaultValue: 2
     unit: devices
@@ -238,7 +238,7 @@ usageLimits:
     linkedFeatures:
     - syncAcrossDevices
   externalCalendarsLimit:
-    description: ''
+    description: Maximum number of external calendars
     valueType: NUMERIC
     defaultValue: 1
     unit: calendars

@@ -8,7 +8,7 @@ currency: USD
 url: https://web.archive.org/web/20191130092655/https://evernote.com/compare-plans
 features:
   notes:
-    description: ''
+    description: Take great notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -18,210 +18,212 @@ features:
     defaultValue: true
     type: DOMAIN
   webClippingsFromAnyBrowserOrDevice:
-    description: ''
+    description: Collect web clippings from any browser or device
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   webScreenshotsFromAnyBrowserOrDevice:
-    description: ''
+    description: Collect web screenshots from any browser or device
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   recordAudioNotes:
-    description: ''
+    description: Record audio notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   toDoLists:
-    description: ''
+    description: Create to-do lists with checkboxes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   takeNotesWithStylusOnMobileDevices:
-    description: ''
+    description: Take notes with your stylus on mobile devices
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   highlightOnImages:
-    description: ''
+    description: Highlight on images
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   annotateOnImages:
-    description: ''
+    description: Annotate on images
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   commentOnImages:
-    description: ''
+    description: Comment on images
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   attachPdfs:
-    description: ''
+    description: Attach PDFs
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   attachReceipts:
-    description: ''
+    description: Attach receipts
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   attachFiles:
-    description: ''
+    description: Attach files
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   attachDocuments:
-    description: ''
+    description: Attach documents
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   clipPagesImagesFromTheWeb:
-    description: ''
+    description: Clip full pages and images from the web
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   clipTextFromTheWeb:
-    description: ''
+    description: Clip text from the web
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   forwardEmailsIntoEvernote:
-    description: ''
+    description: Forward emails into your Evernote account
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   scanAndDigitalizeBusinessCardsToCreateContacts:
-    description: ''
+    description: Scan and digitize business cards and create contact notes
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   annotatePdfs:
-    description: ''
+    description: Annotate PDFs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchNotes:
-    description: ''
+    description: Create notebooks and tags
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createNotebooks:
-    description: ''
+    description: Create notebooks and tags
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createTags:
-    description: ''
+    description: Tags are a powerful way to organize your notes, making it easier to find and manage
+      information. Unlike notebooks, which group notes into distinct collections, tags allow for flexible
+      categorization—perfect for notes that span multiple topics.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sortInformationByDate:
-    description: ''
+    description: Sort information by date
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sortInformationByTitle:
-    description: ''
+    description: Sort information by title
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sortInformationByTag:
-    description: ''
+    description: Sort information by tag
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   organizeInformationByDate:
-    description: ''
+    description: Organize information by date
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   organizeInformationByTitle:
-    description: ''
+    description: Organize information by title
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   organizeInformationByTag:
-    description: ''
+    description: Organize information by tag
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   searchTextInsideImages:
-    description: ''
+    description: Search text inside images with Optical character regcognition technology.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   searchTextInsidePdfs:
-    description: ''
+    description: Search text inside PDFs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchTextInsideOfficeDocs:
-    description: ''
+    description: Search text inside Office Docs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   versionHistoryOfNotes:
-    description: ''
+    description: See a version history of your notes
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shareNotesWithPeople:
-    description: ''
+    description: Share notes with one or more people
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   setPermissionsForEdittingNotes:
-    description: ''
+    description: Set permissions for editing notes
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForEdittingNotebooks:
-    description: ''
+    description: Set permissions for editing notebooks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   turnNotesIntoPresentations:
-    description: ''
+    description: Turn notes into a presentation with one click
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   shareNotesWithinYourCompany:
-    description: ''
+    description: Share notes within your company
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shareNotebooksWithinYourCompany:
-    description: ''
+    description: Share notebooks within your company
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   recommendRelatedNotes:
-    description: ''
+    description: Recommends related notes from others at your company
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   typpingSuggestions:
-    description: ''
+    description: As you type, see related info from The Wall Street Journal, Inc. Magazine, and more
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   recommendRelatedNotesFromYourCompany:
-    description: ''
+    description: Recommends related notes from others at your company
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   linkGoogleDriveFiles:
-    description: ''
+    description: Link Google Drive files
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -229,13 +231,13 @@ features:
     pricingUrls:
     - https://one.google.com/about/plans
   connectWithEmailProviders:
-    description: ''
+    description: Connect with email providers like Outlook
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   connectWithCommunicationTools:
-    description: ''
+    description: Connect with communication tools like Slack and Microsoft Teams
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -244,7 +246,7 @@ features:
     - https://slack.com/pricing
     - https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software
   connectWithCrms:
-    description: ''
+    description: Connect with CRM tools like Salesforce
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -252,27 +254,27 @@ features:
     pricingUrls:
     - https://www.salesforce.com/products/sales-cloud/pricing/
   collaborationSpacesForTeams:
-    description: ''
+    description: Collaboration spaces for team projects and workflows
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralLocationForWork:
-    description: ''
+    description: A central location for present and past work
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   permissionsBasedAccessToContent:
-    description: ''
+    description: Permissions-based access to content
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   virtualBulletinAboutNewsAccrossTheTeam:
-    description: ''
+    description: A virtual bulletin board for what's new across the team
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   editNotesInRealTeamWithOthers:
-    description: ''
+    description: Edit notes in real-time with others
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -287,46 +289,53 @@ features:
     defaultValue: false
     type: MANAGEMENT
   singleSignOn:
-    description: ''
+    description: Evernote uses the secure and widely adopted industry standard Security Assertion Markup Language 2.0 (SAML 2.0).
+      This means that our implementation of SSO integrates easily with any large identity provider that support SAML 2.0.
+      We also support ADFS.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   activityHistory:
-    description: ''
+    description: Activity History is a tool for account admins to monitor changes occurring in their
+      accounts. It provides detailed logs of activity in an account for the past 18 months,
+      and reports can be generated containing up to 90 days worth of data at a time. Activity History is searchable
+      and includes records of user actions like creating or deleting a note. It also includes the name and email address
+      of the user who performed the action, along with IP address, approximate location, version of Evernote, and operating
+      system used
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   businessDataOwnership:
-    description: ''
+    description: Control the information in your account
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   offlineAccess:
-    description: ''
+    description: Evernote is designed to sync all of your notes and notebooks across all your devices when you have an internet connection.
     valueType: TEXT
     defaultValue: Desktop
     type: DOMAIN
   customerSupport:
-    description: ''
+    description: Customer support via email and live chat
     valueType: TEXT
     defaultValue: Community Support
     type: SUPPORT
 usageLimits:
   globalMonthlyUploadLimit:
-    description: ''
+    description: Maximum upload limit of the account
     valueType: NUMERIC
     defaultValue: 60
     unit: MB
     type: RENEWABLE
   monthlyUploadLimitByUser:
-    description: ''
+    description: Maximum month upload limit by user
     valueType: NUMERIC
     defaultValue: 0
     unit: MB
     type: RENEWABLE
   maximumNoteSize:
-    description: ''
+    description: Maximum size of notes
     valueType: NUMERIC
     defaultValue: 25
     unit: MB/note
@@ -334,7 +343,7 @@ usageLimits:
     linkedFeatures:
     - notes
   collaborationSpacesLimit:
-    description: ''
+    description: Maximum number of collaboration spaces
     valueType: NUMERIC
     defaultValue: 0
     unit: space
@@ -342,13 +351,13 @@ usageLimits:
     linkedFeatures:
     - collaborationSpacesForTeams
   devicesOfDevicesWithOneAccount:
-    description: ''
+    description: Maximum number of devices that you can use with your account
     valueType: NUMERIC
     defaultValue: 2
     unit: device
     type: NON_RENEWABLE
   users:
-    description: ''
+    description: Maximum number of users in one account
     valueType: NUMERIC
     defaultValue: 1
     unit: user
@@ -474,7 +483,7 @@ plans:
         value: 1000000
 addOns:
   extraBusinessUser:
-    description: ''
+    description: Add an extra team user to your plan.
     price: 14.99
     unit: user/month
     features: null

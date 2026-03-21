@@ -8,54 +8,54 @@ currency: USD
 url: https://web.archive.org/web/20211129200145/https://evernote.com/compare-plans
 features:
   appForIOS:
-    description: ''
+    description: App for iOS
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForAndroid:
-    description: ''
+    description: App for Android
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForWindows:
-    description: ''
+    description: App for Windows
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForMac:
-    description: ''
+    description: App for Mac
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForLinux:
-    description: ''
+    description: App for Linux
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForWeb:
-    description: ''
+    description: App for web
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   syncAcrossDevices:
-    description: ''
+    description: Choose from mobile, desktop and web
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   notes:
-    description: ''
+    description: Take great notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   ad-free:
-    description: ''
+    description: Always ad-free
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -70,35 +70,35 @@ features:
     defaultValue: false
     type: DOMAIN
   addDueDatesToTasks:
-    description: ''
+    description: Add due dates to tasks
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   addRemindersToTasks:
-    description: ''
+    description: Add reminders to tasks
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   addNotificationsToTasks:
-    description: ''
+    description: Add notifications to tasks
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   customizeHomeWithTasksWidget:
-    description: ''
+    description: Customize Home with new Tasks widget
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   customizeHomeWithFilteredNotesWidget:
-    description: ''
+    description: Customize Home with filtered notes widget
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   connectWithPrimaryGoogleCalendar:
-    description: ''
+    description: Connect your primary Google Calendar account to Evernote
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -106,12 +106,12 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   assignTasksToOthers:
-    description: ''
+    description: Assign tasks to others
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   trackOthersProgressOnTasks:
-    description: ''
+    description: Track others progress on tasks
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -125,34 +125,34 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   customizeHomeWithPinnedNotesWidget:
-    description: ''
+    description: Customize Home by adding multiple pinned note widget
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   customizeHomeWithScratchPadWidget:
-    description: ''
+    description: Customize Home by adding multiple pinned scratch pad widget
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   useBooleanTermsToRefineSearch:
-    description: ''
+    description: Use Boolean terms to refine search results
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   findContentByLocation:
-    description: ''
+    description: Find content by location with geographic search
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportNotebooksAsPDFs:
-    description: ''
+    description: Find content by location with geographic search
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   homeDashboard:
-    description: ''
+    description: Get instant access to your content with Home dashboard
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -174,68 +174,72 @@ features:
     defaultValue: true
     type: DOMAIN
   scanHadWrittenNotes:
-    description: ''
+    description: Scan handwritten notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scanWhiteboards:
-    description: ''
+    description: Effortlessly scan and save whiteboard notes with seamless integration, enhancing
+      classroom and office productivity with ease.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scanReceipts:
-    description: ''
+    description: Scanning receipts keeps your records organized and reduces paper clutter. It also
+      simplifies tax preparation and helps track expenses for small businesses.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   scanMore:
-    description: ''
+    description: Scan more
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   recordAudioNotes:
-    description: ''
+    description: You can record or upload audio directly in Evernote to capture ideas, conversations,
+      or meetings without leaving your notes. This makes it easy to store, replay, and organize everything
+      in one place — whether you're documenting a class, brainstorming, or taking meeting notes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   playAudioNotes:
-    description: ''
+    description: Play back audio notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   annotateImages:
-    description: ''
+    description: Annotate on images
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   annotatePdfs:
-    description: ''
+    description: Annotate PDFs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   forwardEmailsIntoEvernote:
-    description: ''
+    description: Forward emails directly into your Evernote account
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   createCustomTemplates:
-    description: ''
+    description: Create your own custom templates
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   saveCustomTemplates:
-    description: ''
+    description: Save your own custom templates
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scanAndDigitalizeBusinessCardsToCreateContacts:
-    description: ''
+    description: Scan and digitize business cards to create a personal database of contacts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   addRemindersToNotes:
-    description: ''
+    description: Add reminders to your notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -245,7 +249,7 @@ features:
     defaultValue: true
     type: DOMAIN
   getSearchSugestionsAsYourType:
-    description: ''
+    description: Filter search results and get suggestions as you type
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
@@ -261,7 +265,7 @@ features:
     defaultValue: true
     type: DOMAIN
   connectWithGmail:
-    description: ''
+    description: Connect your Gmail account to save important emails in Evernote
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -269,23 +273,23 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   customizeHomeWithMoreWidgets:
-    description: ''
+    description: Customize Home with more widgets
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   customizeHomeWithBackgroundImages:
-    description: ''
+    description: Customize Home with background images
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   accessNotesOffline:
-    description: ''
+    description: Access notes offline on both mobile and desktop
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   connectWithGoogleDrive:
-    description: ''
+    description: Connect Google Drive to add files to your notes for quick access and editing
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -293,83 +297,83 @@ features:
     pricingUrls:
     - https://one.google.com/about/plans
   searchTextInsideImages:
-    description: ''
+    description: Search for text in images
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchTextInsideHandwrittenNotes:
-    description: ''
+    description: Search for text in handwriting documents
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchTextInsideDocuments:
-    description: ''
+    description: Search for text in documents
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchTextInsidePDFs:
-    description: ''
+    description: Search for text in PDFs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   versionHistoryOfNotes:
-    description: ''
+    description: See a version history of your notes
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   restoreNotesFromOlderVersions:
-    description: ''
+    description: Restore notes to older versions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   quicklySwitchBetweenAccounts:
-    description: ''
+    description: Quickly switch between different Evernote accounts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shareNotesWithPeople:
-    description: ''
+    description: Share notes with one or more people
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareNotebooksWithPeople:
-    description: ''
+    description: Share notebooks with one or more people
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   setPermissionsForEdittingNotes:
-    description: ''
+    description: Control permissions for others to edit notes
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForEdittingNotebooks:
-    description: ''
+    description: Control permissions for others to edit notebooks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForViewingNotes:
-    description: ''
+    description: Control permissions for others to view notes
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   setPermissionsForViewingNotebooks:
-    description: ''
+    description: Control permissions for others to view notebooks
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   sendEmailsWithNotesCopies:
-    description: ''
+    description: Email a copy of your notes to anyone
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   advancedPdfExportControls:
-    description: ''
+    description: Advanced PDF export controls
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   connectWithSlack:
-    description: ''
+    description: Connect Slack to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -377,7 +381,7 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   connectWithSalesforce:
-    description: ''
+    description: Connect Salesforce to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -385,7 +389,7 @@ features:
     pricingUrls:
     - https://www.salesforce.com/eu/sales/pricing/
   connectWithTeams:
-    description: ''
+    description: Connect Microsoft Teams to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -393,27 +397,27 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software
   dataNotForSale:
-    description: ''
+    description: Your data is NOT for sale, ever
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   twoStepVerification:
-    description: ''
+    description: Two-step verification for added data security
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   forumSupport:
-    description: ''
+    description: Find help on our community forums
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   applyInNoteEncryption:
-    description: ''
+    description: Apply in-note encryption on Mac and Windows
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   supportTickets:
-    description: ''
+    description: File a support ticket to get your questions answered
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
@@ -428,12 +432,17 @@ features:
     defaultValue: false
     type: MANAGEMENT
   teamOnboardingProgram:
-    description: ''
+    description: Team onboarding evernote program
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   activityHistory:
-    description: ''
+    description: Activity History is a tool for account admins to monitor changes occurring in their
+      accounts. It provides detailed logs of activity in an account for the past 18 months,
+      and reports can be generated containing up to 90 days worth of data at a time. Activity History is searchable
+      and includes records of user actions like creating or deleting a note. It also includes the name and email address
+      of the user who performed the action, along with IP address, approximate location, version of Evernote, and operating
+      system used
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
@@ -443,7 +452,7 @@ features:
     defaultValue: false
     type: SUPPORT
   connectWithOutlook:
-    description: ''
+    description: Connect your Outlook account to Evernote
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -452,7 +461,7 @@ features:
     - https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook
 usageLimits:
   syncDevicesLimit:
-    description: ''
+    description: Maximum devices on account
     valueType: NUMERIC
     defaultValue: 2
     unit: device
@@ -460,7 +469,7 @@ usageLimits:
     linkedFeatures:
     - syncAcrossDevices
   maximumNoteSize:
-    description: ''
+    description: Maximum size for notes
     valueType: NUMERIC
     defaultValue: 25
     unit: MB/note
@@ -468,19 +477,19 @@ usageLimits:
     linkedFeatures:
     - notes
   globalMonthlyUploadLimit:
-    description: ''
+    description: Maximum upload limit of the account
     valueType: NUMERIC
     defaultValue: 60
     unit: MB
     type: RENEWABLE
   monthlyUploadLimitByUser:
-    description: ''
+    description: Maximum month upload limit by user
     valueType: NUMERIC
     defaultValue: 0
     unit: MB
     type: RENEWABLE
   users:
-    description: ''
+    description: Maximum number of users in one account
     valueType: NUMERIC
     defaultValue: 1
     unit: user

@@ -15,39 +15,47 @@ billing:
 currency: USD
 features:
   notes:
+    description: Take great notes
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   notebooks:
+    description: ooks contain a collection of notes, usually grouped around a single topic.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   syncAcrossDevices:
+    description: Choose from mobile, desktop and web
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForIOS:
+    description: App for iOS
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForAndroid:
+    description: App for Android
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForWeb:
+    description: App for web
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForWindows:
+    description: App for Windows
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   appForMac:
+    description: App for Mac
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -121,6 +129,7 @@ features:
     type: AUTOMATION
     automationType: BOT
   googleIntegration:
+    description: Google integration (Gmail, Drive, Calendar)
     valueType: BOOLEAN
     defaultValue: true
     tag: Integrations
@@ -129,6 +138,7 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   microsoftIntegration:
+    description: Microsoft Outlook integration (Email, Calendar)
     valueType: BOOLEAN
     defaultValue: true
     tag: Integrations
@@ -137,6 +147,7 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/microsoft-outlook-email-and-calendar-software
   slackIntegration:
+    description: Connect Slack to save conversations and track decisions
     valueType: BOOLEAN
     defaultValue: false
     tag: Integrations
@@ -145,31 +156,37 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   twoFactorAuthentication:
+    description: Two-step verification for added data security
     valueType: BOOLEAN
     defaultValue: true
     tag: Security
     type: MANAGEMENT
   inNoteEncryptionMac:
+    description: Apply in-note encryption on Mac
     valueType: BOOLEAN
     defaultValue: true
     tag: Security
     type: MANAGEMENT
   applyInNoteEncryptionWindows:
+    description: Apply in-note encryption on Windows
     valueType: BOOLEAN
     defaultValue: true
     tag: Security
     type: MANAGEMENT
   helpAndLearningCenter:
+    description: Access to Evernote help and learning center
     valueType: BOOLEAN
     defaultValue: true
     tag: Support
     type: SUPPORT
   communityForum:
+    description: Access to comunity forum
     valueType: BOOLEAN
     defaultValue: true
     tag: Support
     type: SUPPORT
   supportTickets:
+    description: File a support ticket to get your questions answered
     valueType: BOOLEAN
     defaultValue: false
     tag: Support
@@ -213,6 +230,7 @@ features:
     integrationType: IDENTITY_PROVIDER
 usageLimits:
   notesLimit:
+    description: Maximum limit of notes
     valueType: NUMERIC
     defaultValue: 50
     unit: note
@@ -220,6 +238,7 @@ usageLimits:
     linkedFeatures:
     - notes
   notebooksLimit:
+    description: Maximum limit of notebooks
     valueType: NUMERIC
     defaultValue: 1
     unit: notebook
@@ -227,6 +246,7 @@ usageLimits:
     linkedFeatures:
     - notebooks
   maximumNoteSize:
+    description: Maximum note size limit
     valueType: NUMERIC
     defaultValue: 200
     unit: MB/note
@@ -234,16 +254,19 @@ usageLimits:
     linkedFeatures:
     - notes
   globalMonthlyUploadLimit:
+    description: Maximum upload limit of the account
     valueType: NUMERIC
     defaultValue: 250
     unit: MB
     type: RENEWABLE
   monthlyUploadLimitByUser:
+    description: Maximum month upload limit by user
     valueType: NUMERIC
     defaultValue: 0
     unit: MB
     type: RENEWABLE
   syncAccrossDevicesLimit:
+    description: Maximum devices to sync in your account
     valueType: NUMERIC
     defaultValue: 1
     unit: device
@@ -251,6 +274,7 @@ usageLimits:
     linkedFeatures:
     - syncAcrossDevices
   externalCalendarsLimit:
+    description: Maximum number of external calendars
     valueType: NUMERIC
     defaultValue: 5
     unit: calendars
