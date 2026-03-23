@@ -8,285 +8,290 @@ currency: USD
 url: https://web.archive.org/web/20221130060300/https://www.figma.com/pricing/
 features:
   versionHistory:
-    description: ''
+    description: Figma auto-saves and creates versions of your file every 30 minutes. You can name a version
+      at anytime and link to any past versions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   figmaEditor:
-    description: ''
+    description: All the design features you're familiar with—canvas, layers, grids, vectors, shapes, text, constraints, and more
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedDrawingTools:
-    description: ''
+    description: Figma invents features purpose built for web/UI designers, like Smart Selection, Vector Networks, and Arc Tool
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   autoLayout:
-    description: ''
+    description: Create interface designs which resize automatically with their content
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   styles:
-    description: ''
+    description: Define color, text and any effects to be reused across objects
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   pluginsAndWidgets:
-    description: ''
+    description: Use plugins built by the Figma community to improve your workflow
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   fileStorage:
-    description: ''
+    description: Unlimited cloud storage; access files from anywhere
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   crossPlatform:
-    description: ''
+    description: Figma works on Mac, PC, and Linux devices
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sketchImport:
-    description: ''
+    description: Create a new Figma file from your Sketch import
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   interactivePrototypes:
-    description: ''
+    description: Create prototypes with interactive overlays that simulate how a user may interact with your design
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videosInPrototypes:
-    description: ''
+    description: Add videos to Figma prototypes for richer, more realistic experiences
     valueType: TEXT
     defaultValue: Choose videos from the Figma Community
     type: DOMAIN
   overlays:
-    description: ''
+    description: Easily prototype an interaction where an element appears above another
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   transitions:
-    description: ''
+    description: Choose from a variety of transition animation options
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedAnimations:
-    description: ''
+    description: Use Smart Animate or create your own animations with springs, slides, dissolves, and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   pdfPngJpgSvgExport:
-    description: ''
+    description: Export Figma files and assets into other preferred formats
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiplayer:
-    description: ''
+    description: Figma enables multiple editors to jump into the same file, live edit, and work together
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareableLinks:
-    description: ''
+    description: Send a link to a Figma file or prototype—and control who get access to view or edit
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   onCanvasCommenting:
-    description: ''
+    description: Collaborators can comment directly on a prototype or file, so you know exactly what they're referencing
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   observationMode:
-    description: ''
+    description: Click on a specific user to see what they see on their screen—great for user testing and design critiques
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   privateProjects:
-    description: ''
+    description: Create invite-only spaces for your team to work privately
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   prototypeSharingPermissions:
-    description: ''
+    description: Share prototypes with clients and stakeholders without sharing the underlying design file
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   audioConversations:
-    description: ''
+    description: Use audio to talk with your collaborators directly in a Figma or FigJam file
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   teams:
-    description: ''
+    description: Bring multiple teams together under one central Figma account for easier management and collaboration
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   unlimitedTeams:
-    description: ''
+    description: Create and manage multiple teams within your organization to help groups find and focus on relevant work.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   branchingAndMerging:
-    description: ''
+    description: Work in a separate branch and merge changes to the main file when you are ready.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customWorkspaces:
-    description: ''
+    description: Organize users and content into multiple, focused workspaces that mirror how your organization is structured.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   components:
-    description: ''
+    description: Create a component out of any collection of objects or layers and use it as a reusable design
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teamLibraries:
-    description: ''
+    description: Create design systems with shared UI components for your team to use
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   organizationWideDesignSystems:
-    description: ''
+    description: Manage and share design systems across multiple teams at your organization
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   sharedFonts:
-    description: ''
+    description: Access your organization's shared fonts in Figma—instantly available to all Editors
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   designSystemAnalytics:
-    description: ''
+    description: View usage metrics to track adoption, measure impact, and more effectively maintain your design system
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   restApis:
-    description: ''
+    description: Tap into our REST APIs to bring Figma into your external tools and products
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   thirdPartyIntegrations:
-    description: ''
+    description: Figma integrates with tools like JIRA, Zeplin, Dropbox, Slack, so you can customize your workflow.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   liveEmbeds:
-    description: ''
+    description: Embed live Figma designs and prototypes wherever you need them
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   privatePluginsAndWidgets:
-    description: ''
+    description: Build your own private plugin for your team or organization to use
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   webhooks:
-    description: ''
+    description: Use our webhooks to automate workflows between Figma and your external tools or products.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   passwordProtection:
-    description: ''
+    description: Set a password on files and Open Sessions to share work publicly with more control.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   pluginAndWidgetManagement:
-    description: ''
+    description: Manage which plugins and widgets your organization has access to and install plugins on your users behalf.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralizedAdministration:
-    description: ''
+    description: Bring multiple teams together under one central Figma account; manage users and billing in one place
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   domainCapture:
-    description: ''
+    description: Option that allows you to automatically add anyone with a verified email address to your Figma account.
+      Talk to sales to learn more.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   linkAccessControls:
-    description: ''
+    description: Limit the ability to share files via a link outside your organization, ensuring
+      no one can view files unless explicitly invited
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   centralizedContentManagent:
-    description: ''
+    description: All files, including user drafts, are owned by your organization and can be recovered when users are de-provisioned
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   singleSignOn:
-    description: ''
+    description: Set up SAML single sign-on with your existing identity management system; enforce SSO
+      for all team members and manage provisioning via SCIM
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   activityLogs:
-    description: ''
+    description: See a record of actions members have taken in Figma that helps admins keep their organization secure
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   workspaceAdministration:
-    description: ''
+    description: Manage users and content for each workspace in your organization to scale
+      administration and create a more tailored experience for users.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   guestAccessControls:
-    description: ''
+    description: Limit the ability for external collaborators to join your organization.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   defaultRoles:
-    description: ''
+    description: Set the role that new users join your instance with to better control costs.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   defaultTeams:
-    description: ''
+    description: Automatically add all new workspace members to specific teams to help them onboard and find relevant work.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   roleAssigmentViaSCIM:
-    description: ''
+    description: Automatically assign users a role in Figma using your identity management provider.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   passwordProtectionRequired:
-    description: ''
+    description: Require that users set a password on files shared outside the organization.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   figmaSupportForum:
-    description: ''
+    description: Ask questions, share feedback, and connect with the Figma community.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   figmaHelpCenter:
-    description: ''
+    description: Find answers to common questions quickly by browsing our collection of helpful articles and videos.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   onboardingPlanningAndSupport:
-    description: ''
+    description: Work hand in hand with the Figma team to plan and execute a successful Figma rollout.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedAccountManager:
-    description: ''
+    description: Partner with your account manager for ongoing support and advice on how to adapt Figma to meet your organization's needs.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   versionHistoryDepth:
-    description: ''
+    description: Version history tracks at maximum X days
     valueType: NUMERIC
     defaultValue: 30
     unit: day
@@ -295,13 +300,13 @@ usageLimits:
     - versionHistory
 plans:
   STARTER:
-    description: ''
+    description: Forever
     price: 0
     unit: editor/month
     features: null
     usageLimits: null
   PROFESSIONAL:
-    description: ''
+    description: Billed annually or$15 month-to-month
     price: 15
     unit: editor/month
     features:
@@ -319,7 +324,7 @@ plans:
       versionHistoryDepth:
         value: .inf
   ORGANIZATION:
-    description: ''
+    description: Annual billing only
     price: 45
     unit: editor/month
     features:
@@ -365,7 +370,8 @@ plans:
       versionHistoryDepth:
         value: .inf
   ENTERPRISE:
-    description: ''
+    description: For advanced security and more flexible controls, the Enterprise plan helps you
+      scale design processes company-wide.
     price: 75
     unit: editor/month
     features:
