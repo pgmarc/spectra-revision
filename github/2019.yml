@@ -222,7 +222,9 @@ features:
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   githubCloud:
-    description: ''
+    description: "GitHub Enterprise Cloud is a deployment option for GitHub Enterprise, adding advanced features to GitHub, including:\n\n
+      - SAML authentication\n- Additional GitHub Actions minutes\n- Restriction of email notifications to verified domains\n
+      - Privately published GitHub Pages sites\n- Managed user accounts\n- Repository rulesets\n- GitHub's compliance reports"
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -292,7 +294,7 @@ usageLimits:
     - githubSecurityAdvisories
     - publicTokenScanning
   githubActionsQuota:
-    description: ''
+    description: Maximum quota for Github Actions
     valueType: NUMERIC
     defaultValue: 2000
     unit: minute/month
@@ -300,7 +302,7 @@ usageLimits:
     linkedFeatures:
     - githubActions
   diskSpaceForGithubPackages:
-    description: ''
+    description: Maximum disk space for Github Packages
     valueType: NUMERIC
     defaultValue: 0.5
     unit: GB
@@ -308,7 +310,7 @@ usageLimits:
     linkedFeatures:
     - githubPackages
   collaboratorsForPrivateRepositoriesLimit:
-    description: ''
+    description: Maximum collaborators for private repositories
     valueType: NUMERIC
     defaultValue: 3
     unit: user

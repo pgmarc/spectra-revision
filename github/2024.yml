@@ -516,7 +516,8 @@ features:
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   gitLFS:
-    description: ''
+    description: GitHub limits the size of files allowed in repositories. To track files beyond
+      this limit, you can use Git Large File Storage.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -557,7 +558,7 @@ usageLimits:
     - dependencyReview
     - githubSecurityAdvisories
   githubActionsQuota:
-    description: ''
+    description: Maximum quota for Github Actions
     valueType: NUMERIC
     defaultValue: 2000
     unit: minute/month
@@ -565,7 +566,7 @@ usageLimits:
     linkedFeatures:
     - githubActions
   diskSpaceForGithubPackages:
-    description: ''
+    description: Maximum disk space for Github Packages
     valueType: NUMERIC
     defaultValue: 0.5
     unit: GB
@@ -589,7 +590,7 @@ usageLimits:
     linkedFeatures:
     - githubCodespaces
   gitLFSMaximunFileSize:
-    description: ''
+    description: Git LFS Maximum file size
     valueType: NUMERIC
     defaultValue: 2
     unit: GB
@@ -597,7 +598,7 @@ usageLimits:
     linkedFeatures:
     - gitLFS
   gitLFSStorageLimit:
-    description: ''
+    description: Maximum Git LFS storage limit
     valueType: NUMERIC
     defaultValue: 1
     unit: GB
@@ -605,7 +606,7 @@ usageLimits:
     linkedFeatures:
     - gitLFS
   gitLFSBandwithLimit:
-    description: ''
+    description: Maximum Git LFS network bandwidth limit
     valueType: NUMERIC
     defaultValue: 1
     unit: GB

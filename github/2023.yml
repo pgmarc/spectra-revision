@@ -345,121 +345,139 @@ features:
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   copilotChatInIDEAndMobile:
-    description: ''
+    description: Chat interface that lets you interact with GitHub Copilot, to ask and receive answers
+      to coding-related questions within GitHub Mobile or  your IDE (Visual Studio Code, JetBrains IDE, Visual Studio, Eclipse)
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   copilotCLIAssistance:
-    description: ''
+    description: GitHub Copilot CLI provides a chat-like interface in the terminal that can autonomously create and modify
+      files on your computer and execute commands. You can ask Copilot to perform any action on the files in the active directory.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotSecurityVulnerabilityFilter:
-    description: ''
+    description: Uses AI-based vulnerability prevention system that blocks insecure coding patterns
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: FILTERING
   copilotCodeReferencing:
-    description: ''
+    description: Copilot code referencing identifies and attributes code suggestions by linking them
+      to their original public sources, helping you understand where the code originates.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotPublicCodeFilter:
-    description: ''
+    description: Filter Github Copilot suggestions matching public code
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: FILTERING
   copilotIPIndemnity:
-    description: ''
+    description: You're entitled to IP indemnification from GitHub for the unmodified suggestions when Copilot's filtering is enabled.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotEnterpriseGradeSecuritySafetyAndPrivacy:
-    description: ''
+    description: Copilot enterprise grade security safety and privacy
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotCodebasePersonalizedChat:
-    description: ''
+    description: Copilot works best when it understands your entire codebase, not just individual files.
+      Workspace context is the underlying mechanism that enables agents and chat to reason across files,
+      understand how components connect, and provide answers grounded in your actual code
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotDocumentationSearchAndSummaries:
-    description: ''
+    description: Search documentation and create summaries using Github Copilot
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotPullRequestSummaries:
-    description: ''
+    description: You can use GitHub Copilot to generate a summary of a pull request on GitHub. You can use
+      the summary to help reviewers understand your changes, or to quickly understand the changes in a pull
+      request you're reviewing.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotCodeReviewSkills:
-    description: ''
+    description: GitHub Copilot can review your code and provide feedback. Where possible, Copilot's feedback
+      includes suggested changes which you can apply with a couple of clicks.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotFinedTunedModels:
-    description: ''
+    description: GitHub Copilot supports multiple AI models with different capabilities.
+      The model you choose affects the quality and relevance of responses by Copilot Chat and Copilot inline suggestions.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotTelemetry:
-    description: ''
+    description: Copilot usage metrics help key stakeholders and decision-makers understand how their teams
+      are adopting and using Copilot. By tracking usage patterns across the enterprise, you can measure engagement,
+      identify opportunities to increase value, and assess how AI-assisted workflows influence pull request throughput
+      and time to merge.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotBlocksSuggestionsMatchingPublicCode:
-    description: ''
+    description: Block Github Copilot suggestions matching public code
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: FILTERING
   copilotEditorPlugin:
-    description: ''
+    description: Set up Github Copilot in your code editor
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   copilotMultilineFunctionSuggestions:
-    description: ''
+    description: Get AI-generated inline code suggestions
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotOrganizationWidePolicyManagement:
-    description: ''
+    description: Copilot policies are also managed at the enterprise level. If your organization
+      is part of an enterprise, and explicit settings have been selected at the enterprise level,
+      you cannot override those settings at the organization level.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   copilotExcludeSpecifiedFiles:
-    description: ''
+    description: You can use your repository settings to specify content in your repository that GitHub Copilot should ignore.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotAuditLogs:
-    description: ''
+    description: You can use the audit logs for Copilot to review actions taken by users in your organization
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   copilotHTTPProxySupportViaCustomCertificates:
-    description: ''
+    description: Copilot can read custom SSL certificates installed on a user's machine. This allows
+      a proxy server to be identified as the intended recipient of Copilot's secure connection, so
+      network traffic can be inspected. Without a custom certificate, an HTTP proxy can be used to
+      monitor, route, and terminate Copilot's connection, but not to inspect the contents of the traffic.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   gitLFS:
-    description: ''
+    description: GitHub limits the size of files allowed in repositories. To track files beyond
+      this limit, you can use Git Large File Storage.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -502,7 +520,7 @@ usageLimits:
     - requiredStatusChecks
     - githubSecurityAdvisories
   githubActionsQuota:
-    description: ''
+    description: Maximum quota for Github Actions
     valueType: NUMERIC
     defaultValue: 2000
     unit: minute/month
@@ -510,7 +528,7 @@ usageLimits:
     linkedFeatures:
     - githubActions
   diskSpaceForGithubPackages:
-    description: ''
+    description: Maximum disk space for Github Packages
     valueType: NUMERIC
     defaultValue: 0.5
     unit: GB
@@ -534,7 +552,7 @@ usageLimits:
     linkedFeatures:
     - githubCodespaces
   gitLFSMaximunFileSize:
-    description: ''
+    description: Git LFS Maximum file size
     valueType: NUMERIC
     defaultValue: 2
     unit: GB
@@ -542,7 +560,7 @@ usageLimits:
     linkedFeatures:
     - gitLFS
   gitLFSStorageLimit:
-    description: ''
+    description: Maximum Git LFS storage limit
     valueType: NUMERIC
     defaultValue: 1
     unit: GB
@@ -550,7 +568,7 @@ usageLimits:
     linkedFeatures:
     - gitLFS
   gitLFSBandwithLimit:
-    description: ''
+    description: Maximum Git LFS network bandwidth limit
     valueType: NUMERIC
     defaultValue: 1
     unit: GB

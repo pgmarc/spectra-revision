@@ -357,36 +357,43 @@ features:
     type: AUTOMATION
     automationType: BOT
   copilotAccessToOpenAiGpt4o:
+    description: Access to OpenAI GPT-4o
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotAccessToOpenAiGpt4.5:
+    description: Access to OpenAI GPT-4.5
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotAccessToAnthropicClaude3.5Sonnet:
+    description: Access to Anthropic Claude Sonnet 3.5
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotAccessToAnthropicClaude3.7Sonnet:
+    description: Access to Anthropic Claude Sonnet 3.7
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotAccessToOpenaiO1:
+    description: Access to OpenAI o1
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotAccessToOpenaiO3-mini:
+    description: Access to OpenAI o3-mini
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotAccessToGemini2.0Flash:
+    description: Access to Gemini 2.0 Flash
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -424,6 +431,7 @@ features:
     type: AUTOMATION
     automationType: BOT
   copilotAnsweringAboutIssues,PRs,Etc:
+    description: Github Copilot Chat Answers about issues, PRs, discussions, files, commits, etc.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -435,20 +443,27 @@ features:
     type: AUTOMATION
     automationType: BOT
   copilotExplainFailedActionsJobs:
+    description: Press “Explain Error” from the pull request merge box or the Actions job page to chat
+      with Copilot about why a job failed, and get tailored guidance on how to resolve the issue.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotMultiFileEditingVsCode:
+    description: Use multi-file editing to prompt GitHub Copilot to propose code changes across multiple files in your workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   copilotSwitchBetweenModels:
+    description: You can switch the AI model that's used for Copilot inline suggestions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotAddImagesToPrompts:
+    description: Coding agent can process images, such as a photo or screenshot of a sketch or design, as part of
+      your task description. This is useful when you want to show Copilot what you're trying to achieve visually,
+      for example, when updating a UI or implementing a design.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -460,6 +475,8 @@ features:
     type: AUTOMATION
     automationType: BOT
   copilotNextEditSuggestions:
+    description: Github Copilot Next Edit Suggestions (NES) is your AI companion as you make changes
+      that can cascade throughout your file or project
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -481,37 +498,45 @@ features:
     defaultValue: false
     type: DOMAIN
   copilotUnlimitedIntegrationsWithExtensions:
+    description: Unlimited integrations with GitHub Copilot Extensions
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   copilotBuildPrivateExtensionForInternalTooling:
+    description: Build a private extension for internal tooling
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotPersonalizeResponsesWithCustomInstructions:
+    description: Personalize responses with custom instructions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotPromptFilesToStoreReusableInstructions:
+    description: Create prompt files to store reusable instructions for Github Copilot
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotPromptFilesToShareReusableInstructions:
+    description: Create prompt files to share reusable instruction using Github Copilot
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   copilotAttachKnowledgeBase:
+    description: Attach knowledge bases to chat for organizational context
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   copilotFineTunedModels:
+    description: Get fine-tuned models from Copilot in your IDE and mobile devices.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   copilotSetCodingGuidelinesForCodeReview:
+    description: Create an md file with coding guidelines
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -605,6 +630,8 @@ features:
     type: INTEGRATION
     integrationType: EXTENSION
   copilotForWindowsTerminal:
+    description: GitHub Copilot users can now use the power of GitHub Copilot to get command suggestions and
+      explanations without leaving the terminal with Terminal Chat in Windows Terminal
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -654,7 +681,8 @@ features:
     defaultValue: false
     type: INFORMATION
   gitLFS:
-    description: ''
+    description: GitHub limits the size of files allowed in repositories. To track files beyond
+      this limit, you can use Git Large File Storage.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION

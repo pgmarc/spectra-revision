@@ -373,7 +373,7 @@ usageLimits:
     - dependencyReview
     - githubSecurityAdvisories
   githubActionsQuota:
-    description: ''
+    description: Maximum quota for Github Actions
     valueType: NUMERIC
     defaultValue: 2000
     unit: minute/month
@@ -381,7 +381,7 @@ usageLimits:
     linkedFeatures:
     - githubActions
   diskSpaceForGithubPackages:
-    description: ''
+    description: Maximum disk space for Github Packages
     valueType: NUMERIC
     defaultValue: 0.5
     unit: GB
@@ -389,7 +389,7 @@ usageLimits:
     linkedFeatures:
     - githubPackages
   githubCodespacesStorageLimit:
-    description: ''
+    description: Maximum disk storage for Github Codespaces
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
