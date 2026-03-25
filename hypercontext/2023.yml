@@ -8,64 +8,64 @@ currency: USD
 url: https://web.archive.org/web/20231025154500/https://hypercontext.com/pricing
 features:
   oneToOneMeetings:
-    description: ''
+    description: Create as many meetings as you need. We'll never cap your limit.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teamMeetings:
-    description: ''
+    description: Create as many meetings as you need. We'll never cap your limit.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   meetingNotes:
-    description: ''
+    description: Automatically send out your meeting agenda to all members after every meeting.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   calendarIntegrationAndSync:
-    description: ''
+    description: Sync to your Google or Outlook calendar.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   meetingArchives:
-    description: ''
+    description: A complete history of all your past meetings.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   meetingSearch:
-    description: ''
+    description: Use the search function to reference past meetings easily for performance reviews, growth plans and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeCollaboration:
-    description: ''
+    description: Collaborate on your agenda, add next steps, summaries, comments, and reactions in real-time.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   realTimeEmployeesFeedback:
-    description: ''
+    description: Automatic post-meeting survey questions to track meeting effectiveness and team pulse over time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   conversationStarters:
-    description: ''
+    description: Access over 300 suggested conversation starters.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fileAttachments:
-    description: ''
+    description: Access and collaborate on cloud files from within your Hypercontext agenda.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   cloudLinkIntegrations:
-    description: ''
+    description: Access and collaborate on cloud files from within your Hypercontext agenda.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   googleMeetAgendaOverlay:
-    description: ''
+    description: With the Chrome Extension, you can interact with your meeting agenda directly from your Google Meet Video call.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -73,153 +73,155 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   guestUsers:
-    description: ''
+    description: Run effective external meetings without paying for extra users.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   markdownEditor:
-    description: ''
+    description: Use mark-up language to take your notes to another level!
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   privateMeetingScratchpad:
-    description: ''
+    description: "Your own private space within an agenda for notes: talking points, personal details and more."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   publicMeetingScratchpad:
-    description: ''
+    description: A public space for meeting participants to document things that will carry across every meeting.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   nextSteps:
-    description: ''
+    description: Assign action items with timelines to individuals boost accountability on your team.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   favoriteItems:
-    description: ''
+    description: Create a favorties list to easily access your most used items and conversation starters.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   meetingInsights:
-    description: ''
+    description: With the help of machine learning, Hypercontext will provide insights to help teams
+      have better, more balanced conversations based on agenda items.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   itemVoting:
-    description: ''
+    description: Vote on agenda items to prioritize team discussions.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customPersonalAgendaTemplates:
-    description: ''
+    description: Create your own agenda templates and reuse across your team.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customOrgWideAgendaTemplates:
-    description: ''
+    description: Create custom agenda templates for your entire Hypercontext community to help
+      standardize specific meetings like performance reviews, salary reviews, etc.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   goalSetting:
-    description: ''
+    description: A dashboard to create and track individual and team goals.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   milestones:
-    description: ''
+    description: A dashboard to create and track individual and team goals.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   okrExampleLibrary:
-    description: ''
+    description: Access over 200 OKR and goal examples for every role in tech.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   largeGroupDiscussions:
-    description: ''
+    description: From town halls to AMAs, create large-group discussions across your company.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   99%uptimeSLA:
-    description: ''
+    description: This is our promise to you.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   adminReporting:
-    description: ''
+    description: Receive custom dashboards for your admin team to better understand engagement across your entire team.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   engagementInsights:
-    description: ''
+    description: Receive custom dashboards for your admin team to better understand engagement across your entire team.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   dedicatedCSM:
-    description: ''
+    description: Work directly with a CSM to ensure you're set up for success throughout your entire experience with Hypercontext.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dedicatedQBR:
-    description: ''
+    description: Work directly with a CSM to ensure you're set up for success throughout your entire experience with Hypercontext.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   teamTraining:
-    description: ''
+    description: Our CS team will run onboarding sessions to ensure you're successful, from onboarding to ongoing usage.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   teamOnboarding:
-    description: ''
+    description: Our CS team will run onboarding sessions to ensure you're successful, from onboarding to ongoing usage.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   prioritySupport:
-    description: ''
+    description: Skip the line. Your tickets will be responded to first.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   googleSSO:
-    description: ''
+    description: Google SSO integration
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   slackSSO:
-    description: ''
+    description: Slack SSO integration
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   microsoftSSO:
-    description: ''
+    description: Microsoft SSO integration
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   azureSSO:
-    description: ''
+    description: Azure Active Directory integration
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   emailSSO:
-    description: ''
+    description: Email SSO integration
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   customSSO:
-    description: ''
+    description: Connect to Hypercontext using Custom SSO
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   googleWorkspace:
-    description: ''
+    description: Auth and sync with your GCal and full Google Suite.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -227,7 +229,8 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   googleCalendar:
-    description: ''
+    description: Integrate your calendar events to your Hypercontext agendas. With the
+      Chrome extension, next steps will appear in your calendar.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -235,7 +238,7 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   googleMeet:
-    description: ''
+    description: When calendar events are connected to the agenda, jump into your call from your Hypercontext agenda.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -243,13 +246,13 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   chromeMeetingExtension:
-    description: ''
+    description: Manage and run meetings right from your Google Calendar and Google Meet.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   slackbot:
-    description: ''
+    description: Set up new meetings, add items, check your schedule, and more without ever leaving Slack!
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -257,7 +260,7 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   microsoftTeams:
-    description: ''
+    description: The entire Hypercontext experience! Book, plan and run meetings — without leaving Microsoft Teams.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -265,7 +268,7 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
   outlookCalendar:
-    description: ''
+    description: Sync your meetings to your calendar events to get helpful reminders about upcoming meetings.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -273,13 +276,13 @@ features:
     pricingUrls:
     - https://www.microsoft.com/en-us/microsoft-365/outlook/compare-microsoft-outlook-email-plans
   mobileApps:
-    description: ''
+    description: Use Hypercontext from your phone. Download our iOS and Android apps.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   zapier:
-    description: ''
+    description: Connect Hypercontext to 2000+ apps.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -288,7 +291,7 @@ features:
     - https://zapier.com/pricing
 usageLimits:
   meetingSearchThreshold:
-    description: ''
+    description: Maximum time tracking threshold for meetings
     valueType: NUMERIC
     defaultValue: 30
     unit: day
@@ -296,7 +299,7 @@ usageLimits:
     linkedFeatures:
     - meetingSearch
   storageLimit:
-    description: ''
+    description: Maximum disk space storage in Hypercontext account
     valueType: NUMERIC
     defaultValue: 2
     unit: GB

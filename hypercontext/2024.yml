@@ -6,338 +6,339 @@ currency: USD
 url: https://web.archive.org/web/20240617032133/https://hypercontext.com/pricing
 features:
   agendaSharing:
-    description: ''
+    description: Share your agenda with other people with invitations
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   coEditing:
-    description: ''
+    description: Edit events and schedule events collaboratively
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   nextSteps:
-    description: ''
+    description: "Write your Next Steps as you would say them during your meeting and we'll do the rest:
+      assign, add a date, and remind. Keep your team productive and accountable."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   embeddedMedia:
-    description: ''
+    description: Embed media in agendas and notes
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   fileAttachment:
-    description: ''
+    description: Access and collaborate on cloud files from within your Hypercontext agenda.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   linkIntegrations:
-    description: ''
+    description: Access and collaborate on cloud files from within your Hypercontext agenda.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   largeGroupDiscussions:
-    description: ''
+    description: Discuss agenda items with a large number of collaborators
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   1to1Meeting:
-    description: ''
+    description: Create as many one to one meetings as you need. We'll never cap your limit.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teamMeeting:
-    description: ''
+    description: Create as many team meetings as you need. We'll never cap your limit.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   collaborativeAgenda:
-    description: ''
+    description: Add items collaboratively to the meeting agenda
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   customPersonalMeetingTemplates:
-    description: ''
+    description: Create meeting agenda templates for repeating meetings
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareableNotes:
-    description: ''
+    description: Share notes providing a link
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   privateNotes:
-    description: ''
+    description: Create agenda private notes so other members cannot see their content
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportableNotes:
-    description: ''
+    description: Export your meetings agenda
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   searchableNotes:
-    description: ''
+    description: Seach for words in your meetings agenda
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   commentsOnAgendaItems:
-    description: ''
+    description: Comment on agenda items
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   embeddedMediaInMeetings:
-    description: ''
+    description: Embed media in meetings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   boardViewForMeetingItems:
-    description: ''
+    description: See your meeting items in a board view style
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   aiManagerCopilot:
-    description: ''
+    description: Manage your agenda items with AI
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   reportingOnMeetingMetrics:
-    description: ''
+    description: A dashboard containing useful metrics about meetings
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   customOrgWideMeetingTemplates:
-    description: ''
+    description: Create organization templates for repeating meetings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   goalTemplates:
-    description: ''
+    description: Create goal templates to avoid repentance
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   individualGoals:
-    description: ''
+    description: Create individual goals
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   teamGoals:
-    description: ''
+    description: Create team goals
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   companyGoals:
-    description: ''
+    description: Create compnay goals
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   goalRelationships:
-    description: ''
+    description: Link dependant goals between them
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   meetingIntegration:
-    description: ''
+    description: Integration with Hypercontext meetings
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   reportsOnGoals:
-    description: ''
+    description: Visualize pending and accomplished goals
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   analyticsOnGoals:
-    description: ''
+    description: Gain useful information with goals analytics
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   shareableLiveReports:
-    description: ''
+    description: Share reports with a link
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   goalProgressNotifications:
-    description: ''
+    description: Trigger notifications if goal progress surpasses a threshold
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   performanceReviewIntegration:
-    description: ''
+    description: Do employee performace review inside Hypercontext
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   360PerformanceReviews:
-    description: ''
+    description: Create perfomance reviews involving multiple people to avoid individual bias.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   cutomQuestionTemplates:
-    description: ''
+    description: Create question templates
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   competencyBasedReviewQuestions:
-    description: ''
+    description: Create reviews to test employee competency
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   aiWritingCoPilot:
-    description: ''
+    description: Hypercontext AI can assist your writing
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   aiConsolidatedReview:
-    description: ''
+    description: Ask AI to review an employee performace
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   employeePraiseIntegration:
-    description: ''
+    description: Acknowlege your employees effort with Hypercontext
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   employeeRecognisionIntegration:
-    description: ''
+    description: Acknowlege your employees effort with Hypercontext
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   reviewCycleAutomation:
-    description: ''
+    description: Automate performace review cycle
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   dynamiReviewAsignments:
-    description: ''
+    description: Assign performace reviews dinamically
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   9BoxReporting:
-    description: ''
+    description: Create 9-box grid for HR analytics
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   calibrationReporting:
-    description: ''
+    description: Visualize results based on performance calibration
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   aiInsightsOnPerformanceTrends:
-    description: ''
+    description: Ask AI to analyze trends on performace reviews
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   exportToExcelForReporting:
-    description: ''
+    description: Export performace reviews to excel
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   crossCycleAnalytics:
-    description: ''
+    description: See historic data on performace reviews
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   basicCollaborationToolsIntegration:
-    description: ''
+    description: Basic Collaboration Tools
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   mediaToolsIntegration:
-    description: ''
+    description: Media tools integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   designToolsIntegration:
-    description: ''
+    description: Design tools integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   personalProductivityToolsIntegration:
-    description: ''
+    description: Personal Productivity Tools integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   projectManagementToolsIntegration:
-    description: ''
+    description: Project management tools integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   productManagementToolsIntegration:
-    description: ''
+    description: Product management tools integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   directorySync:
-    description: ''
+    description: Synchronize users, groups and other relative data between an organization's directory service (Active Directory)
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   hrisIntegration:
-    description: ''
+    description: Human resources information system integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   customApiAccess:
-    description: ''
+    description: Access to Hypercontext API
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   inAppSupport:
-    description: ''
+    description: Customer support included inside the app
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   prioritySupport:
-    description: ''
+    description: Skip the line. Your tickets will be responded to first.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   sso:
-    description: ''
+    description: Access with Single Sign On
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   advancedSecurityFeatures:
-    description: ''
+    description: Enable advanced security features
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   dedicatedAccountManager:
-    description: ''
+    description: Work directly with an account manager
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customizableDataRetentionPolicies:
-    description: ''
+    description: Create data retention policies for different countries
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   auditLogs:
-    description: ''
+    description: Keep track of user actions in audit logs
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   complianceReports:
-    description: ''
+    description: See compliance reports
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
