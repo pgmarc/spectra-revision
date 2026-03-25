@@ -8,73 +8,83 @@ currency: USD
 url: https://web.archive.org/web/20191030002727/https://www.atlassian.com/software/jira/pricing
 features:
   advancedPermissions:
-    description: ''
+    description: Permissions in Jira Software control whether users can create new projects to what users can
+      do, see, and comment on within a project or issue. The Free plan does not allow permission settings for projects or issues.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   scrumAndKanbanBoards:
-    description: ''
+    description: Visualize your team's work on a customizable board, following agile frameworks like Scrum,
+      Kanban, or anything in between so you can get better visibility over work that's planned and in progress.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   backlog:
-    description: ''
+    description: The backlog is like a to-do list for your project. It's a dedicated space for keeping
+      track of tasks that you want to do in the future.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   agileReporting:
-    description: ''
+    description: Get access to more than a dozen out-of-the-box reports with real-time, actionable
+      insights into how your team is performing over time.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   customizableWorkflows:
-    description: ''
+    description: Every team has their own style for moving work from 'to do' to 'done.'
+      Create a custom workflow that helps your team work as efficiently as possible.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   roadmaps:
-    description: ''
+    description: Roll up your work in Jira Software into shareable roadmaps that highlight dependencies so you can make
+      better business decisions and keep all stakeholders informed. Roadmaps with hierarchy gives deeper visibility into
+      issues within epics.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   appsAndIntegrations:
-    description: ''
+    description: Integrate with multiple apps through the marketplace
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   anonymousAccess:
-    description: ''
+    description: Anonymous access lets people outside of your organization view and create issues without logging in. Jira
+      Software's anonymous access is most commonly used to give customers the ability to view and submit bugs and feature
+      requests.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   auditLogs:
-    description: ''
+    description: When you need to troubleshoot a problem or keep a record of important events, such as changes to
+      global permissions, the audit log allows administrators to look back at changes that have been made in your site.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   uptimeSLA:
-    description: ''
+    description: 99% uptime SLA
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   storage:
-    description: ''
+    description: Disk storage available in your Jira account
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   communitySupport:
-    description: ''
+    description: Community support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   localBusinessHoursSupport:
-    description: ''
+    description: 9-5 standard support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24x7Support:
-    description: ''
+    description: 24/7 support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
@@ -104,13 +114,13 @@ features:
     defaultValue: false
 usageLimits:
   usersLimit:
-    description: ''
+    description: Maximum limit for users using your Jira account
     valueType: NUMERIC
     defaultValue: 10
     unit: user/site
     type: NON_RENEWABLE
   storageLimit:
-    description: ''
+    description: Maximum disk storage limit for your Jira account
     valueType: NUMERIC
     defaultValue: 2
     unit: GB
@@ -118,20 +128,20 @@ usageLimits:
     linkedFeatures:
     - storage
   users:
-    description: ''
+    description: Minimum limit for users using your Jira account
     valueType: NUMERIC
     defaultValue: 10
     unit: user
     type: NON_RENEWABLE
 plans:
   FREE:
-    description: ''
+    description: Forever
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   STANDARD:
-    description: ''
+    description: $7/ user / month starting price
     price: 7
     unit: user/month
     features:
@@ -151,7 +161,7 @@ plans:
       users:
         value: 1
   PREMIUM:
-    description: ''
+    description: $14 / user / month starting price
     price: 14
     unit: user/month
     features:
@@ -199,7 +209,7 @@ addOns:
     excludes: []
     usageLimitsExtensions: null
   extraUser:
-    description: ''
+    description: Increment the users capacity for the Jira account
     price: 7
     unit: user/month
     features: null

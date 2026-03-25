@@ -8,145 +8,191 @@ currency: USD
 url: https://web.archive.org/web/20231117124744/https://www.atlassian.com/software/jira/pricing
 features:
   sites:
-    description: ''
+    description: Split Jira apps into different sites for large organizations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   automation:
-    description: ''
+    description: Automate any task or process in a few clicks. Set automation rules within a single project,
+      across multiple projects or across all projects on your site to help you scale. Save time and keep your
+      team focussed with Jira's no-code automation engine.
+
+      Free plan comes with 100 rule runs per month while Standard plan has 1700. Premium has 1000 rule runs per
+      paid user per month. For example, 200 users on Premium plan would have 200,000 rules per month for for
+      Jira Software pooled across users.
+
+      The Enterprise plan allows unlimited rule runs on Jira Software
+
+      You only pay for what you use- only automations that successfully perform an action count towards your limit.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   basicPlanning:
-    description: ''
+    description: The timeline is a planning view available in all Jira Software plans that allows you to plan
+      work, track progress, and map dependencies at a granular level within a single team or project.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedPlanning:
-    description: ''
+    description: The timeline is a planning view available in all Jira Software plans that allows you to plan
+      work, track progress, and map dependencies at a granular level within a single team or project.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   basicDependencyManagement:
-    description: ''
+    description: Track dependencies within your team and organization to ensure projects deliver on time.
+    
+      Basic dependency management helps you map dependencies within your team.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedDependencyManagement:
-    description: ''
+    description: Advanced dependency management helps you map dependencies across many teams.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   projectBoards:
-    description: ''
+    description: Visualize your team's work on a customizable board. Our boards follow agile frameworks
+      like scrum, Kanban, and anything between so you can get more visibility over planned and in-progress work.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   jiraWorkManagment:
-    description: ''
+    description: Bring every team — from marketing to HR to sales — to a Jira purpose-built for them. With over
+      20 customizable project templates, the equivalent plan of Jira Work Management is included with every
+      Jira Software license.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   backlog:
-    description: ''
+    description: The backlog is like a to-do list for your project. It's a dedicated space for keeping
+      track of tasks that you want to do in the future.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reportingAndInsights:
-    description: ''
+    description: Get access to more than 12 default reports with real-time, actionable insights into how your team is performing over time.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   customizableWorkflows:
-    description: ''
+    description: Every team has their own style for moving work from 'to do' to 'done.'
+      Create a custom workflow that helps your team work as efficiently as possible.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   appsAndIntegrations:
-    description: ''
+    description: Seamlessly connect Jira Software to the tools you use. Improve your team's workflow with
+      thousands of integrations, apps, and more with any integration that works for Jira Cloud.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   capacityManagement:
-    description: ''
+    description: Capacity management is a capability within Advanced Roadmaps, available in Jira Software Premium,
+      that allows you to manage multiple team's capacity on a sprint-by-sprint basis and ensure your teams have
+      the bandwidth to complete the work they've scoped.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   projectArchiving:
-    description: ''
+    description: Archive projects and their associated issues when they're no longer active to
+      reduce clutter and to ensure everyone on your team is accessing up-to-date information.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   atlassianAnalytics:
-    description: ''
+    description: Build interactive, customizable charts and dashboards across
+      products and instances with an intuitive low code / no code editor.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   atlassianDataLake:
-    description: ''
+    description: Access fully modeled data across your Atlassian tools in one place.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dataConnectors:
-    description: ''
+    description: Data connectors let you query your preferred non-Atlassian data source
+      alongside Atlassian data for holistic insights.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   domainVerification:
-    description: ''
+    description: Domain verification lets an organization admin centrally manage all of the Atlassian accounts that use the company's domain.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   accountCapture:
-    description: ''
+    description: Domain verification lets an organization admin centrally manage all of the Atlassian accounts that use the company's domain.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sessionDurationManagement:
-    description: ''
+    description: Session duration management allows an organization admin to set a session timeout value
+      different from the default policy of 30 days. This means admins can control how long a team member
+      can stay signed in without interacting with Atlassian.com.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   userRolesAndPermissions:
-    description: ''
+    description: Assign roles to different users, like administrator or end-user. Different permissions apply to users
+      depending on their role.
+
+      In the Free plan, every user is a project admin.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedPermissions:
-    description: ''
+    description: Permissions in Jira Software control whether users can create new projects to what
+      users can do, see, and comment on within a project or issue. The Free plan doesn't allow permission
+      settings for projects or issues.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   adminInsights:
-    description: ''
+    description: Gain visibility and a better understanding of your product usage with data such as
+      level of security and access and activity over time.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   sandbox:
-    description: ''
+    description: Prepare, test and experiment with products & apps before making changes to your live production environment.
+
+      The sandbox gives you a realistic understanding of what your new feature might look like or how
+      it works when released for your users.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   releaseTracks:
-    description: ''
+    description: User counts gives Atlassian admins visibility into how many users they are able to add to
+      an Enterprise product; and conversely, user counts indicate if a product is at-or-near capacity.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   userCounts:
-    description: ''
+    description: User counts gives Atlassian admins visibility into how many users they are able to add to
+      an Enterprise product; and conversely, user counts indicate if a product is at-or-near capacity.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   productRequests:
-    description: ''
+    description: Enable admins to manage how and when managed users create Atlassian products.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   atlassianAccess:
-    description: ''
+    description: "Atlassian Access helps you proactively defend against unauthorized access and risky behavior
+      with centralized IAM controls. With an Access subscription, you can address your cloud identity requirements
+      with enterprise-grade security features, including:
+
+      - Enforced Single Sign-on (SSO) and two-factor authentication
+      - Automated user lifecycle management (SCIM provisioning)
+      - Access policies for secure collaboration with external users
+      - Seamless integration with your Identity provider (IdP)
+      - And more."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -156,106 +202,127 @@ features:
     defaultValue: true
     type: MANAGEMENT
   encryptionInTransitAndAtRest:
-    description: ''
+    description: All customer data stored within Atlassian cloud products and services is encrypted in transit over
+      public networks using Transport Layer Security (TLS) 1.2+ with Perfect Forward Secrecy (PFS) to protect it from
+      unauthorized disclosure or modification.
+      
+      Data drives on servers holding customer data and attachments in Jira Software Cloud, Jira Service Management Cloud,
+      Jira Work Management Cloud, Confluence Cloud, Statuspage, OpsGenie, and Trello use full disk, industry-standard
+      AES-256 encryption at rest.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   businessContinuityAndDisasterRecovery:
-    description: ''
+    description: Our Disaster Recovery Program consists of a few key practices to ensure the appropriate
+      levels of governance, oversight, and testing.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   mobileDeviceManagement:
-    description: ''
+    description: Enforce security controls on mobile app usage through built-in mobile device
+      management (MDM) support for iOS and Android.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   auditLogs:
-    description: ''
+    description: When you need to troubleshoot a problem or keep a record of important events, such as
+      changes to global permissions, the audit log allows administrators to look back at changes that
+      have been made in your site.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   anonymousAccess:
-    description: ''
+    description: Anonymous access lets people outside of your organization view and create issues without
+      logging in. Jira Software's anonymous access is most commonly used to give customers the ability to
+      view and submit bugs and feature requests.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   dataResidency:
-    description: ''
+    description: Specify where your data is hosted within Atlassian's global cloud footprint to help meet
+      your corporate policies and compliance requirements
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   ipAllowlisting:
-    description: ''
+    description: Bolster your team's security by limiting your site access to trusted IP ranges.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   multipleIdp:
-    description: ''
+    description: You can configure multiple identity providers (IdPs) in SAML and OpenID Connect configuration
+      for Atlassian Data Center products such as Jira.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   auditLogsForUsersActivity:
-    description: ''
+    description: Audit logs track key activities in Jira that can be viewed in the Jira administration console.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   byokEncryption:
-    description: ''
+    description: The BYOK encryption model allows you to encrypt Atlassian product data with keys that
+      are hosted in your own AWS KMS.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   storage:
-    description: ''
+    description: Disk storage available in your Jira account
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   communitySupport:
-    description: ''
+    description: Community support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   localBusinessHoursSupport:
-    description: ''
+    description: 9-5 standard support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24x7Support:
-    description: ''
+    description: 24/7 support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   enterpriseSupport:
-    description: ''
+    description: Enterprise support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   uptimeSLA:
-    description: ''
+    description: Uptime SLA
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   centralizedUserSubscriptions:
-    description: ''
+    description: Manage billing with an organization level account
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
 usageLimits:
   usersLimit:
-    description: ''
+    description: This is the maximum number of users or user licenses you can add to each of your Jira Software sites.
     valueType: NUMERIC
     defaultValue: 10
     unit: user/site
     type: NON_RENEWABLE
   sitesLimit:
-    description: ''
+    description: "This is the number of sites (also called “instances”) you can license based on the subscription plan you choose. One site is typically enough for most small to medium organizations.
+    
+      Enterprise subscribers often opt for multiple sites, up to 150 per product, to:
+
+      - Offer organizational autonomy to independent brands
+      - Improve security through separating data by region or department
+      - Customize instances based on Marketplace apps, project configurations, and more"
     valueType: NUMERIC
     defaultValue: 1
     unit: site
     type: NON_RENEWABLE
   totalAutomationLimit:
-    description: ''
+    description: Maximum number of automations in Jira account
     valueType: NUMERIC
     defaultValue: 100
     unit: rule/month
@@ -263,7 +330,7 @@ usageLimits:
     linkedFeatures:
     - automation
   perUserAutomationLimit:
-    description: ''
+    description: Maximum number of automation per user
     valueType: NUMERIC
     defaultValue: 1000
     unit: rule/month
@@ -271,7 +338,7 @@ usageLimits:
     linkedFeatures:
     - automation
   storageLimit:
-    description: ''
+    description: Disk space storage limit for your Jira account
     valueType: NUMERIC
     defaultValue: 2
     unit: GB
@@ -279,14 +346,14 @@ usageLimits:
     linkedFeatures:
     - storage
   users:
-    description: ''
+    description: Maximum number of user in Jira account
     valueType: NUMERIC
     defaultValue: 1
     unit: user
     type: NON_RENEWABLE
 plans:
   FREE:
-    description: ''
+    description: For small teams to plan and track work more efficiently
     price: 0
     unit: user/month
     features: null
@@ -294,7 +361,7 @@ plans:
       users:
         value: 10
   STANDARD:
-    description: ''
+    description: For growing teams focused on building more together
     price: 8.15
     unit: user/month
     features:
@@ -318,7 +385,7 @@ plans:
       storageLimit:
         value: 250
   PREMIUM:
-    description: ''
+    description: For organizations that need to scale how they collaborate and track work
     price: 16
     unit: user/month
     features:
@@ -364,7 +431,7 @@ plans:
       storageLimit:
         value: .inf
   ENTERPRISE:
-    description: ''
+    description: For enterprises with global scale, security, and governance needs
     price: Contact Sales
     unit: user/month
     features:
