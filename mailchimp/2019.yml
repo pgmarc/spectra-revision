@@ -8,139 +8,177 @@ currency: USD
 url: https://web.archive.org/web/20191130031450/https://mailchimp.com/pricing/
 features:
   contacts:
-    description: ''
+    description: "Create contacts. Contact: An individual member of your audience who can receive or view your marketing.
+      Subscribed, unsubscribed, and non-subscribed contacts all make up your contact count."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   audiences:
-    description: ''
+    description: "Send mails to your audience. Audience: lists of contacts to which you send campaigns"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   audienceDashboard:
-    description: ''
+    description: Our audience dashboard gives you the tools you need to understand
+      contact data and act on it—all in one place.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   tags:
-    description: ''
+    description: Organize contacts however you need to with tags
+    
+      Tags are customizable labels you create for your contacts based on what's important
+      for you to know. While Mailchimp comes with lots of built-in ways to search within your
+      audience data, tags let you add insights unique to your needs—then use them to create segments.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   segmentation:
-    description: ''
+    description: Whether you want to target messages based on how people engage with you or bring your
+      own custom insights into Mailchimp as segmentation options, you'll have all the options you
+      need to filter your audience data.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   purchaseBehavior:
-    description: ''
+    description: Behavioral targeting by purchase behaviour. When you know how people are interacting with
+      your brand, you can send them messages that are more relevant to their needs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   marketingEngagement:
-    description: ''
+    description: Behavioral targeting by marketing engagement. When you know how people are interacting with
+      your brand, you can send them messages that are more relevant to their needs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customEventData:
-    description: ''
+    description: Behavioral targeting using custom event data. When you know how people are interacting with
+      your brand, you can send them messages that are more relevant to their needs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   contactProfiles:
-    description: ''
+    description: Contact profiles give you an in-depth view of each person in your audience—simple,
+      powerful, and accessible from any device.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   predictedDemographics:
-    description: ''
+    description: Use predicted demographics to learn about who your customers are so they can start
+      connecting with you. Use those insights to create more personalized campaigns that resonate with
+      different age and gender segments.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   customerLifetimeValue:
-    description: ''
+    description: To help you market to your customers and drive e-commerce sales, we compare each individual's
+      purchase history and patterns to what's normal for your store. Then, we estimate their customer lifetime
+      value (CLV) and likelihood to purchase again.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   purchaseLikelihood:
-    description: ''
+    description: Looks at patterns in return customer behavior and may help you retain business.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   lookalikeAudienceFinder:
-    description: ''
+    description: Mailchimp's lookalike audience finder works with social ads and postcards to help
+      you reach more people. We use your Marketing CRM data and our large audience network to find new
+      people who are similar to your contacts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   addressFinder:
-    description: ''
+    description: Send beautiful postcards to your audience, even if you only have their email addresses. Mailchimp's
+      address finder matches mailing addresses from our network of over 200 million to your list contacts, so
+      you can talk to them from inbox to mailbox.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   contentAudio:
-    description: ''
+    description: Sync and store all of your photos, graphics, and other files, so your campaigns are always consistent.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   basicTemplates:
-    description: ''
+    description: Build emails and landing pages in minutes.
+      
+      Our pre-designed templates include all the content blocks and design elements you
+      need to launch a professional-looking campaign in minutes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   allPrebuiltTemplates:
-    description: ''
+    description: Advanced templates with all included content to lauch a campaign in minutes.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   removeMailchimpFooter:
-    description: ''
+    description: The MonkeyRewards badge can be removed on paid monthly or Pay As You Go accounts. Emails
+      sent from our Free plan are required to include the Mailchimp MonkeyRewards badge in the email footer.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customCodedTemplates:
-    description: ''
+    description: If you want more control over your email design than our templates offer, consider creating
+      your own custom template. Designers can use Mailchimp's template language to create a dynamic template
+      they can import as HTML. This is helpful for web designers who want to upload a template for a client,
+      and create sections that are editable, repeatable, or hideable.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   buildAndPublishWebsite:
-    description: ''
+    description: Build a website for the business you want to be
+      
+      Stand out even if you're just starting out—no coding skills needed.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   siteAnalytics:
-    description: ''
+    description: Integrated analytics to track visitor behavior, engagement, and conversion in web site builder.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   freeMailchimpDomain:
-    description: ''
+    description: Use a free mailchimpsites.com subdomain to publish a website.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   buyCustomDomain:
-    description: ''
+    description: Buy a domain name and use it to build your online presence.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   connectAnExistingDomain:
-    description: ''
+    description: If you have already bought a domain you can connect it with your Mailchimp account.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   emailMarketing:
-    description: ''
+    description: Create beautiful, branded emails that make you look like a pro
+    
+      Engage your audience with email marketing. Whether you're just starting out or you're already
+      a pro, Mailchimp's easy-to-use email builder has the tools you need to grow your business.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   landingPages:
-    description: ''
+    description: Create must-click destinations
+    
+      With Mailchimp, it takes just a few minutes to design beautiful landing pages that make
+      people want to join your audience or buy your stuff.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   facebookAds:
-    description: ''
+    description: Help your business make new friends
+    
+      Mailchimp is here to help you to find your people on social. Get your message out into the world,
+      get more likes, and sell more stuff with Facebook ads.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -148,7 +186,10 @@ features:
     pricingUrls:
     - https://facebook.com/business
   instagramAds:
-    description: ''
+    description: Help your business make new friends
+    
+      Mailchimp is here to help you to find your people on social. Get your message out into the world,
+      get more likes, and sell more stuff with Facebook ads.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -156,116 +197,151 @@ features:
     pricingUrls:
     - https://business.instagram.com/advertising
   socialPostScheduling:
-    description: ''
+    description: Schedule posts ahead of time. And it's easy to pause, edit, and reschedule if your plans change
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   postCards:
-    description: ''
+    description: Print, stamp, and mail postcards to people around the world for as little as 75 cents a card.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   popupForms:
-    description: ''
+    description: Grow your list with custom signup forms
+      
+      Start collecting the data you need to send your customers personalized, relevant content.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   retargetingAds:
-    description: ''
+    description: Make your brand's message travel faster with digital ads
+      
+      With Mailchimp's powerful targeting options, you can reach the right people on Facebook, Instagram,
+      and across the web with Google's ad network.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   singleStepAutomations:
-    description: ''
+    description: Automate your busy work with Mailchimp
+      
+      With our always-on marketing platform, you can send the right message to the right
+      people at the right moment—without doing the work every time. Welcome email, order
+      notifications, abandoned cart, and more
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   multiStepCustomWorkflows:
-    description: ''
+    description: Nurture campaigns, onboarding series, event-based automations, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   basicReports:
-    description: ''
+    description: See what's working for your business
+      
+      Mailchimp makes your data digestible, so it's easy to monitor trends, track performance, and
+      create better campaigns as you go.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   smartRecommendations:
-    description: ''
+    description: We'll automatically organize your contacts into segments based on their likelihood to purchase,
+      level of engagement, top locations, top tags, and more. In a few clicks, you can target them with an email,
+      ad, or postcard, right from your audience dashboard.
+
+      When you create a postcard or social ad, we'll help you reach new people who're likely to engage with you
+      brand, download your app, or buy your stuff.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   sendTimeOptimization:
-    description: ''
+    description: If you wonder about the best time of day or night to send emails, Send Time Optimization can take
+      out the guesswork. Send Time Optimization uses data science to determine when your contacts are most likely to
+      engage, and sends your emails at that time.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   deliveryByTimezone:
-    description: ''
+    description: Timewarp is a paid feature that schedules email campaigns based on each individual subscriber's
+      time zone, so subscribers receive your scheduled campaigns at the correct time for them. For example,
+      If you send from New York and schedule delivery for 9am, your west coast subscribers would normally get
+      the email at 6am PST. Timewarp would delay sending to anyone until it's 9am in their time zone.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   abTesting:
-    description: ''
+    description: See what works best
+  
+      Mailchimp takes the guesswork out of creating campaigns people click on. A/B and multivariate
+      testing let you try things out and pick a winner.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multivarianteTesting:
-    description: ''
+    description: When you create an email marketing campaign, there are many ways to present your content, but
+      you may wonder which way is best. Use our Multivariate Testing feature to see how small changes to your
+      email campaigns impact subscriber engagement.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   comparativeReporting:
-    description: ''
+    description: Comparative Reports compile data from your sent Regular and RSS campaigns into a comprehensive,
+      shareable report. Choose any number of campaigns to compare to help you identify patterns in subscriber engagement,
+      and improve and target your campaign content.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   knowledgeBase:
-    description: ''
+    description: Access Mailchimp knowledge base portal with guides, tutorials and articles
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   30DayEmailSupport:
-    description: ''
+    description: 30 days of email support on Sign up
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   24/7EmailSupport:
-    description: ''
+    description: 24/7 email support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24/7ChatSupport:
-    description: ''
+    description: 24/7 chat support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   phoneSupport:
-    description: ''
+    description: Phone support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   integrations:
-    description: ''
+    description: Mailchimp integrations directory
+      
+      See how Mailchimp works with your favorite apps and web services to help you do more with your
+      marketing. Find tools you already use, or discover new ways to step things up.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   mailchipMobileApp:
-    description: ''
+    description: Grow your business, wherever you are
+      
+      With Mailchimp's mobile app you can stay on top of your reports, audience growth, and
+      campaign content—all from your mobile device.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
 usageLimits:
   contactsLimit:
-    description: ''
+    description: Maximum number of contacts to create in your Mailchimp account
     valueType: NUMERIC
     defaultValue: 2000
     unit: contact
@@ -273,7 +349,7 @@ usageLimits:
     linkedFeatures:
     - contacts
   audiencesLimit:
-    description: ''
+    description: Maximum number of audience to create in your Mailchimp account
     valueType: NUMERIC
     defaultValue: 1
     unit: audience
@@ -281,7 +357,7 @@ usageLimits:
     linkedFeatures:
     - audiences
   customEventDataThreshold:
-    description: ''
+    description: Maximum number of days to hold custom data for behavioural targeting
     valueType: NUMERIC
     defaultValue: 30
     unit: day
@@ -289,13 +365,13 @@ usageLimits:
     linkedFeatures:
     - customEventData
   seatsLimit:
-    description: ''
+    description: Maximum number of seats in your Mailchimp account
     valueType: NUMERIC
     defaultValue: 1
     unit: seat
     type: NON_RENEWABLE
   monthlyEmailSends:
-    description: ''
+    description: Maximum number of emails to send monthly
     valueType: NUMERIC
     defaultValue: 10000
     unit: email
