@@ -184,92 +184,94 @@ features:
     defaultValue: true
     type: GUARANTEE
   microsoftWordWebApp:
-    description: ''
+    description: Web version of Word
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftExcelWebApp:
-    description: ''
+    description: Web version of Excel
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftPowerPointWebApp:
-    description: ''
+    description: Web version of Power Point
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftOneNoteWebApp:
-    description: ''
+    description: Web version of One Note
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftOutlookWebApp:
-    description: ''
+    description: Web version of Outlook
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   microsoftWordMobileApp:
-    description: ''
+    description: Mobile app for Word
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftExcelMobileApp:
-    description: ''
+    description: Mobile app for Excel
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftPowerPointMobileApp:
-    description: ''
+    description: Mobile App for Power Point
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftOneNoteMobileApp:
-    description: ''
+    description: Mobile App for One Note
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftOutlookMobileApp:
-    description: ''
+    description: Mobile App for Outlook
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   microsoftTeams:
-    description: ''
+    description: Stay organized and move faster with AI-enhanced messaging, meetings, and task flow
+      that help you rewrite, cloud recording, and reconnect effortlessly.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   microsoftWordDesktopApp:
-    description: ''
+    description: Desktop App for Word
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftExcelDesktopApp:
-    description: ''
+    description: Desktop App for Excel
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftPowerPointDesktopApp:
-    description: ''
+    description: Desktop App for Power Point
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftOneNoteDesktopApp:
-    description: ''
+    description: Desktop App for One Note
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftOutlookDesktopApp:
-    description: ''
+    description: Desktop App for Outlook
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftPublisher:
-    description: ''
+    description: Precisely layout and style text, pictures, borders, calendars, and more. In Publisher everything
+      you add stays exactly the way you've designed it, in print, online, or in an email.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftAccess:
-    description: ''
+    description: Create your own database apps easily in formats that serve your business best. PC only.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -339,13 +341,13 @@ features:
     type: MANAGEMENT
 usageLimits:
   maxUsers:
-    description: ''
+    description: Maximum number of users in your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 300
     unit: user
     type: NON_RENEWABLE
   maxMobileDevices:
-    description: ''
+    description: Maximum mobile devices connected to your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 5
     unit: device
@@ -357,7 +359,7 @@ usageLimits:
     - microsoftOneNoteMobileApp
     - microsoftOutlookMobileApp
   maxTabletDevices:
-    description: ''
+    description: Maximum tablet devices connected to your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 5
     unit: device
@@ -369,7 +371,7 @@ usageLimits:
     - microsoftOneNoteMobileApp
     - microsoftOutlookMobileApp
   maxDesktopDevices:
-    description: ''
+    description: Maximum desktop devices connected to your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 10
     unit: device
@@ -381,7 +383,7 @@ usageLimits:
     - microsoftOneNoteDesktopApp
     - microsoftOutlookDesktopApp
   cloudStorageLimit:
-    description: ''
+    description: Maximum number of disk storage available in your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 1000
     unit: GB
@@ -389,7 +391,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   slaMaxUptime:
-    description: ''
+    description: Uptime SLA
     valueType: NUMERIC
     defaultValue: 99.9
     unit: '%'
@@ -397,7 +399,7 @@ usageLimits:
     linkedFeatures:
     - uptimeGuarantee
   mailboxMaxCapacity:
-    description: ''
+    description: Maximum mailbox storage capacity
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
@@ -405,7 +407,7 @@ usageLimits:
     linkedFeatures:
     - mailbox
   maxAttendess:
-    description: ''
+    description: Maximum capacity of your Microsoft Teams meetings
     valueType: NUMERIC
     defaultValue: 0
     unit: people

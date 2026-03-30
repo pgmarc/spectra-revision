@@ -159,97 +159,97 @@ features:
     tag: Support and deployment
     type: GUARANTEE
   microsoftWordWebApp:
-    description: ''
+    description: Web version of Word
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftExcelWebApp:
-    description: ''
+    description: Web version of Excel
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftPowerPointWebApp:
-    description: ''
+    description: Web version of Power Point
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftOneNoteWebApp:
-    description: ''
+    description: Web version of One Note
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftOutlookWebApp:
-    description: ''
+    description: Web version of Outlook
     valueType: BOOLEAN
     defaultValue: false
     tag: Web and mobile apps
     type: DOMAIN
   microsoftWordMobileApp:
-    description: ''
+    description: Mobile app for Word
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftExcelMobileApp:
-    description: ''
+    description: Mobile app for Excel
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftPowerPointMobileApp:
-    description: ''
+    description: Mobile App for Power Point
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftOneNoteMobileApp:
-    description: ''
+    description: Mobile App for One Note
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftOutlookMobileApp:
-    description: ''
+    description: Mobile App for Outlook
     valueType: BOOLEAN
     defaultValue: true
     tag: Web and mobile apps
     type: DOMAIN
   microsoftWordDesktopApp:
-    description: ''
+    description: Desktop App for Word
     valueType: BOOLEAN
     defaultValue: false
     tag: Installable desktop apps
     type: DOMAIN
   microsoftExcelDesktopApp:
-    description: ''
+    description: Desktop App for Excel
     valueType: BOOLEAN
     defaultValue: false
     tag: Installable desktop apps
     type: DOMAIN
   microsoftPowerPointDesktopApp:
-    description: ''
+    description: Desktop App for Power Point
     valueType: BOOLEAN
     defaultValue: false
     tag: Installable desktop apps
     type: DOMAIN
   microsoftOneNoteDesktopApp:
-    description: ''
+    description: Desktop App for One Note
     valueType: BOOLEAN
     defaultValue: false
     tag: Installable desktop apps
     type: DOMAIN
   microsoftOutlookDesktopApp:
-    description: ''
+    description: Desktop App for Outlook
     valueType: BOOLEAN
     defaultValue: false
     tag: Installable desktop apps
     type: DOMAIN
   microsoftAccess:
-    description: ''
+    description: Create your own database apps easily in formats that serve your business best. PC only.
     valueType: BOOLEAN
     defaultValue: false
     tag: Installable desktop apps
@@ -304,13 +304,14 @@ features:
     tag: Project and customer relationship management
     type: DOMAIN
   microsoftTeams:
-    description: ''
+    description: Stay organized and move faster with AI-enhanced messaging, meetings, and task flow
+      that help you rewrite, cloud recording, and reconnect effortlessly.
     valueType: BOOLEAN
     defaultValue: false
     tag: Web and mobile apps
     type: DOMAIN
   microsoftPlanner:
-    description: ''
+    description: Manage all your work in a single, intelligent planning solution to stay on track and achieve more.
     valueType: BOOLEAN
     defaultValue: false
     tag: Web and mobile apps
@@ -405,7 +406,7 @@ features:
     type: GUARANTEE
 usageLimits:
   cloudStorageLimit:
-    description: ''
+    description: Maximum number of disk storage available in your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 1000
     unit: GB
@@ -413,7 +414,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   slaMaxUptime:
-    description: ''
+    description: Uptime SLA
     valueType: NUMERIC
     defaultValue: 99
     unit: '%'
@@ -421,7 +422,7 @@ usageLimits:
     linkedFeatures:
     - uptimeGuarantee
   mailboxMaxCapacity:
-    description: ''
+    description: Maximum mailbox storage capacity
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
@@ -429,7 +430,7 @@ usageLimits:
     linkedFeatures:
     - mailbox
   maxAttendess:
-    description: ''
+    description: Maximum capacity of your Microsoft Teams meetings
     valueType: NUMERIC
     defaultValue: 0
     unit: people

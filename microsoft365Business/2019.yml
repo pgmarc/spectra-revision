@@ -17,25 +17,25 @@ billing:
 currency: USD
 features:
   microsoftOutlookDesktopApp:
-    description: ''
+    description: Fully-installed and always up-to-date versions of Outlook
     valueType: BOOLEAN
     defaultValue: false
     tag: Desktop versions of Office apps for PC & Mac
     type: DOMAIN
   microsoftWordDesktopApp:
-    description: ''
+    description: Fully-installed and always up-to-date versions of Word
     valueType: BOOLEAN
     defaultValue: false
     tag: Desktop versions of Office apps for PC & Mac
     type: DOMAIN
   microsoftExcelDesktopApp:
-    description: ''
+    description: Fully-installed and always up-to-date versions of Excel
     valueType: BOOLEAN
     defaultValue: false
     tag: Desktop versions of Office apps for PC & Mac
     type: DOMAIN
   microsoftPowerPointDesktopApp:
-    description: ''
+    description: Fully-installed and always up-to-date versions of Power Point
     valueType: BOOLEAN
     defaultValue: false
     tag: Desktop versions of Office apps for PC & Mac
@@ -48,49 +48,49 @@ features:
     tag: Desktop versions of Office apps for PC & Mac
     type: DOMAIN
   microsoftOutlookWebApp:
-    description: ''
+    description: Web version of Outlook
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftWordWebApp:
-    description: ''
+    description: Web version of Word
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftExcelWebApp:
-    description: ''
+    description: Web version of Excel
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftPowerPointWebApp:
-    description: ''
+    description: Web version of Power Point
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftOutlookMobileApp:
-    description: ''
+    description: Mobile app version of Outlook
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftWordMobileApp:
-    description: ''
+    description: Mobile app version of Word
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftExcelMobileApp:
-    description: ''
+    description: Mobile app version of Excel
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
     type: DOMAIN
   microsoftPowerPointMobileApp:
-    description: ''
+    description: Mobile app version of Power Point
     valueType: BOOLEAN
     defaultValue: true
     tag: Web & mobile versions of Office apps
@@ -257,28 +257,31 @@ features:
     tag: Tools to build & manage your business
     type: INFORMATION
   microsoftPublisher:
-    description: ''
+    description: Precisely layout and style text, pictures, borders, calendars, and more. In Publisher everything
+      you add stays exactly the way you've designed it, in print, online, or in an email.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftAccess:
-    description: ''
+    description: Create your own database apps easily in formats that serve your business best. PC only.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   microsoftTeams:
+    description: Stay organized and move faster with AI-enhanced messaging, meetings, and task flow
+      that help you rewrite, cloud recording, and reconnect effortlessly.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
 usageLimits:
   maxUsers:
-    description: ''
+    description: Maximum number of users in your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 300
     unit: user
     type: NON_RENEWABLE
   maxMobileDevices:
-    description: ''
+    description: Maximum mobile devices connected to your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 5
     unit: device
@@ -289,7 +292,7 @@ usageLimits:
     - microsoftPowerPointMobileApp
     - microsoftOutlookMobileApp
   maxTabletDevices:
-    description: ''
+    description: Maximum tablet devices connected to your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 5
     unit: device
@@ -300,7 +303,7 @@ usageLimits:
     - microsoftPowerPointMobileApp
     - microsoftOutlookMobileApp
   maxDesktopDevices:
-    description: ''
+    description: Maximum desktop devices connected to your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 0
     unit: device
@@ -311,7 +314,7 @@ usageLimits:
     - microsoftPowerPointDesktopApp
     - microsoftOutlookDesktopApp
   cloudStorageLimit:
-    description: ''
+    description: Maximum number of disk storage available in your Microsoft Office 365 Business account
     valueType: NUMERIC
     defaultValue: 1000
     unit: GB
@@ -319,7 +322,7 @@ usageLimits:
     linkedFeatures:
     - cloudStorage
   slaMaxUptime:
-    description: ''
+    description: Uptime SLA
     valueType: NUMERIC
     defaultValue: 99.9
     unit: '%'
@@ -327,7 +330,7 @@ usageLimits:
     linkedFeatures:
     - uptimeGuarantee
   mailboxMaxCapacity:
-    description: ''
+    description: Maximum mailbox storage capacity
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
@@ -335,7 +338,7 @@ usageLimits:
     linkedFeatures:
     - mailbox
   onlineMeetingCapacity:
-    description: ''
+    description: Maximum capacity of your Microsoft Teams meetings
     valueType: NUMERIC
     defaultValue: 0
     unit: people
@@ -344,7 +347,8 @@ usageLimits:
     - onlineMeetings
 plans:
   BUSINESS:
-    description: ''
+    description: Best for businesses that need Office apps plus cloud file storage and sharing on PC, Mac, or
+      mobile. Business email not included.
     price: 8.25
     unit: user/month
     features:
@@ -362,7 +366,7 @@ plans:
       maxDesktopDevices:
         value: 5
   BUSINESS_PREMIUM:
-    description: ''
+    description: Best for businesses that need business email, Office apps, and other business services on PC, Mac, or mobile.
     price: 12.5
     unit: user/month
     features:
@@ -410,7 +414,8 @@ plans:
       onlineMeetingCapacity:
         value: 250
   BUSINESS_ESSENTIALS:
-    description: ''
+    description: Best for businesses that need business email and other business services on PC, Mac, or mobile.
+      Desktop versions of Office apps not included.
     price: 5
     unit: user/month
     features:
