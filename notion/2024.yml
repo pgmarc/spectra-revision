@@ -8,144 +8,158 @@ currency: USD
 url: https://web.archive.org/web/20240716134101/https://www.notion.so/pricing
 features:
   pages:
-    description: ''
+    description: Every page you create in Notion is a fresh canvas where you can add whatever content you want.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   blocks:
-    description: ''
+    description: Blocks are pieces of content you add to a page (e.g to-do checkboxes, paragraphs, bullet points, etc.).
+      Teams who want to try collaborating in Notion can use the Free Plan with up to certain number of blocks before upgrading.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fileUploads:
-    description: ''
+    description: A per file size limit may apply to any file that your upload to a Notion page or database.
+      On the Free plan, you can upload images, videos and file attachments up to 5MB each. Upgrade to a paid plan for
+      unlimited file uploads with a ~5GB max per file.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   pageHistory:
-    description: ''
+    description: Restore your page to a previous version.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   basicPageAnalytics:
-    description: ''
+    description: Get actionable insights about who's viewing and interacting with your content.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   advancedPageAnalytics:
-    description: ''
+    description: More advanced insights apart from basic Page Analytics.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   collaborativeWorkspace:
-    description: ''
+    description: Plan, create, and get organized, together. Share your workspace with multiple
+      people and teams, so everyone can stay aligned in a single place.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   guests:
-    description: ''
+    description: Invite individuals outside your organization to collaborate. Guests often include external clients
+      and contractos. Contact Sales for a higher limit.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   permissionGroups:
-    description: ''
+    description: Create groups of people according to role of deparment to streamline page & teamspace permissions.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   openTeamSpaces:
-    description: ''
+    description: Create dedicated areas for folks to work together, without creating information silos. People can join the
+      teamspaces that interest them, and leave the one that don't. In open team spaces anyone can join
+      and view the content inside this teamspace.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   closeTeamSpaces:
-    description: ''
+    description: Create dedicated areas for folks to work together, without creating information silos. People can join the
+      teamspaces that interest them, and leave the one that don't. In closed team spaces everyone can see that this
+      teamspace exists, but can't join unless they're invited by an owner or member.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   privateTeamSpaces:
-    description: ''
+    description: Create teamspaces that can't be seen or discovered by anyone except those you add. Great for sensitive
+      information like company planning or performance reviews.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedTeamSpacePermissions:
-    description: ''
+    description: Override teamspace permissions for specific people or groups, giving you even more control over who has view
+      vs. edit access to content.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   notionCalendar:
-    description: ''
+    description: Connect multiple Google Calendars to manage work and time together.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   views:
-    description: ''
+    description: Customize how you see items and tasks.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   subtasks:
-    description: ''
+    description: Add subtasks
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   tasksDependency:
-    description: ''
+    description: Add link dependencies
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customProperties:
-    description: ''
+    description: Add unlimited database properties
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   filtering:
-    description: ''
+    description: Add filters to organize information.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   formulas:
-    description: ''
+    description: Add a formula property to run calculations and functions based on other properties.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   basicAutomations:
-    description: ''
+    description: Automatically create pages and new blocks, set status, assignee, and property values, and more.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   customDatabaseAutomations:
-    description: ''
+    description: Create your own workflows with custom database automations
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   publishedPages:
-    description: ''
+    description: Publish an unlimited number of pages to the web.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   notionSiteDomain:
-    description: ''
+    description: Select a custom notion.site domain for your published pages.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   basicSEO:
-    description: ''
+    description: Turn on search engine indexing for any Site. Upgrade to a paid plan to customize your
+      title and description metadata.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedSEO:
-    description: ''
+    description: Turn on search engine indexing for any Site. Upgrade to a paid plan to customize your
+      title and description metadata. Upgrade to a paid plan to customize your title and description metadata.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   siteCustomization:
-    description: ''
+    description: Set a homepage, customize your Site's favicon and share preview, build a custom header bar, and set ligth
+      or dark mode.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   googleAnalyticsIntegration:
-    description: ''
+    description: Connect with Google Analytics to see page visits and other data about your Site.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -153,23 +167,26 @@ features:
     pricingUrls:
     - https://analytics.google.com/analytics/web/
   customDomainAndBranding:
-    description: ''
+    description: Connect a custom domain to your Site and remove Notion branding for $8/month/domain paid annually, or
+      $10/month per domain paid monthly.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   syncDatabases:
-    description: ''
+    description: See up-to-date information from Jira and Github, all synced into Notion as a database.
+      Personal plans are limited to 1 database with 100 rows.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   dynamicLinkPreviews:
-    description: ''
+    description: Paste a link to a Github PR, Jira ticket, Figma artboard & more to add a dynamic preview of content
+      in your docs & notes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   slackIntegration:
-    description: ''
+    description: Send information from Notion to Slack, and vice versa.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -177,7 +194,7 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   zapierIntegration:
-    description: ''
+    description: Connect to Zapier to create automated workflows with the tools you rely on.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -185,138 +202,152 @@ features:
     pricingUrls:
     - https://zapier.com/pricing
   publicApi:
-    description: ''
+    description: Build bespoke integrations to connect your Notion workspace to internal tools and workflows.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   exportEntireWorkspaceAsHTML:
-    description: ''
+    description: Create a backup of all the pages and content across your workspace as HTML.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportEntireWorkspaceAsMarkdown:
-    description: ''
+    description: Create a backup of all the pages and content across your workspace as Markdown.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   exportEntireWorkspaceAsCSV:
-    description: ''
+    description: Create a backup of all the pages and content across your workspace as CSV.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   twoStepVerification:
-    description: ''
+    description: Enable an extra layer of account security with a second method of verification, also know as 2FA or MFA.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   exportEntireWorkspaceAsPDF:
-    description: ''
+    description: Export all your content at once as PDFs. Perfect for legal or compliance backups.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   samlSso:
-    description: ''
+    description: Manage employee access at scale with secure single sign-on.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   userProvisioning:
-    description: ''
+    description: Automatically provision members in and out of your workspace with identiy providers like Okta.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   advancedWorkspaceSecurityControls:
-    description: ''
+    description: Unlock extra permission controls to prevent certain people from sharing pages externally, disable guests,
+      and set workspace-level rules.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedTeamspaceSecurityControls:
-    description: ''
+    description: Unlock extra permission controls to prevent certain people from sharing pages externally, disable guests,
+      and set workspace-level rules.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   workspaceAnalytics:
-    description: ''
+    description: Get actionable insights about how folks use your Notion workspace, from the most popular pages to overall traffic.
+      Analytics data begins after Enterprise Plan start date.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   granularAdminRoles:
-    description: ''
+    description: Designate membership admins who can add and remove members from the workspace and groups, but can't access
+      other security & billing settings.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   auditLog:
-    description: ''
+    description: Access a detailed log of security and safety-related activity for your workspace account to identify potential
+      security issues, investigate suspicious behaviour, or troubleshoot access.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   adminContentSearch:
-    description: ''
+    description: Admin content search provides Workspace owners visibility into the content of their Notion workspace,
+      letting them filter, search, and troubleshoot permissions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   domainManagement:
-    description: ''
+    description: Establish ownership of your company domain and take actions on workspaces that belong to your verified
+      domain (request ownership transfer, delete, claim)
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   workspaceConsolidation:
-    description: ''
+    description: Consolidate content from multiple workspaces, including users, page content, and permissions, into your
+      main workspace as teamspaces(s) that keep their structure.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   managedUsersDashboard:
-    description: ''
+    description: Manage the users within your domain, including a dashboard where you can get information and make changes.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   managedUsersControls:
-    description: ''
+    description: Manage the users within your domain, including a dashboard where you can get information and make changes.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   securityIntegrations:
-    description: ''
+    description: Integrate with SIEM and DLP tools to automatically centralize audit logs & set policies to detect
+      sensitive content in your workspace and trigger automated actions to remediate.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   complianceIntegrations:
-    description: ''
+    description: Integrate with SIEM and DLP tools to automatically centralize audit logs & set policies to detect
+      sensitive content in your workspace and trigger automated actions to remediate.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   hipaaCompliance:
-    description: ''
+    description: Customer can store and process Protected Health Information (PHI) in Notion once they sign a Business
+      Associate Agreement (BAA) and configured their workspace(s) security settings according to our HIPAA configuration
+      instructions.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   guestInviteRequests:
-    description: ''
+    description: Workspace members can send guest invite requests to their workspace owners for review when guests
+      are disabled in the workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customDataRetentionPolicies:
-    description: ''
+    description: Control over when pages are deleted from Trash, and how long they are retained afterward.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   prioritySupport:
-    description: ''
+    description: We're always around to help. Just click the (?) button at the bottom right on desktop, or tap "Help &
+      feedback" if you're on mobile.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customerSuccessManager:
-    description: ''
+    description: Our team of customer success managers are experts to help you get the most out of Notion.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   fileUploadsLimit:
-    description: ''
+    description: Maximum file size upload threshold
     valueType: NUMERIC
     defaultValue: 5
     unit: MB
@@ -324,7 +355,7 @@ usageLimits:
     linkedFeatures:
     - fileUploads
   pageHistoryThreshold:
-    description: ''
+    description: Maximum page history period threshold
     valueType: NUMERIC
     defaultValue: 7
     unit: days
@@ -332,7 +363,7 @@ usageLimits:
     linkedFeatures:
     - pageHistory
   notionSiteDomainLimit:
-    description: ''
+    description: Maximum notion site domain available
     valueType: NUMERIC
     defaultValue: 1
     unit: domain
@@ -340,7 +371,7 @@ usageLimits:
     linkedFeatures:
     - notionSiteDomain
   guestsLimit:
-    description: ''
+    description: Maximum guest available in Notion
     valueType: NUMERIC
     defaultValue: 10
     unit: guest
@@ -348,7 +379,7 @@ usageLimits:
     linkedFeatures:
     - guests
   customDomainsLimit:
-    description: ''
+    description: Maximum custom domain available in Notion
     valueType: NUMERIC
     defaultValue: 0
     unit: domain
@@ -356,7 +387,7 @@ usageLimits:
     linkedFeatures:
     - customDomainAndBranding
   syncDatabasesLimit:
-    description: ''
+    description: Maximum databases to sync
     valueType: NUMERIC
     defaultValue: 1
     unit: database
@@ -364,7 +395,7 @@ usageLimits:
     linkedFeatures:
     - syncDatabases
   rowLimitPerSyncedDatabase:
-    description: ''
+    description: See up-to-date information from Jira, Github & Asana, all synced into Notion as a database.
     valueType: NUMERIC
     defaultValue: 100
     unit: row

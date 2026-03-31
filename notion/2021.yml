@@ -8,205 +8,227 @@ currency: USD
 url: http://web.archive.org/web/20211102200417/https://www.notion.so/pricing
 features:
   pages:
-    description: ''
+    description: Every page you create in Notion is a fresh canvas where you can add whatever content you want.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   blocks:
-    description: ''
+    description: Blocks are places of content you add to a page, like a paragraph, a to-do item, an image,
+      an embedded file, etc. Blocks are now unlimited for all plans. A 1,000 block limit applies for Team Plan trials.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   guests:
-    description: ''
+    description: Guests are individuals external to your workspace, such as friends, family, contractors or clients.
+      Collaborate privately by inviting guests on individual pages.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fileUploads:
-    description: ''
+    description: A per file size limit may apply to any file that your upload to a Notion page or database.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   versionHistory:
-    description: ''
+    description: View and restore past versions of any Notion page.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   realTimeCollaboration:
-    description: ''
+    description: Work with others in real time, with live pressence and comments.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   linkSharing:
-    description: ''
+    description: Share a secret link with anyone, so they can view, comment, or edit your page at your discretion.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   collaborativeWorkspace:
-    description: ''
+    description: The collaborative workspace lets members easily share pages to the whole team in a shared hierachy, with
+      granular persmissions.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   webApp:
-    description: ''
+    description: Notion runs in your web browser with no installation required.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   desktopApp:
-    description: ''
+    description: Download our app for Mac or Windows
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   mobileApp:
-    description: ''
+    description: Download our app for iOS, or Android
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   blockContentTypes:
-    description: ''
+    description: "Block are different types of content you can add to a page: a to-do item, an image, a code block, an
+      uploaded file.
+      
+      Blocks also help you embed content from services like Google Drive, Github, Twitter, and Typeform."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   starterTemplates:
-    description: ''
+    description: "Start with a blank canvas or choose from our library of expertly designed templates.
+
+      Some favourites include: notes, goals, company home, meeting notes, product roadmap, new hire onboarding, and
+      engineering wiki."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   wikis:
-    description: ''
+    description: Use Notion for shared wikis.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   docs:
-    description: ''
+    description: Use Notion for shared docs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   notes:
-    description: ''
+    description: Use Notion as a powerful notetaking tools.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   databases:
-    description: ''
+    description: Build powerful databases with rich properties, such as checkboxes, dropdown selects, currencies,
+      assignees, dates, files and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   tableView:
-    description: ''
+    description: A table is the classic database view, but tables in Notion are more than just rows and columns.
+      Each row opens up into its own page, and can contain whatever properties you want
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   listView:
-    description: ''
+    description: Lists are simple and minimalist database views. They're ideal for storing notes, articles, and
+      documents that don't need too many properties. Every item in a list is a page that can be opened with one
+      click and store as much content as you need
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   calendarView:
-    description: ''
+    description: Calendars let you visualize how database items connect to certain dates. Use one when you want
+      a bird's-eye view for important launch dates, multi-day events, or even projects spanning multiple months
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   kanbanBoardView:
-    description: ''
+    description: Boards are helpful for showing items in a database as they move through stages of a process,
+      or grouped by property
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   galleryView:
-    description: ''
+    description: Gallery view is the best way to display databases with visual components, like mood boards,
+      office directories, virtual recipe boxes, and more
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   timelineView:
-    description: ''
+    description: For anyone who needs to visualize their projects plotted chronologically - whether it's hours,
+      years, or anything in between - Notion's timeline is a type of database that keeps you on task and on track
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   api:
-    description: ''
+    description: Access the Notion API to build custom integrations for your team. Now in beta.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   bulkExport:
-    description: ''
+    description: YOu own your data. Download all your pages as HTML, Markdown, or CSV (for databases), and any files/images
+      you've uploaded, too.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   adminTools:
-    description: ''
+    description: Create separate admin and member permissions for more control. Only admins can invite new members and change
+      workspace settings.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   permissionGroups:
-    description: ''
+    description: Set varying and granular permissions for different groups and team.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedPermissions:
-    description: ''
+    description: Set more granular permission to restrict invited people from sharing the page to others.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedSecurityControls:
-    description: ''
+    description: Unlock extra permission controls to prevent certain people from sharing pages externally, disable guests,
+      and set workspace-level rules.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   samlSso:
-    description: ''
+    description: Manage employee access at scale with secure single sign-on.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   userProvisioning:
-    description: ''
+    description: Access the Notion SCIM API to provision and manage users and groups.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   bulkPdfExport:
-    description: ''
+    description: Export all of your content at once as PDFs. Handy for legal or compliance backups.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   prioritySupport:
-    description: ''
+    description: We're always around to help.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedCustomerManager:
-    description: ''
+    description: Reserved for teams larger than 100 people paying annually.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customContract:
-    description: ''
+    description: We'll work with you to create a custom contract and payment via PO/invoice.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
   invoicing:
-    description: ''
+    description: We'll work with you to create a custom contract and payment via PO/invoice.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
   accessFeaturesEarly:
-    description: ''
+    description: Early access means you'll always have the most powerful version of Notion. You'll also influence our
+      future product roadmap.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
 usageLimits:
   membersLimit:
-    description: ''
+    description: Members are teammates you invite to your workspace. They can access and add pages for all members to see,
+      or be added to pages with permissions for private collaboration.
     valueType: NUMERIC
     defaultValue: 1
     unit: member
     type: NON_RENEWABLE
   guestsLimit:
-    description: ''
+    description: Maximum number of guests in your Notion account
     valueType: NUMERIC
     defaultValue: 5
     unit: guest
@@ -214,7 +236,7 @@ usageLimits:
     linkedFeatures:
     - guests
   fileUploadsLimit:
-    description: ''
+    description: Maximum file size upload threshold
     valueType: NUMERIC
     defaultValue: 5
     unit: MB
@@ -222,7 +244,7 @@ usageLimits:
     linkedFeatures:
     - fileUploads
   versionHistoryThreshold:
-    description: ''
+    description: Maximum version history period threshold
     valueType: NUMERIC
     defaultValue: 0
     unit: days
@@ -231,13 +253,13 @@ usageLimits:
     - versionHistory
 plans:
   PERSONAL:
-    description: ''
+    description: For organizing every corner of your life.
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   PERSONAL_PRO:
-    description: ''
+    description: For power users who want to do even more.
     price: 5
     unit: user/month
     features:
@@ -253,7 +275,7 @@ plans:
       versionHistoryThreshold:
         value: 30
   TEAM:
-    description: ''
+    description: Collaborate with your entire team in one place.
     price: 10
     unit: user/month
     features:
@@ -279,7 +301,7 @@ plans:
       versionHistoryThreshold:
         value: 30
   ENTERPRISE:
-    description: ''
+    description: Controls & support to run your company.
     price: Contact Sales
     unit: user/month
     features:
