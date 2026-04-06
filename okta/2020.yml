@@ -9,540 +9,654 @@ url: https://web.archive.org/web/20201112033710/https://www.okta.com/pricing/
 features:
   # Single Sign-On
   oktaIntegrationNetwork:
-    description: ""
+    description: The Okta Integration Network (OIN) is the identity industry's broadest and deepest
+      set of pre-integrated cloud apps that make it easy to manage access management, user provisioning
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   oktaTreathInsight:
-    description: ""
+    description: "Okta ThreatInsight aggregates data about sign-in activity across the Okta customer base to analyze and
+      detect potentially malicious IP addresses and to prevent credential-based attacks such as:
+
+      - password spraying
+      - credential stuffing
+      - brute-force cryptographic attacks
+      
+      Because ThreatInsight collects information about the origin of sign-in activity directed at Okta organizations
+      and Okta endpoints, it provides a security baseline for all Okta customers. You can choose to log events for
+      auditing or to log events and block traffic that ThreatInsight has identified as suspicious. If you choose to
+      log and block traffic, Okta automatically denies access to sign-in requests that come from potentially malicious
+      IP addresses that ThreatInsight has detected."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   desktopSSO:
-    description: ""
+    description: Desktop SSO. Okta's native SSO solution is based on token exchange, and it builds on an OIDC draft
+      spec Native SSO for Mobile Apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   mobileSSO:
-    description: ""
+    description: Mobile SSO. Okta's native SSO solution is based on token exchange, and it builds on an OIDC draft spec
+      Native SSO for Mobile Apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multiFactorAuthentication:
-    description: ""
+    description: "Defend against phishing attacks — when new employees first log in and every time after — with a
+      range of phishing-resistant policies and factors, such as:
+
+      - Okta FastPass
+      - FIDO2 WebAuthn authenticators
+      - Smart cards such as Personal Identity Verification (PIV) and Common Access Cards (CAC)"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   3rdPartyMultifactorAuthenticationIntegration:
-    description: ""
+    description: "You can configure multifactor authentication (MFA) for these third-party agents:
+    
+      - Okta On-Prem MFA agent (formerly RSA SecurID)
+      - Okta MFA Credential Provider for Windows
+      - Okta MFA provider for Active Directory Federation Services
+      - MFA for Electronic Prescribing for Controlled Substances - Hyperdrive
+      - MFA for Electronic Prescribing for Controlled Substances - Hyperspace
+      - MFA for Oracle Access Manager"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   groupAccessPolicies:
-    description: ""
+    description: Policies let you control access to an app URL. You can allow or deny access to individual
+      users or groups and configure custom access in advanced configurations.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   appAccessPolicies:
-    description: ""
+    description: App policies inherit the original group specified in the app's Essentials tab. Access Gateway
+      checks this group setting before applying an access policy to an app's URI and allows or denies access to
+      the app accordingly. See App essentials.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   radiusAuthentication:
-    description: ""
+    description: Okta provides the ability for organizations to manage the authorization of and access to on-premises
+      applications and resources using the RADIUS protocol.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   pivCardAuthentication:
-    description: ""
+    description: Allow end users of federal customers to use their existing Personal Identity Verification (PIV)
+      cards to authenticate to any application integrated with Okta.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   idpDiscovery:
-    description: ""
+    description: You can define logic to determine which IdP individual end users are routed to when they authenticate.
+      You can define that logic only if you have more than one IdP configured in your org. For example, if you have
+      just one external IdP, in addition to Okta itself also serving as an IdP. This functionality is called IdP Discovery,
+      or IdP routing rules.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customOrgUrls:
-    description: ""
+    description: You can customize your Okta organization by replacing the Okta domain name with your own domain name.
+      Your customized domain allows you to create a seamless branded experience for your users so that all URLs look
+      like your app.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   oktaSignInWidget:
-    description: ""
+    description: The Sign-In Widget renders a user-friendly sign-in form for all aspects of the identity verification
+      lifecycle, from initial registration to multifactor authentication. It acts as the front door to your app or website.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   localLanguageSupport:
-    description: ""
+    description: Okta supports over 25 different display languages for end users that can be customized on the
+      organizational or individual level.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   unlimitedIntegrationsToAd:
-    description: ""
+    description: Share user attributes with Okta by integrating your existing Active Directory
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   unlimitedIntegrationsToLdap:
-    description: ""
+    description: Share user attributes with Okta by integrating your existing LDAP
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   siemIntegration:
-    description: ""
+    description: Integrate SIEM providers with Okta
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   locationContext:
-    description: ""
+    description: Makes decisions to grant or deny access based on location context.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   deviceContext:
-    description: ""
+    description: Makes decisions to grant or deny access based on the device context.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   networkContext:
-    description: ""
+    description: Makes decisions to grant or deny access based on network context.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   riskBasedAuthentication:
-    description: ""
+    description: Risk-based authentication assesses the probability of account compromise with each login.
+
+      If the request seems unusual or suspect, the user must do something extra to gain access. Additional
+      factors (like biometrics) ensure that the request comes from a valid user.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   # Multi-Factor Authentication
   securityQuestions:
-    description: ""
+    description: The Security Question factor prompts end users to enter a correct response to a question that
+      they've selected from a list of possible questions.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   oktaVerifyOtp:
-    description: ""
+    description: OTPs can strengthen security as part of multi-factor authentication (MFA) by requiring a
+      unique, temporary code in addition to standard login credentials.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   oktaVerifyPush:
-    description: ""
+    description: The expected behavior of Okta Verify is to reflect the context of the original client request
+      when a user receives a push notification. This behavior isn't honored in proxy model architectures. In
+      proxy model architectures, a server-side application using the embedded SDK is used as a proxy between
+      client applications and Okta servers.
+
+      The Okta Verify push notification always displays the server's IP address and user agent regardless of
+      any passed-in request context. As a result, Okta Verify is unavailable for server-side applications using
+      the embedded SDK until Okta finds a solution.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   emailAsAFactor:
-    description: ""
+    description: The Email Authentication factor allows users to authenticate using a six-digit code as a one-time
+      password (OTP). Okta sends the OTP in an email message to the user's primary email address, which helps verify
+      that the person making the sign-in attempt is the intended user. If the user doesn't use the OTP within the
+      challenge lifetime, the user isn't authenticated.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   smsAsAFactor:
-    description: ""
+    description: The SMS Authentication factor allows users to authenticate themselves using a one-time
+      passcode (OTP) that is delivered to their phone in an SMS message.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   voiceCallAsAFactor:
-    description: ""
+    description: The Voice Call Authentication factor allows users to authenticate themselves using a
+      one-time passcode (OTP) that is delivered in a voice call to the user's phone. Users can provide
+      a phone number for a landline or mobile phone. Extension numbers for landlines are also supported.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   u2fAsAFactor:
-    description: ""
+    description: U2F (Universal 2nd Factor) is an authentication standard that uses one key for multiple services.
+      It simplifies and elevates the security provided by 2FA (two-factor authentication).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   thirdPartyFactors:
-    description: ""
+    description: Supported factors include Google Authenticator, Duo, Symantec VIP, RSA token and Yubikey
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   windowsHello:
-    description: ""
+    description: Depending on the settings for your org, you may be required to use Windows Hello or a
+      passcode for user verification
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   appleTouchId:
-    description: ""
+    description: Open Okta Verify and click your account. Click the toggle to turn Touch ID or password confirmation
+      on or off. If this verification method is required, you can't turn it off.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   newCityLocationContext:
-    description: ""
+    description: A location behavior is used to define policies based on changes in the end user's city
+      location when they sign in.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   newStateLocationContext:
-    description: ""
+    description: A location behavior is used to define policies based on changes in the end user's state
+      location when they sign in.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   newCountryLocationContext:
-    description: ""
+    description: A location behavior is used to define policies based on changes in the end user's country
+      location when they sign in.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   newGeo-locationLocationContext:
-    description: ""
+    description: A location behavior is used to define policies based on changes in the end user's geo-location
+      location when they sign in.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   impossibleTravelPatterns:
-    description: ""
+    description: In cybersecurity, impossible travel refers to a login attempt from a location that defies the laws
+      of physics, like a user accessing systems from New York and then Dubai minutes apart.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   newDeviceContext:
-    description: ""
+    description:  New Device Behavior Detection feature is a mechanism for detecting that a user is signing
+      in from a new device.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   managedDeviceContext:
-    description: ""
+    description: Login is from a device that is pre-registered and managed through solutions such as VMWare AirWatch,
+      MobileIron, Intune, or JAMF
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   newIpNetworkContext:
-    description: ""
+    description: New IP Network Context is a mechanism for detecting that a user is signing from a new IP.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   specifiedIpZonesNetworkContext:
-    description: ""
+    description: Login an user based on a specified IP Zone. IP zones define network perimeters around a set
+      of IP addresses. IP zones contain gateways and trusted proxies.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   oktaThreatInsight:
-    description: ""
+    description: "Okta ThreatInsight aggregates data about sign-in activity across the Okta customer base to analyze and
+      detect potentially malicious IP addresses and to prevent credential-based attacks such as:
+      - password spraying
+      - credential stuffing
+      - brute-force cryptographic attacks"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   # Universal Discovery
   cloudDirectory:
-    description: ""
+    description: Centralize your user, group, and device management in a single control panel, so you
+      can adopt any technology at scale.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   unlimitedDirectoryIntegrations:
-    description: ""
+    description: Unlimited directory integrations (AD/LDAP & apps)
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   unlimitedCustomUserAttributes:
-    description: ""
+    description: Unlimited custom user attributes
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   unlimitedCustomUserFields:
-    description: ""
+    description: Unlimited custom user fields
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customMapping:
-    description: ""
+    description: Profile mappings are declarative rules that allow for the transformation of defining attributes
+      between Okta and external apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customTransformation:
-    description: ""
+    description: Profile mappings are declarative rules that allow for the transformation of defining attributes
+      between Okta and external apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   cloud-basedLdapAuthentication:
-    description: ""
+    description: Okta's LDAP Interface allows cloud based LDAP authentication against Universal Directory instead
+      of an on-prem LDAP server, including Active Directory.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   # Lifecycle Management
   autoProvisioningForOinApps:
-    description: ""
+    description: You can use a pre-built Okta Integration Network (OIN) app integration, or set up your own custom
+      API connection, to provision users between Okta and cloud-based applications.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   deprovisioningForOinApps:
-    description: ""
+    description: You can use a pre-built Okta Integration Network (OIN) app integration, or set up your own custom
+      API connection, to provision users between Okta and cloud-based applications.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   directoryIntegrationWithAd:
-    description: ""
+    description: Okta's directory integration support also allows you to delegate the authentication of users into
+      Okta to your on-premises AD
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   directoryIntegrationWithLdap:
-    description: ""
+    description: Okta's directory integration support also allows you to delegate the authentication of
+      users into Okta to your LDAP Domain.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   completeAdSynchronizationForOffice365:
-    description: ""
+    description: Okta's integration with Office 365, part of our Secure Identity Integrations, simplifies
+      access management, enhances security, and increases operational efficiency.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   appAccessTiedToLifecycleStates:
-    description: ""
+    description: Couple app access to lifecycle states in company user-provisioning. For example when an employee is hired,
+      promoted, changed roles or leaves the organization.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   appProvisioningTiedToLifecycleStates:
-    description: ""
+    description: Couple app provisioning to lifecycle states in company user-provisioning. For example when an employee is hired,
+      promoted, changed roles or leaves the organization.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   createAccountsInApplications:
-    description: ""
+    description: Activate user accounts to change the account status from Staged, Suspended, or Deactivated to Active.
+      When you activate a user account, an email notification is sent to the user's primary or secondary email address
+      informing them that their account is active. Included with the email notification are instructions for
+      setting up their account in your org. After you activate a user account, the user can access all provisioned
+      applications assigned to them.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   deactivateAccountsInApplications:
-    description: ""
+    description: Deleting personal user accounts and user data can help you satisfy data protection and disposal
+      laws in your region. As users are added, reassigned, or terminated, you can deactivate or delete user accounts
+      to limit or remove access to org resources.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   manageEntitlements:
-    description: ""
+    description: Entitlement Management offers a simple and a powerful way to ensure that users in an organization have
+      the right permissions for each resource.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   groupDiscovery:
-    description: ""
+    description: You can search for a group on the Groups page at DirectoryGroups by full or partial group name.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   groupMatching:
-    description: ""
+    description: Okta displays the names of groups that match what you enter in the search field and returns
+      only groups that match the prefix
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   groupPush:
-    description: ""
+    description: Group Push lets you push Okta groups and their members to provisioning-enabled third-party apps.
+      Okta sources the memberships of the downstream target apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   groupUpdates:
-    description: ""
+    description: Updates the access privileges of the specified group.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   automations:
-    description: ""
+    description: Policy for automatically suspending, deactivating and deleting users based on date based conditions
+      and triggers.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   graphicalInterfaceForBuildingIdentityProcesses:
-    description: ""
+    description: Graphical interface (GUI) for building identity processes in Okta Workflows for Lifecycle
+      Management
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   conditionalLogicWithoutCode:
-    description: ""
+    description: Customize Okta Lifecycle workflows with custom logic (no-code blocks)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   branchingLogicWithoutCode:
-    description: ""
+    description: Customize Okta Lifecycle workflows with custom logic (no-code blocks)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   flexibleTriggers:
-    description: ""
+    description: Flexible triggers (e.g. from Okta, other apps, or scheduled)
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   accessRequestWorkflows:
-    description: ""
+    description: Directly integrated into an Okta org, Access Requests automates the process of requesting access to
+      apps, groups, and entitlement bundles. Access Requests delivers a simplified and frictionless approach that
+      automatically routes user requests to one or more approvers for action.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   deprovisioningWorkflows:
-    description: ""
+    description: Create a custom deprovisiong workflow to disable app access to enterprise apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   accessAuditReports:
-    description: ""
+    description: Audit events integration with the Okta System Log lets Okta administrators access audit
+      events directly through the System Log.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   recentUnassignmentsReport:
-    description: ""
+    description: The Recent Unassignments report provided data about users that were unassigned from a specific app
+      integration. You can now use the System Log event application.user_membership.remove to identify users who have
+      been unassigned from an app.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   apisForFullCustomization:
-    description: ""
+    description: Use Okta API to create a custom API report
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   customizableDirectoryForUsers:
-    description: ""
+    description: Beyond simply adding attributes to the default profile, Universal Directory allows you to define
+      entirely new user types. This is a powerful feature for organizations that manage distinct user populations
+      with fundamentally different data requirements.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   customizableDirectoryForGroups:
-    description: ""
+    description: Using the Profile Editor or the Schema API (opens new window), you can extend the group
+      profile with custom attributes to store relevant organizational data.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   customizableDirectoryForDevices:
-    description: ""
+    description: Each registered device in Okta Classic Engine is a unique object within Okta Universal Directory.
+      This gives you visibility into the devices that access Okta and enables you to make decisions about user access.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   manageLifecycleStates:
-    description: ""
+    description: Manage lifecycle states of user with Universal Directory
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   attributeMapping:
-    description: ""
+    description: You use attribute mappings to control what attributes are exchanged during the provisioning process.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   attributeTransformation:
-    description: ""
+    description: Expressions within mappings let you modify attributes before they are stored in Okta or sent to apps.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   builtInStandards-basedProvisioning:
-    description: ""
+    description: Built-in standards-based provisioning (SCIM - RFC 7644)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   onPremProvisioningSdk:
-    description: ""
+    description: The Okta Provisioning Agent lets you provision users from Okta to on-premises apps that are installed
+      behind a corporate firewall and to import users from corporate apps into your Okta org. Communication between Okta
+      and on-premises apps occurs through the Okta Provisioning Agent and a System for Cross-domain Identity Management
+      (SCIM) server or a provisioning connector built using the Provisioning Connector SDK.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   hr-drivenItProvisioning:
-    description: ""
+    description: Okta brings identity management and HRM together into a unified system. Now HR and IT can work together
+      more efficiently to bridge the employee lifecycle gap.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   masteringFromSelectOinApps:
-    description: ""
+    description: Mastering from select OIN apps (e.g. Salesforce and GSuite)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   masteringFromOnPremisesApps:
-    description: ""
+    description: Mastering from on-premises apps via on-premises provisioning agent
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   masteringFromCsvDirectory:
-    description: ""
+    description: Mastering from CSV Directory
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   # API Access Management
   applicationIntegrations:
-    description: ""
+    description: Integrate Okta in your applications using the Access Management API
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   directoryIntegrations:
-    description: ""
+    description: Use the Access Management API to integrate with Active Directory, LDAP or CSV directories.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   ouath2.0Compliant:
-    description: ""
+    description: OAuth 2.0 and OpenID Connect (OIDC) are industry standard protocols for user authentication and authorization.
+      Okta identity solutions are based on these standards.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   oicdCompliant:
-    description: ""
+    description: OAuth 2.0 and OpenID Connect (OIDC) are industry standard protocols for user authentication and authorization.
+      Okta identity solutions are based on these standards.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   dynamicClientRegistration:
-    description: ""
+    description: "The Dynamic Client Registration API provides operations to register and manage client apps for use
+      with the Okta OAuth 2.0 and OpenID Connect endpoints. This API largely follows the contract defined in RFC7591:
+      OAuth 2.0 Dynamic Client Registration Protocol and OpenID Connect Dynamic Client Registration 1.0."
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   centralAccessManagement:
-    description: ""
+    description: With Okta Customer Identity Cloud, powered by Auth0, you can easily define access roles for end-users of
+      your apps and APIs, and extend authorization capabilities to implement dynamic access control.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   authorizationManagement:
-    description: ""
+    description: With Okta Customer Identity Cloud, powered by Auth0, you can easily define access roles for end-users of
+      your apps and APIs, and extend authorization capabilities to implement dynamic access control.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   userConsent:
-    description: ""
+    description: Configure an Okta-hosted user consent dialog for OAuth 2.0 or OpenID Connect authentication flows.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizableScopes:
-    description: ""
+    description: Add custom scopes to ID tokens and access tokens.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizableClaims:
-    description: ""
+    description: Add custom claims to ID tokens and access tokens.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizableAuthorizationServers:
-    description: ""
+    description: Okta allows you to create multiple custom authorization servers that you can use to
+      protect your own resource servers. Within each authorization server you can define your own OAuth
+      2.0 scopes, claims, and access policies.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   # Advanced Server Access
   supportsMixedEnvironments:
-    description: ""
+    description: "Supports mixed environments: AWS, Azure, GCP, and on-premises"
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   endToEndLifecycleManagementOfLocalLinuxMachineAccounts:
-    description: ""
+    description: End-to-end lifecycle management of local Linux
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   endToEndLifecycleManagementOfLocalWindowsMachineAccounts:
-    description: ""
+    description: End-to-end lifecycle management Windows machine accounts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   seamlessSingleSignOnBuiltIntoYourSshWorkflows:
-    description: ""
+    description: Seamless SSO authentication built into your SSH workflows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   seamlessSingleSignOnBuiltIntoYourRdpWorkflows:
-    description: ""
+    description: Seamless SSO authentication built into your Remote Desktop Protocol (RDP) workflows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   seamlessMfaBuiltIntoYourSshWorkflows:
-    description: ""
+    description: Seamless MFA authentication built into your SSH workflows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   seamlessMfaBuiltIntoYourRdpWorkflows:
-    description: ""
+    description: Seamless MFA authentication built into your Remote Desktop Protocol (RDP) workflows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -552,56 +666,61 @@ features:
     defaultValue: false
     type: DOMAIN
   clienApplicationsForLocalSshIntegrations:
-    description: ""
+    description: Client application for local SSH integrations
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   clienApplicationsForLocalRdpIntegrations:
-    description: ""
+    description: Client application for local Remote Desktop Protocol (RDP) integrations
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   clienApplicationsForDynamicDeviceBinding:
-    description: ""
+    description: Client application for dynamic device binding
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   apiAllowsForCustomAuthenticationWorkflows:
-    description: ""
+    description: API allows for custom authentication
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   apiAllowsForCustomManagementWorkflows:
-    description: ""
+    description: API allows for custom management workflows
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   # Access Gateway
   unlimitedAppIntegrations:
-    description: ""
+    description: Unlimited Okta Single Sign-on and MFA app integrations
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   headerBasedApplications:
-    description: ""
+    description: The most common Access Gateway integration involves Web Access Management (WAM)
+      apps based on values contained in request headers.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   kerberosApplications:
-    description: ""
+    description: Use the Access Gateway Admin UI console to add a Kerberos app with Okta.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   iwaApplications:
-    description: ""
+    description: The Okta IWA Web agent is a lightweight Internet Information Services (IIS) web agent that
+      enables Desktop Single Sign-on (DSSO) on the Okta service. DSSO allows users to be automatically
+      authenticated by Okta and any apps accessed through Okta, whenever they sign in to your Windows network.
+
+      The Okta IWA Web agent uses Microsoft's IWA and ASP.NET to authenticate users from specified gateway IPs.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -613,57 +732,67 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   customWebApps:
-    description: ""
+    description: Configure Auth0 as the Identity Provider (IdP) for Okta Access Gateway (OAG), a reverse proxy virtual appliance,
+      to enable secure single sign-on (SSO) access for external users to applications that do not natively
+      support modern federation standards.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customWebPages:
-    description: ""
+    description: Configure Auth0 as the Identity Provider (IdP) for Okta Access Gateway (OAG), a reverse proxy virtual appliance,
+      to enable secure single sign-on (SSO) access for external users to applications that do not natively
+      support modern federation standards.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customWebPortals:
-    description: ""
+    description: Configure Auth0 as the Identity Provider (IdP) for Okta Access Gateway (OAG), a reverse proxy virtual appliance,
+      to enable secure single sign-on (SSO) access for external users to applications that do not natively
+      support modern federation standards.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   unlimitedNumberOfPolicies:
-    description: ""
+    description: Unlimited On-premise application policies for Okta Access Gateway (OAG)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   applicationPolicies:
-    description: ""
+    description: Policies let you control access to an app URL. You can allow or deny access to individual
+      users or groups and configure custom access in advanced configurations.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customHeaderVariables:
-    description: ""
+    description: Add additional header app attributes
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   authorizationPolicies:
-    description: ""
+    description: Custom authorization servers allow you to define and apply authorization policies to secure
+      your own APIs and resources.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   accessGatewayServers:
-    description: ""
+    description: Access Gateway can help reduce the need for middleware and database servers and protect against
+      security breaches, all while saving you time.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dataCenters:
-    description: ""
+    description: The multiple data center Access Gateway architecture represents the set of components required
+      to deploy Access Gateway in a high performing, fault tolerant multi-data center environment.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   networks:
-    description: ""
+    description: Manage network interfaces including routing for the Access Gateway appliance.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   hosts:
-    description: ""
+    description: Edit the /etc/hosts file on the Access Gateway appliance.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -671,7 +800,8 @@ usageLimits: null
 plans: null
 addOns:
   singleSignOn:
-    description: ""
+    description: Single Sign-On gives employees, contractors, and business partners secure access to
+      everything they need to do their best work.
     price: 2
     unit: user/month
     excludes:
