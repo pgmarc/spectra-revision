@@ -8,143 +8,153 @@ currency: USD
 url: https://web.archive.org/web/20221129151641/https://www.openphone.com/pricing
 features:
   usAndCanadaCalling:
-    description: ''
+    description: As long as you have an internet connection, you can call US and Canadian numbers from any
+      country without incurring additional charges (subject to our fair use policy).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   usAndCanadaMessaging:
-    description: ''
+    description: In order to guarantee message deliverability to three major US carriers (AT&T, T-Mobile, and
+      Verizon), you'll need to register your business with the Campaign Registry (TCR).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   internationalCalling:
-    description: ''
+    description: Call most countries around the world. US & Canadian numbers are included, but for other countries,
+      per-minute and per-message rates apply.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   internationalMessaging:
-    description: ''
+    description: Text most countries around the world. US & Canadian numbers are included, but for other countries,
+      per-minute and per-message rates apply.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   phoneNumbers:
-    description: ''
+    description: Every user added to your OpenPhone workspace gets one local or toll-free phone number to
+      themselves, but you can remove or reassign them as needed.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   portPhoneNumbersFromOtherCarriers:
-    description: ''
+    description: Our team will help you transfer your existing phone number into OpenPhone for free
+      (additional phone number costs still apply). Don't worry, you shouldn't experience any service disruptions
+      during the porting process.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sharedPhoneNumbers:
-    description: ''
+    description: Share call and text histories with others in your workspace, see when your team is talking or
+      typing, and even ring multiple teammates during incoming calls.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   snippets:
-    description: ''
+    description: Save frequently sent messages as snippets to send complete replies with a single click.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   internalThreads:
-    description: ''
+    description: Chat with your teammates behind the scenes, right in the context of the conversation.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sharedContacts:
-    description: ''
+    description: Contacts added to a shared phone number are visible to everyone sharing that number. You can
+      also share contacts to teammates individually.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   contactNotes:
-    description: ''
+    description: Jot down important details about any contact that you and your team should remember.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   businessHours:
-    description: ''
+    description: Automatically mute notifications from specific phone numbers after business hours to avoid
+      disruptions after work.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   voicemailToText:
-    description: ''
+    description: Every voicemail is automatically transcribed to text so they're easier to review.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   callRecording:
-    description: ''
+    description: Record any call, or enable auto-recording on any phone number for a permannent record of every call.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   autoReplies:
-    description: ''
+    description: Automatically respond to texts, missed calls, or voicemails with pre-defined messages.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   scheduledMessages:
-    description: ''
+    description: Schedule the delivery of a text message for any point in the future.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   basicAutoAtendant:
-    description: ''
+    description: Great callers with a message and let them select which team or person to connect with.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   advancedAutoAtendant:
-    description: ''
+    description: Great callers with a message and let them select which team or person to connect with.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   userGroups:
-    description: ''
+    description: Organize teammates into distinct groups.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   callerID:
-    description: ''
+    description: Let customers know you mean business with a customized caller ID for every number.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   groupCalling:
-    description: Coming Soon
+    description: Include multiple active participants on any call.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   callMonitoring:
-    description: Coming Soon
+    description: Listen-in on calls happening through shared phone numbers without outside participants knowing.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   callWhispering:
-    description: Coming Soon
+    description: Speak to one team member in a group call while remaining silent to everyone else.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   callTransfers:
-    description: ''
+    description: Redirect callers to any team, group, or person in your workspace or externally.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   roundRobin:
-    description: ''
+    description: Ring teammates on shared phone numbers in batches, instead of all at once.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   emailIntegration:
-    description: ''
+    description: Get notified by email when your numbers receive a call, message, or voicemail.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   slackIntegration:
-    description: ''
+    description: Instantly share calls, texts, and voicemails with any Slack user or channel.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -152,7 +162,7 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   zapierIntegration:
-    description: ''
+    description: Trigger actioins in thousands of other tools when specific events happen in OpenPhone.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -160,7 +170,7 @@ features:
     pricingUrls:
     - https://zapier.com/pricing
   smsViaZapier:
-    description: ''
+    description: Send an SMS through OpenPhone based on actions that take place in other apps.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -168,7 +178,7 @@ features:
     pricingUrls:
     - https://zapier.com/pricing
   googleContactsIntegration:
-    description: ''
+    description: Keep your contact list neat, organized, and synced with all your devices.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -176,7 +186,7 @@ features:
     pricingUrls:
     - https://workspace.google.com/pricing
   hubSpotCRMIntegration:
-    description: ''
+    description: Sync your phone activity with Hubspot to spend less time typing and more time closing.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -184,13 +194,13 @@ features:
     pricingUrls:
     - https://www.hubspot.com/pricing
   webhooksIntegration:
-    description: Beta
+    description: Listen for changes in OpenPhone and send alerts with an HTTP request.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   salesforceIntegration:
-    description: ''
+    description: Create single source of truth for every lead by connecting your phone to Salesforce.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -198,7 +208,7 @@ features:
     pricingUrls:
     - https://www.salesforce.com/products/sales-cloud/pricing/
   gongIntegration:
-    description: ''
+    description: Bring your OpenPhone calls into Gong to track sales call performance and analytics.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -206,12 +216,12 @@ features:
     pricingUrls:
     - https://www.gong.io/pricing/
   userRoles:
-    description: ''
+    description: Full, granular control over all users, phone numbers, and billing in your workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   userManagement:
-    description: ''
+    description: Full, granular control over all users, phone numbers, and billing in your workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
@@ -221,44 +231,45 @@ features:
     defaultValue: false
     type: MANAGEMENT
   analytics:
-    description: ''
+    description: Get insight into how every phone number in your account is being used.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   reporting:
-    description: ''
+    description: Get visibility into how every phone number in your account is being used.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   auditLog:
-    description: ''
+    description: Review a log of all account-related activities for complete transparency and oversight.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   samlSSO:
-    description: ''
+    description: SAML Single Sign On integration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   emailSupport:
-    description: ''
+    description: We're standing by to answer your questions (wherever you feel like asking them).
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   prioritySupport:
-    description: ''
+    description: Support requests are prioritized to ensure you get the help you need fast.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedAccountManager:
-    description: ''
+    description: Get a dedicated point-of-contact within OpenPhone you can turn to for help or advice.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   phoneNumbersLimit:
-    description: ''
+    description: Every user added to your OpenPhone workspace get one local or toll-fee phone number to themselves,
+      but you can remove or reassing them as needed.
     valueType: NUMERIC
     defaultValue: 1
     unit: phone number
@@ -266,7 +277,7 @@ usageLimits:
     linkedFeatures:
     - phoneNumbers
   sharedPhoneNumbersLimit:
-    description: ''
+    description: Maximum number of users to see shared call and text histories.
     valueType: NUMERIC
     defaultValue: 10
     unit: user
@@ -274,7 +285,7 @@ usageLimits:
     linkedFeatures:
     - sharedPhoneNumbers
   smsViaZapierAddonLimit:
-    description: ''
+    description: Maximum number of SMS messages to send via API.
     valueType: NUMERIC
     defaultValue: 0
     unit: message
@@ -283,13 +294,13 @@ usageLimits:
     - smsViaZapier
 plans:
   STANDARD:
-    description: ''
+    description: The business phone essentials to get your team up and running
     price: 13
     unit: user/month
     features: null
     usageLimits: null
   PREMIUM:
-    description: ''
+    description: For teams looking for more integrations and collaboration features
     price: 25
     unit: user/month
     features:
@@ -321,7 +332,7 @@ plans:
       sharedPhoneNumbersLimit:
         value: .inf
   ENTERPRISE:
-    description: ''
+    description: For organizations with complex requirements.
     price: Contact Sales
     unit: user/month
     features:
