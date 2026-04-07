@@ -8,53 +8,63 @@ currency: USD
 url: https://web.archive.org/web/20211128031659/https://www.overleaf.com/user/subscription/plans
 features:
   privateProjects:
-    description: ''
+    description: All your projects are private by default. Invite collaborators to read or edit by email
+      address or by sending them a secret link.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeCollaboration:
-    description: ''
+    description: When you're working together, you can see your collaborators' cursors and their changes in real time,
+      so everyone always has the latest version.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   templates:
-    description: ''
+    description: Produce beautiful documents starting from our gallery of LaTeX templates for journals, conferences,
+      theses, reports, CVs and much more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   latexEditor:
-    description: ''
+    description: Everything you need in a modern LaTeX editor --- spell check, intelligent autocomplete,
+      syntax highlighting, dozens of color themes, vim and emacs bindings, help with LaTeX warnings and
+      error messages, and much more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   latexCompilation:
-    description: ''
+    description: If you hit a compile timeout, this means the compilation process couldn't complete within
+      the timeout limit for your Overleaf plan.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeTrackChanges:
-    description: ''
+    description: Now you don't have to choose between tracked changes and typesetting in LaTeX. Leave comments,
+      keep track of TODOs, and accept or reject others' changes.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   fullDocumentHistory:
-    description: ''
+    description: Travel back in time to see any version and who made changes. No matter what happens, we've got your back.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedReferenceSearch:
-    description: ''
+    description: You can always search by citation key, and advanced reference search lets you also search
+      by author, title, year or journal.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   referenceManagerSync:
-    description: ''
+    description: Manage your reference library in Mendeley and link it directly to a .bib file in Overleaf,
+      so you can easily cite anything in your Mendeley library.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   dropboxIntegration:
-    description: ''
+    description: Work online and offline seamlessly with two-way Dropbox sync. Changes you make locally will be sent
+      automatically to the version on Overleaf and vice versa.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -62,45 +72,51 @@ features:
     pricingUrls:
     - https://www.dropbox.com/plans
   gitIntegration:
-    description: ''
+    description: Push and pull commits to and from GitHub, so you or your collaborators can work offline with
+      git and online with Overleaf.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   githubIntegration:
-    description: ''
+    description: Push and pull commits to and from GitHub, so you or your collaborators can work offline with
+      git and online with Overleaf.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   prioritySupport:
-    description: ''
+    description: Prioritize and escalate support requests where necessary.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   groupLicenseManagement:
-    description: ''
+    description: Feature for centrally managing multiple user licenses under a group
+      account.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   discountedPricingForMultipleLicenses:
-    description: ''
+    description: Benefit of reduced per-license cost when purchasing multiple licenses
+      for a group.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   unlimitedSiteWideAccess:
-    description: ''
+    description: Provides unlimited premium access for all users within a single organizational
+      site.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   centralizedBillingAndManagement:
-    description: ''
+    description: Streamlined billing and administrative management for organizational
+      accounts, including site licenses.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   maxCollaboratorsPerProject:
-    description: ''
+    description: Maximum number of collaborators per project.
     valueType: NUMERIC
     defaultValue: 1
     unit: collaborator
@@ -108,7 +124,7 @@ usageLimits:
     linkedFeatures:
     - realTimeCollaboration
   compileTimeoutLimit:
-    description: ''
+    description: Maximum compile timeout for your latex files.
     valueType: NUMERIC
     defaultValue: 1
     unit: min
@@ -117,13 +133,13 @@ usageLimits:
     - latexCompilation
 plans:
   FREE:
-    description: ''
+    description: Free
     price: 0
     unit: /month
     features: null
     usageLimits: null
   PERSONAL:
-    description: ''
+    description: Ideal when working solo
     price: 10
     unit: /month
     features:
@@ -145,7 +161,7 @@ plans:
       compileTimeoutLimit:
         value: 4
   STUDENT:
-    description: ''
+    description: Save even more
     price: 8
     unit: /month
     features:
@@ -197,7 +213,7 @@ plans:
       compileTimeoutLimit:
         value: 4
   PROFESSIONAL:
-    description: ''
+    description: For those working with many
     price: 30
     unit: /month
     features:

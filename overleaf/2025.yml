@@ -44,7 +44,7 @@ features:
     type: DOMAIN
   realTimeTrackChanges:
     description: Switch on track changes to see who made every change, accept or reject
-      others’ changes, and write comments.
+      others' changes, and write comments.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -55,7 +55,7 @@ features:
     defaultValue: false
     type: INFORMATION
   advancedReferenceSearch:
-    description: It’s easy to find your references - you can search by author, title,
+    description: It's easy to find your references - you can search by author, title,
       year or journal. You can still search by citation key too.
     valueType: BOOLEAN
     defaultValue: false

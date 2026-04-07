@@ -8,48 +8,57 @@ currency: USD
 url: https://web.archive.org/web/20191104132617/https://www.overleaf.com/user/subscription/plans
 features:
   privateProjects:
-    description: ''
+    description: All your projects are private by default. Invite collaborators to read or edit by email
+      address or by sending them a secret link.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeCollaboration:
-    description: ''
+    description: When you're working together, you can see your collaborators' cursors and their changes in real time,
+      so everyone always has the latest version.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   templates:
-    description: ''
+    description: Produce beautiful documents starting from our gallery of LaTeX templates for journals, conferences,
+      theses, reports, CVs and much more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   latexEditor:
-    description: ''
+    description: Everything you need in a modern LaTeX editor --- spell check, intelligent autocomplete,
+      syntax highlighting, dozens of color themes, vim and emacs bindings, help with LaTeX warnings and
+      error messages, and much more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeTrackChanges:
-    description: ''
+    description: Now you don't have to choose between tracked changes and typesetting in LaTeX. Leave comments,
+      keep track of TODOs, and accept or reject others' changes.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedReferenceSearch:
-    description: ''
+    description: You can always search by citation key, and advanced reference search lets you also search
+      by author, title, year or journal.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   referenceManagerSync:
-    description: ''
+    description: Manage your reference library in Mendeley and link it directly to a .bib file in Overleaf,
+      so you can easily cite anything in your Mendeley library.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   fullDocumentHistory:
-    description: ''
+    description: Travel back in time to see any version and who made changes. No matter what happens, we've got your back.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dropboxIntegration:
-    description: ''
+    description: Work online and offline seamlessly with two-way Dropbox sync. Changes you make locally will be sent
+      automatically to the version on Overleaf and vice versa.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -57,13 +66,14 @@ features:
     pricingUrls:
     - https://www.dropbox.com/plans
   githubIntegration:
-    description: ''
+    description: Push and pull commits to and from GitHub, so you or your collaborators can work offline with
+      git and online with Overleaf.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   prioritySupport:
-    description: ''
+    description: Prioritize and escalate support requests where necessary.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
@@ -93,7 +103,7 @@ features:
     defaultValue: false
 usageLimits:
   maxCollaboratorsPerProject:
-    description: ''
+    description: Maximum number of collaborators per project.
     valueType: NUMERIC
     defaultValue: 1
     unit: collaborator
@@ -102,13 +112,13 @@ usageLimits:
     - realTimeCollaboration
 plans:
   PERSONAL:
-    description: ''
+    description: Ideal when working solo
     price: 0
     unit: /month
     features: null
     usageLimits: null
   COLLABORATOR:
-    description: ''
+    description: Great for shared projects
     price: 15
     unit: /month
     features:
@@ -130,7 +140,7 @@ plans:
       maxCollaboratorsPerProject:
         value: 10
   STUDENT:
-    description: ''
+    description: Save even more
     price: 8
     unit: /month
     features:
@@ -152,7 +162,7 @@ plans:
       maxCollaboratorsPerProject:
         value: 6
   PROFESSIONAL:
-    description: ''
+    description: For those working with many
     price: 30
     unit: /month
     features:

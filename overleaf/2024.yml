@@ -21,7 +21,7 @@ features:
     type: DOMAIN
   realTimeTrackChanges:
     description: Switch on track changes to see who made every change, accept or reject
-      others’ changes, and write comments.
+      others' changes, and write comments.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -32,7 +32,7 @@ features:
     defaultValue: false
     type: INFORMATION
   advancedReferenceSearch:
-    description: It’s easy to find your references - you can search by author, title,
+    description: It's easy to find your references - you can search by author, title,
       year or journal. You can still search by citation key too.
     valueType: BOOLEAN
     defaultValue: false
@@ -49,7 +49,7 @@ features:
     description: Spell check, intelligent autocomplete, syntax highlighting, dozens
       of color themes, vim and emacs bindings, help with LaTeX warnings and error
       messages, and more. Everyone always has the latest version, and you can see
-      your collaborators’ cursors and changes in real time.
+      your collaborators' cursors and changes in real time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -57,7 +57,7 @@ features:
     description: Spell check, intelligent autocomplete, syntax highlighting, dozens
       of color themes, vim and emacs bindings, help with LaTeX warnings and error
       messages, and more. Everyone always has the latest version, and you can see
-      your collaborators’ cursors and changes in real time.
+      your collaborators' cursors and changes in real time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
