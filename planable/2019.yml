@@ -8,39 +8,45 @@ currency: USD
 url: https://web.archive.org/web/20190524225713/https://planable.io/pricing/
 features:
   posts:
-    description: ''
+    description:  Creating a post is the core feature of Planable and we created the most simple way for you to
+      preview and see what the content looks like before publishing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   pages:
-    description: ''
+    description: Number of social media pages allowed in each workspace. It can be
+      multiple pages from the same platform.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   workspaces:
-    description: ''
+    description: A workspace is a collaborative place for your brand's social media content. Where you can create,
+      review, collaborate, publish posts and keep everyone in the flow. 
+    
+      One workspace may be used for one brand, company, or client. If you have 3 clients, it means that you need 3 workspaces.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   advancedFeatures:
-    description: ''
+    description: Advanced features
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   realTimeCustomerSupport:
-    description: ''
+    description: You can contact our Support team by email at support@planable.io or use the Chat service that can
+      be found on the bottom right corner of your screen.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   usersLimit:
-    description: ''
+    description: Maximum number of users in your Planable account
     valueType: NUMERIC
     defaultValue: 3
     unit: user
     type: NON_RENEWABLE
   postsLimit:
-    description: ''
+    description: Maximum number of posts in your Planable account
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: post
@@ -48,7 +54,7 @@ usageLimits:
     linkedFeatures:
     - posts
   pagesLimit:
-    description: ''
+    description: Maximum number of pages in your Planable account
     valueType: NUMERIC
     defaultValue: 0
     unit: page
@@ -56,7 +62,7 @@ usageLimits:
     linkedFeatures:
     - pages
   workspacesLimit:
-    description: ''
+    description: Maximum number of workspaces in your Planable account
     valueType: NUMERIC
     defaultValue: 1
     unit: worspace

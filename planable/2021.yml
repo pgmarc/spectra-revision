@@ -8,7 +8,8 @@ currency: USD
 url: https://web.archive.org/web/20211119105131/https://planable.io/pricing/
 features:
   posts:
-    description: ''
+    description:  Creating a post is the core feature of Planable and we created the most simple way for you to
+      preview and see what the content looks like before publishing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -19,94 +20,103 @@ features:
     defaultValue: true
     type: DOMAIN
   workspaces:
-    description: ''
+    description: A workspace is a collaborative place for your brand's social media content. Where you can create,
+      review, collaborate, publish posts and keep everyone in the flow. 
+    
+      One workspace may be used for one brand, company, or client. If you have 3 clients, it means that you need 3 workspaces.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   selfService:
-    description: ''
+    description: Sign up, and start using Planable features without talking to sales.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   realTimeSupport:
-    description: ''
+    description: You can contact our Support team by email at support@planable.io or use the Chat service that can
+      be found on the bottom right corner of your screen.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   personalizedOnboarding:
-    description: ''
+    description: A member of our Planable support team will be guiding you to adapt to Planable as fast as posible.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   roleBasedAccessControl:
-    description: ''
+    description: When you first invite a user, you assign them a role. Each role comes with different permissions.
+      Inside each workspace, a user can have different permissions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   unlimitedStorage:
-    description: ''
+    description: Unlimited storage for your social media posts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   auditLogging:
-    description: ''
+    description: See user activity in detail
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedSecurity:
-    description: ''
+    description: Advanced security features
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   postPreviews:
-    description: ''
+    description: Pixel-perfect mockups show you and your boss or client exactly how posts will look live.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multipleViewOptions:
-    description: ''
+    description: "Choose the perfect view for you: calendar, feed, list, or grid. With 4 options, it's
+      hard NOT to be organized."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   atAGlance:
-    description: ''
+    description: The sleek, visual layout makes content planning simple (as heck). See how your posts all fit together
+      as you're creating them.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   collaborationInContext:
-    description: ''
+    description: Keep all your convos where they belong — right next to the post. Discuss, share thoughts, give
+      and get feedback in one place.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customerService:
-    description: ''
+    description: Because awesome deserves awesome. You get quick, mucho helpful responses from team members who know their stuff.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   oneClickApprovals:
-    description: ''
+    description: Your approver okays your post with a single click. Even on the go (via the app). Seriously — how
+      could they not love working with you?
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   centralizedPublishing:
-    description: ''
+    description: Create, schedule, and publish all your social posts from one place. Why do 4 times what you could do just once?
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   mediaLibrary:
-    description: ''
+    description: All your creatives at your fingertips, all the time. Just drag and drop for easy reuse.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
 usageLimits:
   usersLimit:
-    description: ''
+    description: Maximum number of users in your Planable account
     valueType: NUMERIC
     defaultValue: 3
     unit: user
     type: NON_RENEWABLE
   postsLimit:
-    description: ''
+    description: Maximum number of posts in your Planable account
     valueType: NUMERIC
     defaultValue: 1000000000000
     unit: post
@@ -114,7 +124,7 @@ usageLimits:
     linkedFeatures:
     - posts
   pagesLimit:
-    description: ''
+    description: Maximum number of pages in your Planable account
     valueType: NUMERIC
     defaultValue: 10
     unit: page
@@ -122,7 +132,7 @@ usageLimits:
     linkedFeatures:
     - pages
   workspacesLimit:
-    description: ''
+    description: Maximum number of workspaces in your Planable account
     valueType: NUMERIC
     defaultValue: 1
     unit: worspace
@@ -130,7 +140,7 @@ usageLimits:
     linkedFeatures:
     - workspaces
   storageCapacity:
-    description: ''
+    description: Maximum disk space available in your Planable account
     valueType: NUMERIC
     defaultValue: 0
     unit: GB

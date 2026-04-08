@@ -9,12 +9,16 @@ currency: USD
 url: https://web.archive.org/web/20250116125900/https://planable.io/pricing/
 features:
   workspaces:
-    description: ''
+    description: A workspace is a collaborative place for your brand's social media content. Where you can create,
+      review, collaborate, publish posts and keep everyone in the flow. 
+    
+      One workspace may be used for one brand, company, or client. If you have 3 clients, it means that you need 3 workspaces.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   posts:
-    description: ''
+    description:  Creating a post is the core feature of Planable and we created the most simple way for you to
+      preview and see what the content looks like before publishing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -25,60 +29,80 @@ features:
     defaultValue: true
     type: DOMAIN
   publishTweets:
-    description: ''
+    description: Publish tweets using Planable
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   aiPostRewrite:
-    description: ''
+    description: "When you have your text but aren't quite there, Planable AI comes with 4 predefined options, as
+      well as the possibility to add your custom instructions. Predefined options are: Make it shorter, Surprise me,
+      Expand concept and Make it punchier"
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   aiPostGenerate:
-    description: ''
+    description: When creating social media posts use AI to help with a boost of inspiration and ideas. Write new
+      posts from scratch or rewrite your content for a boost of inspiration.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   firstCommentScheduling:
-    description: ''
+    description: "Keep your captions short and engaging or maximize reach with the first comment feature.
+      Tag other accounts, add any external links or relevant hashtags.
+
+      In Planable you can add a first comment for the following platforms:
+      - Instagram
+      - LinkedIn
+      - Facebook"
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   recurringPosts:
-    description: ''
+    description: Our Recycling feature allows you to have the same posts published several times in a row,
+      on a schedule you choose. Whether it be daily, weekly, or monthly.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   omnichannelPlanning:
-    description: ''
+    description: Access all social platoform via Planable and schedule content one time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   builtInMediaEditor:
-    description: ''
+    description: With Planable you’re able to tweak, edit and collaborate on images so they’re just right for your posts.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   feedView:
-    description: ''
+    description: The feed view helps you see the content exactly as it would look like before publishing any post on Facebook,
+      Twitter, Instagram, LinkedIn, Google My Business, YouTube, Pinterest, Threads, and TikTok.
+
+      You'll see the same cover & profile picture as you have on the social media accounts and can scroll through the "newsfeed". 
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   calendarView:
-    description: ''
+    description: Visualize content by week or month and see everything at a glance across all your pages. One calendar,
+      one integrated social media strategy across multiple channels.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   gridView:
-    description: ''
+    description: The Grid view is the place to plan and preview your Instagram posts. Strategically plan and schedule your
+      content by dragging and dropping posts in your grid view, visualize all the content you have in advance, and
+      see everything at a glance to perfectly organize your Instagram account.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   listView:
-    description: ''
+    description: The list view is a place to help you manage your content easier & faster. It's where you get a quick
+      preview of posts across all your pages and can do bulk actions for multiple posts at a time.
+
+      In this view, you'll see a snippet of the caption, the file type, status of the posts, author, labels, page,
+      and date & time selected.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -89,7 +113,8 @@ features:
     defaultValue: true
     type: DOMAIN
   mediaStorage:
-    description: ''
+    description: You can store all your brand creatives in your workspace Media Library. Simply upload your
+      files and reuse them across posts whenever needed.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -105,12 +130,13 @@ features:
     defaultValue: true
     type: DOMAIN
   archivedPostsStorage:
-    description: ''
+    description: Archive your posts instead of deleting them immediately when you no longer need them.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   sharedContentPlanning:
-    description: ''
+    description: In Planable, you can share individual posts or entire views with external collaborators via a link —
+      no sign-in required. It's a quick way to gather feedback.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -148,84 +174,94 @@ features:
     defaultValue: true
     type: DOMAIN
   teamOnlyNotes:
-    description: ''
+    description: Often a comment needs to be seen by your team only, private from the client. Add internal notes to
+      conversations and discuss posts behind the scenes with your internal team only. Internal notes are marked
+      with a yellow-ish color.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   bulkApproval:
-    description: ''
+    description: If you need a more complex approval for your content before publishing, which involves multiple parties
+      (team, clients, internal, stakeholders, legal) you can choose the multi-level set up in your workspace settings.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   bulkRequestForApproval:
-    description: ''
+    description: Request post approval for multiple members of your Planable account.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   textAnnotations:
-    description: ''
+    description: In addition to general notes or comments, users have the option to give precise suggestions through annotations.
+      
+      In the post, select the exact text you want to change or remove and use the "comment" option to annotate.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   suggestEdits:
-    description: ''
+    description: To leave a suggestion, reviewers only need to have "View" permissions allowing them to leave comments.
+      They will not be changing the content itself, as someone with editing permissions has to accept or reject the
+      suggestion made.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   pageLevelInsights:
-    description: ''
+    description: Analytics for facebook pages
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   postLevelMetrics:
-    description: ''
+    description: Gather analytics for each post
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   customReports:
-    description: ''
+    description: Customizable Reports allow you to organize your analytics data into structured reports that can be
+      shared or downloaded directly in Planable.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   audienceInsights:
-    description: ''
+    description: This feature provides a comprehensive view of your follower's location, age and gender.
+
+      It's available only for Instagram professional accounts, LinkedIn company pages, and TikTok Business accounts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   selfServeKnowledgeBase:
-    description: ''
+    description: Get access our to our knowledge support portal.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Support via chat
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   prioritySupport:
-    description: ''
+    description: Your requests are prioritized over other plan tiers.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   personalizedOnboarding:
-    description: ''
+    description: A member of our Planable support team will be guiding you to adapt to Planable as fast as posible.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedAccountManager:
-    description: ''
+    description: A member of our Planable support team will be guiding you to achieve long term results with the platform.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   paymentOptions:
-    description: ''
+    description: Pay with Debit/Credit card, ACH/Bank transfer or with a PayPal account.
     valueType: TEXT
     defaultValue:
     - CARD
     type: PAYMENT
 usageLimits:
   postsLimit:
-    description: ''
+    description: Maximum number of posts in your Planable account
     valueType: NUMERIC
     defaultValue: .inf
     unit: post
@@ -233,7 +269,7 @@ usageLimits:
     linkedFeatures:
     - posts
   postsPerMonthLimit:
-    description: ''
+    description: Maximum number of posts per month in your Planable account
     valueType: NUMERIC
     defaultValue: 60
     unit: post/workspace/month
@@ -241,7 +277,7 @@ usageLimits:
     linkedFeatures:
     - posts
   socialMediaPagesLimit:
-    description: ''
+    description: Number of social media pages allowed in each workspace. It can be multiple pages from the same platform.
     valueType: NUMERIC
     defaultValue: 4
     unit: pages/workspace
@@ -249,7 +285,7 @@ usageLimits:
     linkedFeatures:
     - pages
   tweetsLimit:
-    description: ''
+    description: Maximum number of tweets per page and day
     valueType: NUMERIC
     defaultValue: 1
     unit: tweet/day
@@ -257,7 +293,7 @@ usageLimits:
     linkedFeatures:
     - publishTweets
   numberOfLabels:
-    description: ''
+    description: Categorize posts per campaign, topic or content pillar with color-coded labels.
     valueType: NUMERIC
     defaultValue: 5
     unit: label
@@ -265,7 +301,7 @@ usageLimits:
     linkedFeatures:
     - labels
   mediaStorageCapacity:
-    description: ''
+    description: Maximum disk space storage for media
     valueType: NUMERIC
     defaultValue: 10
     unit: GB
@@ -273,7 +309,7 @@ usageLimits:
     linkedFeatures:
     - mediaStorage
   publishedPostsStorageLimit:
-    description: ''
+    description: Maximum disk space available for published posts
     valueType: NUMERIC
     defaultValue: 13
     unit: month
@@ -281,7 +317,7 @@ usageLimits:
     linkedFeatures:
     - publishedPostsStorage
   archivedPostsStorageLimit:
-    description: ''
+    description: Maximum disk space available for achived posts
     valueType: NUMERIC
     defaultValue: 30
     unit: day
@@ -289,7 +325,7 @@ usageLimits:
     linkedFeatures:
     - archivedPostsStorage
   versionHistoryThreshold:
-    description: ''
+    description: Maximum period to keep track of previous versions of posts
     valueType: NUMERIC
     defaultValue: 7
     unit: day
