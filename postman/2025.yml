@@ -23,80 +23,91 @@ tags:
   - Add-ons Features
 features:
   apiClientHTTP:
-    description: https://www.postman.com/api-platform/api-client/
+    description: The Postman API client supports REST
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Client
   apiClientGraphQL:
-    description: https://www.postman.com/api-platform/api-client/
+    description: The Postman API client supports GraphQL
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Client
   apiClientGRPC:
-    description: https://www.postman.com/api-platform/api-client/
+    description: The Postman API client supports gRPC
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Client
   apiClientWebSocket:
-    description: https://www.postman.com/api-platform/api-client/
+    description: The Postman API client supports WebSocket
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Client
   apiClientSocket.io:
-    description: https://www.postman.com/api-platform/api-client/
+    description: The Postman API client supports Socket.io
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Client
   apiClientMQTT:
-    description: https://www.postman.com/api-platform/api-client/
+    description: The Postman API client supports MQTT
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Client
   postmanApi:
-    description: ''
+    description: The Postman API enables you to programmatically access data stored in your Postman account.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
     tag: API Client
   collectionCommenting:
-    description: ''
+    description: API publishers can use commenting throughout the API lifecycle to improve the API design and resolve
+      API consumers' issues. API consumers can use commenting to ask API publishers questions and receive support about
+      the APIs they use.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Collections
   collectionAnnotations:
-    description: ''
+    description: API publishers can use annotations in collections to add additonal information.s
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Collections
   collectionRecovery:
-    description: https://learning.postman.com/docs/collections/using-collections/#recovering-a-deleted-collection
+    description: If you delete a collection and want to recover it, go to the trash. Then, hover over the collection
+      you want to restore and select the arrow [restore] icon to retrieve it.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Collections
   publicApiDocumentation:
-    description: https://learning.postman.com/docs/publishing-your-api/publishing-your-docs/#making-your-documentation-public
+    description: Publishing your documentation makes it publicly available to anyone with the link to the documentation.
+      Publish your documentation to help people around the world learn how to use your collection or interact with your
+      public API.
+
+      Public documentation automatically includes details for each request or endpoint in the published collection, along
+      with sample code in various client languages. As you update your collection, the published documentation automatically
+      stays in sync with your latest changes. There's no need to publish the documentation again after making changes.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Collections
   privateApiDocumentation:
-    description: https://learning.postman.com/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings
+    description:  To view API documentation, open an API in Postman, or search for APIs on your Private API Network.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Collections
   slackIntegration:
-    description: ''
+    description: Slack is a messaging app that teams all over the world rely on for collaboration. With Postman's integrations for Slack,
+      you can bring your API development workflow into your Slack workspace. Get notifications, share what you're working on, and stay up
+      to date with your Postman team, all within Slack.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -105,7 +116,9 @@ features:
     - https://slack.com/pricing
     tag: Collections
   microsoftTeamsIntegration:
-    description: ''
+    description: Microsoft Teams is a platform for real-time collaboration and communication. With Postman's integrations
+      for Microsoft Teams, you don't have to leave Teams to collaborate on API development. Share what you're working on,
+      get notifications, and stay up to date with Postman activity, all within Teams.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -114,540 +127,622 @@ features:
     - https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software
     tag: Collections
   teamWorkspaces:
-    description: ''
+    description: Collaborative spaces for API development + consumption (org-wide visibility)
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Workspaces
   personalWorkspaces:
-    description: ''
+    description: Collaborative spaces for API development + consumption (individual visibility)
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Workspaces
   publicWorkspaces:
-    description: https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/creating-workspaces/
+    description: Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your
+      projects together, with workspace acting as the single source of truth for related APIs, collections, environments,
+      mocks, monitors, and other linked elements. By collaborating in a workspace, your edits sync with your team in real time.
+      Public workspaces enable you to collaborate on elements with anyone across the world.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Workspaces
   privateWorkspaces:
-    description: https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/creating-workspaces/
+    description: Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your
+      projects together, with workspace acting as the single source of truth for related APIs, collections, environments,
+      mocks, monitors, and other linked elements. By collaborating in a workspace, your edits sync with your team in real time.
+      Private workspaces are visible to you and to any team members you invite to them (Professional and Enterprise plans).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Workspaces
   singlePartnerWorkspaces:
-    description: https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/partner-workspaces/
+    description: Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your
+      projects together, with workspace acting as the single source of truth for related APIs, collections, environments,
+      mocks, monitors, and other linked elements. By collaborating in a workspace, your edits sync with your team in real time.
+      Collaborative spaces for API development + consumption (one-to-one external partner/customer visibility by invitation only).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Workspaces
   multiPartnerWorkspaces:
-    description: https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/partner-workspaces/
+    description: Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your
+      projects together, with workspace acting as the single source of truth for related APIs, collections, environments,
+      mocks, monitors, and other linked elements. By collaborating in a workspace, your edits sync with your team in real time.
+      Collaborative spaces for API development + consumption (One-to-many external partner/customer visibility by invitation only)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Workspaces
   workspaceUpdates:
-    description: ''
+    description: Workspace updates keep your team and your users aware of your API changes. API publishers can share
+      updates across multiple collections, with links to the resources that changed. API consumers who fork or watch
+      a workspace get notified and can engage with these updates by visiting, commenting, and reacting.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Workspaces
   workspaceThemes:
-    description: ''
+    description: "You can customize the visual experience for your workspace members in order to:
+
+      - Reflect team branding or corporate identity in public workspaces.
+      - Distinguish Partner Workspaces integrated with different third-party services or clients.
+      - Represent different stages of a workflow in workspaces, such as planning, development, testing, and deployment."
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Workspaces
   publicApiNetwork:
-    description: ''
+    description: Explore the largest network of APIs, public workspaces, collections, and Flows by developers.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: API Network
   privateApiNetwork:
-    description: ''
+    description: Central directory of workspaces, collections, and APIs your team uses internally.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: API Network
   packagelibrary:
-    description: ''
+    description: Team-managed repository to store, share, and reuse test scripts.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Testing
   packages:
-    description: ''
+    description: Number of packages that can be stored in the Package Library.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Testing
   mockServers:
-    description: https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/
+    description: Get started fast by creating a mock from a collection, a spec, or your request history.
+      Postman matches incoming requests to your saved examples by URL, method, body, and headers.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Testing
   monitoring:
-    description: https://learning.postman.com/docs/monitoring-your-api/intro-monitors/
+    description: Postman Monitors enable you to continuously check the health and performance of your APIs. You can
+      create monitors that run requests in selected collections. Requests can run API test scripts, chain together
+      multiple requests, and more. You can also schedule how often Postman runs monitored collections.
+
+      You'll be alerted to any test failures once the monitor is running, so you can identify and address issues before
+      your API's consumers are affected.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Testing
   collectionRunner:
-    description: https://learning.postman.com/docs/collections/running-collections/intro-to-collection-runs/
+    description: Send some or all of the API requests in a Postman Collection in the order you choose with the Collection
+      Runner. The Collection Runner logs the test results for each request, and it can use scripts to pass data between
+      requests and change the request workflow.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Testing
   testDataStorage:
-    description: ''
+    description: Postman now enables you to effortlessly upload files to the cloud that can be used in your API requests.
+      This functionality empowers you to include a diverse range of data in your POST requests, enhancing the depth and
+      authenticity of your testing scenarios.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Testing
   postmanCLI:
-    description: https://learning.postman.com/docs/running-collections/using-newman-cli/intro-newman-cli/
+    description: A secure command-line companion for Postman. The Postman CLI is signed and secured by Postman.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Testing
   newmanCLI:
-    description: https://learning.postman.com/docs/running-collections/using-newman-cli/intro-newman-cli/
+    description: A command-line Collection Runner for Postman. Newman's repository is public and Newman isn't signed or
+      secured by Postman.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Testing
   localPerformanceTesting:
-    description: ''
+    description: Test the performance of your APIs with the Postman desktop app. Simulate user traffic by automatically
+      sending requests in the app. You can observe how your API behaves under load and identify potential issues or
+      bottlenecks that affect performance.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Testing
   desktopApp:
-    description: ''
+    description: Postman is the API platform for using, building, and testing APIs. You can use the Postman desktop app to
+      power every part of your API lifecycle
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Platform
   webApp:
-    description: ''
+    description: Postman is available as a web app.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Platform
   ideExtension:
-    description: ''
+    description: With the Postman VS Code extension, you can develop and test your APIs in Postman right from Visual Studio
+      Code and Visual Studio Code Insiders. The VS Code extension also supports VSCodium and Cursor. Streamline your
+      development workflow by testing your APIs in the same application you use to develop them.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
     tag: Platform
   postmanApiSupport:
-    description: ''
+    description: Need help? Check out our FAQ, documentation or submit a request.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Platform
   auditLogs:
-    description: https://learning.postman.com/docs/administration/managing-your-team/audit-logs/
+    description: Audit logs display events related to your team, team members, and billing. Admins and Super Admins can
+      view which team member performed an action, and when they did so. Events include team members signing in to your
+      team, creating a Postman API key, adding a team member, upgrading to a paid plan, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Platform
   deploymentControl:
-    description: https://learning.postman.com/docs/administration/enterprise/managing-enterprise-deployment/
+    description: Postman's Enterprise app is a variant of Postman's Desktop app that offers greater control to administrators
+      looking to deploy Postman at an enterprise level. It's available as an MSI package for Windows and PKG package for macOS,
+      and supports silent installation, system-wide installation, and additional configurations to control how Postman is
+      installed on users' devices.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Platform
   userLevelReportingAndAnalytics:
-    description: https://learning.postman.com/docs/reports/reports-overview/
+    description: Postman Reporting gives you visibility at both the API and team levels, providing you with key insights
+      into what's happening across operations.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Platform
   postmanVault:
-    description: ''
+    description: Store sensitive data in your local instance of Postman for secure reuse in collections,
+      environments, and requests.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Platform
   customDomains:
-    description: https://learning.postman.com/docs/publishing-your-api/custom-doc-domains/
+    description: You can create custom domains for your API documentation. Each custom domain can be a full domain or a
+      subdomain (e.g., example.com</em> or api.example.com).
+      
+      Additional custom domains available as add-ons for Basic plans or higher.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Platform
   publicElements:
-    description: ''
+    description: If the Secret Scanner detects exposed supported secrets in your public workspaces, Postman automatically
+      replaces each secret with a placeholder. Postman notifies Admins and Workspace Admins by email and in-app notification
+      that the secrets were detected and replaced with placeholders.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Secret Scanning
   githubAndGitlabPublicRepos:
-    description: ''
+    description: Postman works with GitLab or Gitlab to protect your Postman API keys in GitLab or Gitlab public repositories
+      for free and paid Postman plans. If you commit a valid Postman API key to a public GitLab or Github repository,
+      Postman notifies you by email and in-app notification.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Secret Scanning
   customAlerts:
-    description: ''
+    description: Set up custom alerts when the secret scanner detects secrets.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Secret Scanning
   secretScanner:
-    description: https://learning.postman.com/docs/administration/managing-your-team/secret-scanner/
+    description: The Postman Secret Scanner scans public workspaces and published documentation to detect exposed
+      secrets on all Postman plans. The Secret Scanner monitors the collections, global variables, environment variables,
+      API schemas, and documentation in public workspaces. It safeguards your organization from potential threats and
+      malicious users attempting to access any exposed secrets. It also scans the documentation your team has published,
+      regardless of the type of workspace it's found in.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Secret Scanning
   singleSignOn:
-    description: https://learning.postman.com/docs/administration/sso/intro-sso/
+    description: Single sign-on support includes Google Workspace, Microsoft AD FS, Microsoft Entra ID,
+      Custom SAML, Duo, Okta, OneLogin, and Ping Identity.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
     tag: Access Management
   userProvisioning:
-    description: https://learning.postman.com/docs/administration/scim-provisioning/scim-provisioning-overview/
+    description: Automated user provisioning supports SCIM API, Okta, Microsoft Entra ID and OneLogin.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
     tag: Access Management
   SAML:
-    description: https://learning.postman.com/docs/administration/sso/saml-sso/
+    description: Configure SSO with custom SAML.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
     tag: Access Management
   userGroups:
-    description: https://learning.postman.com/docs/collaborating-in-postman/user-groups/
+    description: With Postman user groups, you can organize your team members into functional groups that mimic
+      your organizational structure.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Access Management
   superAdminRole:
-    description: ''
+    description: Manages everything within a team, including team settings, members, roles, and resources.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   adminRole:
-    description: ''
+    description: Manages team members and team settings. Can also view monitor metadata and run, pause, and resume monitors.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   billingRole:
-    description: ''
+    description: Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a
+      fellow team member with a Billing role.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   developerRole:
-    description: ''
+    description: Has access to all team resources and workspaces.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   communityManagerRole:
-    description: ''
+    description: Manages the public visibility of workspaces and team profile.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   externalPartnerRole:
-    description: ''
+    description: All partners are automatically granted the Partner role at the team level. Partners can only access
+      the Partner Workspaces they've been invited to.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   partnerManagerRole:
-    description: ''
+    description: Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and
+      visibility, and can send invites to partners.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   apiGovernanceManagerRole:
-    description: ''
+    description: Manages API governance within a team, including governance rules, functions, and workspace groups.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   apiNetworkManagerRole:
-    description: ''
+    description: Manages a team's Private API Network.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   workspaceAdminRole:
-    description: ''
+    description: Can manage workspace resources and settings.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   workspaceEditorRole:
-    description: ''
+    description: Can create and edit workspace resources.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   workspaceViewerRole:
-    description: ''
+    description: Can view, fork, and export workspace resources.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   partnerViewerRole:
-    description: ''
+    description: Can view, fork, and export partner workspace resources.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   partnerEditorRole:
-    description: ''
+    description: Can create and share collections, edit resources, import and export, and fork elements.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   collectionViewerRole:
-    description: ''
+    description: Can view, fork, and export collections. Role is also mapped to workspace and team, but the access
+      is granted at the collection level.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   collectionEditorRole:
-    description: ''
+    description: Can edit collections directly. Role is also mapped to workspace and team, but the access is
+      granted at the collection level.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   apiAdminRole:
-    description: ''
+    description: Can publish, move, and delete APIs.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   apiEditorRole:
-    description: ''
+    description: Can edit APIs and API definitions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   apiViewerRole:
-    description: ''
+    description: Can view published API versions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   environmentEditorRole:
-    description: ''
+    description: Can edit and manage environments.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   environmentViewerRole:
-    description: ''
+    description: Can view and use environments.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   mockServerEditorRole:
-    description: ''
+    description: Can edit and manage mock servers.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   mockServerViewerRole:
-    description: ''
+    description: Can view mock servers and associated metadata.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   monitoringEditorRole:
-    description: ''
+    description: Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Roles & Permissions
   monitoringViewerRole:
-    description: ''
+    description: Can view and use environments.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   apiNetworkFolderManagerRole:
-    description: ''
+    description: Manages specific folders and the elements in them in a team's Private API Network. Team members with this
+      role can perform all actions that API Network Manager role can perform but only in folders they have permission to manage.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Roles & Permissions
   communitySupport:
-    description: ''
+    description: Postman community is a space where people learn, build, and help each other.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   emailSupport:
-    description: ''
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   priorityEmailSupport:
-    description: ''
+    description: Priority support via email
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   customerSuccessManager:
-    description: ''
+    description: Get a customer success manager from our Postman team
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   trainingContent:
-    description: ''
+    description: Access to Postman Academy (for on-demand self study learning modules), Postman Intergalactic
+      (for educational trainings taught by Postman team members), and periodic webinars covering Postman platform updates.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   postmanProxy:
-    description: ''
+    description: By default, the Postman desktop app uses your system's configured proxy to send API requests or access the
+      internet. If needed, you can enter authentication details for the default proxy in the Postman desktop app. You can also
+      configure Postman to use the system proxy or a custom proxy when sending requests. If you haven't already, download
+      and install the Postman desktop app to get started.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Additional Tools & Services
   postmanInterceptor:
-    description: ''
+    description: Postman Interceptor is a browser extension that acts as a companion to Postman. Interceptor enables you
+      to capture API traffic, including requests and cookies, from a web browser. After capturing requests or cookies,
+      you can view and work with them in Postman.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Additional Tools & Services
   postmanPublicDocs:
-    description: ''
+    description: The Postman API enables you to programmatically access data stored in your Postman account.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Additional Tools & Services
   paymentMethod:
-    description: ''
+    description: Postman provides a self-serve billing process. Refer to the following sections for guidance on
+      managing your account, plan, and payment.
     valueType: TEXT
     defaultValue:
     - CARD
     type: PAYMENT
     tag: Legal & Vendor Management
   termsOfService:
-    description: ''
+    description: Master Service Agreement (MSA) & Security Review.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
     tag: Legal & Vendor Management
   postbot:
-    description: https://learning.postman.com/docs/getting-started/basics/about-postbot/
+    description: Supercharge your API development with Postbot, our AI-powered assistant, using natural language input
+      and contextual suggestions.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-ons Features
   postbotWriteTestsForAPIs:
-    description: ''
+    description: Postbot writes tests for your APIs
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-ons Features
   postbotAutomatesDocumentation:
-    description: ''
+    description: Postbot automates documentation
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-ons Features
   postbotDebugsRequests:
-    description: ''
+    description: Postbot debugs requests
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-ons Features
   postbotVisualizesApiResponses:
-    description: ''
+    description: Postbot visualizes API responses
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-ons Features
   postbotExpertSupport:
-    description: ''
+    description: Expert Support for Postbot
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Add-ons Features
   postbotEnterpriseGradeAvailability:
-    description: ''
+    description: Dedicated multi-tenant infrastructure, ensuring separate compute bandwidth for enhanced uptime.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
     tag: Add-ons Features
   postbotEnhancedPrivacy:
-    description: ''
+    description: Postbot data is not used to train any third-party models.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
     tag: Add-ons Features
   postmanFlows:
-    description: https://learning.postman.com/docs/postman-flows/gs/flows-overview/
+    description: Postman Flows is an easy to use visual editor that helps you create API automations, integrations,
+      and demonstrations, with no-code transformations and built-in visualizations.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-ons Features
   flowsSupportForAI:
-    description: ''
+    description: Use built-in AI blocks within your flows to generate JSON, text and images. You can also use Postbot
+      as an assistant to build flows faster.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-ons Features
   payAsYouGoAiCredits:
-    description: ''
+    description: Additional credits for Flows executions that exceed the plan are charged at $1/1,000 credits.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
     tag: Add-ons Features
   flowsRoleManagement:
-    description: ''
+    description: Limit access to flows and separate responsibilities between flow editors, runners and viewers.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Add-ons Features
   advancedSecurity:
-    description: ''
+    description: Deploy account-wide security features that protect your corporate IP across private Postman elements.
+
+      - Launch domain capture to redirect all corporate email logins.
+      - Check for exposed secrets in Team Workspaces with Secret Scanner.
+      - Access the Secret Scanner analytics dashboard.
+      - Securely reuse sensitive data with 1Password, Azure Key Vault, HashiCorp Vault, or AWS Secrets Manager.
+      - BYOK Encryption (Bring Your Own Key) to encrypt your sensitive data in compliance with industry standards.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Add-ons Features
   apiBuilder:
-    description: ''
+    description: Standardize your API designs and get complete API life cycle management capabilities for all your APIs
+      with API Builder.
+
+      - Design and build unlimited APIs with the API Builder.
+      - Connect APIs with Git repositories, ensuring that collections and specifications always remain in sync with source code.
+      - Enable exclusive access to specific consumers by publishing APIs to the Private API Network, ensuring confidentiality and compliance.
+      - Utilize the built-in governance rule library, create custom rules via Spectral Rule Builder, and access insightful reports to ensure API conformance.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-ons Features
 usageLimits:
   callsToPostmanApi:
-    description: ''
+    description: Maximum calls to Postman API
     valueType: NUMERIC
     defaultValue: 10000
     unit: calls/month
@@ -655,7 +750,7 @@ usageLimits:
     linkedFeatures:
     - postmanApi
   collectionRecoveryLimit:
-    description: ''
+    description: Maximum number of days to recover a collection
     valueType: NUMERIC
     defaultValue: 1
     unit: day
@@ -663,7 +758,7 @@ usageLimits:
     linkedFeatures:
     - collectionRecovery
   packagesLimit:
-    description: ''
+    description: Number of packages that can be stored in the Package Library.
     valueType: NUMERIC
     defaultValue: 3
     unit: package
@@ -671,7 +766,7 @@ usageLimits:
     linkedFeatures:
     - packages
   mockServerCallsLimit:
-    description: ''
+    description: Maximum number of calls to Mock Servers
     valueType: NUMERIC
     defaultValue: 1000
     unit: call/month
@@ -679,7 +774,7 @@ usageLimits:
     linkedFeatures:
     - mockServers
   monitoringCallsLimit:
-    description: ''
+    description: Maximum number of calls to Postman Monitoring
     valueType: NUMERIC
     defaultValue: 1000
     unit: call/month
@@ -687,7 +782,7 @@ usageLimits:
     linkedFeatures:
     - monitoring
   collectionRunsLimit:
-    description: ''
+    description: Maximum number of runs for Postman Collection runner
     valueType: NUMERIC
     defaultValue: 25
     unit: run/month
@@ -695,7 +790,7 @@ usageLimits:
     linkedFeatures:
     - collectionRunner
   localPerformanceTestingUserLimit:
-    description: ''
+    description: Maximum number of virtual users for local performance testing
     valueType: NUMERIC
     defaultValue: 100
     unit: virtual user
@@ -703,7 +798,7 @@ usageLimits:
     linkedFeatures:
     - localPerformanceTesting
   localPerformanceTestingRunsLimit:
-    description: ''
+    description: Maximum number of tests runs for local performace testing
     valueType: NUMERIC
     defaultValue: 25
     unit: run
@@ -711,7 +806,7 @@ usageLimits:
     linkedFeatures:
     - localPerformanceTesting
   customDomainsLimit:
-    description: ''
+    description: Maximum number of custom domains
     valueType: NUMERIC
     defaultValue: 1
     unit: domain
@@ -719,7 +814,7 @@ usageLimits:
     linkedFeatures:
     - customDomains
   collectionViewerLimit:
-    description: ''
+    description: Invite users to view specific collections in your team.
     valueType: NUMERIC
     defaultValue: 5
     unit: viewer/collection
@@ -751,13 +846,13 @@ usageLimits:
     - postmanFlows
 plans:
   FREE:
-    description: ''
+    description: For individuals or a small team of 3 or less to start testing APIs.
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   BASIC:
-    description: ''
+    description: Basic API collaboration for a single team.
     price: 19
     unit: user/month
     features:
@@ -777,7 +872,7 @@ plans:
       collectionViewerLimit:
         value: 10
   PROFESSIONAL:
-    description: ''
+    description: API collaboration for larger teams, cross-org, and external partners.
     price: 39
     unit: user/month
     features:
@@ -825,7 +920,7 @@ plans:
       collectionViewerLimit:
         value: 25
   ENTERPRISE:
-    description: ''
+    description: Org-wide API development with advanced support, security, and control.
     price: 65
     unit: user/month
     features:

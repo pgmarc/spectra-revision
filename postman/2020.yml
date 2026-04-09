@@ -8,120 +8,160 @@ currency: USD
 url: https://web.archive.org/web/20201125054853/https://www.postman.com/pricing/
 features:
   collaboration:
-    description: ''
+    description: What Does Collaboration Mean in API Development
+      
+      The need for collaboration has grown and changed as APIs have become more integrated with services—and even become
+      products themselves. Now, API consumers aren't just developers. They are customer support, go-to-market, and developer
+      relations teams who need to stay up-to-date on the latest changes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   singleSignOn:
-    description: ''
+    description: Single sign-on support includes Google Workspace, Microsoft AD FS, Microsoft Entra ID,
+      Custom SAML, Duo, Okta, OneLogin, and Ping Identity.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   rolesAndPermissions:
-    description: ''
+    description: Roles define user permissions within a Postman team and a user's level of access to a Postman element,
+      like a collection or an API.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: MANAGEMENT
+  userGroups:
+    description: With Postman user groups, you can organize your team members into functional groups that mimic
+      your organizational structure.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   privateWorkspaces:
-    description: ''
+    description: Workspaces enable you to organize your Postman work and collaborate with teammates. You can group your
+      projects together, with workspace acting as the single source of truth for related APIs, collections, environments,
+      mocks, monitors, and other linked elements. By collaborating in a workspace, your edits sync with your team in real time.
+      Private workspaces are visible to you and to any team members you invite to them (Professional and Enterprise plans).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   apis:
-    description: ''
+    description: This limit refers to the number of APIs you can create via the API Builder in Postman. There is no maximum on
+      the number of APIs you can call with the Postman client.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   integrations:
-    description: ''
+    description: Postman provides an API development toolchain aimed at integrating with your workflow. The Postman team
+      develops an open ecosystem in conjunction with industry partners to build integrations that facilitate your API projects.
+      Integrations allow you to automate sharing data and functionality between Postman and other tools you might use for your
+      API development.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   postmanAPI:
-    description: ''
+    description: The Postman API enables you to programmatically access data stored in your Postman account.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   publicApiDocumentation:
-    description: ''
+    description: Publishing your documentation makes it publicly available to anyone with the link to the documentation.
+      Publish your documentation to help people around the world learn how to use your collection or interact with your
+      public API.
+
+      Public documentation automatically includes details for each request or endpoint in the published collection, along
+      with sample code in various client languages. As you update your collection, the published documentation automatically
+      stays in sync with your latest changes. There's no need to publish the documentation again after making changes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   apiMockServer:
-    description: ''
+    description: Get started fast by creating a mock from a collection, a spec, or your request history.
+      Postman matches incoming requests to your saved examples by URL, method, body, and headers.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   apiMonitoringCalls:
-    description: ''
+    description: Postman Monitors enable you to continuously check the health and performance of your APIs. You can
+      create monitors that run requests in selected collections. Requests can run API test scripts, chain together
+      multiple requests, and more. You can also schedule how often Postman runs monitored collections.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   recoverDeletedCollections:
-    description: ''
+    description: If you delete a collection and want to recover it, go to the trash. Then, hover over the collection
+      you want to restore and select the arrow [restore] icon to retrieve it.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customDomains:
-    description: ''
+    description: You can create custom domains for your API documentation. Each custom domain can be a full domain or a
+      subdomain (e.g., example.com or api.example.com).
+      
+      Additional custom domains available as add-ons for Basic plans or higher.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   staticIpAddresses:
-    description: ''
+    description: Monitor APIs from a static IP address. Ideal for users who want to test APIs behind a restricted
+      firewall by allowlisting a static IP address.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   auditLogs:
-    description: ''
+    description: "Audit logs display events related to your team, users, and billing. Team Admins can review audit
+      logs to get information about:
+
+      - When users were added to, removed from, or invited to your team
+      - Which user performed a specific action and when they did so"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   reporting:
-    description: ''
+    description: Postman Reporting gives you visibility at both the API and team levels, providing you with key insights
+      into what's happening across operations.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   trainingAndOnboarding:
-    description: ''
+    description: Learn everything from API fundamentals to advanced automation through interactive courses, live workshops,
+      and certifications designed for every skill level. Get personalized onboarding.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   emailSupport:
-    description: ''
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   priorityEmailSupport:
-    description: ''
+    description: Priority support via email
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   phoneSupport:
-    description: ''
+    description: Support via phone
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   paymentOptions:
-    description: ''
+    description: Postman provides a self-serve billing process. Refer to the following sections for guidance on
+      managing your account, plan, and payment.
     valueType: TEXT
     defaultValue:
     - CARD
     type: PAYMENT
   standardEULA:
-    description: ''
+    description: Standard EULA
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   customEULA:
-    description: ''
+    description: Custom EULA
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
 usageLimits:
   collaborationSharedRequestsLimit:
-    description: ''
+    description: Maximum collaboration shared requests limit
     valueType: NUMERIC
     defaultValue: 25
     unit: Shared request
@@ -129,7 +169,7 @@ usageLimits:
     linkedFeatures:
     - collaboration
   maxNumberOfIntegrations:
-    description: ''
+    description: Maximum number of integrations
     valueType: NUMERIC
     defaultValue: 2
     unit: integration
@@ -137,7 +177,7 @@ usageLimits:
     linkedFeatures:
     - integrations
   callsToPostmanApi:
-    description: ''
+    description: Maximum calls to Postman API
     valueType: NUMERIC
     defaultValue: 1000
     unit: call/month
@@ -145,7 +185,7 @@ usageLimits:
     linkedFeatures:
     - postmanAPI
   publicApiDocumentationPageViewsLimit:
-    description: ''
+    description: Maximum public API documentation page views limit
     valueType: NUMERIC
     defaultValue: 1000
     unit: view/month
@@ -153,7 +193,7 @@ usageLimits:
     linkedFeatures:
     - publicApiDocumentation
   apiMockServerCallsLimit:
-    description: ''
+    description: Maximum number of calls to Mock Servers
     valueType: NUMERIC
     defaultValue: 1000
     unit: call/month
@@ -161,7 +201,7 @@ usageLimits:
     linkedFeatures:
     - apiMockServer
   apiMonitoringCallsLimit:
-    description: ''
+    description: Maximum number of calls to Postman Monitoring
     valueType: NUMERIC
     defaultValue: 1000
     unit: call/month
@@ -169,7 +209,7 @@ usageLimits:
     linkedFeatures:
     - apiMockServer
   customDomainsLimit:
-    description: ''
+    description: Maximum number of custom domains
     valueType: NUMERIC
     defaultValue: 0
     unit: domain
@@ -177,7 +217,7 @@ usageLimits:
     linkedFeatures:
     - customDomains
   recoverDeletedCollectionsThreshold:
-    description: ''
+    description: Maximum number of days to recover a collection
     valueType: NUMERIC
     defaultValue: 1
     unit: day
@@ -186,13 +226,13 @@ usageLimits:
     - recoverDeletedCollections
 plans:
   FREE:
-    description: ''
+    description: The Postman Free plan is the perfect place to start designing, developing, and testing APIs.
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   TEAM:
-    description: ''
+    description: The Postman Team plan helps you collaborate across your team to design, develop, and test APIs faster.
     price: 15
     unit: user/month
     features:
@@ -216,7 +256,8 @@ plans:
       recoverDeletedCollectionsThreshold:
         value: 30
   BUSINESS:
-    description: ''
+    description: The Postman Business plan helps you rapidly scale your organization and
+      manage the entire API workflow, all in one place.
     price: 30
     unit: user/month
     features:
@@ -254,7 +295,8 @@ plans:
       recoverDeletedCollectionsThreshold:
         value: 90
   ENTERPRISE:
-    description: ''
+    description: The Postman Enterprise plan is our enterprise-grade offering, with powerful tools to securely manage,
+      organize, and accelerate large-scale API development.
     price: 69
     unit: user/month
     features:
