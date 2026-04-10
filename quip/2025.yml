@@ -6,73 +6,79 @@ currency: USD
 url: https://web.archive.org/web/20250215123438/https://quip.com/about/pricing
 features:
   documents:
-    description: ''
+    description: Documents that fuel a culture of action
+      
+      Quip documents unite your team's work and communication, so you can get everything done in one place.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   spreadsheets:
-    description: ''
+    description: Spreadsheets that turn numbers into decisions
+      
+      Create spreadsheets that drive decisions with live Salesforce data, real-time chat, and the ability to
+      embed charts in your slides.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   groupChat:
-    description: ''
+    description: Chat Rooms are channels for ongoing team discussions. You can make a chat room to discuss a topic, share files,
+      or get notified about activity in external services like Twitter, Zendesk, and JIRA.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   1to1messages:
-    description: ''
+    description: One to one messages in Quip
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   desktopAccess:
-    description: ''
+    description: Desktop app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   tabletAccess:
-    description: ''
+    description: Tablet app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   mobileAccess:
-    description: ''
+    description: Mobile app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   singleSignOn:
-    description: ''
+    description: Single Sign On (SSO) access to Quip
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   enterpriseAPI:
-    description: ''
+    description: Enterprise API access
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   customization:
-    description: ''
+    description: Enterprise Customization
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   integratedChatWithinSalesforce:
-    description: ''
+    description: Integrated Chat inside Salesforce
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   spreadsheetsWithLiveSalesforceData:
-    description: ''
+    description: Spreadsheets with live Salesforce data
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   twoWaySyncWithLiveSalesforceData:
-    description: ''
+    description: 2-Way Sync with Live Salesforce Data
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -80,7 +86,7 @@ features:
     pricingUrls:
       - https://www.salesforce.com/eu/sales/pricing/
   embedDocumentsInAllSalesforceObjects:
-    description: ''
+    description: Embed Documents in All Salesforce Objects
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION

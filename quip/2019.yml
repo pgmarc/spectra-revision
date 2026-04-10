@@ -6,102 +6,118 @@ currency: USD
 url: https://web.archive.org/web/20191126165227/https://quip.com/about/pricing
 features:
   documents:
-    description: ''
+    description: Documents that fuel a culture of action
+      
+      Quip documents unite your team's work and communication, so you can get everything done in one place.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   spreadsheets:
-    description: ''
+    description: Spreadsheets that turn numbers into decisions
+      
+      Create spreadsheets that drive decisions with live Salesforce data, real-time chat, and the ability to
+      embed charts in your slides.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   slides:
-    description: ''
+    description: Slides that drive engagement & feedback
+      
+      Team-based slides that quickly and clearly get you to the right decision—with fewer, better meetings,
+      and no messy file versions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   basicLiveApps:
-    description: ''
+    description: Live Apps are interactive, real-time tools that can be directly added to documents. There are default live
+      apps that tie back to Salesforce data, default live apps that do not tie back to Salesforce data, and other extensions
+      and third party integrations available via the Salesforce AppExchange.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   groupChat:
-    description: ''
+    description: Chat Rooms are channels for ongoing team discussions. You can make a chat room to discuss a topic, share files,
+      or get notified about activity in external services like Twitter, Zendesk, and JIRA.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   1to1messages:
-    description: ''
+    description: One to one messages in Quip
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   desktopAccess:
-    description: ''
+    description: Desktop app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   tabletAccess:
-    description: ''
+    description: Tablet app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   mobileAccess:
-    description: ''
+    description: Mobile app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   teamManagement:
-    description: ''
+    description: Manager your team inside Quip
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   secureProductivity:
-    description: ''
+    description: Secure productivity for the enterprise
+      
+      Quip is Salesforce's productivity platform that transforms the way enterprises work together, delivering
+      modern collaboration securely and simply across any device.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     docUrl: https://quip.com/security/governance-and-compliance
   customAndAdvancedLiveApps:
-    description: ''
+    description: Custom and advanced live apps
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   singleSignOn:
-    description: ''
+    description: Single Sign On (SSO) access to Quip
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   enterpriseAPI:
-    description: ''
+    description: Enterprise API access
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   quipComponent:
-    description: ''
+    description: With the Quip Document Lightning component you can work with fully functional documents and spreadsheets
+      directly within Salesforce records.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   spreadsheetsWithLiveSalesforceData:
-    description: ''
+    description: Spreadsheets with live Salesforce data
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   salesforceRecordLiveApp:
-    description: ''
+    description: Salesforce Record Live App. Bring your freeform content and your Salesforce data together with Salesforce
+      live apps in documents. Collaborate on list views, records, dashboards, and maps, and sync your changes to Salesforce.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   embedQuipDocumentComponentsInSalesforce:
-    description: ''
+    description: Embed Quip Document Components in all objects in Salesforce
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
