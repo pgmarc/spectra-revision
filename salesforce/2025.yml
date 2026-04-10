@@ -20,69 +20,74 @@ tags:
   - Add-on Features
 features:
   einsteinActivityCapture:
-    description: ''
+    description: Eliminate manual activity logging. Automatically capture and sync your email and calendar content
+      and Salesforce data, in real time.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   einsteinRelationshipInsights:
-    description: ''
+    description: Automate relationship discovery and visualize key networks.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   buyerAssistant:
-    description: ''
+    description: Automate lead qualification and auto-scheduling to pass leads from your website directly to sales reps.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   conversationInsights:
-    description: ''
+    description: Track conversation insights about customer calls and surface coachable moments. Automatically log,
+      transcribe, and extract action items, keywords and more.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   emailInsights:
-    description: ''
+    description: Give reps critical context alongside relevant emails to better engage with customers.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   leadScoring:
-    description: ''
+    description: Analyze your data, predict which leads are most likely to convert, and see intuitive factors behind
+      your predictions to prioritize deals.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   opportunityScoring:
-    description: ''
+    description: Analyze your data, predict which opportunities are most likely to close, and see intuitive factors
+      behind your predictions to prioritize deals.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   dealInsights:
-    description: ''
+    description: Analyze your data, use AI to show insights and predictions about deal health.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Built-in AI
   einsteinForecasting:
-    description: ''
+    description: Bring more certainty and visibility to your forecasts using AI predictions based on opportunity, account,
+      history, and related activity data.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Built-in AI
   agentForce:
-    description: ''
+    description: Scale your teams effortlessly with AI sales agents for every step of your sales process.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -124,7 +129,7 @@ features:
     type: DOMAIN
     tag: Find and progress leads
   emailProductivity:
-    description: ''
+    description: Use real-time dynamic meeting scheduling, send emails later, track email engagement, and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -144,7 +149,8 @@ features:
     type: DOMAIN
     tag: Find and progress leads
   toDoList:
-    description: ''
+    description: See, sort, and organize all your tasks in a single, actionable, and customizable view. Sales
+      Engagement users can also see tasks from cadences.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -209,7 +215,8 @@ features:
     type: MANAGEMENT
     tag: Manage customer and sales details
   salesforceMeetings:
-    description: ''
+    description: Give sales reps a complete view of meeting attendees, like account history, open service cases,
+      and bios — as well as next steps once the call ends.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -223,7 +230,8 @@ features:
     integrationType: EXTERNAL_DEVICE
     tag: Sell from anywhere on any device
   salesCloudEverywhere:
-    description: ''
+    description: Move deals forward as you move around the web. Bring context to every conversation with access
+      to key CRM data within your flow of work.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -231,19 +239,19 @@ features:
     tag: Sell from anywhere on any device
   fullOfflineMobileFunctionality:
     description: Continue using the Salesforce mobile app, including creating new
-      records, even without connectivity. Your data will sync once you’re back online.
+      records, even without connectivity. Your data will sync once you're back online.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Sell from anywhere on any device
   customizableReports:
-    description: ''
+    description: Make more informed, consistent decisions with real-time configurable reports.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Forecast and analyze your business
   customizableDashboards:
-    description: ''
+    description: Make more informed, consistent decisions with real-time configurable dashboards.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -256,7 +264,7 @@ features:
     type: DOMAIN
     tag: Forecast and analyze your business
   forecasting:
-    description: Predict future sales and track your business’s performance.
+    description: Predict future sales and track your business's performance.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -291,13 +299,15 @@ features:
     type: DOMAIN
     tag: Forecast and analyze your business
   pipelineInspection:
-    description: ''
+    description: Maintain a healthy pipeline in one consolidated view. Track real-time pipeline movement,
+      identify changes, and de-risk deals with actionable insights.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Manage your pipeline
   waterfallChart:
-    description: ''
+    description: Visualize changes in pipeline categories such as opportunities created, increases/decreases
+      in your pipeline, and won and lost amounts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -347,7 +357,8 @@ features:
     type: DOMAIN
     tag: Collaborate across your company more easily
   recommendations:
-    description: ''
+    description: Automatically get the most up-to-date content and recommendations
+      on what to follow and join.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -380,7 +391,8 @@ features:
     type: SUPPORT
     tag: Collaborate across your company more easily
   slackSalesElevate:
-    description: ''
+    description: Centralize the selling conversation, surface critical Sales Cloud updates and notifications,
+      and help teams manage both pipeline and CRM records in Slack.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -389,7 +401,8 @@ features:
     - https://slack.com/pricing
     tag: Collaborate across your company more easily
   slackIntegration:
-    description: ''
+    description: Accelerate work with AI and automation, share and search data and knowledge, and connect with
+      customers in the flow of work.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -398,32 +411,33 @@ features:
     - https://slack.com/pricing
     tag: Collaborate across your company more easily
   flowBuilder:
-    description: ''
+    description: Automate and manage any business process with a point-and-click Process Builder tool.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Customize and automate processes
   flowOrchestration:
-    description: ''
+    description: Create and coordinate parallel multiuser, multistep workflows.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Customize and automate processes
   approvalProcesses:
-    description: ''
+    description: Automate workflow tasks, email alerts, automatic field updates, and much more. Set up simple or
+      sophisticated approvals for virtually any process.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Customize and automate processes
   lightningAppBuilder:
-    description: ''
+    description: Build apps visually using a library of prebuilt and custom components in this drag-and-drop environment.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Customize and automate processes
   appExchange:
-    description: ''
+    description: Download preintegrated apps from AppExchange to extend your use of the Salesforce Platform.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -444,7 +458,7 @@ features:
     type: DOMAIN
     tag: Customize and automate processes
   unlimitedCustomApplications:
-    description: Build apps and customize Salesforce to meet your — and your customers’
+    description: Build apps and customize Salesforce to meet your — and your customers'
       — needs.
     valueType: BOOLEAN
     defaultValue: false
@@ -458,7 +472,8 @@ features:
     type: DOMAIN
     tag: Customize and automate processes
   customizablePageLayouts:
-    description: ''
+    description: Manage read/write permissions for different user profiles, and control
+      which fields different users see on every record.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -512,7 +527,8 @@ features:
     type: DOMAIN
     tag: Customize and automate processes
   emailIntegrationWithOutlook:
-    description: ''
+    description: Get a complete view of customer interactions and boost productivity by automatically syncing email
+      with CRM data.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -535,114 +551,120 @@ features:
     integrationType: API
     tag: Connect sales data to any app
   dataSynchronization:
-    description: ''
+    description: Connect Salesforce and external data with Data Cloud
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
     tag: Connect sales data to any app
   dataHarmonization:
-    description: ''
+    description: Connect Salesforce and external data with Data Cloud
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
     tag: Connect sales data to any app
   revenueMilestones:
-    description: ''
+    description: Embed milestones in programmes and validate you’re changing how reps work.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   guidanceCenter:
-    description: ''
+    description: Keep reps on track for revenue achievement.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Add-on Features
   enablementAnalytics:
-    description: ''
+    description: Track revenue outcomes and get powerful insights to optimise programmes over time.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Add-on Features
   bestPracticeTemplates:
-    description: ''
+    description: Launch with confidence with 20+ years of enablement experience baked in every programme.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   inAppCoaching:
-    description: ''
+    description: Use insights to focus on the coaching that matters and maximise manager coaching impact.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Add-on Features
   inAppGuidance:
-    description: ''
+    description: Empower your sales teams with contextual content in the flow of work.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Add-on Features
   inAppWalkthroughs:
-    description: ''
+    description: Empower your sales teams with contextual content in the flow of work.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Add-on Features
   einsteinOpportunityScoring:
-    description: ''
+    description: Understand the likelihood that an opportunity will be won, insights into deal health, close date
+      predictions and recommendations to move the deal forward.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-on Features
   einsteinDealHealthInsights:
-    description: ''
+    description: Understand the likelihood that an opportunity will be won, insights into deal health, close date
+      predictions and recommendations to move the deal forward.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-on Features
   collaborativeForecasting:
-    description: ''
+    description: Forecast sales from your opportunity pipeline and take the guesswork out of forecasting by using AI
+      to bring more certainty and visibility to your forecasts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   predictiveForecasting:
-    description: ''
+    description: Forecast sales from your opportunity pipeline and take the guesswork out of forecasting by using AI
+      to bring more certainty and visibility to your forecasts.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   revenueInsightsDashboards:
-    description: ''
+    description: Understand the health of your business, performance insights and trends.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   einsteinAccountManagement:
-    description: ''
+    description: Einstein Account Management provides dashboards and Einstein Discovery models to help you see which
+      of your accounts has potential for growth and which of your accounts need attention.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-on Features
   crmANalyticsPlusLicense:
-    description: ''
+    description: Complete data and analytics platform
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   industryDashboardTemplates:
-    description: ''
+    description: "Supports: Financial Services, Manufacturing, Automotive, Communications, Energy & Utilities, Consumer
+      Goods, Health, Education and Media"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   tableauexplorerLicense:
-    description: ''
+    description: Access the full power of data visualisation and analytics.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -651,104 +673,112 @@ features:
     - https://www.tableau.com/pricing
     tag: Add-on Features
   productCatalog:
-    description: ''
+    description: Centralized repositories of products and prices for accurate and consistent quoting
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   productPriceBook:
-    description: ''
+    description: Centralized repositories of products and prices for accurate and consistent quoting
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   usagePricing:
-    description: ''
+    description: Interactive tool to assist sales teams in selecting the right products and configurations during the
+      quoting process
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   quoting:
-    description: ''
+    description: Interactive tool to assist sales teams in selecting the right products and configurations during the
+      quoting process
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   guidedSelling:
-    description: ''
+    description: Interactive tool to assist sales teams in selecting the right products and configurations during
+      the quoting process
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   advancedApprovals:
-    description: ''
+    description: Workflow-based system for routing quotes through multiple approval stages according to predefined criteria
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   advancedOrderManagement:
-    description: ''
+    description: Comprehensive management of orders after they are placed, including tracking, fulfillment, and updates
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   documentGeneration:
-    description: ''
+    description: Automated creation of documents from predefined templates and data inputs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   omniStudio:
-    description: ''
+    description: Platform that empowers businesses to design, streamline, and manage customer experiences across channels
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   personalizedPartnerExperiences:
-    description: ''
+    description: Tailor your partner experience to fit your business, industry, and partner needs with easy-to-use web templates.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   dealManagement:
-    description: ''
+    description: Track and work deals with embedded deal registration and lead routing, as well as account, opportunity,
+      and contact management.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   unifiedMarketing:
-    description: ''
+    description: Go to market with partners with automated MDF (Market Development Fund) requests, discount approvals,
+      campaigns, and CMS.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   partnerAI:
-    description: ''
+    description: Connect partners to data and AI they need to drive revenue with lead and opportunity scoring, pipeline
+      inspection, and dashboards.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Add-on Features
   partnerAnalytics:
-    description: ''
+    description: Connect partners to data and AI they need to drive revenue with lead and opportunity scoring, pipeline
+      inspection, and dashboards.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Add-on Features
   customObjects:
-    description: ''
+    description: Customize apps to your business needs using custom objects.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   partnerRelationshipDataStorage:
-    description: ''
+    description: Utilize additional storage based on your Sales Cloud or CRM license. Tap into additional
+      storage on a per-org basis.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Add-on Features
   partnerRelationshipApi:
-    description: ''
+    description: Connect more external systems and data to Salesforce (REST, SOAP, and more) with API connectors.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -756,7 +786,7 @@ features:
     tag: Add-on Features
 usageLimits:
   numberOfCampaignsPerOportunity:
-    description: ''
+    description: Maximum number of campaigns per opportunity
     valueType: NUMERIC
     defaultValue: 0
     unit: campaign/opportunity
@@ -764,7 +794,7 @@ usageLimits:
     linkedFeatures:
     - campaignInfluence
   numberOfCustomAppsPerOrg:
-    description: ''
+    description: Maximum number of custom apps per org
     valueType: NUMERIC
     defaultValue: 0
     unit: customApp/Org
@@ -772,7 +802,7 @@ usageLimits:
     linkedFeatures:
     - salesConsoleApps
   numberOfProcessesAndFlows:
-    description: ''
+    description: Maximum number of prococesses and flows
     valueType: NUMERIC
     defaultValue: 0
     unit: processesFlows/org
@@ -780,7 +810,7 @@ usageLimits:
     linkedFeatures:
     - flowBuilder
   numberOfPartialSandbox:
-    description: ''
+    description: Maximum number of partial sandbox
     valueType: NUMERIC
     defaultValue: 0
     unit: partialSanbox/org
@@ -788,7 +818,7 @@ usageLimits:
     linkedFeatures:
     - partialSandbox
   numberOfFullSanbox:
-    description: ''
+    description: Maximum number of full sandbox
     valueType: NUMERIC
     defaultValue: 0
     unit: fullSanbox/org
@@ -796,7 +826,7 @@ usageLimits:
     linkedFeatures:
     - fullSandbox
   customObjectsLimit:
-    description: ''
+    description: Maximum number of custom objects
     valueType: NUMERIC
     defaultValue: 0
     unit: customObject
@@ -804,7 +834,7 @@ usageLimits:
     linkedFeatures:
     - customObjects
   partnerRelationshipDataStorageLimitMember:
-    description: ''
+    description: Maximum disk storage for Partner Relationship for member
     valueType: NUMERIC
     defaultValue: 0
     unit: MB/member
@@ -812,7 +842,7 @@ usageLimits:
     linkedFeatures:
     - partnerRelationshipDataStorage
   partnerRelationshipDataStorageLimitLogin:
-    description: ''
+    description: Maximum disk storage for Partner Relationship for login
     valueType: NUMERIC
     defaultValue: 0
     unit: MB/login
@@ -820,7 +850,7 @@ usageLimits:
     linkedFeatures:
     - partnerRelationshipDataStorage
   partnerRelationshipApiCallsLimitMember:
-    description: ''
+    description: Maximum api calls for Partner Relationship API for members
     valueType: NUMERIC
     defaultValue: 0
     unit: call/member/day
@@ -828,7 +858,7 @@ usageLimits:
     linkedFeatures:
     - partnerRelationshipDataStorage
   partnerRelationshipApiCallsLimitLogin:
-    description: ''
+    description: Maximum api calls for Partner Relationship API for login
     valueType: NUMERIC
     defaultValue: 0
     unit: call/member/day
@@ -895,7 +925,7 @@ plans:
       numberOfProcessesAndFlows:
         value: 5
   ENTERPRISE:
-    description: ''
+    description: The CRM for sales with more flexibility and web API.
     price: 165
     unit: user/month
     features:
@@ -979,7 +1009,7 @@ plans:
       numberOfPartialSandbox:
         value: 1
   UNLIMITED:
-    description: ''
+    description: The CRM for sales with intelligent automation and developer support built in.
     price: 330
     unit: user/month
     features:

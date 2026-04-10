@@ -390,7 +390,8 @@ features:
     defaultValue: false
     type: DOMAIN
   emailIntegrationWithOutlook:
-    description: ''
+    description: Get a complete view of customer interactions and boost productivity by automatically syncing email
+      with CRM data.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -478,7 +479,7 @@ features:
     defaultValue: false
 usageLimits:
   numberOfCampaignsPerOportunity:
-    description: ''
+    description: Maximum number of campaigns per opportunity
     valueType: NUMERIC
     defaultValue: 0
     unit: campaign/opportunity
@@ -486,7 +487,7 @@ usageLimits:
     linkedFeatures:
     - campaignInfluence
   numberOfCustomAppsPerOrg:
-    description: ''
+    description: Maximum number of custom apps per org
     valueType: NUMERIC
     defaultValue: 0
     unit: customApp/Org
@@ -494,7 +495,7 @@ usageLimits:
     linkedFeatures:
     - salesConsoleApps
   numberOfProcessesAndFlows:
-    description: ''
+    description: Maximum number of prococesses and flows
     valueType: NUMERIC
     defaultValue: 5
     unit: processesFlows/org
@@ -502,7 +503,7 @@ usageLimits:
     linkedFeatures:
     - lightingFlowAutomation
   numberOfCustomizableProfiles:
-    description: ''
+    description: Maximum number of customizable profiles
     valueType: NUMERIC
     defaultValue: 0
     unit: profile/org
@@ -511,7 +512,7 @@ usageLimits:
     - customizableProfiles
     - customizablePageLayouts
   numberOfRoles:
-    description: ''
+    description: Maximum number of roles
     valueType: NUMERIC
     defaultValue: 0
     unit: rol/org
@@ -519,7 +520,7 @@ usageLimits:
     linkedFeatures:
     - rolesAndPermissions
   numberOfRecordTypes:
-    description: ''
+    description: Maximum number of record types
     valueType: NUMERIC
     defaultValue: 0
     unit: type/object
@@ -527,7 +528,7 @@ usageLimits:
     linkedFeatures:
     - recordTypes
   numberOfPartialSandbox:
-    description: ''
+    description: Maximum number of partial sandbox
     valueType: NUMERIC
     defaultValue: 0
     unit: partialSanbox/org
@@ -535,7 +536,7 @@ usageLimits:
     linkedFeatures:
     - partialSandbox
   numberOfFullSanbox:
-    description: ''
+    description: Maximum number of full sandbox
     valueType: NUMERIC
     defaultValue: 0
     unit: fullSanbox/org
@@ -543,7 +544,7 @@ usageLimits:
     linkedFeatures:
     - fullSandbox
   numberOfUsers:
-    description: ''
+    description: Maximum number of users
     valueType: NUMERIC
     defaultValue: 1
     unit: user
