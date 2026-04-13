@@ -17,16 +17,19 @@ features:
     type: DOMAIN
     tag: Features
   products:
+    description: Unlimited products
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   staffAccounts:
+    description: You can add staff members to your store or organization by creating user accounts in your Shopify admin.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   24/7Support:
+    description: 24/7 support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -38,36 +41,44 @@ features:
     type: DOMAIN
     tag: Features
   manualOrderCreation:
+    description: Manual order creation
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   discountCodes:
+    description: Discount codes for your products
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   freeSslCertificate:
+    description: Free SSL certificate
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   abandonedCartRecovery:
+    description: Abandoned cart recovery
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   giftCards:
+    description: Give your customers another reason to love your brand with custom gift cards
+      that work seamlessly with Shopify POS.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Features
   professionalReports:
+    description: Professional reports
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Features
   advancedReportBuilder:
+    description: advanced report builder
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -85,68 +96,83 @@ features:
     type: DOMAIN
     tag: Shopify Shipping
   printShippingLabels:
+    description: Print shipping labels
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Shipping
   uspsPriorityMailCubicPricing:
+    description: Priority Mail® service includes tracking and delivery in 2-3 days1. Check delivery time estimates
+      with the USPS Service Standards Map.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Shopify Shipping
   fraudAnalysis:
+    description: Shopify's fraud analysis helps you identify orders that could be fraudulent. Review high-risk orders to
+      avoid potential chargebacks.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Payments
   onlineCreditCardRates:
+    description: Shopify Payments online credit card rates
     valueType: TEXT
     defaultValue: 2.9% + 30¢
     type: DOMAIN
     tag: Shopify Payments
   inPersonCreditCardRates:
+    description: Shopify Payments in-person credit card rates
     valueType: TEXT
     defaultValue: 2.7% + 0¢
     type: DOMAIN
     tag: Shopify Payments
   additionaFeesOtherThanShopifyPayments:
+    description: Additional fees using all payment providers other than Shopify Payments
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Payments
   shopifyPosApp:
+    description: Secure, Powerful Point-of-Sale for Brick-and-Mortar. Easy-to-Use Software and Hardware.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Point of Sale
   registerShifts:
+    description: Register shifts with Point of Sale
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Point of Sale
   hardWarePeripheralSupport:
+    description: Build a complete point of sale with Shopify’s plug-and-play hardware.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Point of Sale
   staffPosPins:
+    description: Staff POS PINs
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Point of Sale
   thirdPartyPosApps:
+    description: Staff POS PINs
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Point of Sale
   storeLocations:
+    description: Store locations
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Point of Sale
 usageLimits:
   staffAccountsLimit:
+    description: Maximum limit of staff accounts
     valueType: NUMERIC
     defaultValue: 2
     unit: account
@@ -154,6 +180,7 @@ usageLimits:
     linkedFeatures:
       - staffAccounts
   shopifyDiscountRate:
+    description: Shopify discount rate
     valueType: NUMERIC
     defaultValue: 0.64
     type: NON_RENEWABLE
@@ -167,6 +194,7 @@ usageLimits:
     linkedFeatures:
       - additionaFeesOtherThanShopifyPayments
   staffPosPinsLimit:
+    description: Maximum staff POS pins limit
     valueType: NUMERIC
     defaultValue: 0
     unit: pin
@@ -174,6 +202,7 @@ usageLimits:
     linkedFeatures:
       - staffPosPins
   storeLocationsLimit:
+    description: Maximum invertory locations
     valueType: NUMERIC
     defaultValue: 0
     unit: location

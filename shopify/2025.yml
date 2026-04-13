@@ -326,8 +326,8 @@ features:
     integrationType: API
     tag: Customization
   headlessStoreFronts:
-    description: Build a custom storefront with Hydrogen, Shopify’s React-based toolkit
-        and deploy on Oxygen, Shopify’s free global hosting solution.
+    description: Build a custom storefront with Hydrogen, Shopify's React-based toolkit
+        and deploy on Oxygen, Shopify's free global hosting solution.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -340,7 +340,7 @@ features:
     type: DOMAIN
     tag: International
   currencyConversion:
-    description: Automatically convert prices into your customer’s local currency to
+    description: Automatically convert prices into your customer's local currency to
         drive conversion in each market (requires Shopify Payments).
     valueType: BOOLEAN
     defaultValue: true

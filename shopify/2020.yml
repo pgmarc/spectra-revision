@@ -13,6 +13,7 @@ tags:
 url: https://web.archive.org/web/20201120210114/https://www.shopify.com/pricing
 features:
   onlineStore:
+    description: Includes ecommerce website and blog
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -24,62 +25,77 @@ features:
     type: DOMAIN
     tag: Sales Channels
   fastCheckout:
+    description: Fast checkout
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Sales Channels
   reliableCheckout:
+    description: Reliable checkout
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Sales Channels
   products:
+    description: Unlimited products
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Store Management
   coupons:
+    description: When doing the checkout ingress a code to get a discount in the final price
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Store Management
   discounts:
+    description: Make discounts for your customers
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Store Management
   giftCards:
+    description: Give your customers another reason to love your brand with custom gift cards
+      that work seamlessly with Shopify POS.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Store Management
   integratedMarketingPlatform:
+    description: Integrated marketing platform (Google, Facebook)
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Store Management
   staffAccounts:
+    description: You can add staff members to your store or organization by creating user accounts in your Shopify admin.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Store Management
   locations:
+    description: You can add and manage locations where you store or sell products, such as warehouses, retail stores,
+      or pop-ups. A location is any physical place where you sell products, fulfill orders, or stock inventory. Some apps,
+      including dropshipping apps and third-party logistics services, can also be considered locations.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Store Management
   professionalReports:
+    description: Professional reports
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Store Management
   advancedReportBuilder:
+    description: Advanced report builder
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Store Management
   24/7MultichannelSupport:
+    description: 24/7 multichannel support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -98,21 +114,26 @@ features:
     integrationType: API
     tag: Apps and Ecosystem
   onlineCreditCardRates:
+    description: Online credit card rates
     valueType: TEXT
     defaultValue: 2.9% + 30¢
     type: DOMAIN
     tag: Shopify Payments
   inPersonCreditCardRates:
+    description: In-person credit card rates
     valueType: TEXT
     defaultValue: 2.7% + 0¢
     type: DOMAIN
     tag: Shopify Payments
   thirdPartyPaymentProcessors:
+    description: Third-party Payment Processors. 0% if you are using Shopify Payments.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Payments
   multiplePaymentMethods:
+    description: Credit and debit cards. Accelerated checkouts such as Apple Pay, Google Pay, and Shop Pay.
+      Local payment methods.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -124,21 +145,26 @@ features:
     type: DOMAIN
     tag: Shopify Shipping
   printShippingLabels:
+    description: Print shipping labels
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Shipping
   shippingCalculatedAtCheckout:
+    description: Shipping calculated at checkout
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Shipping
   integratedShopifyFullfillmentNetwork:
+    description: Integrated Shopify Fullfillment Network
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Shipping
   uspsPriorityMailCubicPricing:
+    description: Priority Mail® service includes tracking and delivery in 2-3 days1. Check delivery time estimates
+      with the USPS Service Standards Map.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -150,6 +176,7 @@ features:
     type: DOMAIN
     tag: Shopify Shipping
   integrationWithShippingAccounts:
+    description: Integrate with your own shipping accounts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -168,6 +195,7 @@ features:
     tag: Point of Sale
 usageLimits:
   staffAccountsLimit:
+    description: Maximum limit of staff accounts
     valueType: NUMERIC
     defaultValue: 2
     unit: account
@@ -175,6 +203,7 @@ usageLimits:
     linkedFeatures:
       - staffAccounts
   locationsLimit:
+    description: Maximum invertory locations
     valueType: NUMERIC
     defaultValue: 4
     unit: location
@@ -189,12 +218,12 @@ usageLimits:
     linkedFeatures:
       - thirdPartyPaymentProcessors
   shippingDiscountRate:
+    description: Shipping discount rate
     valueType: NUMERIC
     defaultValue: 0.64
     type: NON_RENEWABLE
     linkedFeatures:
       - shippingDiscount
-
 plans:
   BASIC_SHOPIFY:
     description: All the basics for starting a new business

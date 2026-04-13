@@ -15,7 +15,7 @@ tags:
 url: https://web.archive.org/web/20221120170105/https://www.shopify.com/pricing
 features:
   onlineStore:
-    description: Start an online store with Shopify’s robust ecommerce platform
+    description: Start an online store with Shopify's robust ecommerce platform
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -82,7 +82,7 @@ features:
     type: DOMAIN
     tag: Features
   reports:
-    description: Access a wide variety of reports to help track and analyze your store’s performance
+    description: Access a wide variety of reports to help track and analyze your store's performance
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -223,7 +223,7 @@ features:
     type: DOMAIN
     tag: International commerce
   currencyConversion:
-    description: Automatically convert prices into your customer’s local currency
+    description: Automatically convert prices into your customer's local currency
       to drive conversion in each market (requires Shopify Payments)
     valueType: BOOLEAN
     defaultValue: true

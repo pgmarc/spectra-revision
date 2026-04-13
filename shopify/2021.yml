@@ -18,6 +18,7 @@ features:
     type: DOMAIN
     tag: Features
   products:
+    description: Add unlimited products to your store
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -29,6 +30,7 @@ features:
     type: DOMAIN
     tag: Features
   24/7Support:
+    description: Get 24/7 phone, email, and live chat support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
@@ -46,31 +48,37 @@ features:
     type: DOMAIN
     tag: Features
   manualOrderCreation:
+    description: Create new orders and enter payment details right from your Shopify admin
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   discountCodes:
+    description: Offer your customers a fixed value, percentage, or shipping discount on products or collections
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   freeSslCertificate:
+    description: Shopify provides free SSL certificates to encrypt your online store's content and publish it securely
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   abandonedCartRecovery:
+    description: Automatically send emails to customers who leave your store without completing the checkout process
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   giftCards:
+    description: Expand your current customer base and attract new customers by offering gift cards
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   reports:
+    description: Access a wide variety of reports to help track and analyze your store's performance
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -94,26 +102,34 @@ features:
     type: DOMAIN
     tag: Shopify Shipping
   uspsPriorityMailCubicPricing:
+    description: Priority Mail® service includes tracking and delivery in 2-3 days1. Check delivery time estimates
+      with the USPS Service Standards Map.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Shopify Shipping
   fraudAnalysis:
+    description: When you use Shopify Payments, you automatically get a built-in
+      fraud analysis feature. This feature flags orders that are
+      potentially fraudulent and brings them to your attention
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Shopify Payments
   onlineCreditCardRates:
+    description: You can accept Visa, Mastercard, Discover the minute you launch your shop
     valueType: TEXT
     defaultValue: 2.9% + 30¢
     type: DOMAIN
     tag: Shopify Payments
   inPersonCreditCardRates:
+    description: Shopify payments in-person credit/debit card rates
     valueType: TEXT
     defaultValue: 2.7% + 0¢
     type: DOMAIN
     tag: Shopify Payments
   transactionFeeNotUsingShopifyPayments:
+    description: Transaction fee if not using Shopify Payment
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -137,6 +153,7 @@ features:
     type: DOMAIN
     tag: Global Selling
   sellInMultipleLanguages:
+    description: Sell in multiple languages
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -161,6 +178,7 @@ features:
     tag: Global Selling
 usageLimits:
   staffAccountsLimit:
+    description: Maximum limit of staff accounts
     valueType: NUMERIC
     defaultValue: 2
     unit: account
@@ -168,6 +186,7 @@ usageLimits:
     linkedFeatures:
       - staffAccounts
   inventoryLocationsLimit:
+    description: Maximum invertory locations
     valueType: NUMERIC
     defaultValue: 4
     unit: location
@@ -175,12 +194,14 @@ usageLimits:
     linkedFeatures:
       - inventoryLocations
   reportType:
+    description: Type of reports permitted
     valueType: TEXT
     defaultValue: None
     type: NON_RENEWABLE
     linkedFeatures:
       - reports
   shippingDiscountRate:
+    description: Shipping discount rate
     valueType: NUMERIC
     defaultValue: 0.77
     type: NON_RENEWABLE
@@ -194,6 +215,7 @@ usageLimits:
     linkedFeatures:
       - transactionFeeNotUsingShopifyPayments
   sellInMultipleLanguagesCap:
+    description: Maximum languages to sell in
     valueType: NUMERIC
     defaultValue: 20
     unit: language
@@ -202,13 +224,13 @@ usageLimits:
       - sellInMultipleLanguages
 plans:
   BASIC_SHOPIFY:
-    description: All the basics for starting a new business
+    description: Best for new ecommerce businesses with occasional in-person sales
     price: 29
     unit: user/month
     features: null
     usageLimits: null
   SHOPIFY:
-    description: Everything you need for a growing business
+    description: Best for growing businesses selling online or in-store
     price: 79
     unit: user/month
     features:
@@ -234,7 +256,7 @@ plans:
       inventoryLocationsLimit:
         value: 5
   ADVANCED_SHOPIFY:
-    description: Advanced features for scaling your business
+    description: Best for scaling businesses that require advanced reporting
     price: 299
     unit: user/month
     features:
