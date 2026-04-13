@@ -20,9 +20,8 @@ features:
     defaultValue: true
     type: DOMAIN
   appsAndServices:
-    description: Receive notifications, find information, and take action without
-      leaving Slack, through integrations and tools you already use every day. You
-      can also create your own apps tailored to your specific needs.
+    description: Get notifications, find information or take actions without leaving Slack using integrations
+      with tools you already use every day. Or build your own apps to suit your needs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -37,8 +36,8 @@ features:
     defaultValue: false
     type: DOMAIN
   workspaces:
-    description: Slack workspaces are the engine of your work, like a virtual office.
-      It's where your channels, direct messages, and tools reside.
+    description: Like a virtual office, a workspace is where work happens in Slack. All your channels,
+      direct messages and tools live in a workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -86,7 +85,7 @@ features:
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   adminSlackEnterpriseKeys:
-    description: Administration of Slack Enterprise Keys
+    description: Complete control and visibility of access to your data in Slack using your own encryption keys
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -129,8 +128,7 @@ features:
     defaultValue: false
     type: MANAGEMENT
   customUserGroups:
-    description: 'Custom user groups: Facilitate notifications and communication with
-      entire teams, departments, and groups.'
+    description: Make it easier to send notifications and communicate with entire teams, departments, or groups.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT

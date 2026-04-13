@@ -7,96 +7,86 @@ billing:
 currency: USD
 url: https://web.archive.org/web/20231203054345/https://slack.com/pricing
 features:
+  # Message and file history
   messagesAccess:
-    description: 'Message and File History: The more you use Slack, the more valuable
-      it becomes. By being able to search and access all messages from your organization,
-      you can leverage context from previous decisions or quickly bring new team members
-      up to speed.'
+    description: The more you use Slack, the more useful it becomes. With all your organization's messagess available in
+      search, you can find context from past decisions or get new team members up to speed faster.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
+  # Slack huddles
   voiceAndVideoCalls:
-    description: 'Slack Calls: Take a break from typing and start live audio conversations
-      (with video, screen sharing, conversation threading, and fun reactions/effects)
-      in a channel or direct message. Brainstorm, make decisions, or catch up, all
-      at your fingertips.'
+    description: Take a break from typing and start a live audio conversation
+      (with video, screen sharing, a message thread, and fun reactions/effects)
+      in a channel or direct message. Brainstorm, make decisions, or just catch up-all
+      the filp of a switch.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   audioAndVideoClips:
-    description: 'Audio and Video Clips: Use audio and video clips to showcase your
-      work. Record a quick idea in an audio clip or share your screen in a video clip,
-      all from Slack. Coworkers can respond whenever they like.'
+    description: Use audio and video to bring your work to life. Record a quick idea with an audio clip, or share your screen
+      in a video clip, all without leaving Slack. Coworkers can respond whenever they'd like.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
+  # Work with external people
   slackConnect:
-    description: 'External Collaboration: Slack Connect enables seamless collaboration
-      between organizational departments. Two organizations can work together from
-      their own Slack workspaces.'
+    description: Collaborate seamlessly across organizational boundaries with Slack Connect. Separate organizations can
+      work together from within their own Slack workspaces.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   canvas:
-    description: 'Slack Canvas: Keep your entire team in sync with canvases, the collaborative
-      surface for organizing critical documentation in a channel, direct message,
-      or project. Create action item checklists, channel FAQs, onboarding guides,
-      and more. You can even integrate workflows directly into a canvas. Can be LIMITED
-      (channels and direct messages only) or FULL.'
+    description: Get your whole team on the same page with canvases, the collaborative surface for organizing
+      your most important documentation for a channel, direct message or project. Create action item checklists, channel
+      FAQs, onboarding guides and more. You can even embed workflows right into a canvas!
     valueType: TEXT
     defaultValue: LIMITED
     type: DOMAIN
   customizableSections:
-    description: 'Customizable Sections: Keep your projects, teams, and priorities
-      organized by organizing your channels and conversations into collapsible, customizable
-      sections in the sidebar.'
+    description: Keep your projects, teams, and priorities straight, by organizing your channels and conversations into
+      custom, collapsible sections in your sidebar.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   appsAndServices:
-    description: 'Integrations with Other Applications: There are over 2600 applications
-      waiting for you in the Slack App Directory to perform all kinds of tasks, such
-      as Salesforce, Jira, Google Drive, ChatGPT, and many more.'
+    description: Choose from over 2,600 apps in the Slack App Directory to support whatever work you do  — from Salesforce,
+      Jira, Google Drive, ChatGPT, and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   workflowBuilder:
-    description: 'Workflow Builder: Automate tasks and routine processes directly
-      in Slack without needing to program anything. Workflows can be as simple or
-      complex as you like and can also connect to other tools and applications you
-      use for work.'
+    description: Automate routine tasks and processes right in Slack, no code needed. Workflows can be as simple or
+      as complex as you'd like, and can even be connected to other apps and tools you use to get work done.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   customWorkflowSteps:
-    description: 'Custom Workflow Steps: Custom workflow steps allow you to incorporate
-      your organization''s own business systems and logic into a workflow. Developers
-      create these using Slack APIs.'
+    description: Custom workflow steps allow you to bring systems and business logic unique to your
+      organization into a workflow. They are built by developers using Slack APIs.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   deployApps:
-    description: 'Deploying Apps for Slack Infrastructure: Developers can deploy custom
-      features to Slack''s managed secure infrastructures at no additional cost.'
+    description: Developers can deploy custom functions to Slack's secure, managed infrastructure at no additional cost.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   standardWorkflows:
-    description: 'Standard Workflows: Standard workflows are designed with Slack steps
-      and a maximum of one connector step. With the connector step, you can incorporate
-      other tools into your workflow (Salesforce, Google Sheets, Jira, and many more).'
+    description: Standard workflows are built using Slack steps and up to one connector step.
+      With a connector step, you can bring other tools into your workflow — Salesforce, Google Sheets, Jira, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   premiumWorkflows:
-    description: 'Premium Workflows: Premium workflows include at least one custom
-      step or two or more connector steps. Connector steps allow you to incorporate
-      other tools into your workflow (Salesforce, Google Sheets, Jira, and many more).
-      If you exceed your monthly premium workflow allocation, you won''t be charged
-      until the promotional period ends on October 31, 2023.'
+    description: Premium workflows include at least one custom
+      step or two or more connector steps. With connector steps, you can bring
+      other tools into your workflow — Salesforce, Google Sheets, Jira, and more.
+      Paid Slack plans include 1000-5000 runs/month, depending on the plan. It costs $0.05 per
+      premium workflow run beyond that allotment.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -148,16 +138,15 @@ features:
     defaultValue: false
     type: GUARANTEE
   auditLogs:
-    description: 'Audit Logs: Audit logs provide a record of changes and usage in
-      the Enterprise Grid plan. You can view audit logs directly in Slack, export
-      them as CSV files, and use the Audit Logs API to create custom monitoring tools.'
+    description: Audit logs provide a record of changes and usage on
+      Enterprise Grid. You can view audit logs right in Slack, export
+      them as CSV, and use the Audit Logs API to create custom monitoring tools.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   identityProvidersGroups:
-    description: 'Identity Provider Groups: Sync groups created in your identity provider
-      with workspaces and channels in your Enterprise Grid organization. If your identity
-      provider doesn''t support group syncing, you can use our SCIM API and do it
+    description: Sync the groups you've created in your IDP to workspaces and channels within your Enterprise Grid organization.
+      If your IDP does not support syncing groups, you can use our SCIM API to do it manually.
       manually.'
     valueType: BOOLEAN
     defaultValue: false
@@ -172,33 +161,30 @@ features:
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
+  # Native data loss prevention (DLP) for Slack Connect
   slackConnectLostPrevention:
-    description: 'Native Data Loss Prevention for Slack Connect: Slack Connect data
-      loss prevention analyzes messages and files sent by members of your organization
-      to reduce the risk of sharing confidential information, malicious content, or
-      personally identifiable information with external organizations.'
+    description: Data loss prevention in Slack Connect scan messages and files sent by members of your organization
+      to reduce the risk of sharing confidential, malicious or personally identifiable content with external orgs.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   informationBarriers:
-    description: 'Information Barriers: Create information barriers between identity
-      provider groups to prevent certain members from sending direct messages or starting
-      calls with each other to avoid conflicts of interest and protect confidential
-      information.'
+    description: Create information barriers between IDP groups to prevent specific members from sending DMs or starting
+      huddles with each other, avoiding conflicts of interest and safeguarding sensitive information.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   legalRetentionHold:
-    description: 'Legal Retentions: In an Enterprise Grid organization, you can assign
-      a legal retention to a specific member to retain their messages and files in
-      Slack. This means messages and files sent by all conversation members will be
-      retained regardless of retention settings or member modifications or deletions.'
+    description: In an Enterprise Grid organization, you can place
+      a legal hold on specific members to preserve their messages and files in
+      Slack. This means that messages and files sent by all members in a conversation will be
+      saved regardless of retention settings or if members edit or delete any content.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   workspaces:
-    description: 'Workspaces: Slack workspaces are the engine of your work, like a
-      virtual office. It''s where your channels, direct messages, and tools reside.'
+    description: Like a virtual office, a workspace is where work happens in Slack. All your channels,
+      direct messages and tools live in a workspace.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -223,8 +209,7 @@ features:
     defaultValue: false
     type: MANAGEMENT
   customUserGroups:
-    description: 'Custom User Groups: Facilitate receiving notifications and communication
-      with entire teams, departments, and groups.'
+    description: Make it easier to send notifications and communicate with entire teams, departments, or groups.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -251,33 +236,30 @@ features:
     defaultValue: false
     type: GUARANTEE
   granularRoles:
-    description: 'Detailed Roles: Assign system roles to individual members or identity
+    description: Assign system roles to individual members or identity
       provider groups, or assign members to multiple system roles. Granular controls
       allow you to choose whether members can manage administrative tasks across all
-      workspaces or only some in your Enterprise Grid organization.'
+      workspaces or only some in your Enterprise Grid organization.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   adminAnalyticsAPI:
-    description: 'Admin Data Analytics API: Retrieve analytics data from a specific
-      date in a compressed JSON file format.'
+    description: Retrieve analytics data for a given date, presented as a compressed JSON file.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   adminAnalyticsDashboard:
-    description: 'Admin Data Analytics Dashboard: The Slack data analytics dashboard
-      lets you gain insights into how your organization uses Slack. Easily search
-      and sort data to better understand messages, channels, and workspace members
-      in your Enterprise Grid organization.'
+    description: The Slack data analytics dashboard grants you insight into how your organization uses Slack.
+      Easily find and sort information to undestand more about the messages, channels, and members in your workspace
+      or Enterprise Grid organization.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   messageActivityAnalytics:
-    description: 'Message Activity Analytics: With message activity analytics, owners,
-      administrators, and members with necessary permissions can see how many people
-      have interacted with each Slack message. Use message activity to measure the
-      impact of announcements and internal communication campaigns in your organization.'
+    description: With message activity analytics, owners, adminis and members with permission can see
+      how many people have interacted with a given message in Slack. You can use message activity to measure the
+      impact of announcements and internal communications campaigns for your organization.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
@@ -349,7 +331,7 @@ plans:
     features: null
     usageLimits: null
   PRO:
-    description: More control for small teams looking to enhance collaboration
+    description: More power for small teams who want better collaboration
     price: 8.75
     unit: user/month
     features:
@@ -391,8 +373,7 @@ plans:
       useSlackConnect:
         value: 10000000000000
   BUSINESS_PLUS:
-    description: Expand your business, increase productivity, and keep your teams
-      connected
+    description: Scale your business, increase productivity, and keep your teams connected
     price: 15
     unit: user/month
     features:
@@ -451,9 +432,8 @@ plans:
       useSlackConnect:
         value: 10000000000000
   ENTERPRISE_GRID:
-    description: Slack's plan for the most demanding enterprises. Includes the flexibility
-      to meet regulatory requirements and the power to support your performance every
-      step of the way.
+    description: Slack for the most demanding enterprises—all the flexibility to meet your regulatory requirements and
+      all the power to match your growth
     price: Contact Sales
     unit: user/month
     features:
