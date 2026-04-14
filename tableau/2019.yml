@@ -6,13 +6,13 @@ currency: USD
 url: https://web.archive.org/web/20190813233713/https://www.tableau.com/pricing/teams-orgs
 features:
   webAccess:
-    description: ''
+    description: Web access
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   mobileAccess:
-    description: ''
+    description: Mobile access
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -24,29 +24,28 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   interactWithVisualizations:
-    description: ''
+    description: Interact with visualizations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   interactWithDashboards:
-    description: ''
+    description: Interact with dashboards
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createCustomViews:
-    description: ''
+    description: Create custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareCustomViews:
-    description: ''
+    description: Share custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   downloadVisualizationAsImages:
-    description: >-
-      Download a snapshot of a visualization or dashboard as either a .pdf or
-      .png file.
+    description: Download a snapshot of a visualization or dashboard as either a .pdf
+      or .png file.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -61,78 +60,76 @@ features:
     defaultValue: false
     type: DOMAIN
   commentOnDashboard:
-    description: ''
+    description: Comment on a dashboard
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   commentOnVisualization:
-    description: ''
+    description: Comment on a visualization
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createASubscriptionForYourself:
-    description: ''
+    description: Create a subscription for yourself
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   receiveDataDrivenAlerts:
-    description: ''
+    description: Receive data driven alerts
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   createSubscriptionsForOthers:
-    description: ''
+    description: Create subscription for others
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   createDataDrivenAlerts:
-    description: ''
+    description: Create data driven alerts
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   editExistingWorkbooks:
-    description: ''
+    description: Edit existing workbooks
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   editExistingVisualizations:
-    description: ''
+    description: Edit existing visualizations
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createAndPublishNewWorkbookFromExistingDataSource:
-    description: ''
+    description: Create and publish new workbook from existing published data source. Create content starting with
+      an existing data source published to Tableau Server or Tableau Cloud.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   askData:
-    description: >-
-      Explore an existing data source published to Tableau Server or Tableau
+    description: Explore an existing data source published to Tableau Server or Tableau
       Online with Ask Data.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   createAndPublishNewWorkbookFromNewDataSources:
-    description: >-
-      Create and share content by connecting to a new data source, including raw
-      data. You're not restricted to existing, published data sources.
+    description: Create and share content by connecting to a new data source, including
+      raw data. You're not restricted to existing, published data sources.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   createAndPublishNewDataSources:
-    description: ''
+    description: Create and publish new data sources
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createNewWorkbooksBasedOnPreBuiltDashboardStarters:
-    description: >-
-      Dashboard Starters allow you to connect prebuilt dashboards to common
+    description: Dashboard Starters allow you to connect prebuilt dashboards to common
       enterprise applications.
     valueType: BOOLEAN
     defaultValue: false
@@ -143,38 +140,38 @@ features:
     defaultValue: false
     type: DOMAIN
   editDataFlow:
-    description: ''
+    description: Edit and modify a data flow (.tfl)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportData:
-    description: ''
+    description: Export data (.tde, .hyper or .csv)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   publishFlows:
-    description: ''
+    description: Publish flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   runFlows:
-    description: ''
+    description: Run flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scheduleFlows:
-    description: ''
+    description: Schedule flows
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   monitorFlowPerformance:
-    description: ''
+    description: Monitor flow performance
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   monitorFlowHealth:
-    description: ''
+    description: Monitor flow health
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
@@ -194,22 +191,20 @@ features:
     defaultValue: false
     type: MANAGEMENT
   serverAdministration:
-    description: ''
+    description: Server administration
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 plans:
   VIEWER:
-    description: >-
-      View and interact with dashboards and visualizations in a secure,
+    description: View and interact with dashboards and visualizations in a secure,
       easy-to-use platform.
     price: 15
     unit: user/month
     features: null
     usageLimits: null
   EXPLORER:
-    description: >-
-      Explore trusted data and answer your own questions faster with full
+    description: Explore trusted data and answer your own questions faster with full
       self-service analytics.
     price: 42
     unit: user/month
@@ -238,9 +233,8 @@ plans:
         value: true
     usageLimits: null
   CREATOR:
-    description: >-
-      Discover insights with a powerful suite of products that support your
-      end-to-end analytics workflow.
+    description: Discover insights with a powerful suite of products that support
+      your end-to-end analytics workflow.
     price: 70
     unit: user/month
     features:

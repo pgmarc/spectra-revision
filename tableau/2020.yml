@@ -8,13 +8,13 @@ currency: USD
 url: http://web.archive.org/web/20201126181617/https://www.tableau.com/pricing/teams-orgs
 features:
   webAccess:
-    description: ''
+    description: Web access
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   mobileAccess:
-    description: ''
+    description: Mobile access
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -26,22 +26,22 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   interactWithVisualizations:
-    description: ''
+    description: Interact with visualizations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   interactWithDashboards:
-    description: ''
+    description: Interact with dashboards
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createCustomViews:
-    description: ''
+    description: Create custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareCustomViews:
-    description: ''
+    description: Share custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -62,56 +62,57 @@ features:
     defaultValue: false
     type: DOMAIN
   seeDataQualityWarnings:
-    description: ''
+    description: See data quality warnings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   commentOnDashboard:
-    description: ''
+    description: Comment on a dashboard
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   commentOnVisualization:
-    description: ''
+    description: Comment on a visualization
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createASubscriptionForYourself:
-    description: ''
+    description: Create a subscription for yourself
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   receiveDataDrivenAlerts:
-    description: ''
+    description: Receive data driven alerts
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   createSubscriptionsForOthers:
-    description: ''
+    description: Create subscription for others
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   createDataDrivenAlerts:
-    description: ''
+    description: Create data driven alerts
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   editExistingWorkbooks:
-    description: ''
+    description: Edit existing workbooks
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   editExistingVisualizations:
-    description: ''
+    description: Edit existing visualizations
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createAndPublishNewWorkbookFromExistingDataSource:
-    description: ''
+    description: Create and publish new workbook from existing published data source. Create content starting with
+      an existing data source published to Tableau Server or Tableau Cloud.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -130,7 +131,7 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   createAndPublishNewDataSources:
-    description: ''
+    description: Create and publish new data sources
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -146,38 +147,38 @@ features:
     defaultValue: false
     type: DOMAIN
   editDataFlow:
-    description: ''
+    description: Edit and modify a data flow (.tfl)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportData:
-    description: ''
+    description: Export data (.tde, .hyper or .csv)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   publishFlows:
-    description: ''
+    description: Publish flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   runFlows:
-    description: ''
+    description: Run flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scheduleFlows:
-    description: ''
+    description: Schedule flows
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   monitorFlowPerformance:
-    description: ''
+    description: Monitor flow performance
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   monitorFlowHealth:
-    description: ''
+    description: Monitor flow health
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
@@ -197,12 +198,12 @@ features:
     defaultValue: false
     type: MANAGEMENT
   viewLineageAndImpact:
-    description: ''
+    description: View lineage and impact
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   setDataQualityWarnings:
-    description: ''
+    description: Set data quality warnings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN

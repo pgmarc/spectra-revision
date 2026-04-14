@@ -13,12 +13,14 @@ features:
     defaultValue: false
     type: MANAGEMENT
   curateDataSources:
-    description: ''
+    description: A Tableau data source may contain multiple data connections to different databases or files. Connection
+      information includes where the data is located (such as a file path or a network location) and details on how to connect
+      to your data (such as database log in information).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shareDataSources:
-    description: ''
+    description: Share data sources
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -33,49 +35,49 @@ features:
     defaultValue: false
     type: MANAGEMENT
   authorFromCuratedData:
-    description: ''
+    description: Author from curated data
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   viewLineageAndImpact:
-    description: ''
+    description: View lineage and impact
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   setDataQualityWarnings:
-    description: ''
+    description: Set data quality warnings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedServerDeploymentMonitoring:
-    description: ''
+    description: Advanced server deployment monitoring
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   programmaticContentMigration:
-    description: ''
+    description: Programmatic Content Migration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   interactWithVisualizations:
-    description: ''
+    description: Interact with visualizations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   interactWithDashboards:
-    description: ''
+    description: Interact with dashboards
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createCustomViews:
-    description: ''
+    description: Create custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareCustomViews:
-    description: ''
+    description: Share custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -96,62 +98,63 @@ features:
     defaultValue: false
     type: DOMAIN
   seeDataQualityWarnings:
-    description: ''
+    description: See data quality warnings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   consumePredictiveModels:
-    description: ''
+    description: Consume predictive models from Einstein Discovery
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   commentOnDashboard:
-    description: ''
+    description: Comment on a dashboard
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   commentOnVisualization:
-    description: ''
+    description: Comment on a visualization
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   createASubscriptionForYourself:
-    description: ''
+    description: Create a subscription for yourself
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   receiveDataDrivenAlerts:
-    description: ''
+    description: Receive data driven alerts
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   createSubscriptionsForOthers:
-    description: ''
+    description: Create subscription for others
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   createDataDrivenAlerts:
-    description: ''
+    description: Create data driven alerts
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   editExistingWorkbooks:
-    description: ''
+    description: Edit existing workbooks
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   editExistingVisualizations:
-    description: ''
+    description: Edit existing visualizations
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   createAndPublishNewWorkbookFromExistingDataSource:
-    description: ''
+    description: Create and publish new workbook from existing published data source. Create content starting with
+      an existing data source published to Tableau Server or Tableau Cloud.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -170,7 +173,7 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   createAndPublishNewDataSources:
-    description: ''
+    description: Create and publish new data sources
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -186,38 +189,38 @@ features:
     defaultValue: false
     type: DOMAIN
   editDataFlow:
-    description: ''
+    description: Edit and modify a data flow (.tfl)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   exportData:
-    description: ''
+    description: Export data (.tde, .hyper or .csv)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   publishFlows:
-    description: ''
+    description: Publish flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   runFlows:
-    description: ''
+    description: Run flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scheduleFlows:
-    description: ''
+    description: Schedule flows
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   monitorFlowPerformance:
-    description: ''
+    description: Monitor flow performance
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   monitorFlowHealth:
-    description: ''
+    description: Monitor flow health
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION

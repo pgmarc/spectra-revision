@@ -21,13 +21,15 @@ features:
     type: MANAGEMENT
     tag: Govern
   curateDataSources:
-    description: ''
+    description: A Tableau data source may contain multiple data connections to different databases or files. Connection
+      information includes where the data is located (such as a file path or a network location) and details on how to connect
+      to your data (such as database log in information).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Govern
   shareDataSources:
-    description: ''
+    description: Publish data sources
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -45,57 +47,57 @@ features:
     type: MANAGEMENT
     tag: Govern
   authorFromCuratedData:
-    description: ''
+    description: Author from curated data
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Govern
   viewLineageAndImpact:
-    description: ''
+    description: View lineage and impact
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Govern
   setDataQualityWarnings:
-    description: ''
+    description: Set data quality warnings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Govern
   advancedDeploymentMonitoring:
-    description: ''
+    description: Advanced Deployment Monitoring
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Govern
   programmaticContentMigration:
-    description: ''
+    description: Programmatic Content Migration
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
     tag: Govern
   interactWithVisualizations:
-    description: ''
+    description: Interact with visualizations
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Interact
   interactWithDashboards:
-    description: ''
+    description: Interact with dashboards
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Interact
   createCustomViews:
-    description: ''
+    description: Create custom views
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Interact
   shareCustomViews:
-    description: ''
+    description: Share custom views
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -120,82 +122,70 @@ features:
     type: DOMAIN
     tag: Interact
   seeDataQualityWarnings:
-    description: ''
+    description: See data quality warnings
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Interact
-  # consumePredictiveModels:
-  #   description: ''
-  #   valueType: BOOLEAN
-  #   defaultValue: false
-  #   type: AUTOMATION
-  #   automationType: BOT
   commentOnDashboard:
-    description: ''
+    description: Comment on a dashboard
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Collaborate
   commentOnVisualization:
-    description: ''
+    description: Comment on a visualization
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Collaborate
   createASubscriptionForYourself:
-    description: ''
+    description: Create a subscription for yourself
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
     tag: Collaborate
   receiveDataDrivenAlerts:
-    description: ''
+    description: Receive data driven alerts
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
     tag: Collaborate
   createSubscriptionsForOthers:
-    description: ''
+    description: Create subscription for others
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Collaborate
   createDataDrivenAlerts:
-    description: ''
+    description: Create data driven alerts
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Collaborate
   editExistingWorkbooks:
-    description: ''
+    description: Edit existing workbooks
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Author
   editExistingVisualizations:
-    description: ''
+    description: Edit existing visualizations
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Author
   createAndPublishNewWorkbookFromExistingDataSource:
-    description: ''
+    description: Create and publish new workbook from existing published data source. Create content starting with
+      an existing data source published to Tableau Server or Tableau Cloud.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Author
-  # askData:
-  #   description: Explore an existing data source published to Tableau Server or Tableau
-  #     Online with Ask Data.
-  #   valueType: BOOLEAN
-  #   defaultValue: true
-  #   type: AUTOMATION
-  #   automationType: BOT
   createAndPublishNewWorkbookFromNewDataSources:
     description: Create and share content by connecting to a new data source, including
       raw data. You're not restricted to existing, published data sources.
@@ -205,7 +195,7 @@ features:
     integrationType: MARKETPLACE
     tag: Author
   createAndPublishNewDataSources:
-    description: ''
+    description: Create and publish new data sources
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -224,81 +214,80 @@ features:
     type: DOMAIN
     tag: Prepare
   editDataFlow:
-    description: ''
+    description: Edit and modify a data flow (.tfl)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Prepare
   exportData:
-    description: ''
+    description: Export data (.tde, .hyper or .csv)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Prepare
   publishFlows:
-    description: ''
+    description: Publish flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Prepare
   runFlows:
-    description: ''
+    description: Run flows
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Prepare
   scheduleFlows:
-    description: ''
+    description: Schedule flows
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     tag: Prepare
     automationType: TASK_AUTOMATION
   monitorFlowPerformance:
-    description: ''
+    description: Monitor flow performance
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Prepare
   monitorFlowHealth:
-    description: ''
+    description: Monitor flow health
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Prepare
-  # analyticsAPI:
-  #   description: ''
-  #   valueType: BOOLEAN
-  #   defaultValue: false
-  #   type: INTEGRATION
-  #   integrationType: API
   insightsSummary:
-    description: ''
+    description: Insights Summaries. Make faster, more informed decisions and take action.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Tableau Pulse
   pulseQ&A:
-    description: ''
+    description: Tableau Pulse helps you explore your data by surfacing insights and suggesting questions for further
+      exploration. As you click through the questions about your data, answers are revealed in easy-to-read charts with
+      insights about the underlying data.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Tableau Pulse
   email&SlackDigests:
-    description: ''
+    description: Email & Slack Digests
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Tableau Pulse
   metricsLayer:
-    description: ''
+    description: A metrics layer allows an organization to standardize its metrics and how they are calculated. It builds a
+      single source of truth for all metric or KPI definitions for all data sources in the organization. A metrics layer
+      sits on top of the data sources and powers consumption tools for business users.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Tableau Pulse
   mobile:
-    description: ''
+    description: Tableau Pulse is available on Tableau Mobile, empowering every employee to scale data-driven decision
+      making through AI-powered insights while on the go.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -307,15 +296,15 @@ features:
 usageLimits: null
 plans:
   VIEWER:
-    description: View and interact with dashboards and visualizations in a secure,
-      easy-to-use platform.
+    description: View and interact with dashboards and visualizations confidently with enterprise-grade data management
+      and a performance-optimized, easy-to-use platform.
     price: 35
     unit: user/month
     features: null
     usageLimits: null
   EXPLORER:
-    description: Explore trusted data and answer your own questions faster with full
-      self-service analytics.
+    description: Explore data and answer your own questions faster and more confidently with enterprise-grade data management
+      and performance-optimized self-service analytics.
     price: 70
     unit: user/month
     features:
@@ -342,8 +331,8 @@ plans:
       createAndPublishNewWorkbookFromExistingDataSource:
         value: true
   CREATOR:
-    description: Discover insights with a powerful suite of products that support
-      your end-to-end analytics workflow.
+    description: Discover insights with a powerful suite of products that support your end-to-end analytics workflow plus
+      additional enterprise-grade administrative and data management capabilities.
     price: 115
     unit: user/month
     features:
