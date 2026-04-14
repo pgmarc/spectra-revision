@@ -9,6 +9,9 @@ currency: USD
 url: https://web.archive.org/web/20241129163524/https://www.trello.com/pricing/
 features:
   cards:
+    description: The smallest, but most detailed unit of a board is a card (C). Cards are used to represent tasks and ideas.
+      A card can be something that needs to get done, like a blog post to be written, or something that needs to be remembered,
+      like company vacation policies.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -18,26 +21,32 @@ features:
     defaultValue: true
     type: DOMAIN
   assigneeDates:
+    description: Assign a person to checklist items
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dueDates:
+    description: Set a due date to checklist items
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   iosApp:
+    description: iOS app
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   androidApp:
+    description: Android App
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   desktopApp:
+    description: Desktop app
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   activityLogs:
+    description: Unlimited activity logs
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
@@ -47,6 +56,10 @@ features:
     defaultValue: true
     type: DOMAIN
   2factorAuthentication:
+    description: Two-Factor Authentication (also known as 2FA), allows you to add another layer of verification to the login
+      process, requiring a second piece of information in addition to your email address and password in order to log in to
+      Trello. The purpose of 2FA is to make it more difficult for an attacker to gain control of your account by requiring a
+      code that is only accessible via a second authentication device.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
@@ -65,6 +78,8 @@ features:
     defaultValue: true
     type: DOMAIN
   workspaceCollaborators:
+    description: Invite members to a Workspace in the Members tab of your Workspace by clicking “Invite Workspace members.”
+      You can search for them by email address or name.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -87,8 +102,8 @@ features:
     defaultValue: false
     type: DOMAIN
   dashboardView:
-    description: Trello’s reporting tool lets you access real-time insights and
-      communicate your team’s progress in a visual and meaningful way.
+    description: Trello's reporting tool lets you access real-time insights and
+      communicate your team's progress in a visual and meaningful way.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
@@ -130,6 +145,8 @@ features:
     defaultValue: false
     type: INFORMATION
   workspaceLevelTemplates:
+    description: While everyone can create free public templates, Premium and Enterprise workspaces can create private and
+      Workspace visible templates that are not visible publicly to the entire internet.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -159,23 +176,36 @@ features:
     defaultValue: false
     type: DOMAIN
   domainRestrictedInvites:
+    description: This setting allows Enterprise Admins to restrict email domains for Workspace-members across all Workspaces
+      on the Enterprise. This will prevent Workspace admins from adding users whose accounts are not registered to an email
+      address under one of the domains on the allowlist.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   deactivateMembers:
+    description: A deactivated user is someone who has either been deactivated in the Trello Workspace, or whose entire
+      Atlassian account is deactivated.
+
+      Users who have been deactivated in a Trello Workspace can still access non-Workspace content that their account had access
+      to (such as content on other Workspaces, or their own private boards).
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   simpleDataExport:
+    description: Simple data export
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   commandsRun:
+    description: Rules run when a set condition is met, which will then trigger a series of actions. They are an excellent way
+      to build processes in a workflow because anyone on the board that triggers the rule will run the set actions, which means
+      nothing important will slip through the cracks when moving work forward.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   enforce2FA:
+    description: Enforce 2FA authentication
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -187,35 +217,51 @@ features:
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   workspaces:
+    description: "Workspaces are your teams' navigation hub—a place where you can easily find, share, and collaborate on
+      any board. Think of it like a digital office: everything and everyone in the right place."
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   powerUpAdministration:
+    description: Enterprise Power-Up Administration allows administrators to control which Power-Ups are allowed to be added
+      to boards within the Enterprise. This feature also gives visibility into which Power-Ups are currently in-use within
+      the Enterprise and how many boards they're used on.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   attachmentRestrictions:
+    description: Attachment restrictions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   organizationWidePermissions:
+    description: Organization-wide permissions allow Enterprise admins to enforce settings across all
+      Workspaces under the Enterprise.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   organizationVisibleBoards:
+    description: Organization visibility introduces a new level of board visibility for Enterprise users. When a board is
+      Organization visible, managed users and Enterprise Workspace members (on any Workspace that is owned by the Enterprise)
+      can view the board, regardless of the Workspace the board is in.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   publicBoardManagement:
+    description: The Public Boards page on the Enterprise Dashboard allows you to view and change visibility of all
+      public boards that are within enterprise Workspaces. This means that currently, any public boards within your
+      enterprise that are in personal spaces will not appear on this page.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   support:
+    description: Support
     valueType: TEXT
     defaultValue: COMMUNITY SUPPORT
     type: SUPPORT
 usageLimits:
   workspaceCollaboratorsLimit:
+    description: Maximum limit for workspace collaborators
     valueType: NUMERIC
     defaultValue: 10
     unit: collaborator
@@ -223,6 +269,7 @@ usageLimits:
     linkedFeatures:
     - workspaceCollaborators
   boardsLimit:
+    description: Maximum board available
     valueType: NUMERIC
     defaultValue: 10
     unit: board/workspace
@@ -230,6 +277,7 @@ usageLimits:
     linkedFeatures:
     - boards
   powerUpsLimit:
+    description: Maximum power up available
     valueType: NUMERIC
     defaultValue: 1_000_000_000
     unit: Power-up/board
@@ -237,6 +285,7 @@ usageLimits:
     linkedFeatures:
     - powerUps
   commandsRunLimit:
+    description: Maximum command runs available
     valueType: NUMERIC
     defaultValue: 1000
     unit: run/board
@@ -244,6 +293,7 @@ usageLimits:
     linkedFeatures:
     - commandsRun
   workspacesLimit:
+    description: Maximum workspaces available
     valueType: NUMERIC
     defaultValue: 1
     unit: workspace
@@ -252,11 +302,13 @@ usageLimits:
     - workspaces
 plans:
   FREE:
+    description: For individuals or teams looking to organize any project.
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   STANDARD:
+    description: For small teams that need to manage work and scale collaboration.
     price: 5
     unit: user/month
     features:
@@ -272,6 +324,8 @@ plans:
       boardsLimit:
         value: .inf
   PREMIUM:
+    description: For teams that need to track and visualize multiple projects in several ways, including boards, timelines,
+      calendars, etc.
     price: 10
     unit: user/month
     features:
@@ -319,6 +373,7 @@ plans:
       commandsRunLimit:
         value: .inf
   ENTERPRISE:
+    description: For organizations that need to connect work across teams with more security and controls.
     price: 17.50
     unit: user/month
     features:

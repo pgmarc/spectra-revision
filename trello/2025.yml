@@ -9,31 +9,34 @@ currency: USD
 url: https://web.archive.org/web/20250307194020/https://www.trello.com/pricing/
 features:
   cards:
+    description: The smallest, but most detailed unit of a board is a card (C). Cards are used to represent tasks and ideas.
+      A card can be something that needs to get done, like a blog post to be written, or something that needs to be remembered,
+      like company vacation policies.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   quickCapture:
-    description: "Capture to-dos, notes, and messages, from email and Slack instantly."
+    description: Capture to-dos, notes, and messages, from email and Slack instantly.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   inbox:
-    description: "Gather messages and to-dos in this personal space before organizing them into your boards."
+    description: Gather messages and to-dos in this personal space before organizing them into your boards.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   viewOnlyPlanner:
-    description: "View your scheduled cards on a calendar and synchronize events from your favorite tools."
+    description: View your scheduled cards on a calendar and synchronize events from your favorite tools.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fullAccessPlanner:
-    description: "Drag and drop cards on a calendar to block any available time. Sync with more events in your favorite tools."
+    description: Drag and drop cards on a calendar to block any available time. Sync with more events in your favorite tools.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   cardMirroring:
-    description: "View your cards from different boards with access to all information."
+    description: View your cards from different boards with access to all information.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -44,29 +47,35 @@ features:
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   assigneeDates:
+    description: Assign a person to checklist items
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dueDates:
+    description: Set a due date to checklist items
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   iosApp:
+    description: iOS app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   androidApp:
+    description: Android App
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   desktopApp:
+    description: Desktop app
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   activityLogs:
+    description: Unlimited activity logs
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
@@ -76,6 +85,10 @@ features:
     defaultValue: true
     type: DOMAIN
   2factorAuthentication:
+    description: Two-Factor Authentication (also known as 2FA), allows you to add another layer of verification to the login
+      process, requiring a second piece of information in addition to your email address and password in order to log in to
+      Trello. The purpose of 2FA is to make it more difficult for an attacker to gain control of your account by requiring a
+      code that is only accessible via a second authentication device.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
@@ -95,6 +108,8 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   workspaceCollaborators:
+    description: Invite members to a Workspace in the Members tab of your Workspace by clicking “Invite Workspace members.”
+      You can search for them by email address or name.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -124,8 +139,8 @@ features:
     type: AUTOMATION
     automationType: BOT
   dashboardView:
-    description: Trello’s reporting tool lets you access real-time insights and
-      communicate your team’s progress in a visual and meaningful way.
+    description: Trello's reporting tool lets you access real-time insights and
+      communicate your team's progress in a visual and meaningful way.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
@@ -167,6 +182,8 @@ features:
     defaultValue: false
     type: INFORMATION
   workspaceLevelTemplates:
+    description: While everyone can create free public templates, Premium and Enterprise workspaces can create private and
+      Workspace visible templates that are not visible publicly to the entire internet.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -188,78 +205,107 @@ features:
     defaultValue: false
     type: DOMAIN
   domainRestrictedInvites:
+    description: This setting allows Enterprise Admins to restrict email domains for Workspace-members across all Workspaces
+      on the Enterprise. This will prevent Workspace admins from adding users whose accounts are not registered to an email
+      address under one of the domains on the allowlist.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   deactivateMembers:
+    description: A deactivated user is someone who has either been deactivated in the Trello Workspace, or whose entire
+      Atlassian account is deactivated.
+
+      Users who have been deactivated in a Trello Workspace can still access non-Workspace content that their account had access
+      to (such as content on other Workspaces, or their own private boards).
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   simpleDataExport:
+    description: Simple data export
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   commandsRun:
+    description: Rules run when a set condition is met, which will then trigger a series of actions. They are an excellent way
+      to build processes in a workflow because anyone on the board that triggers the rule will run the set actions, which means
+      nothing important will slip through the cracks when moving work forward.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
-  # enforce2FA:
-  #   valueType: BOOLEAN
-  #   defaultValue: false
-  #   type: MANAGEMENT
   singleSignOnViaAtlassianGuard:
-    description: Atlassian Guard is a separate subscription that your company can enable across all your Atlassian products and starts at $4/month/user.
+    description: Atlassian Guard is a separate subscription that your company can enable across all your Atlassian products
+      and starts at $4/month/user.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   workspaces:
+    description: "Workspaces are your teams' navigation hub—a place where you can easily find, share, and collaborate on
+      any board. Think of it like a digital office: everything and everyone in the right place."
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   unlimitedWorkspaces:
+    description: Unlimited workspaces
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   powerUpAdministration:
+    description: Enterprise Power-Up Administration allows administrators to control which Power-Ups are allowed to be added
+      to boards within the Enterprise. This feature also gives visibility into which Power-Ups are currently in-use within
+      the Enterprise and how many boards they're used on.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   attachmentRestrictions:
+    description: Attachment restrictions
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   organizationWidePermissions:
+    description: Organization-wide permissions allow Enterprise admins to enforce settings across all
+      Workspaces under the Enterprise.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   organizationVisibleBoards:
+    description: Organization visibility introduces a new level of board visibility for Enterprise users. When a board is
+      Organization visible, managed users and Enterprise Workspace members (on any Workspace that is owned by the Enterprise)
+      can view the board, regardless of the Workspace the board is in.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   publicBoardManagement:
+    description: The Public Boards page on the Enterprise Dashboard allows you to view and change visibility of all
+      public boards that are within enterprise Workspaces. This means that currently, any public boards within your
+      enterprise that are in personal spaces will not appear on this page.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   communitySupport:
+    description: Community support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   localBusinessHoursSupport:
+    description: Local business hours support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24/5PremiumSupport:
+    description: 25/5 Premium support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   24/7EnterpriseAdminSupport:
+    description: 24/7 enterprise support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   workspaceCollaboratorsLimit:
+    description: Maximum limit for workspace collaborators
     valueType: NUMERIC
     defaultValue: 10
     unit: collaborator
@@ -268,11 +314,13 @@ usageLimits:
     - workspaceCollaborators
 plans:
   FREE:
+    description: Capture your to-dos, get organized, and get sh*t done.
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   STANDARD:
+    description: Get more stuff done with unlimited boards, card mirroring, and more automation.
     price: 5
     unit: user/month
     features:
@@ -292,6 +340,7 @@ plans:
       workspaceCollaboratorsLimit:
         value: .inf
   PREMIUM:
+    description: Add AI to your boards and admin controls to your toolkit. Plus, get more perspective with views.
     price: 10
     unit: user/month
     features:
@@ -345,6 +394,8 @@ plans:
       workspaceCollaboratorsLimit:
         value: .inf
   ENTERPRISE:
+    description: Add enterprise-grade security and controls. This plan includes Atlassian Guard Standard and 24/7 Enterprise
+      Admin support.
     price: 17.50
     unit: user/month
     features:

@@ -21,53 +21,73 @@ features:
     type: DOMAIN
     tag: Standard Features
   cards:
+    description: The smallest, but most detailed unit of a board is a card (C). Cards are used to represent tasks and ideas.
+      A card can be something that needs to get done, like a blog post to be written, or something that needs to be remembered,
+      like company vacation policies.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Standard Features
   lists:
+    description: Lists keep tasks organized on your board. You can use lists to move cards along each step of a process or
+      to categorize ideas and information.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Standard Features
   advancedChecklists:
+    description: Advanced checklists allows you to set a due date and assign a person to checklist items. You can see all your
+      assigned checklist items in Your Items.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Standard Features
   fileAttachments:
+    description: Card attachments are files uploaded to cards.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Standard Features
   prioritySupport:
+    description: Customers with Business Class or Enterprise get priority email support, meaning we'll make sure your
+      questions get answered within one business day, guaranteed.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Standard Features
   observers:
     description: Observers are a Business Class security setting that limit a
-      user’s actions within a board.
+      user's actions within a board.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Standard Features
   customBackgrounds:
+    description: You can change the color or add a custom image to a board by changing your board's background. Once you've
+      changed the board background, all other users that view that board will also see that same background. Choose between
+      six different colours or beautiful photos to express yourself and also make navigating your board's page much easier.
+      Paid subscribers can also upload their own background images.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Standard Features
   customStickers:
+    description: Stickers are a simple yet fun way to add visual flair to your Trello cards. They can communicate a card's
+      status or add a little bit of whimsy.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Standard Features
   boardCollections:
+    description: Business Class and Enterprise teams can use Board Collections to easily group boards together whether by
+      team, department, or major project.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Standard Features
   teamBoardTemplates:
+    description: We've got you covered with team management templates. These templates will help cultivate team culture,
+      run effective meetings, build empathy...
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -87,8 +107,8 @@ features:
     type: DOMAIN
     tag: Power-Ups
   listLimits:
-    description: Easily identify bottlenecks in your team’s workflow
-      by setting limits on your board’s lists
+    description: Easily identify bottlenecks in your team's workflow
+      by setting limits on your board's lists
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -135,36 +155,45 @@ features:
     automationType: TASK_AUTOMATION
     tag: Automation by Butler
   butlerCommandsCardButton:
+    description: Make things happen when a button is pressed on the card back. For example, a button that assigns a
+      card, then sets a due date for next week and adds a specific label.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Automation by Butler
   butlerCommandsBoardButton:
+    description: Make things happen when a button is pressed in the board header. For example, a button that
+      reorders or moves all cards in a list that match a specific criteria.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Automation by Butler
   butlerCommandsRules:
+    description: Make things happen whenever specific conditions are met. For example, a rule that assigns a
+      card and moves it to the top of a list whenever a new card is added to the board.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Automation by Butler
   butlerCommandsRunUser:
+    description: Run automations as another user
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Automation by Butler
   butlerCommandsRunTeam:
+    description: Run automation as a team profile
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Automation by Butler
   butlerScheduledCommands:
+    description: Make things happen automatically on a set schedule. For example, sort a particular list by due date every day.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -235,6 +264,7 @@ features:
     type: MANAGEMENT
     tag: Admin and Security Features
   enforce2FA:
+    description: Enforce 2FA authentication
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -267,12 +297,15 @@ features:
     type: MANAGEMENT
     tag: Admin and Security Features
   organizationVisibleBoards:
+    description: Organization visibility introduces a new level of board visibility for Enterprise users. When a board is
+      Organization visible, managed users and Enterprise Workspace members (on any Workspace that is owned by the Enterprise)
+      can view the board, regardless of the Workspace the board is in.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Admin and Security Features
   publicBoardManagement:
-    description: Admins can see and change the visibility on all of your company’s
+    description: Admins can see and change the visibility on all of your company's
       public boards, and can view public boards in private spaces
       of users whose accounts are owned by the company.
     valueType: BOOLEAN
@@ -281,6 +314,7 @@ features:
     tag: Admin and Security Features
 usageLimits:
   fileAttachmentsLimit:
+    description: Maximum size for file attachments
     valueType: NUMERIC
     defaultValue: 10
     unit: MB/file
@@ -288,6 +322,7 @@ usageLimits:
     linkedFeatures:
     - fileAttachments
   teamBoardsLimit:
+    description: Maximum team board available
     valueType: NUMERIC
     defaultValue: 10
     unit: board
@@ -295,6 +330,7 @@ usageLimits:
     linkedFeatures:
     - teamBoards
   powerUpsLimit:
+    description: Maximum power up available
     valueType: NUMERIC
     defaultValue: 1
     unit: Power-up/board
@@ -302,6 +338,7 @@ usageLimits:
     linkedFeatures:
     - powerUps
   butlerCommandsCardButtonLimit:
+    description: Maximum butler commands card button available
     valueType: NUMERIC
     defaultValue: 1
     unit: command
@@ -309,6 +346,7 @@ usageLimits:
     linkedFeatures:
     - butlerCommandsCardButton
   butlerCommandsBoardButtonLimit:
+    description: Maximum butler commands board buttons available
     valueType: NUMERIC
     defaultValue: 1
     unit: command
@@ -316,6 +354,7 @@ usageLimits:
     linkedFeatures:
     - butlerCommandsBoardButton
   butlerCommandsRulesLimit:
+    description: Maximum bulter commands rules available
     valueType: NUMERIC
     defaultValue: 1
     unit: command
@@ -323,6 +362,7 @@ usageLimits:
     linkedFeatures:
     - butlerCommandsRules
   butlerCommandsRunTeamLimit:
+    description: Maximum butler commands run as team available
     valueType: NUMERIC
     defaultValue: 50
     unit: run/team
@@ -330,6 +370,7 @@ usageLimits:
     linkedFeatures:
     - butlerCommandsRunTeam
   butlerCommandsRunUserLimit:
+    description: Maximum butler commands run as user available
     valueType: NUMERIC
     defaultValue: 50
     unit: run/user
@@ -337,6 +378,7 @@ usageLimits:
     linkedFeatures:
     - butlerCommandsRunUser
   maxCommandsRunTeamQuota:
+    description: Maximum commands run available for a team
     valueType: NUMERIC
     defaultValue: 50
     unit: run/month
