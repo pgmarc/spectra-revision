@@ -8,84 +8,85 @@ currency: USD
 url: https://web.archive.org/web/20201101013956/https://trustmary.com/pricing/
 features:
   nps:
-    description: ''
+    description: Net-Promoter-Score is the most used metric for customer loyalty.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   csat:
-    description: ''
+    description: Customer satisfaction score is very commonly used for quick indication of satisfaction on
+      specific product/service.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   forms:
-    description: ''
+    description: Recollect feedback with forms
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   collectingFeedback:
-    description: ''
+    description: You can collect both customer feedback and reviews within the same survey.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   standardForms:
-    description: ''
+    description: Standard forms
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customForms:
-    description: ''
+    description: Customize your forms
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   collectWithEmail:
-    description: ''
+    description: Collect feedback via email
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   shareablelink:
-    description: ''
+    description: Share forms via shareable link
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   qrCode:
-    description: ''
+    description: Share forms via QR
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   thirteenQuestionTypes:
-    description: ''
+    description: 13 different questions types
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   importingContacts:
-    description: ''
+    description: Importing contacts
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   smartContactLists:
-    description: ''
+    description: Smart contact lists
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   embedSurbeysToWebsite:
-    description: ''
+    description: Embed surveys to website
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   textReviews:
-    description: ''
+    description: Text reviews
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videoReviews:
-    description: ''
+    description: Video reviews
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   importReviewsFromGoogle:
-    description: ''
+    description: Import reviews from Google
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -93,7 +94,7 @@ features:
     pricingUrls:
     - https://www.google.com/
   importReviewsFromFacebook:
-    description: ''
+    description: Import reviews from Facebook
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -101,62 +102,62 @@ features:
     pricingUrls:
     - https://www.facebook.com/
   requestGoogleReviews:
-    description: ''
+    description: Request Google reviews
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   embedReviewsToWebsite:
-    description: ''
+    description: Embed reviews to website
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   embedTestimonialsToWebsite:
-    description: ''
+    description: Embed testimonials to website
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   customizeEmbeds:
-    description: ''
+    description: Customize embeds
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   socialMediaShare:
-    description: ''
+    description: Popup notifications
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   popupNotifications:
-    description: ''
+    description: Popup notifications
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   measureConversions:
-    description: ''
+    description: Measure conversions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   emailSupport:
-    description: ''
+    description: Email support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   phoneSupport:
-    description: ''
+    description: Phone support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   designatedExpert:
-    description: ''
+    description: Designated expert
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   formsLimit:
-    description: ''
+    description: Maximum forms available
     valueType: NUMERIC
     defaultValue: 2
     unit: form
@@ -164,7 +165,7 @@ usageLimits:
     linkedFeatures:
     - forms
   textReviewsLimit:
-    description: ''
+    description: Maximum text reviews available
     valueType: NUMERIC
     defaultValue: 50
     unit: review
@@ -172,7 +173,7 @@ usageLimits:
     linkedFeatures:
     - textReviews
   embedsLimit:
-    description: ''
+    description: Maximum embeds available
     valueType: NUMERIC
     defaultValue: 0
     unit: embed
@@ -182,13 +183,13 @@ usageLimits:
     - embedReviewsToWebsite
     - embedTestimonialsToWebsite
   usersLimit:
-    description: ''
+    description: Maximum users allowed to access Trustmary
     valueType: NUMERIC
     defaultValue: 2
     unit: user
     type: NON_RENEWABLE
   emailsLimit:
-    description: ''
+    description: Maximum emails per month available
     valueType: NUMERIC
     defaultValue: 1000
     unit: email/month

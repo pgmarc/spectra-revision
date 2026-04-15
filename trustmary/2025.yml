@@ -8,376 +8,472 @@ currency: USD
 url: https://web.archive.org/web/20250305183520/https://trustmary.com/pricing/
 features:
   widgets:
+    description: Create unlimited number of widgets to your website.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   domains:
+    description: Add widgets to an unlimited number of websites.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reviewProfilePage:
+    description: All reviews shown on business profile page.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customizeProfilePage:
+    description: Customize review profile page and make visible in search results (SEO).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   reviews:
+    description: Get all your reviews to Trustmary for easier review management!
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   autoImportReviewsDaily:
+    description: New reviews of different review platforms will be synced automatically to Trustmary — daily.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
-  surveys:
+  surveys:  
+    description: Create an unlimited number of surveys and forms.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   3in1Surveys:
+    description: Get customer rating, feedback and a high quality review content (text and video) within one streamlined survey
+      flow. No more need for other feedback or review tools!
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   analytics:
+    description: Analyze and share customized reports to your colleagues.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   reviewTranslations:
+    description: Translate review content automatically according to widget's language
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   removeTrustmaryBranding:
+    description: Remove Trustmary branding from the widgets and surveys.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   addReviewsToAnyWebsite:
+    description: Add review widgets to any website regardless of the technology on which the site is built. No coding needed!
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reviewSchema.orgMarkup:
+    description: Review Schema.org markup allows search engines to read the reviews and overall rating on your website and
+      display them in search results. It will increase the attractiveness of your website snippet and may improve your
+      appearance in search engine results.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   socialMediaSharing:
+    description: Create images for social media channels and publish reviews in your social media profiles.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   importReviewsFromSpreadsheet:
+    description: New reviews of different review platforms will be synced automatically to Trustmary — daily.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   addReviewsManually:
+    description: Manually add reviews you don't have available in other review platforms. For example, reviews from
+      your email inbox, written reviews on paper etc..
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   manageReviews:
+    description: Easily approve or disapprove reviews and decide which reviews will be shown and where.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   tagReviews:
+    description: Create and use custom tags to filter which reviews are shown in widgets.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   autotagReviews:
+    description: Tag reviews automatically from form settings.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   reviewFiltering:
+    description: Easily filter what kind of reviews you want to show and where with comprehensive filter features.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: FILTERING
   reviewWidget:
+    description: Embed reviews to your website in a minute with an easy copy-paste script. No coding skills needed.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   formWidget:
+    description: Form widgets allow you to collect leads from your website and ask questions from website visitors.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   badgeWidget:
+    description: Badge widgets enable creating simple badges for your website to display, for example, your overall NPS
+      score or star rating average.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   popupWidget:
+    description: Popup widgets allow you to popup reviews, forms and badges on your website with specific rules
+      that can be set from the editor.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   ctaWidget:
+    description: CTA (Call to Action) widgets are designed so you can add reviews as close to the CTA buttons as
+      possible to boost conversions.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   views:
+    description: Views is the total number of times the widgets load on a website. The limit resets on the 1st day of
+      every month.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reviewPlatformConnections:
+    description: The number of review platforms you can import reviews from and show in widgets. We currently support Airbnb,
+      Booking.com, Google, Facebook, Capterra, G2, Tripadvisor, Trusted Shops and Yelp.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   reviewImportCount:
+    description: The number of reviews that can be imported into Trustmary from external review source.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   combinedReviewAndFeedbackCollection:
+    description: Ccollect both customer feedback and reviews within the same survey.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   quickPreview:
+    description: You can quickly check how form looks for respondees.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   surveyTemplateLibrary:
+    description: Create survey from template library full of pre-tested survey templates
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   emailNotificationsForNewResponses:
+    description: Get notified when you get a new response
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   brandedSurveyTheme:
+    description: Get theme for the surveys from your website or customize logo, font and color settings.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   autoTranslatedSurveys:
+    description: Translate survey template to 10 different languages automatically.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   multilanguage:
+    description: Translate survey for multiple languages and respondees can select their preferred language.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   surveyLogic:
+    description: You can create unique survey flows based on responses. E.g., you can ask feedback from unsatisfied customers
+      and review from satisfied customers.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   surveyStatus:
+    description: You can easily manage if the survey status is closed, open or schedule closing.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   progressBar:
+    description: Progressbar helps respondees to see how they progress with responding a survey.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   100%CustomizableForms:
+    description: You can customize all the forms to meet your needs and branding.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   anonymizedResponses:
+    description: Anonymize responses so they cannot be connected to any person.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   urlSharing:
+    description: Easily copy and share unique URL for your form and get responses.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   emailSharing:
+    description: Send email requests from Trustmary and track the status of respondees (received, opened, answered).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   htmlEmbedsSharing:
+    description: Embed forms to your website, email messages and anywhere you can embed HTML-code.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   popupSurveySharing:
+    description: Add survey to your website or app as a popup.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   emailSignatureSharing:
+    description: Add the first question of your NPS form to your email signature.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   qrCodeSharing:
+    description: Get responses with a QR code anyone can scan with their phone camera.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   europeSMSRequests:
+    description: Request reviews and feedback with SMS text messages.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   npsQuestions:
+    description: Net-Promoter-Score is the most used metric for customer loyalty.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   csatQuestions:
+    description: Customer satisfaction score is very commonly used for quick indication of satisfaction on
+      specific product/service.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   starRatingQuestions:
+    description: From 1 star to 5 stars rating. Most commonly used in review collection.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videoQuestions:
+    description: Get video review or feedback from respondees
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   imageQuestions:
+    description: Get profile pictures or other images from respondees
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   commentQuestions:
+    description: Get comments from respondees and convert them into reviews on the review page
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reviewFields:
+    description: Get contact and other important info for the reviews
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   contentFields:
+    description: Add additional text and photo content to survey
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   emailFields:
+    description: Email address validated text field
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   longTextareaFields:
+    description: Free text field for longer answers
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   shortTextFields:
+    description: Free text field for shorter answers
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multipleChoiceFields:
+    description: Respondee can select multiple options
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   singleChoiceFields:
+    description: Respondee can select only one option
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   yesNoQuestions:
+    description: Yes/No question
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multipleChoiceDropdownFields:
+    description: Respondee can select multiple options from a dropdown list
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   singleChoiceDropdownFields:
+    description: Respondee can select only one option from a dropdown list
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   rangeQuestions:
+    description: Define numeric range between 0-15 and give labels for each end of the range
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   questionGroups:
+    description: Group multiple questions together in the same group
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   noOpinionOption:
+    description: Provide possibility to respond with "no opinion"
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   additionalInfoOption:
+    description: Get additional info from the respondee if certain option is selected
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   zapierIntegration:
+    description: Integrate Trustmary to +5,000 other software platforms with Zapier.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   makeIntegration:
+    description: Integrate Trustmary to +2,000 other software platforms with Make.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   airbnbIntegration:
+    description: Get reviews imported from Airbnb to Trustmary and collect new reviews to Airbnb
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   booking.comIntegration:
+    description: Get reviews imported from Booking.com to Trustmary and collect new reviews to Booking.com
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   capterraIntegration:
+    description: Get reviews imported from Capterra to Trustmary and collect new reviews to Capterra
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   facebookIntegration:
+    description: Get reviews imported from Facebook to Trustmary and collect new reviews to Facebook
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   g2Integration:
+    description: Get reviews imported from G2 to Trustmary and collect new reviews to G2
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   googleIntegration:
+    description: Get reviews imported from Google to Trustmary and collect new reviews to Google
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   tripadvisorIntegration:
+    description: Get reviews imported from Tripadvisor to Trustmary and collect new reviews to Tripadvisor
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   trustedShopsIntegration:
+    description: Get reviews imported from Trusted Shops to Trustmary and collect new reviews to Trusted Shops
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   yelpIntegration:
+    description: Get reviews imported from Yelp to Trustmary and collect new reviews to Yelp
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   hubspotIntegration:
+    description: Request responses automatically from your CRM contacts and push information back to their CRM profiles.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   pipedriveIntegration:
+    description: Request responses automatically from your CRM contacts and push information back to their CRM profiles.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   chatSupport:
+    description: In-app chat helps 24/7 in the app
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   emailSupport:
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   phoneSupport:
+    description: More personal support over phone and video calls.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   dedicatedAccountManager:
+    description: Get account manager for your service and plan goals together
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   onboardingPackage:
+    description: Onboarding package included in Fullsuite plans but possible to get for self-service plans.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   viewsLimit:
-    description: ''
+    description: Maximum limit for views
     valueType: NUMERIC
     defaultValue: 500
     unit: view/month
@@ -385,7 +481,7 @@ usageLimits:
     linkedFeatures:
     - views
   reviewPlatformConnectionsLimit:
-    description: ''
+    description: Maximum review platform connections available
     valueType: NUMERIC
     defaultValue: 1
     unit: platform
@@ -393,7 +489,7 @@ usageLimits:
     linkedFeatures:
     - reviewPlatformConnections
   reviewImportCountLimit:
-    description: ''
+    description: Maximum review import count available
     valueType: NUMERIC
     defaultValue: 1000
     unit: review
@@ -401,7 +497,7 @@ usageLimits:
     linkedFeatures:
     - reviewImportCount
   monthlySurveyResponsesLimit:
-    description: ''
+    description: Maximum monthly survey responses available
     valueType: NUMERIC
     defaultValue: 5
     unit: response/month
@@ -409,7 +505,7 @@ usageLimits:
     linkedFeatures:
     - surveys
   annualSurveyResponsesLimit:
-    description: ''
+    description: Maximum annual survey responses available
     valueType: NUMERIC
     defaultValue: 0
     unit: response/year
@@ -417,7 +513,7 @@ usageLimits:
     linkedFeatures:
     - surveys
   monthlyEmailRequestsLimit:
-    description: ''
+    description: Monthly email request available
     valueType: NUMERIC
     defaultValue: 5
     unit: request/month
@@ -425,7 +521,7 @@ usageLimits:
     linkedFeatures:
     - emailSharing
   annualEmailRequestsLimit:
-    description: ''
+    description: Annual email request available
     valueType: NUMERIC
     defaultValue: 0
     unit: request/year
@@ -578,7 +674,7 @@ plans:
       annualEmailRequestsLimit:
         value: 6000
   SCALE:
-    description: ''
+    description: All the features with customizable limits
     price: 107
     unit: /month
     features:

@@ -8,82 +8,82 @@ currency: USD
 url: https://web.archive.org/web/20211130124431/https://trustmary.com/pricing/
 features:
   surveys:
-    description: ''
+    description: Surveys to collect feedback
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   testimonials:
-    description: ''
+    description: Make testimonials
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reviews:
-    description: ''
+    description: Analyze feedback and reviews
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   shareableLinks:
-    description: ''
+    description: Shareable links
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   feedbackRequestInEmail:
-    description: ''
+    description: Feedback requests in email
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   abTesting:
-    description: ''
+    description: A/B testing
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   analytics:
-    description: ''
+    description: Analytics
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   videoTestimonials:
-    description: ''
+    description: Video testimonials
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   surveyEditor:
-    description: ''
+    description: Survey editor
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   feedbackRequestViaEmail:
-    description: ''
+    description: Feedback requests via email
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   feedbackRequestViaQR:
-    description: ''
+    description: Feedback requests via QR code
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   feedbackRequestViaWebsite:
-    description: ''
+    description: Feedback requests in website
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   automations:
-    description: ''
+    description: Automate your reviews and feedback process with email
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   integrations:
-    description: ''
+    description: Integrations
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
 usageLimits:
   surveysLimit:
-    description: ''
+    description: Maximum surveys per month available
     valueType: NUMERIC
     defaultValue: 200
     unit: survey/month
@@ -91,7 +91,7 @@ usageLimits:
     linkedFeatures:
     - surveys
   testimonialsOrReviewsAtTheSameTime:
-    description: ''
+    description: Maximum testimonials or reviews available
     valueType: NUMERIC
     defaultValue: 25
     unit: testimonial or review
@@ -100,7 +100,7 @@ usageLimits:
     - testimonials
     - reviews
   feedbackRequestViaEmailLimit:
-    description: ''
+    description: Maximum feedback requests via email per month available
     valueType: NUMERIC
     defaultValue: 3000
     unit: email/month

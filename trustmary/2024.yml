@@ -8,196 +8,203 @@ currency: USD
 url: https://web.archive.org/web/20240715101914/https://trustmary.com/pricing/
 features:
   3in1Surveys:
-    description: ''
+    description: Get customer rating, feedback and a high quality review content (text and video) within one streamlined
+      survey flow. No more need for other feedback or review tools!
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teams:
-    description: ''
+    description: Invite your team members or colleagues to use the same account with you.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   surveys:
-    description: ''
+    description: Create an unlimited number of surveys and forms.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   responses:
-    description: ''
+    description: Responses you can see in your surveys.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   requestsViaEmail:
-    description: ''
+    description: You can distribute surveys email.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   reviewPlatform:
-    description: ''
+    description: The number of review platforms you can collect reviews to and show in widgets. We currently support Airbnb,
+      Booking.com, Google, Facebook, Capterra, G2, Tripadvisor, Trusted Shops and Yelp.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   combinedReview:
-    description: ''
+    description: You can collect both customer feedback and reviews within the same survey.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   feedbackCollection:
-    description: ''
+    description: You can collect both customer feedback and reviews within the same survey.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   surveyLogic:
-    description: ''
+    description: You can create unique survey flows based on responses. E.g., you can ask feedback from unsatisfied
+      customers and review from satisfied customers.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customTheme:
-    description: ''
+    description: Get theme for the surveys from your website or customize logo, font and color settings.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   quickPreview:
-    description: ''
+    description: You can quickly check how form looks for respondees.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multilanguage:
-    description: ''
+    description: You can create and translate your survey for multiple languages and respondees can select
+      their preferred language.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
   emailNotificationsForNewResponses:
-    description: ''
+    description: Get notified when you get a new response
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TRACKING
   surveyTemplateLibrary:
-    description: ''
+    description: Template library includes numerous survey and form templates for inspiration and to be used immediately.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   surveyStatus:
-    description: ''
+    description: You can easily manage if the survey status is closed, open or schedule closing.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   progressBar:
-    description: ''
+    description: Progressbar helps respondees to see how they progress with responding a survey.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   urlResponses:
-    description: ''
+    description: Easily copy and share unique URL for your form and get responses.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   emailResponses:
-    description: ''
+    description: Send email requests from Trustmary and track the status of respondees (received, opened, answered).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   htmlEmbeds:
-    description: ''
+    description: Embed forms to your website, email messages and anywhere you can embed HTML-code.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   popupSurvey:
-    description: ''
+    description: Add survey to your website or app as a popup.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   emailSignature:
-    description: ''
+    description: Add the first question of your NPS form to your email signature.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
   qrCode:
-    description: ''
+    description: Get responses with a QR code anyone can scan with their phone camera.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   smsRequests:
-    description: In europe
+    description: Request reviews and feedback with SMS text messages.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   npsForms:
-    description: ''
+    description: Net-Promoter-Score is the most used metric for customer loyalty.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   csatForms:
-    description: ''
+    description: Customer satisfaction score is very commonly used for quick indication of satisfaction on
+      specific product/service.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizableForms:
-    description: ''
+    description: You can customize all the forms to meet your needs and branding.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   eighteenQuestionTypes:
-    description: ''
+    description: All the necessary question types included for various needs.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   anonymizedResponses:
-    description: ''
+    description: Anonymize responses so they cannot be connected to any person.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   analyzeFeedback:
-    description: ''
+    description: Additional tool for deeper feedback analysis and shareable reports.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   manageReviews:
-    description: ''
+    description: Easily approve/disapprove reviews and manage what reviews will be shown and where.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   tagReviews:
-    description: ''
+    description: Create custom tags, tag reviews based on your needs and use tags as a filter in review widgets.
     valueType: BOOLEAN
     defaultValue: true
     type: MANAGEMENT
   autotagReviews:
-    description: ''
+    description: Tag reviews automatically from form settings.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   createReviewsManually:
-    description: ''
+    description: Add those reviews manually that you don't have available in other review platforms, such as reviews from
+      your email inbox, written reviews on paper etc.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   importReviewsFromSpreadsheets:
-    description: ''
+    description: If you can export reviews into a spreadsheet, you can easily import them into Trustmary.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   publicReviewProfilePage:
-    description: ''
+    description: All your approved reviews can be shown on your unique profile page and you can freely use it for your needs.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   syncReviewsAutomatically:
-    description: ''
+    description: Reviews collected into other platforms than Trustmary will be synced automatically to your Trustmary
+      account on daily basis.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   zapierIntegration:
-    description: ''
+    description: Zapier allows you to automate collection from +5,000 different software platforms.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -205,7 +212,7 @@ features:
     pricingUrls:
     - https://zapier.com/pricing
   makeIntegration:
-    description: ''
+    description: Make allows you to automate collection from thousands of different software platforms.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -213,7 +220,7 @@ features:
     pricingUrls:
     - https://www.make.com/pricing
   hubspotIntegration:
-    description: ''
+    description: Request responses automatically from your CRM contacts and push information back to their CRM profiles.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -221,7 +228,7 @@ features:
     pricingUrls:
     - https://www.hubspot.com/pricing/marketing/starter
   pipedriveIntegration:
-    description: ''
+    description: Request responses automatically from your CRM contacts and push information back to their CRM profiles.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -229,54 +236,55 @@ features:
     pricingUrls:
     - https://www.pipedrive.com/en/pricing
   freeSurveyHelp:
-    description: ''
+    description: If you struggle getting responses to your forms, we help you out.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Our experts can be reached with the in-app help chat on business days.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   phoneSupport:
-    description: ''
+    description: Phone support if you prefer discussing over phone.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   onboardingPackage:
-    description: ''
+    description: We can onboard you with our review experts for easy start with review & feedback collection and using
+      them in your marketing.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   unlimitedTeamMembers:
-    description: ''
+    description: Invite your team members or colleagues to use the same account with you.
     valueType: NUMERIC
     defaultValue: 0
     type: NON_RENEWABLE
     linkedFeatures:
     - teams
   unlimitedSuveys:
-    description: ''
+    description: Create an unlimited number of surveys and forms.
     valueType: NUMERIC
     defaultValue: 0
     type: NON_RENEWABLE
     linkedFeatures:
     - surveys
   surveyResponsesLimit:
-    description: ''
+    description: Maximum survey response available
     valueType: NUMERIC
     defaultValue: 5
     unit: response/month
     type: RENEWABLE
   requestsViaEmailLimit:
-    description: ''
+    description: Maximum requests via email available
     valueType: NUMERIC
     defaultValue: 5
     unit: request/month
     type: RENEWABLE
   reviewPlatformConnectionsLimit:
-    description: ''
+    description: Maximum review platform connections available
     valueType: NUMERIC
     defaultValue: 1
     unit: connection
@@ -291,7 +299,7 @@ plans:
     features: null
     usageLimits: null
   STARTER:
-    description: For smaller teams, more responses and automations
+    description: More responses and email requests
     price: 29
     unit: /month
     features:
@@ -381,7 +389,7 @@ plans:
       reviewPlatformConnectionsLimit:
         value: 10
   SCALE:
-    description: ''
+    description: All the features with customizable limits
     price: 159
     unit: /month
     features:

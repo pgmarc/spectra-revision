@@ -8,17 +8,17 @@ currency: USD
 url: https://web.archive.org/web/20221130180437/https://trustmary.com/pricing/
 features:
   reviews:
-    description: ''
+    description: Analyze feedback and reviews
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   reviewForms:
-    description: ''
+    description: Collect revies with forms
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   widgets:
-    description: ''
+    description: Create as many widgets as you want.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -31,33 +31,33 @@ features:
     type: INTEGRATION
     integrationType: MARKETPLACE
   embedReviews:
-    description: ''
+    description: Embed revies on websites
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   qrReviews:
-    description: ''
+    description: Distribute forms via QR code
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   urlReviews:
-    description: ''
+    description: Distribute forms via share link
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   widgetWhiteLabeling:
-    description: ''
+    description: Widget whiteLabeling. Remove Trustmary brand inside the widget.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   abTesting:
-    description: ''
+    description: A/B testing
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   zapierIntegrations:
-    description: ''
+    description: Zapier allows you to automate collection from +5,000 different software platforms.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -65,7 +65,7 @@ features:
     pricingUrls:
     - https://zapier.com/pricing
   hubspotIntegration:
-    description: ''
+    description: Request responses automatically from your CRM contacts and push information back to their CRM profiles.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -73,7 +73,7 @@ features:
     pricingUrls:
     - https://www.hubspot.com/pricing/marketing/starter
   pipedriveIntegration:
-    description: ''
+    description: Request responses automatically from your CRM contacts and push information back to their CRM profiles.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -81,78 +81,79 @@ features:
     pricingUrls:
     - https://www.pipedrive.com/en/pricing
   automations:
-    description: ''
+    description: Automate your reviews and feedback process with email
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   emailSending:
-    description: ''
+    description: Distribute your form via email
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   smsSending:
-    description: ''
+    description: Distribute your form via SMS
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   customerSuccess:
-    description: ''
+    description: Customer success manager
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   comprehensiveSurveyTool:
-    description: ''
+    description: Comprehensive Survey tool
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   surveyTemplateLibrary:
-    description: ''
+    description: Survey template library
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   npsForms:
-    description: ''
+    description: Net-Promoter-Score is the most used metric for customer loyalty.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   csatForms:
-    description: ''
+    description: Customer satisfaction score is very commonly used for quick indication of satisfaction on
+      specific product/service.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   cesForms:
-    description: ''
+    description: CES forms
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customizableSurveys:
-    description: ''
+    description: You can customize all the forms to meet your needs and branding.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   conditionalSurveyQuestions:
-    description: ''
+    description: Conditional survey questions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customerFeedbackConvertedIntoReviews:
-    description: ''
+    description: Customer feedback converted into reviews
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   crmIntegrations:
-    description: ''
+    description: CRM integrations
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
 usageLimits:
   publishedReviewsLimit:
-    description: ''
+    description: Maximum published reviews available
     valueType: NUMERIC
     defaultValue: 20
     unit: review
@@ -160,7 +161,7 @@ usageLimits:
     linkedFeatures:
     - reviews
   reviewFormsLimit:
-    description: ''
+    description: Maximum review forms available
     valueType: NUMERIC
     defaultValue: 1
     unit: form
@@ -168,7 +169,7 @@ usageLimits:
     linkedFeatures:
     - reviewForms
   activeWidgetsLimit:
-    description: ''
+    description: Maximum active widgets available
     valueType: NUMERIC
     defaultValue: 1
     unit: widget
@@ -176,7 +177,7 @@ usageLimits:
     linkedFeatures:
     - widgets
   usersLimit:
-    description: ''
+    description: Maximum users limit
     valueType: NUMERIC
     defaultValue: 1
     unit: user
