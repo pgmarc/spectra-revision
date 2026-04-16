@@ -11,94 +11,95 @@ features:
   # Site Plans Features
   ## Website Plans Features
   publishToWebflowIo:
-    description: "Publish to the webflow.io subdomain (e.g, mysite.webflow.io)."
+    description: Publish to the webflow.io subdomain (e.g, mysite.webflow.io).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customDomain:
-    description: "Connect and publish your site to a custom domain."
+    description: Connect and publish your site to a custom domain.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   removeWebflowBadge:
-    description: "Remove the badge in the bottom right corner of your site that says “Made in Webflow.”"
+    description: Remove the badge in the bottom right corner of your site that says “Made in Webflow.”
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   staticPages:
-    description: "The number of static pages your site can have."
+    description: The number of basic, non-CMS-generated pages you can have on your site.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   guestEditors:
-    description: "Invite teammates to write and edit content in Webflow’s simplified Editor interface."
+    description: Invite teammates to write and edit content in Webflow's simplified Editor interface.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   formSubmissions:
-    description: "Collect form submissions, customize notification emails, and download submissions as a CSV (comma-separated values) file."
-    valueType: BOOLEAN
+    description: Collect form submissions, customize notification emails, and download submissions as a CSV
+      (comma-separated values) file.
     defaultValue: false
     type: DOMAIN
   formFileUpload:
-    description: "Collect files with an upload button in forms. Max file size per upload is 10MB. Storage is free up to 10GB, and $0.50/month per GB after that."
+    description: Collect files with an upload button in forms. Max file size per upload is 10MB. Storage is free up to 10GB,
+      and $0.50/month per GB after that.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   fileStorage:
-    description: ""
+    description: Store files
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   siteSearch:
-    description: "Create a custom search engine and let visitors search for specific content on your site."
+    description: Create a custom search engine so visitors can search for specific content.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   memberships:
-    description: "Allow visitors to log in and unlock gated content."
+    description: Allow visitors to log in and unlock gated content.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   logicFlows:
-    description: "Automate tasks and experiences using workflow triggers and actions."
+    description: Automate tasks and experiences using workflow triggers and actions.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   webpSupport:
-    description: "High-quality images with file sizes smaller than traditional formats."
+    description: High-quality images with file sizes smaller than traditional formats.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   automaticResponsiveImageGeneration:
-    description: "Automated image variants for responsive mobile pages that load up to 10x faster."
+    description: Automated image variants for responsive mobile pages that load up to 10x faster.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   assetPanel:
-    description: "Upload and manage your assets in the Webflow Designer."
+    description: Upload and manage your assets in the Webflow Designer.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   sitePasswordProtection:
-    description: "Password protect your site."
+    description: Password protect your site.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   pagePasswordProtection:
-    description: "Password protect individual pages on your site."
+    description: Password protect individual pages on your site.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   backups:
-    description: "Automatically generated backups — restore your site in one click."
+    description: Automatically generated backups — restore your site in one click.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   customCode:
-    description: "Add custom code and scripts that apply to your entire site or individual pages."
+    description: Add custom code and scripts that apply to your entire site or individual pages.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -108,216 +109,236 @@ features:
     defaultValue: false
     type: DOMAIN
   cmsCollections:
-    description: "The maximum number of Collections you can have in your CMS database."
+    description: The maximum number of Collections you can have in your CMS database.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   cmsApi:
-    description: "Connect to third-party applications to automate adding, updating, or deleting Collection items."
+    description: Connect to third-party applications to automate adding, updating, or deleting Collection items.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   perItemPublishing:
-    description: "Unpublish individual CMS items from the Designer, the Editor, and the CMS API — without republishing your entire site."
+    description: Unpublish individual CMS items from the Designer, the Editor, and the CMS API — without republishing
+      your entire site.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   perItemUnpublishing:
-    description: "Unpublish individual CMS items from the Designer, the Editor, and the CMS API — without republishing your entire site."
+    description: Unpublish individual CMS items from the Designer, the Editor, and the CMS API — without republishing
+      your entire site.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multiItemPublishing:
-    description: "Publish and unpublish multiple CMS items at once."
+    description: Publish and unpublish multiple CMS items at once.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   multiItemUnpublishing:
-    description: "Publish and unpublish multiple CMS items at once."
+    description: Publish and unpublish multiple CMS items at once.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   scheduledPublishing:
-    description: "Schedule items to be published at specific times in the future."
+    description: Schedule items to be published at specific times in the future.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dynamicEmbeds:
-    description: "Use your CMS Collection fields to dynamically update embedded code."
+    description: Use your CMS Collection fields to dynamically update embedded code.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   rssFeed:
-    description: "Auto-generate RSS feeds for your CMS Collections to power every RSS reader."
+    description: Auto-generate RSS feeds for your CMS Collections to power every RSS reader.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   visits:
-    description: "The maximum monthly unique site visits allowed. We'll let you know if you go over."
+    description: The maximum monthly unique site visits allowed. We'll let you know if you go over.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   regionalCdn:
-    description: "A content delivery network uses the server closest to your site visitors for faster page loads."
+    description: A content delivery network uses the server closest to your site visitors for faster page loads.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   globalCdn:
-    description: "A content delivery network uses the server closest to your site visitors for faster page loads."
+    description: A content delivery network uses the server closest to your site visitors for faster page loads.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customCdn:
-    description: "A content delivery network uses the server closest to your site visitors for faster page loads."
+    description: A content delivery network uses the server closest to your site visitors for faster page loads.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   uptimeStandardAgreement:
-    description: "Enterprise Site plans offer a service-level agreement with guaranteed uptime. You'll also receive access to Webflow's security certifications and audits."
+    description: Enterprise Site plans offer a service-level agreement with guaranteed uptime. You'll also receive access
+      to Webflow's security certifications and audits.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   uptimeSLA:
-    description: "Enterprise Site plans offer a service-level agreement with guaranteed uptime. You'll also receive access to Webflow's security certifications and audits."
+    description: Enterprise Site plans offer a service-level agreement with guaranteed uptime. You'll also receive access
+      to Webflow's security certifications and audits.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   301Redirects:
-    description: "Redirect traffic from an old to a new URL."
+    description: Redirect traffic from an old to a new URL.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   sitemapsControl:
-    description: "Optimize SEO rankings and save time with dynamically generated schema markup."
+    description: Auto generate an XML sitemap so Google can find and crawl your pages.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   schemaMarkupSupport:
-    description: "Optimize SEO rankings and save time with dynamically generated schema markup."
+    description: Optimize SEO rankings and save time with dynamically generated schema markup.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   openGraphMetaTags:
-    description: "Manage the look of previews when your page is shared."
+    description: Manage the look of previews when your page is shared.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   structuredSearchSupport:
-    description: "Help search engines better understand your site content and improve search visibility and click-through rates."
+    description: Help search engines better understand your site content and improve search visibility
+      and click-through rates.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   preBuiltInteractions:
-    description: ""
+    description: Bring elements to life with pre-build animations.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   triggerBasedInteractions:
-    description: ""
+    description: Add animations that start with a scroll or a click.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   afterEffectsLottieIntegration:
-    description: ""
+    description: Bring the industry standard for motion graphics to your website.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   twoFactorAuthentication:
-    description: ""
+    description: "Two-factor authentication gives your account an extra layer of security by requiring
+      two authentication items:
+
+      - Your account password
+      - A unique authentication code"
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   basicDdosProtection:
-    description: ""
+    description: Basic ddos protection
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   advancedDdosProtection:
-    description: ""
+    description: Advanced ddos protection
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   singleSignOn:
-    description: ""
+    description: Single Sign-On (SSO) is a password-authentication strategy that lets team members access Webflow using your
+      organization's existing login system. With SSO, users authenticate once through your identity provider (IdP) — making
+      login faster, more secure, and easier to manage at scale. Users won't have to manage multiple passwords as they sign in
+      with one set of credentials.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   customSecurityHeaders:
-    description: ""
+    description: Custom security headers add an extra layer of security to any of your published sites, and can
+      prevent activities like cross-site scripting attacks, iframe embedding, and other domain level security issues.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customSslCertificates:
-    description: ""
+    description: For increased flexibility and control over the details in your SSL certificates, you can upload your own
+      custom SSL certificates to your site.
+    valueType: BOOLEAN
+    defaultValue: false
+    type: DOMAIN
+  privateWebflowStaging:
+    description: If you're a Webflow Enterprise customer or Enterprise partner, you can enable private staging on your sites to
+      give you and your team greater control over who can view site updates before they're launched publicly.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   billing:
-    description: ""
+    description: Credit card billing or pay by invoice
     valueType: TEXT
     defaultValue:
       - CARD
     type: PAYMENT
   emailSupport:
-    description: ""
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customerSuccessManager:
-    description: ""
+    description: Dedicated customer success manager
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   webflowUniversityTraining:
-    description: ""
+    description: Get access to webflow university training and courses
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   guidedOnboardingTraining:
-    description: ""
+    description: Guided onboarding training
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   ## Ecommerce Plans Features
   ecommerceItems:
-    description: "Includes all Ecommerce products, variants, and categories. Independent of CMS items."
+    description: Includes all Ecommerce products, variants, and categories. Independent of CMS items.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customCheckout:
-    description: "Visually customize the design and layout of your checkout page."
+    description: Visually customize the design and layout of your checkout page.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customShoppingCart:
-    description: "Visually customize the look and feel of your add to cart and shopping cart."
+    description: Visually customize the look and feel of your add to cart and shopping cart.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   emailProductFields:
-    description: "Add custom fields to products and use that data in your designs."
+    description: Add custom fields to products and use that data in your designs.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   emailCustomization:
-    description: "Customize colors, logos, and text in receipt and order update emails."
+    description: Customize colors, logos, and text in receipt and order update emails.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   unbrandedEmails:
-    description: "Remove Webflow references from transaction email footers."
+    description: Remove Webflow references from transaction email footers.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   transactionFee:
-    description: "In addition to Stripe or Paypal processing fees"
+    description: In addition to Stripe or Paypal processing fees
     valueType: TEXT
     defaultValue: ""
     type: DOMAIN
   stripePoweredPayments:
-    description: "Connect a Stripe account to process payments, refunds, and payouts."
+    description: Connect a Stripe account to process payments, refunds, and payouts.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -325,62 +346,62 @@ features:
     pricingUrls:
       - https://stripe.com/pricing
   applePay:
-    description: "Let customers pay with stored payment details in their browser."
+    description: Let customers pay with stored payment details in their browser.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
     integrationType: EXTERNAL_DEVICE
   webPayments:
-    description: "Let customers pay with stored payment details in their browser."
+    description: Let customers pay with stored payment details in their browser.
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
   paypalSupport:
-    description: ""
+    description: Paypal support
     valueType: BOOLEAN
     defaultValue: false
     type: PAYMENT
   automaticTaxCalculation:
-    description: "Automatic sales tax and VAT calculated at checkout."
+    description: Automatic sales tax and VAT calculated at checkout.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   facebookIntegration:
-    description: "Sync products to Facebook and Instagram to run smarter marketing campaigns."
+    description: Sync products to Facebook and Instagram to run smarter marketing campaigns.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   instagramIntegration:
-    description: "Sync products to Facebook and Instagram to run smarter marketing campaigns."
+    description: Sync products to Facebook and Instagram to run smarter marketing campaigns.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   googleShoppingIntegration:
-    description: "Sync products to Google to run Google Shopping campaigns."
+    description: Sync products to Google to run Google Shopping campaigns.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   mailchimpIntegration:
-    description: "Connect forms to MailChimp for email marketing."
+    description: Connect forms to MailChimp for email marketing.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   configureManualShippingRules:
-    description: "Define shipping regions and set custom rates for each location."
+    description: Define shipping regions and set custom rates for each location.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   staffAccounts:
-    description: "Invite colleagues and clients to manage products, inventory, and fulfillment."
+    description: Invite colleagues and clients to manage products, inventory, and fulfillment.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   yearlySalesVolume:
-    description: "Calculated on a trailing 12-month basis."
+    description: Calculated on a trailing 12-month basis.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -391,59 +412,61 @@ features:
     defaultValue: false
     type: MANAGEMENT
   billingPermissions:
-    description: "Make sure only Workspace admins and owners can edit subscriptions and billing details."
+    description: Make sure only Workspace admins and owners can edit subscriptions and billing details.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   publishingPermissions:
-    description: "Manage which teammates can publish which sites."
+    description: Manage which teammates can publish which sites.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedPermissions:
-    description: "Control who can make global design changes."
+    description: Control who can make global design changes.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   siteActivityLog:
-    description: "A historical log of important design changes made to your site."
+    description: A historical log of important design changes made to your site.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   pageBranching:
-    description: "Multiple designers working on separate pages in parallel."
+    description: Multiple designers working on separate pages in parallel.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   siteSpecificAccess:
-    description: "Control which sites external guests and internal members can access in your Workspace."
+    description: Control which sites external guests and internal members can access in your Workspace.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   unhostedSites:
-    description: "Free Starter sites that can be published to webflow.io. Hosted projects with paid Site plans don’t count toward this limit."
+    description: Free Starter sites that can be published to webflow.io. Hosted projects with paid Site plans don't
+      count toward this limit.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   siteTransfer:
-    description: "Transfer sites to other Workspaces."
+    description: Transfer sites to other Workspaces.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   codeExport:
-    description: "Export clean and semantic HTML & CSS files to hand off to your dev team. Note: dynamic content (CMS items and pages) cannot be exported."
+    description: "Export clean and semantic HTML & CSS files to hand off to your dev team. Note: dynamic content
+      (CMS items and pages) cannot be exported."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   agencyOrFreelancerGuests:
-    description: "Collaborate with clients in their Workspace as a guest at no additional cost on either side."
+    description: Collaborate with clients in their Workspace as a guest at no additional cost on either side.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
 usageLimits:
   ## Website Usage Limits
   pagesLimit:
-    description: ""
+    description: Maximum pages available
     valueType: NUMERIC
     defaultValue: 0
     unit: page
@@ -451,7 +474,7 @@ usageLimits:
     linkedFeatures:
     - staticPages
   formSubmissionsFixedLimit:
-    description: ""
+    description: Maximum fixed form submissions available
     valueType: NUMERIC
     defaultValue: 0
     unit: submission
@@ -459,7 +482,7 @@ usageLimits:
     linkedFeatures:
     - formSubmissions
   guestEditorsLimit:
-    description: ""
+    description: Maximum guest editors available
     valueType: NUMERIC
     defaultValue: 0
     unit: editor
@@ -467,7 +490,8 @@ usageLimits:
     linkedFeatures:
     - guestEditors
   formSubmissionsRenewableLimit:
-    description: "Collect form submissions, customize notification emails, and download submissions as a CSV. $1 per 100 extra submissions."
+    description: Collect form submissions, customize notification emails, and download submissions as a CSV. $1 per 100
+      extra submissions.
     valueType: NUMERIC
     defaultValue: 0
     unit: submission
@@ -483,7 +507,7 @@ usageLimits:
     linkedFeatures:
     - cmsItems
   cmsCollectionsLimit:
-    description: ""
+    description: Maximum CMS collection available
     valueType: NUMERIC
     defaultValue: 0
     unit: item
@@ -491,7 +515,7 @@ usageLimits:
     linkedFeatures:
     - cmsCollections
   fieldsPerCollection:
-    description: ""
+    description: Maximum fields per collection limit
     valueType: NUMERIC
     defaultValue: 0
     unit: field
@@ -499,7 +523,7 @@ usageLimits:
     linkedFeatures:
     - cmsCollections
   referencesPerCollection:
-    description: ""
+    description: Maximum references per collection available
     valueType: NUMERIC
     defaultValue: 0
     unit: field
@@ -507,7 +531,7 @@ usageLimits:
     linkedFeatures:
     - cmsCollections
   apiRequestsPerMinute:
-    description: ""
+    description: Maximum API request per mintute
     valueType: NUMERIC
     defaultValue: 0
     unit: request/min
@@ -515,7 +539,7 @@ usageLimits:
     linkedFeatures:
     - cmsApi
   monthlyWebsiteVisits:
-    description: "The number of unique daily visits you can get to your site every month. We'll let you know if you go over."
+    description: The number of unique daily visits you can get to your site every month. We'll let you know if you go over.
     valueType: NUMERIC
     defaultValue: 0
     unit: visit/day
@@ -523,7 +547,7 @@ usageLimits:
     linkedFeatures:
     - visits
   cdnBandwidth:
-    description: ""
+    description: Maximum cdn bandwidth available
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
@@ -532,7 +556,7 @@ usageLimits:
     - regionalCdn
     - globalCdn
   formFileSizeLimit:
-    description: ""
+    description: Maximum form file size
     valueType: NUMERIC
     defaultValue: 0
     unit: MB
@@ -540,7 +564,7 @@ usageLimits:
     linkedFeatures:
     - formFileUpload
   fileStorageLimit:
-    description: ""
+    description: Maximum file storage available
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
@@ -549,7 +573,7 @@ usageLimits:
     - fileStorage
   ## Ecommerce Usage Limits
   ecommerceItemsLimit:
-    description: ""
+    description: Maximum ecommerce items available
     valueType: NUMERIC
     defaultValue: 0
     unit: account
@@ -557,7 +581,7 @@ usageLimits:
     linkedFeatures:
     - ecommerceItems
   staffAccountsLimit:
-    description: ""
+    description: Maximum staff account available
     valueType: NUMERIC
     defaultValue: 0
     unit: account
@@ -565,7 +589,7 @@ usageLimits:
     linkedFeatures:
     - staffAccounts
   yearlySalesVolumeLimit:
-    description: ""
+    description: Yearly sales volume limit
     valueType: NUMERIC
     defaultValue: 0
     unit: K
@@ -574,7 +598,7 @@ usageLimits:
     - yearlySalesVolume
   ## Account Usage Limits
   teamSizeLimit:
-    description: ""
+    description: Maximum team size limit
     valueType: NUMERIC
     defaultValue: 0
     unit: seat
@@ -582,7 +606,7 @@ usageLimits:
     linkedFeatures:
     - teams
   unhostedSitesLimit:
-    description: ""
+    description: Maximum unhosted sites available
     valueType: NUMERIC
     defaultValue: 0
     unit: site
@@ -590,7 +614,7 @@ usageLimits:
     linkedFeatures:
     - unhostedSites
   unhostedSitesPageLimit:
-    description: ""
+    description: Maximum unhosted site pages limit
     valueType: NUMERIC
     defaultValue: 0
     unit: site
@@ -599,7 +623,7 @@ usageLimits:
     - unhostedSites
 plans:
   WEBSITE_STARTER:
-    description: ""
+    description: Best for learning how to use Webflow
     price: 0
     unit: site/month
     features:
@@ -666,7 +690,7 @@ plans:
       cdnBandwidth:
         value: 1
   WEBSITE_BASIC:
-    description: ""
+    description: Best for launching a simple site
     price: 18
     unit: site/month
     features:
@@ -741,7 +765,7 @@ plans:
       cdnBandwidth:
         value: 50
   WEBSITE_CMS:
-    description: ""
+    description: Best for a blog or other content-driven site
     price: 29
     unit: site/month
     features:
@@ -852,7 +876,7 @@ plans:
       cdnBandwidth:
         value: 200
   WEBSITE_BUSINESS:
-    description: ""
+    description: Best for a blog or other content-driven site
     price: 45
     unit: site/month
     features:
@@ -973,7 +997,7 @@ plans:
       cdnBandwidth:
         value: 400
   WEBSITE_ENTERPRISE:
-    description: ""
+    description: Bring enterprise-level security, compliance, and scalability to your website
     price: "Contact us"
     unit: site/month
     features:
@@ -1111,7 +1135,7 @@ plans:
       cdnBandwidth:
         value: .inf
   ECOMMERCE_STANDARD:
-    description: ""
+    description: Perfect for new businesses getting off the ground
     price: 42
     unit: site/month
     features:
@@ -1264,7 +1288,7 @@ plans:
       yearlySalesVolumeLimit:
         value: 50
   ECOMMERCE_PLUS:
-    description: ""
+    description: Best for higher volume businesses
     price: 84
     unit: site/month
     features:
@@ -1429,7 +1453,7 @@ plans:
       yearlySalesVolumeLimit:
         value: 200
   ECOMMERCE_ADVANCED:
-    description: ""
+    description: Scale to new heights for your online business
     price: 235
     unit: site/month
     features:
@@ -1594,7 +1618,7 @@ plans:
       yearlySalesVolumeLimit:
         value: .inf
   WORKSPACES_INHOUSE_STARTER:
-    description: ""
+    description: For those getting started and learning Webflow
     price: 0
     unit: /month
     features:
@@ -1614,7 +1638,7 @@ plans:
       unhostedSitesPageLimit:
         value: 2
   WORKSPACES_INHOUSE_CORE:
-    description: ""
+    description: For small teams and those who want more control over their code
     price: 28
     unit: seat/month
     features:
@@ -1645,7 +1669,7 @@ plans:
       unhostedSitesPageLimit:
         value: 100
   WORKSPACES_INHOUSE_GROWTH:
-    description: ""
+    description: For growing teams who want unlimited unhosted sites and advanced permissions
     price: 60
     unit: seat/month
     features:
@@ -1680,7 +1704,7 @@ plans:
       unhostedSitesPageLimit:
         value: 100
   WORKSPACES_INHOUSE_ENTERPRISE:
-    description: ""
+    description: For organizations that require enterprise-level security and scalability for their websites
     price: "Contact us"
     unit: seat/month
     features:
@@ -1728,7 +1752,7 @@ plans:
       unhostedSitesPageLimit:
         value: .inf
   WORKSPACES_STARTER:
-    description: ""
+    description: For those getting started and learning Webflow
     price: 0
     unit: /month
     features:
@@ -1760,7 +1784,7 @@ plans:
       referencesPerCollection:
         value: 5
   WORKSPACES_FREELANCER:
-    description: ""
+    description: For solo shops or small teams starting out
     price: 24
     unit: user/month
     features:
@@ -1807,7 +1831,7 @@ plans:
       referencesPerCollection:
         value: 10
   WORKSPACES_AGENCY:
-    description: ""
+    description: For scaling businesses managing multiple clients
     price: 42
     unit: user/month
     features:
