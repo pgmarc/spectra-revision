@@ -8,122 +8,137 @@ currency: USD
 url: https://web.archive.org/web/20201125174346/https://userguiding.com/pricing/
 features:
   users:
-    description: ''
+    description: User that can use Userguiding account simultaneously
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   userGuidingBranding:
-    description: ''
+    description: UserGuiding branding is automatically removed from your Tooltips, Hotspots, and Modals.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   teams:
-    description: ''
+    description: Invite a new team member to UserGuiding Panel
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   guides:
-    description: ''
+    description: Guides have become essential for great user experiences. They can educate, update, and inform
+      users on the go by answering their questions.
+
+      As the name implies, they guide end-users throughout any experience you provide within your web application.
+      - A Guide can have either one or multiple steps.
+      - Once a Guide is started, end-users can complete all the steps or stop before finishing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   hotspots:
-    description: ''
+    description: Hotspots are static onboarding contents that can exhibit near-at-hand information
+      about any item of your product.
+      
+      You can think of a hotspot as an asynchronous box that can be placed on several locations on a page,
+      presenting its informative content on demand without causing a crowd on your interface.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   onboardingChecklist:
-    description: ''
+    description: Checklists are onboarding contents containing a list of organized guides. They are
+      placed on web applications' dashboards to assist and support end-users.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customization:
-    description: ''
+    description: Themes feature in UserGuiding allows to create a custom theme for onboarding
+      content such as Guides, Hotspots, and Banners and how to apply them.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   npsSurveys:
-    description: ''
+    description: Net Promoter Score (NPS) is an essential tool for measuring customer satisfaction and loyalty. It's a widely
+      accepted metric that helps businesses measure user sentiment and optimize customer experience.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   personalization:
-    description: ''
+    description: Full guide and brand customization
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   segmentation:
-    description: ''
+    description: With UserGuiding, you can target your onboarding materials to specific audiences instead of showing
+      them to all your users; this is called Segmentation.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   userIdentification:
-    description: ''
+    description: The User Identification feature allows you to send precise user IDs for your end-users, ensuring a consistent
+      experience for a user across different browsers or devices.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   userGuidingAPI:
-    description: ''
+    description: Access to Userguiding API
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   usageAnalytics:
-    description: ''
+    description: Usage analytics to see guider user engagement and completion
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   usageReporting:
-    description: ''
+    description: User usage reports available in dashboard panel
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   integrations:
-    description: ''
+    description: Integrations with serveral SaaS applications
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   emailSupport:
-    description: ''
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   chatSupport:
-    description: ''
+    description: Support via chat
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   successCoaching:
-    description: ''
+    description: Dedicated sucess manager
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   customCSS:
-    description: ''
+    description: UserGuiding offers to style your content with CSS in addition to point-and-click styling in Themes.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   sla:
-    description: ''
+    description: Service Level Agreement
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   singleSignOn:
-    description: ''
+    description: When SSO is activated, UserGuiding's login screen will intelligently recognize your organization's domain,
+      enabling your team to log in seamlessly via your chosen identity provider.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
 usageLimits:
   activeUsersLimit:
-    description: ''
+    description: Maximum active user available
     valueType: NUMERIC
     defaultValue: 20000
     unit: user
     type: NON_RENEWABLE
   teamMembersLimit:
-    description: ''
+    description: Maximum team members available
     valueType: NUMERIC
     defaultValue: 1
     unit: member
@@ -131,7 +146,7 @@ usageLimits:
     linkedFeatures:
     - teams
   activeGuidesLimit:
-    description: ''
+    description: Maximum active guides available
     valueType: NUMERIC
     defaultValue: 10
     unit: guide
@@ -139,7 +154,7 @@ usageLimits:
     linkedFeatures:
     - guides
   activeHotspotsLimit:
-    description: ''
+    description: Maximum hotspots available
     valueType: NUMERIC
     defaultValue: 10
     unit: hotspot
@@ -147,7 +162,7 @@ usageLimits:
     linkedFeatures:
     - hotspots
   activeOnboardingChecklistsLimit:
-    description: ''
+    description: Maximum checklists available
     valueType: NUMERIC
     defaultValue: 1
     unit: checklist
@@ -155,7 +170,7 @@ usageLimits:
     linkedFeatures:
     - onboardingChecklist
   limitedCustomization:
-    description: ''
+    description: Wheter limited customization is available
     valueType: BOOLEAN
     defaultValue: true
     type: RENEWABLE

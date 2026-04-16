@@ -8,113 +8,142 @@ currency: USD
 url: https://web.archive.org/web/20211029162331/https://userguiding.com/pricing/
 features:
   guides:
-    description: ''
+    description: Guides have become essential for great user experiences. They can educate, update, and inform
+      users on the go by answering their questions.
+
+      As the name implies, they guide end-users throughout any experience you provide within your web application.
+      - A Guide can have either one or multiple steps.
+      - Once a Guide is started, end-users can complete all the steps or stop before finishing.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   hotspots:
-    description: ''
+    description: Hotspots are static onboarding contents that can exhibit near-at-hand information
+      about any item of your product.
+      
+      You can think of a hotspot as an asynchronous box that can be placed on several locations on a page,
+      presenting its informative content on demand without causing a crowd on your interface.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   onboardingChecklist:
-    description: ''
+    description: Checklists are onboarding contents containing a list of organized guides. They are
+      placed on web applications' dashboards to assist and support end-users.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   resourceCenters:
-    description: ''
+    description: The Resource Center allows you to provide a more versatile in-product experience for your users by
+      collecting and organizing materials useful for their training and engagement.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   npsSurveys:
-    description: ''
+    description: Net Promoter Score (NPS) is an essential tool for measuring customer satisfaction and loyalty. It's a widely
+      accepted metric that helps businesses measure user sentiment and optimize customer experience.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   engagementAnalytics:
-    description: ''
+    description: Step Analytics is designed to keep you informed about the efficiency of your Guides and, later, adjust them
+      to create the most successful versions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   userIdentification:
-    description: ''
+    description: The User Identification feature allows you to send precise user IDs for your end-users, ensuring a consistent
+      experience for a user across different browsers or devices.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   userTracking:
-    description: ''
+    description: User attributes and company attributes are essential information about your users that can be shared with
+      UserGuiding. These attributes enable you to tailor your content to specific user groups, enhancing personalization
+      and engagement.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   adoptionTracker:
-    description: ''
+    description: Track user adoption metrics to created guides in Userguiding
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
   audienceSegmentation:
-    description: ''
+    description: With UserGuiding, you can target your onboarding materials to specific audiences instead of showing
+      them to all your users; this is called Segmentation.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customAttributes:
-    description: ''
+    description: Customize your guides using custom attributes that help you track different data required to
+      your needs
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   userSpecificAnalytics:
-    description: ''
+    description: See user specific analytics in the dashboard panel
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   customEvents:
-    description: ''
+    description: Create events by converting changes in user attributes into trackable events.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   weeklyReports:
-    description: ''
+    description: After publishing your UserGuiding content to your web platform, all end-user interactions related will be
+      presented under the Reports tab in your Guide settings.
+
+      There, you can track the performance of your onboarding material in detail. Consequently, you'll be able to see
+      what is and isn't working with your content. Stats are available on a weekly basis.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   errorLogging:
-    description: ''
+    description: Logs error in the dashboard panel
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   customizableThemes:
-    description: ''
+    description: Themes feature in UserGuiding allows to create a custom theme for onboarding
+      content such as Guides, Hotspots, and Banners and how to apply them.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   dynamicMaterialPersonalization:
-    description: ''
+    description: It is a widespread use case to have unique and specific information generated and added to a URL; we
+      call it a dynamic URL that has user-specific information.
+    
+      As an example, you could choose to add your end-users company names at the beginning of the URL, such as
+      company1.yourdomain.com, company2.yourdomain.com, and so on. Trigger a guide when page URLs change dynamically.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   removeUserGuidingBranding:
-    description: ''
+    description: UserGuiding branding is automatically removed from your Tooltips, Hotspots, and Modals.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customCSS:
-    description: ''
+    description: UserGuiding offers to style your content with CSS in addition to point-and-click styling in Themes.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   materialScheduling:
-    description: ''
+    description: Set scheduling criteria for your Guides, Checklists, Hotspots, and Resource Centers.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   appearanceCustomization:
-    description: ''
+    description: When editing a Guide or Hotspot settings, you can notice a section called Set the Appear Frequency,
+      which allows you to define how frequently your end-users will see these onboarding materials.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   googleAnalytics:
-    description: ''
+    description: When it is activated, UserGuiding can be used as a Source that sends UserGuiding content-related
+      event data to your Google Analytics account.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -122,13 +151,17 @@ features:
     pricingUrls:
     - https://marketingplatform.google.com/about/analytics/
   webhooks:
-    description: ''
+    description: Webhook integration allows you to integrate and send UserGuiding events or metadata to any third-party
+      application that supports webhook URLs. You can also send your user and company attributes and user events from
+      those applications to UserGuiding.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   segment:
-    description: ''
+    description: When Segment Integration is activated, UserGuiding can be used as a source that sends event information to
+      your Segment account and then routes it to other systems and as a destination where you can send your user events
+      and attributes.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -136,7 +169,8 @@ features:
     pricingUrls:
     - https://segment.com/pricing/
   mixpanel:
-    description: ''
+    description: When Mixpanel Integration is activated, you can more deeply analyze and target the user onboarding
+      experience you created with UserGuiding.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -144,13 +178,14 @@ features:
     pricingUrls:
     - https://mixpanel.com/pricing/
   zapier:
-    description: ''
+    description: Userguiding integration with Zapier
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   hubspot:
-    description: ''
+    description: When Hubspot Integration is activated, UserGuiding can be used as a source that sends event information
+      to your HubSpot contact's timeline and also as a destination where you can send your user attributes.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -158,7 +193,12 @@ features:
     pricingUrls:
     - https://www.hubspot.com/pricing/marketing/starter
   intercom:
-    description: ''
+    description: The Intercom integration allows you to see which users are engaging with your guides and whether they were
+      able to complete them or not.
+
+      Also, you can see which users have reacted to your Promoter Survey along with the score and feedback.
+
+      You can filter and segment end-users based on their Promoter Survey response to automate your Intercom emails and messages.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -166,7 +206,8 @@ features:
     pricingUrls:
     - https://www.intercom.com/pricing
   slack:
-    description: ''
+    description: When it's active, UserGuiding posts real-time responses as messages to a Slack Channel you have,
+      allowing you to keep a close track of customer satisfaction levels and feedback.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -174,7 +215,8 @@ features:
     pricingUrls:
     - https://slack.com/pricing
   woopra:
-    description: ''
+    description: When Woopra integration is activated, you can analyze and visualize an entire customer journey,
+      including their interaction and performance with the user onboarding experience.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -182,74 +224,81 @@ features:
     pricingUrls:
     - https://www.woopra.com/pricing/
   knowledBaseIntegrations:
-    description: ''
+    description: Integrating your Knowledge Base into your Resource Center enhances accessibility and usability. Allowing end
+      users to browse articles without leaving the page will also boost engagement and interest.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
   roleManagement:
-    description: ''
+    description: UserGuiding provides three unique roles that help you manage your team effectively. Each role has specific
+      permissions that determine what a team member can or cannot do within the platform. Understanding these roles is
+      crucial for ensuring that your team operates smoothly and that tasks are delegated appropriately.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   permissionManagement:
-    description: ''
+    description: Set specific permissions that determine what a team member can or cannot do within the platform
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   teams:
-    description: ''
+    description: Invite a new team member to UserGuiding Panel
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   domains:
-    description: ''
+    description: Multiple applications can benefit from a single subscription, and you can install UserGuiding on
+      multiple domains.
+
+      Total number of applications or domains you can install UserGuiding will depend on your chosen plan
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   employeeOnboardingModule:
-    description: ''
+    description: Dedicated module to achieve succesful employee onboardings
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   troubleShooterAccess:
-    description: ''
+    description: Troubleshooter allows you to inspect all details of your content in UserGuiding and quickly spot the
+      root of a problem so you can get things working again fast.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   helpCenter:
-    description: ''
+    description: Access to UserGuiding help center
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   userGuidingUniversity:
-    description: ''
+    description: Access to user guiding university
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   emailSupport:
-    description: ''
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   liveChatSupport:
-    description: ''
+    description: Live chat support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
   dedicatedCustomerSuccessManager:
-    description: ''
+    description: Dedicated customer success manager
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   implementationSupport:
-    description: ''
+    description: Implementation support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
 usageLimits:
   activeGuidesLimit:
-    description: ''
+    description: Maximum active guides available
     valueType: NUMERIC
     defaultValue: 20
     unit: guide
@@ -257,7 +306,7 @@ usageLimits:
     linkedFeatures:
     - guides
   activeHotspotsLimit:
-    description: ''
+    description: Maximum hotspots available
     valueType: NUMERIC
     defaultValue: 20
     unit: hotspot
@@ -265,7 +314,7 @@ usageLimits:
     linkedFeatures:
     - hotspots
   activeOnboardingChecklistsLimit:
-    description: ''
+    description: Maximum checklists available
     valueType: NUMERIC
     defaultValue: 2
     unit: checklist
@@ -273,7 +322,7 @@ usageLimits:
     linkedFeatures:
     - onboardingChecklist
   activeResourceCentersLimit:
-    description: ''
+    description: Maximum active resources available
     valueType: NUMERIC
     defaultValue: 1
     unit: resource center
@@ -281,13 +330,13 @@ usageLimits:
     linkedFeatures:
     - resourceCenters
   activeUsersLimit:
-    description: ''
+    description: Maximum active user available
     valueType: NUMERIC
     defaultValue: 2500
     unit: user/month
     type: RENEWABLE
   teamMembersLimit:
-    description: ''
+    description: Maximum team members available
     valueType: NUMERIC
     defaultValue: 1
     unit: member
@@ -295,7 +344,7 @@ usageLimits:
     linkedFeatures:
     - teams
   domainsLimit:
-    description: ''
+    description: Maximum domains available
     valueType: NUMERIC
     defaultValue: 2
     unit: domain
