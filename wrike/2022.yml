@@ -16,19 +16,20 @@ features:
     type: GUARANTEE
     docUrl: https://www.wrike.com/comparison-table/
   wrikeForWindowsAndMac:
-    description: https://www.wrike.com/apps/mobile-and-desktop/desktop-app/
+    description: Easily create workstreams, automate everyday tasks, and manage impactful work from start to finish with Wrike's
+      desktop app. App for Windows and Mac.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   wrikeIOSAndAndroidApps:
-    description: https://www.wrike.com/apps/mobile-and-desktop/desktop-app/
+    description: App for iOS and Android.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   brandedWorkspace:
-    description: Align the look and feel of your Wrike workspace with your own logo
+    description: Align the look and feel of your Wrike workspace with your own logo.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -38,12 +39,14 @@ features:
     defaultValue: false
     type: DOMAIN
   taskManagement:
-    description: https://www.wrike.com/features/task-management/
+    description: Kick-start projects with one-click task creation. Use blueprints and dynamic requests to reduce
+      setup time and instantly turn plans into action.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   subtaskManagement:
-    description: https://www.wrike.com/features/subtask-management/
+    description: Tackle overwhelming projects efficiently by splitting them into bite-sized subtasks in Wrike. Assign
+      smaller tasks to different team members to distribute workload evenly and make large requests more feasible.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -54,7 +57,7 @@ features:
     defaultValue: true
     type: DOMAIN
   accountWideWorkSchedules:
-    description: Designate your team’s work week and see when you or your teammates
+    description: Designate your team's work week and see when you or your teammates
       are scheduled to work.
     valueType: BOOLEAN
     defaultValue: true
@@ -79,28 +82,45 @@ features:
     defaultValue: false
     type: DOMAIN
   emailIntegration&Notifications:
-    description: https://www.wrike.com/apps/email-integration/
+    description: "All users on all account types can use the email integration. Collaborators, Contributors, or
+      Viewers with limited access roles might not have the ability to create new tasks and edit task details via
+      email integration.
+
+      Wrike's patented email integration engine allows you to engage with Wrike tasks directly from your email. You can:
+
+      - Create tasks and folders.
+      - Add comments.
+      - Update a task's status.
+      - Set task due dates.
+
+      Sending important action items to Wrike as tasks means that you and your team can easily work on the task together
+      and keep everything organized in one place. Once a task is in Wrike, you can also receive notifications to keep a
+      better pulse on how your projects are progressing."
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   customWorkViews:
-    description: https://www.wrike.com/features/custom-views/
+    description: Enhance collaboration, optimize workflows, and drive project success with our diverse work views.
+       Create the perfect environment for your team's unique requirements.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   calendars:
-    description: https://www.wrike.com/features/team-project-calendar/
+    description: Turn your team project calendar into a map of who's doing what and when, so clashes surface early
+      and plans stay accurate.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   dynamicGanttChart:
-    description: https://www.wrike.com/features/gantt-chart/
+    description: Wrike's Gantt chart software manages impactful work from beginning to end and helps users create
+      workflows without limits.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   preBuiltDashboards&Widgets:
-    description: https://www.wrike.com/features/dashboards/
+    description: Information is power. Wrike's new project management dashboard democratizes data, offering instant
+      insights and visibility to all stakeholders.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -112,30 +132,52 @@ features:
     defaultValue: false
     type: DOMAIN
   tableauIntegration:
-    description: https://www.wrike.com/apps/business-intelligence/tableau/
+    description: Run advanced analytics and reports and get greater insight into project performance by integrating
+      Wrike with Tableau.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   businessIntelligenceAPI:
-    description: https://developers.wrike.com/export-data/
+    description: "BI Export lets you export your account's data for future import to third-party analytics tools
+      (e.g. PowerBI or Qlik). This allows for building reports and analytics that are not available in Wrike and
+      merge Wrike data with data from other sources. The data that is exposed to Tableau includes but is not limited to
+      the following:
+
+      - Projects
+      - Folders
+      - Tasks
+      - Users
+      - User Groups
+      - Timelogs
+      - Workflows
+      - Activity Log
+      - History of status and custom field changes
+      - Effort fields
+
+      The data is stored in tables, which are connected using foreign key identifiers (like in a relational database).
+      Each table is stored as a separate .csv file."
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   advancedAnalytics&DataVisualizations:
-    description: https://www.wrike.com/features/advanced-analytics/
+    description: Boost your decision making processes with powerful reporting and BI tools.
+      Turn raw data into actionable insights.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   aiRecommendedTasks:
-    description: https://www.wrike.com/features/work-intelligence/
+    description: Recommended by AI detects repetitive activities in a Space and suggests ready-to-use automation rules to
+      save time and speed up workflows. It runs only at the Space level, uses Wrike's own technology (no third-party AI,
+      no external training), and can be set up via Space ▸ Automation ▸ +Add rule ▸ Recommended
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   aiSubtaskCreation:
-    description: https://www.wrike.com/features/work-intelligence/
+    description: This feature uses natural language processing to select which parts of text in the task description or
+      comment are actionable tasks. It then creates subitems from these sections of text.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
@@ -147,31 +189,37 @@ features:
     defaultValue: true
     type: DOMAIN
   voiceAssistantInteraction:
-    description: https://www.wrike.com/features/work-intelligence/
+    description: All users can use Siri to work with Wrike for iOS.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   smartRepliesAndQuickReactions:
-    description: https://www.wrike.com/features/work-intelligence/
+    description: You can quickly reply to comments of other users without the need to manually @mention them.
+      Using Quick Reactions in Wrike's Android app, you can react to comments without having to open the tasks.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   ocrDocumentProcessing:
-    description: https://www.wrike.com/features/work-intelligence/
+    description: Users on all account types can scan documents and attach them to tasks, folders, and projects as well
+      as use the text recognition feature to turn a scanned document into text for a description field or a comment.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
   aiProjectRiskPrediction:
-    description: https://www.wrike.com/features/work-intelligence/
+    description: AI Project Risk Prediction monitors your projects for any risks that may cause you to miss your
+      deadlines, then assigns a risk level (low, medium, or high). AI estimations have replaced the previous system
+      of Project Health calculations (color-coding). You can find these estimations in the Project Progress window
+      in the project info panel, Table view, the project dashboard widget, and project-based reports.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
   useCaseProjectTemplates:
-    description: https://www.wrike.com/templates/
+    description: Wrike's templates make managing projects easier than ever. Dive into our categories to simplify
+      complex processes and save time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
@@ -182,23 +230,28 @@ features:
     defaultValue: false
     type: DOMAIN
   dynamicRequestForms:
-    description: https://www.wrike.com/features/custom-request-forms/
+    description: Wrike's custom request forms makes it easy for teams to streamline their request process and eliminate delays.
+      Use automation to keep requests moving towards resolution.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customItemTypes:
-    description: https://www.wrike.com/features/custom-item-types/
+    description: Build a customizable library in your Wrike workspace and mirror the unique processes of your
+      team, department, or company. With Wrike's custom item types, you can build a workspace tailored to
+      your role, department, or industry.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   advancedWorkflowAutomation:
-    description: https://www.wrike.com/apps/automation-engine/
+    description: Advanced workflow automation with Automation engine
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   taskAndProjectApproval:
-    description: https://www.wrike.com/features/approvals/
+    description: An approval process is the definitive path an organization takes to greenlight everything from budgets
+      and PTO to vendors and software access. Wrike's robust approval process software streamlines this journey, allowing
+      you to assign ownership, clear bottlenecks before they stall progress, and maintain total visibility over every decision.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -209,7 +262,9 @@ features:
     defaultValue: false
     type: DOMAIN
   automationEngine:
-    description: https://www.wrike.com/apps/automation-engine/
+    description: Wrike's Automation helps reduce repetitive and manual work, speeds up your work process, and
+      minimizes the likelihood  of human error. Instead of handling all the work by yourself, you and your team
+      can employ the automation of various actions with tasks, projects, and custom items in Wrike.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
@@ -235,12 +290,13 @@ features:
     type: DOMAIN
   resourceAssigment:
     description: Intuitively drag and drop to add, move, or adjust tasks based on
-      individuals’ capacity and work schedule in real time.
+      individuals' capacity and work schedule in real time.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   timeTracking:
-    description: https://www.wrike.com/features/time-tracking-software/
+    description: Log worked hours — create, review, approve, and restrict timesheets. Advanced employee time tracking
+      improves task visibility, streamlines project resources, and avoids inaccurate data.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -287,7 +343,7 @@ features:
     defaultValue: false
     type: MANAGEMENT
   fileProofingAndApproval:
-    description: https://www.wrike.com/features/online-proofing/
+    description: Approve creative assets quickly with Wrike's online proofing software — including real-time collaboration.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -298,24 +354,27 @@ features:
     type: INTEGRATION
     integrationType: WEB_SAAS
   extensionForAdobeCreativeCloud:
-    description: https://www.wrike.com/apps/extensions/adobe/
+    description: Transform the way you work in Adobe Creative Cloud. Get design feedback, upload new versions of assets,
+      and stay synced on all your projects without leaving your creative zone.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTENSION
   digitalAssetManagementIntegration:
-    description: https://www.wrike.com/features/digital-asset-management-software-integration/
+    description: Maintaining brand cohesion across channels and campaigns isn't easy. That's why Wrike partners with today's
+      leading digital asset management (DAM) software providers to help your team quickly find the right files for every project.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   openRESTfulAPI:
-    description: https://developers.wrike.com/
+    description: Wrike's easy-to-use APIs make connecting Wrike with your current tools and workflows a cinch.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   cloudStoragePlatforms:
-    description: https://www.wrike.com/apps/file-storage/
+    description: Connect Wrike to Cloud storage platforms like Google Drive, Microsoft Sharepoint, Microsoft OneDrive
+      Tenovos, Dropbox or Box
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -327,31 +386,40 @@ features:
     type: INTEGRATION
     integrationType: WEB_SAAS
   salesForceIntegration:
-    description: https://www.wrike.com/apps/crm/salesforce/
+    description: Make collaboration between sales and cross-functional teams much easier with Wrike's Salesforce integration.
+      You can track task status in real time without leaving Salesforce. Meanwhile, cross-functional teams can work on these
+      in Wrike without needing to log into Salesforce. Since all key information remains at the fingertips of the sales team,
+      you'll cut down on response time and ensure customer requests never fall through the cracks.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   netSuiteAndQuickBookIntegrations:
-    description: NetSuite & QuickBook integrations (via Wrike Integrate)
+    description: Integrations with financial solutions, like NetSuite and QuickBooks, for seamless budgeting, billing, and
+      invoicing
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   adobeCreativeCloudExtension:
-    description: https://www.wrike.com/apps/extensions/adobe/
+    description: Transform the way you work in Adobe Creative Cloud. Get design feedback, upload new versions of assets,
+      and stay synced on all your projects without leaving your creative zone.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   enterpriseGradeSecurity:
-    description: https://www.wrike.com/features/admin-security/
+    description: Our secure project management software offers the most comprehensive security on the market. Keep data
+      safe with double encryption, role-based access, customizable user types, selective sharing, global server presence,
+      and multiple privacy certifications — all with Wrike's secure project management tools.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     docUrl: https://www.wrike.com/features/admin-security/
   folderAndProjectPermissions:
-    description: https://www.wrike.com/features/admin-security/
+    description: Admins can create, edit, rename, and delete custom access roles in Settings → Access Roles.
+      Assign permissions by checking or unchecking rights, then save changes. Changes apply immediately, inherited
+      roles use the highest access level, and default roles can't be deleted.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -362,7 +430,9 @@ features:
     defaultValue: false
     type: INFORMATION
   singleSignOn:
-    description: https://www.wrike.com/apps/single-sign-on/saml/
+    description: Enable SAML single sign-on for your Wrike account and increase security by enforcing access policies and
+      multi-factor authentication (optional), reduce administrative costs with just-in-time user provisioning, and make
+      it easier for your team to use Wrike with one-click access and no extra passwords to memorize.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -375,7 +445,8 @@ features:
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   controlledAdminPermission:
-    description: https://www.wrike.com/features/admin-security/
+    description: Controlled admin permissions are a feature of Enterprise accounts. It allows different admin users
+      within the account to be granted different permissions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -398,12 +469,14 @@ features:
     defaultValue: false
     type: MANAGEMENT
   customizableUserTypes:
-    description: https://www.wrike.com/features/admin-security/
+    description: Harness the infinite flexibility and control that comes with Wrike's Customizable User Types, enabling
+      your teams to clearly define and edit unique types of users for each account.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   lockedSpaces:
-    description: https://www.wrike.com/features/admin-security/
+    description: Locked spaces are restricted, secure spaces for confidential collaboration such as at board or
+      executive-level. You may also use Locked spaces to create isolated working spaces for separate customers.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -413,37 +486,40 @@ features:
     defaultValue: false
     type: INFORMATION
   wrikeIntegrate:
-    description: ''
+    description: Wrike Integrate allows you to configure robust integrations, add custom automation, and manage complex,
+      cross-functional, and multi-app workflows with ease.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   wrikeTwoWaySync:
-    description: ''
+    description: Set up two-way syncs between your Wrike account and 22 integrated systems, including Jira, GitHub, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   wrikeLock:
-    description: ''
+    description: Control is paramount when it comes to data security, which is why many companies with a significant focus
+      on security keep their data on-premises. Wrike Lock lets you own and manage the keys to your encrypted Wrike data,
+      giving you increased control even though your data is in the cloud.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   minNumberOfUsers:
-    description: ''
+    description: Minimum number of users in Wrike account
     valueType: NUMERIC
     defaultValue: 1
     unit: user
     type: NON_RENEWABLE
   maxNumberOfUsers:
-    description: ''
+    description: Maximum number of users in Wrike account
     valueType: NUMERIC
     defaultValue: 10000000000
     unit: user
     type: NON_RENEWABLE
   useStorage:
-    description: ''
+    description: Maximum number of GB per user
     valueType: NUMERIC
     defaultValue: 0
     unit: GB/seat
@@ -451,7 +527,7 @@ usageLimits:
     linkedFeatures:
     - storageSpace
   useAutomations:
-    description: Renewed per month
+    description: Maximum number of actions per seat. Renewed per month
     valueType: NUMERIC
     defaultValue: 0
     unit: action/seat
@@ -460,13 +536,13 @@ usageLimits:
     - automationEngine
 plans:
   FREE:
-    description: 'For teams getting started: Centralized task management'
+    description: 'For teams getting started: Intelligent task management'
     price: 0
     unit: user/month
     features: null
     usageLimits: null
   PROFESSIONAL:
-    description: 'For fast growing teams: Project planning and team collaboration'
+    description: 'For growing teams: Effective team management'
     price: 9.8
     unit: user/month
     features:
@@ -489,7 +565,7 @@ plans:
         value: 2
   BUSINESS:
     description: 'For all teams across an organization: Customizable platform for
-      any team or use case'
+      any use case'
     price: 24.8
     unit: user/month
     features:

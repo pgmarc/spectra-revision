@@ -8,38 +8,44 @@ currency: USD
 url: https://web.archive.org/web/20191129220148/https://www.wrike.com/price/
 features:
   boardView:
-    description: ''
+    description: Board view allows you to view all the tasks and task-based custom items in a project, folder, or space
+      in a simple layout, which reflects their status. Tasks and task-based custom items are represented by cards listed
+      under the relevant status.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   taskManagement:
-    description: https://www.wrike.com/features/task-management/
+    description: Kick-start projects with one-click task creation. Use blueprints and dynamic requests to reduce
+      setup time and instantly turn plans into action.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   fileSharing:
-    description: ''
+    description: Share files in Wrike
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   realTimeActivityStream:
-    description: https://www.wrike.com/features/activity-stream/
+    description: See all updates in real-time. Quickly filter updates and participate in discussions in a familiar social
+      media format.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   spreadsheetView:
-    description: ''
+    description: Find all the time you've tracked and update time for your work in
+      a single place on a daily or weekly basis.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
   wrikeForWindowsAndMac:
-    description: https://www.wrike.com/apps/mobile-and-desktop/desktop-app/
+    description: Easily create workstreams, automate everyday tasks, and manage impactful work from start to finish with Wrike's
+      desktop app. App for Windows and Mac.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   wrikeIOSAndAndroidApps:
-    description: https://www.wrike.com/apps/mobile-and-desktop/desktop-app/
+    description: App for iOS and Android.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -57,17 +63,19 @@ features:
     type: INTEGRATION
     integrationType: WEB_SAAS
   storageSpace:
-    description: ''
+    description: Disk space storage in your Wrike account
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   subtaskManagement:
-    description: https://www.wrike.com/features/subtask-management/
+    description: Tackle overwhelming projects efficiently by splitting them into bite-sized subtasks in Wrike. Assign
+      smaller tasks to different team members to distribute workload evenly and make large requests more feasible.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   ganttChart:
-    description: https://www.wrike.com/features/gantt-chart/
+    description: Wrike's Gantt chart software manages impactful work from beginning to end and helps users create
+      workflows without limits.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -78,7 +86,7 @@ features:
     type: INTEGRATION
     integrationType: WEB_SAAS
   shareableDashboards:
-    description: https://www.wrike.com/features/dashboards/
+    description: Share dashboards with links
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -89,7 +97,7 @@ features:
     defaultValue: false
     type: MANAGEMENT
   videoUploads:
-    description: ''
+    description: Upload videos to Wrike
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
@@ -111,42 +119,54 @@ features:
     defaultValue: false
     type: DOMAIN
   reportTemplates:
-    description: ''
+    description: Report templates help you quickly create reports so you can gain more visibility into your projects,
+      see how work is progressing, or assess what work still needs to be assigned.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   graphicalAnalytics:
-    description: ''
+    description: Setting up comprehensive reports has never been easier. Create, customize, and assess reports with
+      Wrike's advanced analytics features.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   calendars:
-    description: https://www.wrike.com/features/team-project-calendar/
+    description: Turn your team project calendar into a map of who's doing what and when, so clashes surface early
+      and plans stay accurate.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   requestForms:
-    description: https://www.wrike.com/features/custom-request-forms/
+    description: Wrike's custom request forms makes it easy for teams to streamline their request process and eliminate delays.
+      Use automation to keep requests moving towards resolution.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   taskAndProjectApproval:
-    description: https://www.wrike.com/features/approvals/
+    description: An approval process is the definitive path an organization takes to greenlight everything from budgets
+      and PTO to vendors and software access. Wrike's robust approval process software streamlines this journey, allowing
+      you to assign ownership, clear bottlenecks before they stall progress, and maintain total visibility over every decision.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   timeTracking:
-    description: https://www.wrike.com/features/time-tracking-software/
+    description: Log worked hours — create, review, approve, and restrict timesheets. Advanced employee time tracking
+      improves task visibility, streamlines project resources, and avoids inaccurate data.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   userGroupsAndPermissions:
-    description: ''
+    description: User groups in Wrike are customizable groups of users that simplify information sharing. Instead of
+      sharing updates with one person at a time, you can @mention user groups quickly and share tasks, folders, and projects
+      with them.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   salesForceIntegration:
-    description: https://www.wrike.com/apps/crm/salesforce/
+    description: Make collaboration between sales and cross-functional teams much easier with Wrike's Salesforce integration.
+      You can track task status in real time without leaving Salesforce. Meanwhile, cross-functional teams can work on these
+      in Wrike without needing to log into Salesforce. Since all key information remains at the fingertips of the sales team,
+      you'll cut down on response time and ensure customer requests never fall through the cracks.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -157,13 +177,15 @@ features:
     defaultValue: false
     type: DOMAIN
   activeDirectoryIntegration:
-    description: ''
+    description: Active directory integration with Azure Active Directory (Azure AD) / Microsoft Entra ID
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   singleSignOn:
-    description: https://www.wrike.com/apps/single-sign-on/saml/
+    description: Enable SAML single sign-on for your Wrike account and increase security by enforcing access policies and
+      multi-factor authentication (optional), reduce administrative costs with just-in-time user provisioning, and make
+      it easier for your team to use Wrike with one-click access and no extra passwords to memorize.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -182,7 +204,8 @@ features:
     defaultValue: false
     type: MANAGEMENT
   itControlAdminPermissions:
-    description: ''
+    description: Controlled admin permissions are a feature of Enterprise accounts. It allows different admin users
+      within the account to be granted different permissions.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
@@ -198,88 +221,136 @@ features:
     defaultValue: false
     type: MANAGEMENT
   businessIntelligenceIntegration:
-    description: ''
+    description: "BI Export lets you export your account's data for future import to third-party analytics tools
+      (e.g. PowerBI or Qlik). This allows for building reports and analytics that are not available in Wrike and
+      merge Wrike data with data from other sources. The data that is exposed to Tableau includes but is not limited to
+      the following:
+
+      - Projects
+      - Folders
+      - Tasks
+      - Users
+      - User Groups
+      - Timelogs
+      - Workflows
+      - Activity Log
+      - History of status and custom field changes
+      - Effort fields
+
+      The data is stored in tables, which are connected using foreign key identifiers (like in a relational database).
+      Each table is stored as a separate .csv file."
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   advancedUserAccessControls:
-    description: ''
+    description: Customize and add new access roles, selectively share subfolders
+      and subprojects by keeping them from inheriting permissions, and run access
+      reports to see who has access to folders, projects, and tasks.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   wrikeResource:
-    description: ''
+    description: Wrike's advanced resource management software makes managing your projects easy. Our resource management
+      tools can be adapted to the needs of your organization from sign-on to successful outcomes.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   wrikeProof:
-    description: ''
+    description: Use Proofing to add comments directly to images, videos, PDF, and Microsoft Office files attached to tasks,
+      folders, and projects. A marker is added to the image or document each time you add a comment. You can then click
+      the marker to see the corresponding comment. All comments are also visible in a list on the right-hand side of the screen.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   wrikePublish:
-    description: ''
+    description: "What you can do in Wrike Publish
+      - Upload local attachments from Wrike to MediaValet and Bynder.
+      - Attach files from MediaValet and Bynder to Wrike.
+      - Use Proofing with images (BMP, PNG, GIF, JPEG), videos (MP4, MOV, AVI, 3GP, FLV), and PDF files stored
+      in MediaValet and Bynder. You can also use Proofing with DNG, RAW, TIFF, EPS, and PSD files. However,
+      for these file types, you'll see a preview within Proofing rather than the original file.
+      - Use Approvals with any files stored in MediaValet and Bynder."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   wrikeAnalyze:
-    description: ''
+    description: Wrike Analyze is a powerful tool that helps you gain insights into your projects and workflows. With
+      customizable dashboards and reports, you can visualize data to make informed decisions and optimize your team's
+      performance.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
   wrikeIntegrate:
-    description: ''
+    description: Wrike Integrate allows you to configure robust integrations, add custom automation, and manage complex,
+      cross-functional, and multi-app workflows with ease.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   wrikeTwoWaySync:
-    description: ''
+    description: Set up two-way syncs between your Wrike account and 22 integrated systems, including Jira, GitHub, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
   wrikeLock:
-    description: ''
+    description: Control is paramount when it comes to data security, which is why many companies with a significant focus
+      on security keep their data on-premises. Wrike Lock lets you own and manage the keys to your encrypted Wrike data,
+      giving you increased control even though your data is in the cloud.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   jumpstartDeployment:
-    description: ''
+    description: Optimize Wrike to achieve your goals with expert consulting and training
+
+      To ensure your team's successful onboarding, Wrike offers a selection of professional services packages for
+      an additional fee.
+
+      Clients with 15 seats or fewer can learn to optimize processes with Wrike best practices. Package includes
+      process mapping, workspace setup, and templates to streamline repeatable work.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   fullDeployment:
-    description: ''
+    description: Optimize Wrike to achieve your goals with expert consulting and training
+
+      To ensure your team's successful onboarding, Wrike offers a selection of professional services packages for
+      an additional fee.
+
+      Full Deployment packages are required for teams of 20 or more, enabling you to optimize Wrike to achieve your
+      objectives with expert training. Includes Jumpstart Deployment plus workflow training, change management prep,
+      user training, launch prep and management, and resource documents and media.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   wrikeExtensionForAdobeCreativeCloud:
-    description: ''
+    description: Access Wrike from within Adobe Creative Cloud apps to receive creative briefs, collaborate with teammates,
+      and even use Wrike Proof for review and approval of assets. All without leaving the tools you love!
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   tailoredTemplatesAndWorkspaceMarketers:
-    description: ''
+    description: Hit the ground running with a preconfigured Marketing & Creative workflow, dashboard with file previews,
+      reports, request forms, folder structure, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
 usageLimits:
   minNumberOfUsers:
-    description: ''
+    description: Minimum number of users in Wrike account
     valueType: NUMERIC
     defaultValue: 5
     unit: user
     type: NON_RENEWABLE
   maxNumberOfUsers:
-    description: ''
+    description: Maximum number of users in Wrike account
     valueType: NUMERIC
     defaultValue: 5
     unit: user
     type: NON_RENEWABLE
   useStorage:
-    description: ''
+    description: Disk storage available in your Wrike account
     valueType: NUMERIC
     defaultValue: 2
     unit: GB
@@ -287,7 +358,7 @@ usageLimits:
     linkedFeatures:
     - storageSpace
   useStorageAccount:
-    description: ''
+    description: Wrike disk storage per month
     valueType: NUMERIC
     defaultValue: 0
     unit: GB/month
@@ -295,7 +366,7 @@ usageLimits:
     linkedFeatures:
     - videoUploads
   numberOfUsers:
-    description: ''
+    description: Add users to Wrike account
     valueType: NUMERIC
     defaultValue: 5
     unit: user
