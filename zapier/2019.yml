@@ -8,113 +8,117 @@ currency: USD
 url: https://web.archive.org/web/20191113034602/https://zapier.com/pricing
 features:
   tasks:
-    description: ''
+    description: A task is counted every time a Zap successfully moves data or completes an action for you automatically.
+      For example, if your Zap has an action to create new Google Contacts, each contact created will use one task. If
+      the action isn't successfully completed, it doesn't count against your task limit.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   zaps:
-    description: ''
+    description: Zaps connect your apps and services together to automate repetitive tasks and save you time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   singleStepZaps:
-    description: ''
+    description: Single-step Zaps have one trigger (e.g., new email lead) and one action (e.g., add to my CRM).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiStepZaps:
-    description: ''
+    description: Multi-step Zaps let a single trigger (e.g., new email lead) perform as many actions as you
+      want (e.g., add to my CRM and message my team).
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   premiumApps:
-    description: ''
+    description: Premium apps are select apps that are exclusively available to users on paid plans.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   filters:
-    description: ''
+    description: Filters tell your Zaps to run only if your data matches certain criteria.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   formatters:
-    description: ''
+    description: Formatter steps let you tweak numbers, dates, and text in over a dozen ways to get it in the format you need.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   customIntegrations:
-    description: ''
+    description: Build powerful, custom integrations that connect any app with Webhooks by Zapier.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
   paths:
-    description: ''
+    description: Build advanced workflows using branching logic to run different actions based on conditions you decide.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   autoReplay:
-    description: ''
+    description: Intelligently retries any Task failures due to temporary errors or downtime for you.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
   folderPermissions:
-    description: ''
+    description: Control who can edit shared Zaps and access shared folders.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   premierSupport:
-    description: ''
+    description: Get faster, prioritized responses from our dedicated Premier Support team.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   sharedAppConnections:
-    description: ''
+    description: Connect your team's favorite tools, like Trello, Dropbox, or Typeform, so everyone can use
+      them in their workflows without needing to share passwords and API keys.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   sharedWorkspace:
-    description: ''
+    description: Share access to your Zaps with your team.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   userProvisioning:
-    description: ''
+    description: Automatically create, change, disable, and delete user accounts to ensure the right people have access.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   appsAccessControl:
-    description: ''
+    description: Control who can access every Zapier app
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
   samlSingleSignOn:
-    description: ''
+    description: Ensure secure access for your team using SAML 2.0 identity and access management (IAM) providers.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
   customDataRetention:
-    description: ''
+    description: Customize your task history retention to match your company's legal and regulatory requirements.
     valueType: BOOLEAN
     defaultValue: false
     type: GUARANTEE
   accountCapture:
-    description: ''
+    description: Account capture
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   usersLimit:
-    description: ''
+    description: Maximum users in your Zapier account
     valueType: NUMERIC
     defaultValue: 1
     unit: user
     type: NON_RENEWABLE
   tasksLimit:
-    description: ''
+    description: Maximum tasks available
     valueType: NUMERIC
     defaultValue: 100
     unit: task/month
@@ -122,7 +126,7 @@ usageLimits:
     linkedFeatures:
     - tasks
   zapsLimit:
-    description: ''
+    description: Maximum zaps available per month
     valueType: NUMERIC
     defaultValue: 5
     unit: zap/month
@@ -130,7 +134,7 @@ usageLimits:
     linkedFeatures:
     - zaps
   updateTimeThreshold:
-    description: ''
+    description: Maximum update time threshold
     valueType: NUMERIC
     defaultValue: 15
     unit: min
@@ -139,7 +143,7 @@ usageLimits:
     - tasks
     - zaps
   premiumAppsLimit:
-    description: ''
+    description: Maximum premium apps available
     valueType: NUMERIC
     defaultValue: 0
     unit: app
