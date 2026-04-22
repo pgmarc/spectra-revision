@@ -16,13 +16,21 @@ tags:
   - Support
 features:
   teamWorkspaces:
-    description: ""
+    description: A Workspace is how you organize GitHub repositories and issues in Zenhub. Think of it as a customized
+      project view that brings together all the repositories your team needs to work effectively. With Workspaces, you
+      can connect multiple GitHub repositories—even across different organizations—into a single, unified view.
+
+      Workspaces provide a centralized view of issues across multiple repositories, allowing teams to see all their work in
+      one place. Each team can maintain their own pipelines and workflows without disrupting other teams working from the
+      same repositories. You'll also get shared reporting and analytics across all connected repositories, plus flexible
+      permissions to control collaboration levels.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Configuration
   githubIntegration:
-    description: ""
+    description: Work directly within GitHub, with no context switching. Zenhub overlays advanced project management
+      onto your existing workflow.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -31,140 +39,172 @@ features:
       - https://github.com/pricing
     tag: GitHub
   zenhubExtensionForGithub:
-    description: ""
+    description: Access all of Zenhub's project management functionalities — including multi-repository Kanban boards,
+      Planning Poker and automations — within GitHub's UI.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
     tag: GitHub
   githubInsights:
-    description: ""
+    description: "GitHub Insights gives you a productivity dashboard for your team's GitHub activity. It tracks six metrics:
+      issue completion, issue lead time, issue completion ratio, PR throughput, code review time, and PR merge ratio.
+      It also shows a productivity score as a percentile ranking and provides actionable recommendations for issue hygiene
+      and PR hygiene."
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: GitHub
   nonGithubUsersCanViewGithubIssues:
-    description: ""
+    description: Non-Github users can view Github issues
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: GitHub
   automatedSprintPlanning:
-    description: ""
+    description: Zenhub can automate sprint planning by creating new sprints based on your team's velocity
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Features
   planningPoker:
-    description: ""
+    description: Planning poker enables you to request estimates from select team members and have estimates automatically
+      applied when a consensus is reached.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   estimates:
-    description: ""
+    description: Story points help with sprint planning and capacity tracking. Use the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21)
+      to indicate relative complexity and effort. You can set initial estimates during creation, focusing on consensus-based
+      estimation rather than individual time predictions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   zenhubProjects:
-    description: ""
+    description: Zenhub Projects issues are cohesive efforts with defined objectives and deliverables that
+      lasts several months. Its the sencod type of issue that you can create in the hierachy of Zenhub issues.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   epics:
-    description: ""
+    description: Epics are themes of work grouping related issues around specific features. Its typical timeframe ranges from
+      weeks to months.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   issues:
-    description: ""
+    description: "Create Zenhub issues. Choose Zenhub Issues when:
+      - The work is project management or planning focused
+      - You're coordinating across multiple repositories
+      - The task doesn't require code changes (design, documentation, planning)
+      - You want to keep strategic work separate from development execution
+      - You need Zenhub-specific organizational features"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   realTimeRoadmaps:
-    description: ""
+    description: Never question your roadmap. Zenhub's Roadmaps automatically update so that you can see whether
+      projects are on-track or at-risk.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Features
   basicSprintReports:
-    description: ""
+    description: Stay on top of sprint progress with real-time burndown charts. Zenhub's Sprint Report updates
+      instantly as your engineering team closes work in GitHub.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Features
   velocityReport:
-    description: ""
+    description: Understand your team's capacity with Velocity Reports. Analyze trends and filter by labels,
+      sprints, and assignees for more detailed insights.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Features
   sprintInsights:
-    description: ""
+    description: See several information about a Sprint with a Sprint Burndown chart, a Sprint Summary report and more...
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Features
   aiSuggestedLabels:
-    description: ""
+    description: When you start creating an issue (Zenhub issue or GitHub issue) and have entered an issue title. Once you
+      click out of the title section you will see under the label metadata that our AI has created some suggestions based
+      on the information provided. You can select one label or all, you can also refresh if the labels suggested wasn't
+      quite right.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Features
   aiAcceptanceCriteria:
-    description: ""
+    description: In Zenhub, “AI Acceptance Criteria” is a generative AI feature that enables you to auto-generate acceptance
+      criteria in a Behavior-Driven Development (BDD) format for Zenhub Issues and Epics, and GitHub Issues. AI leverages
+      the title of the issues and a subset of the issue's description to provide relevant Acceptance Criteria suggestions.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Features
   aiSprintReview:
-    description: ""
+    description: Sprint Review is a new report within Zenhub that summarizes and categorizes the work completed by
+      your team within a Sprint using Zenhub AI. The Sprint Review report features a short text summary of the
+      completed issues and groups closed issues by theme creating a handy starting point or agenda for your next
+      Sprint Review or Demo meeting.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Features
   workspaceAutomation:
-    description: ""
+    description: Workflows solve coordination problems between teams working in separate workspaces. When your development
+      team finishes work that needs QA review, when design hands off completed mockups to engineering, or when management
+      needs portfolio visibility across multiple team workspaces, Workflows automate the handoff so issues move automatically
+      without manual updates or status reporting meetings.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Features
   advancedReporting:
-    description: ""
+    description: Advanced reporting in Zenhub
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Features
   togglePublicAndPrivateWorkspaces:
-    description: ""
+    description: "Toggle workspace visibility with privacy options:
+      - Shared: Anyone in your Zenhub organization can join and see issues in this workspace
+      - Private: Only invited people can join and see issues in this workspace"
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Features
   togglePublicAndPrivateFiles:
-    description: ""
+    description: "Chage file uplaod privacy options.
+      - Public: Files are public to all users and links can be shared on the public web
+      - Private: Files are restricted to users within your Zenhub organization, and previews in the extension will be limited"
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Features
   smartPipelinesPermissions:
-    description: ""
+    description: Toggle persmissions for Smart Pipelines
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Features
   slackIntegration:
-    description: ""
+    description: Create and update issues directly from Slack. Turn existing Slack threads into Zenhub issues.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -173,7 +213,8 @@ features:
       - https://slack.com/pricing
     tag: Integrations
   figma:
-    description: ""
+    description: Paste a share link to a Figma design and have the content embedded within a Zenhub Issue, Zenhub Epic or
+      Zenhub Comment. This embedded view is fully interactive and even include the ability to view the embed in full screen!
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -182,7 +223,8 @@ features:
       - https://figma.com/pricing
     tag: Integrations
   loom:
-    description: ""
+    description: Drop in Loom links to show bug demonstrations, feature explanations, or user experience walkthroughs.
+      Videos play right in the issue, making it easy to share visual context.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -191,7 +233,8 @@ features:
       - https://www.loom.com/pricing
     tag: Integrations
   miro:
-    description: ""
+    description: Paste a share link to a Miro board and have the content embedded within a Zenhub Issue, Zenhub Epic or
+      Zenhub Comment. This embedded view is fully interactive and even include the ability to view the embed in full screen!
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
@@ -200,95 +243,101 @@ features:
       - https://miro.com/pricing/
     tag: Integrations
   signUpWithEmail:
-    description: ""
+    description: Sign up to Zenhub via email
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Security
   emailDomainVerification:
-    description: ""
+    description: Zenhub automatically sets up your organization based on your email domain. Company email domains may
+      show existing organizations you can join, helping teams avoid duplicate setups. Common email providers like Gmail
+      trigger automatic organization creation, named after your email address (customizable later).
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Security
   cloudHosted:
-    description: ""
+    description: Zenhub is cloud hosted so you don't have to worry about system mantainance.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Security
   googleSSO:
-    description: ""
+    description: Sign in with Github using Google SSO
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
     tag: Security
   selfHostedOnPremise:
-    description: ""
+    description: Zenhub on-premise supports full SOC2 Type 2 compliance, role-based access control, audit logging,
+      and horizontal scalability for mid-size to global enterprises. Deploy in your own environment to meet data
+      residency, confidentiality, and throughput requirements. SOC 2 Type 2 is a rigorous third-party audit that
+      validates security, availability, and privacy controls operate effectively over time, not just on paper.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Security
   enterpriseGradeIdManagement:
-    description: ""
+    description: Enterprise-grade identity management
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Security
   enterpriseGradeAccessManagement:
-    description: ""
+    description: Enterprise-grade authentication with major IdPs
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Security
   advancedAdminControls:
-    description: ""
+    description: Users have full control over repository settings and can manage collaborators, webhooks, and integrations.
+      Repository admins can configure advanced Zenhub features and manage workspace settings that affect the entire team.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Security
   advancedAdminSecurity:
-    description: ""
+    description: Advanced admin security with detailed permission management
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Security
   communitySupport:
-    description: ""
+    description: Community support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   emailSupport:
-    description: ""
+    description: Support via email
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   prioritySupport:
-    description: ""
+    description: Priority support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   sharedSlackChannelWithZenhubTeam:
-    description: ""
+    description: Shared Slack channel with Zenhub team
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   liveGuidedOnboardingForYourTeam:
-    description: ""
+    description: Live guided onboarding for your teams
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
 usageLimits:
   teamWorkspacesLimit:
-    description: ''
+    description: Team workspaces available
     valueType: NUMERIC
     defaultValue: 1
     unit: workspace
@@ -296,14 +345,14 @@ usageLimits:
     linkedFeatures:
       - teamWorkspaces
   usersLimit:
-    description: ''
+    description: Maximum users in your Zenhub account
     valueType: NUMERIC
     defaultValue: 50
     unit: user
     type: NON_RENEWABLE
     linkedFeatures: null
   maxConnectedGithubOrganizations:
-    description: ''
+    description: Maximum Github connected organizations available
     valueType: NUMERIC
     defaultValue: 1
     unit: organization
@@ -311,7 +360,7 @@ usageLimits:
     linkedFeatures:
       - githubIntegration
   maxConnectedGithubRepositories:
-    description: ''
+    description: Maximum Gihtub connected repositories available
     valueType: NUMERIC
     defaultValue: 2
     unit: repo
@@ -319,7 +368,7 @@ usageLimits:
     linkedFeatures:
       - githubIntegration
   maxGithubIssues:
-    description: ''
+    description: Maximum Github issues available
     valueType: NUMERIC
     defaultValue: 250
     unit: repo
@@ -328,13 +377,13 @@ usageLimits:
       - githubIntegration
 plans:
   FREE:
-    description: ""
+    description: Built for small teams, with essential features, and a single workspace.
     price: 0
     unit: /month
     features: null
     usageLimits: null
   TEAMS:
-    description: ""
+    description: Designed for growing teams, with AI-powered tools, automation, and real-time reporting.
     price: 12.5
     unit: /month
     features:
@@ -352,9 +401,9 @@ plans:
       maxGithubIssues:
         value: .inf
   ENTERPRISE:
-    description: ""
-    price: "Contact us"
-    unit: 'user/month'
+    description: Built for large teams with AI automation, advanced security, custom reports, and dedicated support.
+    price: Contact us
+    unit: user/month
     features:
       githubInsights:
         value: true

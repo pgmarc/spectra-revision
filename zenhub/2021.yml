@@ -15,130 +15,150 @@ tags:
   - Reporting
 features:
   unlimitedPublicRepositories:
-    description: ""
+    description: Unlimited public repositories
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Code Management
   unlimitedPrivateRepositories:
-    description: ""
+    description: Unlimited private repositories
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Code Management
   selfServerKnowledgeBase:
-    description: ""
+    description: Self-serve knowledge base
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   slackUserCommunity24-7:
-    description: ""
+    description: Slack User Community 24/7
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   dedicatedCustomerSuccessManager:
-    description: ""
+    description: Dedicated Customer Success Manager
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   licenseManagement:
-    description: ""
+    description: License Governance gives Zenhub Enterprise system administrators granular control over how
+      licenses are distributed to users.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   taskBoards:
-    description: ""
+    description: A task board is an at-a-glance “information broadcaster” about your software projects. It's the
+      easiest way for teams to break down barriers that divide people working on a project, powering communication,
+      efficiency, and a higher-quality product. In this chapter, we'll explain how to combine custom labels and
+      pipelines to create your perfect project dashboard.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   taskFilters:
-    description: ""
+    description: 'Your Work Tracker becomes much more useful when you can focus on specific subsets of work. The filter
+      toolbar at the top of your board provides multiple ways to narrow your view:
+      - Views: Save and reuse custom filter combinations
+      - Repository: Focus on specific repositories (shows as "Repo 3/3" when multiple repos)
+      - Issue types: Filter by Task, Bug, Epic, etc.'
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: FILTERING
     tag: Project Management
   customizableTaskBoards:
-    description: ""
+    description: Customizable task boards
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   multipleIssueAssignees:
-    description: ""
+    description: Assign mutiple people to issues
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   customIssueTemplates:
-    description: ""
+    description: For GitHub issues, you can select from available templates using the Template dropdown. These
+      templates come from your GitHub repository settings and help standardize information collection for common
+      issue types like bug reports, feature requests, or user stories. You can filter through available templates
+      or select "None" to create a blank issue.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   issueDependencies:
-    description: ""
+    description: Dependencies represent relationships between issues where one piece of work must be completed before
+      another can begin. Tracking these relationships gives teams visibility into task connections, helps identify
+      bottlenecks before they impact deadlines, and prevents poor planning decisions that could delay releases.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   issuePriority:
-    description: ""
+    description: Prioritize your issues with different priority labels
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   multiRepoSupport:
-    description: ""
+    description: Get a view of the whole development process by connecting multiple GitHub repositories to a
+      single board, including both private and public repos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   epics:
-    description: ""
+    description: Epics are themes of work grouping related issues around specific features. Its typical timeframe ranges from
+      weeks to months.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   estimates:
-    description: ""
+    description: Story points help with sprint planning and capacity tracking. Use the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21)
+      to indicate relative complexity and effort. You can set initial estimates during creation, focusing on consensus-based
+      estimation rather than individual time predictions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   sprints:
-    description: ""
+    description: Sprints are fixed time periods where your team commits to completing a specific set of work.
+      Zenhub's sprint feature helps you organize issues into time-boxed iterations, track progress with burndown
+      charts, and maintain consistent delivery cadences.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   roadmaps:
-    description: ""
+    description: Roadmaps give a high-level, timeline-style overview of all your team's epics and projects. Align
+      work being done in GitHub with larger organizational goals and sprints in real-time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Project Management
   workflowAutomation:
-    description: ""
+    description: Automate issue movement between workspaces for team handoffs and cross-functional coordination
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Productivity
   automatedSprintPlanning:
-    description: ""
+    description: Zenhub can automate sprint planning by creating new sprints based on your team's velocity
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Productivity
   prIssueLinking:
-    description: ""
+    description: PR Issue linking
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
@@ -147,38 +167,52 @@ features:
       - https://github.com/pricing
     tag: Productivity
   zenhubExtension:
-    description: ""
+    description: Access all of Zenhub's project management functionalities — including multi-repository Kanban boards,
+      Planning Poker and automations — within GitHub's UI.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTENSION
     tag: Productivity
   burndownChart:
-    description: ""
+    description: Sprint Burndown provides a visual representation of your team's progress through a sprint, showing how
+      much work has been completed and how much remains. The chart helps teams stay on track to meet sprint commitments
+      by providing early indicators when progress falls behind the ideal pace.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Reporting
   controlPointChart:
-    description: ""
+    description: A control chart tracks cycle time per story over time — usually from the moment a ticket moves to
+      “In Progress” until it's “Done.” It overlays upper and lower control limits, statistically derived, that
+      define the “normal” range of variation.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Reporting
   velocityChart:
-    description: ""
+    description: Understand your team's capacity with Velocity Reports. Analyze trends and filter by labels,
+      sprints, and assignees for more detailed insights.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Reporting
   cumulativeFlowDiagrams:
-    description: ""
+    description: "Cumulative Flow Diagrams provide teams with critical insights into how different areas of their
+      workflow are changing over time. With Cumulative Flow Diagrams, teams have the ability to:
+      
+      - Understand the throughput of Issues through pipelines on the Board
+      - Identify bottlenecks and areas where Issues are piling up in pipelines
+      - Proactively make process improvements to streamline development"
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Reporting
   releaseReport:
-    description: ""
+    description: Zenhub Release Reports brings a dynamic, real-time perspective to your process. With Zenhub you
+      plan releases quickly and easily using existing GitHub data.Your release data is presented in an intuitive
+      interface, letting you see how the team is performing against the plan and whether or not you're on track
+      to finish the release by the desired end date.
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
@@ -186,13 +220,13 @@ features:
 usageLimits: null
 plans:
   FREE:
-    description: ""
+    description: For individuals or open source and academic teams just getting started
     price: 0
     unit: /month
     features: null
     usageLimits: null
   GROWTH:
-    description: ""
+    description: For teams looking for advanced collaboration and support
     price: 10
     unit: user/month
     features:
@@ -202,7 +236,7 @@ plans:
         value: true
     usageLimits: null
   ENTERPRISE:
-    description: ""
+    description: For organizations that need additional security, control, and support
     price: 12.5
     unit: 'user/month'
     features:

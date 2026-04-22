@@ -8,66 +8,73 @@ currency: USD
 url: https://web.archive.org/web/20190730121843/https://www.zenhub.com/pricing
 features:
   apiAccess:
-    description: ""
+    description: API access
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: API
   burnDownCharts:
-    description: ""
+    description: Sprint Burndown provides a visual representation of your team's progress through a sprint, showing how
+      much work has been completed and how much remains. The chart helps teams stay on track to meet sprint commitments
+      by providing early indicators when progress falls behind the ideal pace.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   estimates:
-    description: ""
+    description: Story points help with sprint planning and capacity tracking. Use the Fibonacci sequence (1, 2, 3, 5, 8, 13, 21)
+      to indicate relative complexity and effort. You can set initial estimates during creation, focusing on consensus-based
+      estimation rather than individual time predictions.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   epics:
-    description: ""
+    description: Epics are themes of work grouping related issues around specific features. Its typical timeframe ranges from
+      weeks to months.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   unlimitedRepositories:
-    description: ""
+    description: "Public repos: Unlimited free users"
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiRepoBoard:
-    description: ""
+    description: The new ZenHub Boards can display issues from several repos in one place. Connecting Task Boards
+      provides total visibility to your projects, making sprint planning and prioritization more transparent and efficient.
+      You can filter the Board to see only what you need.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   slackIntegration:
-    description: ""
+    description: Create and update issues directly from Slack. Turn existing Slack threads into Zenhub issues.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
   cloudHosted:
-    description: ""
+    description: Zenhub is cloud hosted so you don't have to worry about system mantainance.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   onPremisesHostingOnAwsServers:
-    description: ""
+    description: On premises hosting on AWS servers
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
   24-5TechSupport:
-    description: ""
+    description: 24/5 tech support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
   unlimitedReposAccrossGithubOrgs:
-    description: ""
+    description: Unlimited repositories accross Github organizations
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
 usageLimits:
   onlyForPublicRepos:
-    description: ''
+    description: Only for public repositories feature switch
     valueType: BOOLEAN
     defaultValue: true
     type: NON_RENEWABLE
@@ -82,13 +89,13 @@ usageLimits:
       - cloudHosted
 plans:
   FREE:
-    description: ""
+    description: For public, personal, and academic repositories
     price: 0
     unit: /month
     features: null
     usageLimits: null
   GROWTH:
-    description: ""
+    description: For fast moving development teams
     price: 5
     unit: user/month
     features: null
