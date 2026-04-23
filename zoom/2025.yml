@@ -18,885 +18,1058 @@ tags:
   - Support
 features:
   meetings:
-    description: ""
+    description: Simplified video conferencing and messaging across any device
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   localRecording:
-    description: ""
+    description: Zoom local recording saves your meeting recordings in MP4 (video), M4A (audio) and text (chat) formats.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   cloudRecording:
-    description: ""
+    description: Zoom Cloud Recording stores in the Zoom Cloud, where the file can then be downloaded
+      and/or streamed from a browser
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Core Features
   teamChat:
-    description: ""
+    description: Chat allows you to easily send group text, files, screen captures, code snippets, voice messages,
+      and images. Text can be formatted and users can share GIFs and emojis as well. Presence displays whether
+      chat participants are active on desktop or mobile devices, or busy in meetings.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   zoomWhiteBoards:
-    description: ""
+    description: Zoom Whiteboard provides customers a set of easy-to-use tools to collaborate together to capture ideas,
+      processes, and concepts. With features focused on fostering innovation, Zoom Whiteboard makes it simple for
+      hybrid teams to interact in new ways for seamless collaboration.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   mail:
-    description: ""
+    description: Zoom Mail and Calendar in the Zoom app
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   mailService:
-    description: ""
+    description: Email service with full-time end-to-end encryption for enhanced privacy
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Core Features
   customMailDomain:
-    description: ""
+    description: Custom Mail Domain with Mail Service
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Core Features
   calendarClient:
-    description: ""
+    description: Schedule and join meetings in the Zoom app
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   aiCompanion:
-    description: ""
+    description: Zoom AI Companion, your generative-AI digital assistant, delivers powerful, real-time capabilities
+      to help users improve productivity and work together more effectively. Zoom customers can expect to see AI
+      Companion throughout the Zoom platform, with features available for products including Meetings, Chat, Mail,
+      Phone, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Core Features
   calendarService:
-    description: ""
+    description: Meeting scheduling and appointment booking
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Core Features
   clips:
-    description: ""
+    description: Effortlessly create, edit, and share shorts videos. Stored clips are easily
+      discoverable, boosting engagement.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   notes:
-    description: ""
+    description: Notes offers a robust personal and collaborative document editor with extensive formatting
+      options, accessible both in and out of meetings.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Core Features
   zoomPhone:
-    description: ""
+    description: Zoom Phone calling features have been designed to give your users a flexible, mobile,
+      and powerful cloud phone system.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Core Features
   limitedDocsFeatures:
-    description: "Supercharge collaboration with AI-first docs that transform meeting content into actionable documents, wikis, and projects"
+    description: Supercharge collaboration with AI-first docs that transform meeting content into actionable
+      documents, wikis, and projects
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
     tag: Core Features
   fullDocsFeatures:
-    description: "Supercharge collaboration with AI-first docs that transform meeting content into actionable documents, wikis, and projects"
+    description: Supercharge collaboration with AI-first docs that transform meeting content into actionable
+      documents, wikis, and projects
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Core Features
   automatedCaptions:
-    description: ""
+    description: Zoom has a variety of options for creating virtual closed captioning in your Zoom meetings and
+      webinars that provide subtitles for video conferencing. With the automated captions feature, captions are
+      generated in real time to offer a more accessible and flexible virtual communication experience for all participants.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
     tag: Core Features
   translatedCaptions:
-    description: ""
+    description: Zoom translated captions enable users to have the speech in a meeting or webinar automatically
+      translated in real-time to captions in another language. For example, if a meeting participant is speaking
+      in English, other participants can view captions in German, Italian, Japanese, and more.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Core Features
   workspaceReservation:
-    description: ""
+    description: Workspace will allow you to reserve workspaces in your offices. You can easily book available desks,
+      personal Zoom appliances, or meeting spaces. After making a reservation, you can easily check into your reserved
+      space using this App.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Core Features
   visitorManagement:
-    description: ""
+    description: Account owners and admins can allow licensed users to have Visitor Management access. Account owners
+      and admins can set up visitor management settings and invitations within the admin web portal. They can view metrics
+      and download reports that track visitors' metrics. Account owners and admins can see when visitors are scheduled to come into the office and pair visitor management with a badging system.
+
+      Zoom's Visitor Management provides a customizable end-to-end admin, user, and visitor experience integrated into Zoom's
+      platform. With features like customizable invites, kiosk check-in, reporting, and metrics, Zoom's Visitor Management
+      allows easy and efficient registration of guests to the workplace.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Core Features
   zoomScheduler:
-    description: ""
+    description: Zoom Scheduler optimizes scheduling by sharing your availability for others to conveniently books
+      appointments. Works seamlessly with your Zoom Meetings and Zoom Mail and Calendar, and integrates with Google
+      and Microsoft 365.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Core Features
   accessAccrossAnyDevice:
-    description: ""
+    description: You can be signed in to Zoom on one computer, one tablet, and one phone at a time.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Core Features
   telephoneDialIn:
-    description: ""
+    description: Join a Zoom meeting via teleconferencing/audio conferencing (using a traditional telephone). Users will
+      be charged according to their telephone plan. Try our Audio Conferencing add-on for toll-free dial-in numbers.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Meetings
   screenSharing:
-    description: ""
+    description: Desktop and application sharing. Licensed meeting users can choose to allow multiple participants
+      to share their screens simultaneously during a meeting they are hosting.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   breakoutRooms:
-    description: ""
+    description: Video Breakout Rooms allows you to split your Zoom meeting into as many as 50 separate sessions
+      for discussion, projects and more.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   virtualBackground:
-    description: ""
+    description: When enabled, the virtual background feature allows you to display an image or short video as your
+      background during a Zoom meeting, which can provide you with more privacy or a consistent and professional look for a presentation.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   personalMeetingId:
-    description: ""
+    description: Create your own permanent online meeting room. You can start this meeting at any time or schedule
+      it for future use.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   hostControls:
-    description: ""
+    description: Host controls enable you, as the meeting host, to manage various aspects of a Zoom meeting, including
+      participant management.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   coAnnotationOnScreenShare:
-    description: ""
+    description: Zoom's in-meeting product features allow you to add annotations on your screen during your video
+      calls — a tool for remote teams to easily brainstorm and collaborate. Meeting participants can add annotations
+      while screen sharing as a viewer or the one that started sharing their screen. You can also use annotation tools
+      when sharing or viewing a whiteboard.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   remoteKeyboardControl:
-    description: ""
+    description: The remote control feature allows you to take control of another participant's screen in a Zoom meeting when
+      they've given you permission. You can either request remote control of another participant's screen or the other
+      participant can give control to you. Once given permission, you can control their mouse and keyboard, and even
+      copy text from their screen to yours.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   remoteMouseControl:
-    description: ""
+    description: The remote control feature allows you to take control of another participant's screen in a Zoom meeting when
+      they've given you permission. You can either request remote control of another participant's screen or the other
+      participant can give control to you. Once given permission, you can control their mouse and keyboard, and even
+      copy text from their screen to yours.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   multiShare:
-    description: ""
+    description: Multiple screens can be shared and viewed in a Zoom Room simultaneously. This content can be screens
+      shared by remote participants or screens shared within the room. Each shared screen can be assigned to a display.
+
+      If there is only one screen in the room, you can toggle between which screen is being displayed.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   waitingRoom:
-    description: "The Waiting Room feature allows the host to control when a participant joins the meeting. As the meeting host, you can admit attendees one by one or all at once. In settings, you can choose who gets put into the Waiting Room or gets automatically admitted. Every account has the Waiting Room feature. Hosts can message the Waiting Room. You can customize the Waiting Room, if you're on a paid plan."
+    description: The Waiting Room feature allows the host to control when a participant joins the meeting. As the meeting
+      host, you can admit attendees one by one or all at once. In settings, you can choose who gets put into the Waiting
+      Room or gets automatically admitted. Every account has the Waiting Room feature. Hosts can message the Waiting Room.
+      You can customize the Waiting Room, if you're on a paid plan.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
   builtIntoZoomForHomeDevices:
-    description: ""
+    description: Zoom for Home is a new offering included with Zoom Meetings user licenses that allows anyone to deploy a
+      personal collaboration device for video meetings, phone calls, interactive whiteboarding, and annotation.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Meetings
   pinMultiplePeople:
-    description: ""
+    description: The host can grant up to 9 people, the ability to pin videos to create their own custom view.
+      So no matter who is speaking, the pinned videos stay visible.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Meetings
   spotlightMultiplePeople:
-    description: ""
+    description: The host can spotlight up to 9 attendee's videos, so that no matter who is speaking the entire
+      meeting sees the spotlighted videos.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Meetings
   filters:
-    description: ""
+    description: Bring more fun into happy hours, parties and more with fun color filters or decorative animal stickers.
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: FILTERING
     tag: Meetings
   polling:
-    description: ""
+    description: When enabled, hosts can create poll questions for meetings. You can launch the poll during your
+      meeting and gather responses from your participants. Hosts have the option to download a polling report
+      after the meeting. Polls can be conducted anonymously if you prefer not to collect participant information
+      with the results.
+
+      Polling reports contain full details of the results, such as each participant's answers and submission times.
+      These reports are available after the meeting by default, with an option to access them during the live session.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Meetings
   coHost:
-    description: ""
+    description: Hosts can share hosting privileges with additional users during a meeting, allowing the co-hosts to
+      manage the administrative side of the meeting, such as managing participants or starting/stopping the recording.
+      The host is the only user who can assign a co-host during a meeting. There is no limitation on the number of
+      co-hosts you can have in a meeting or webinar.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Meetings
   alternateHost:
-    description: ""
+    description: Hosts can share hosting privileges with additional users during a meeting, allowing the co-hosts to
+      manage the administrative side of the meeting, such as managing participants or starting/stopping the recording.
+      The host is the only user who can assign a co-host during a meeting. There is no limitation on the number of
+      co-hosts you can have in a meeting or webinar.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Meetings
   assignMeetingScheduler:
-    description: "Allows you to assign someone else to set up your meetings for you. Assignee must also have a Pro plan."
+    description: Allows you to assign someone else to set up your meetings for you. Assignee must also have a Pro plan.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Meetings
   restApi:
-    description: "Allows account owners, admins, and your developers secure access to Zoom REST API. API Rate Limits are applied at the account-level according to Account Type (Pro, Business, Enterprise, etc…) and the API Request Type (Light, Medium, Heavy, etc…). Some APIs are access-limited to specific account types. Use the API Rate Limits & API Reference Documentation for complete details."
+    description: Allows account owners, admins, and your developers secure access to Zoom REST API. API Rate Limits
+      are applied at the account-level according to Account Type (Pro, Business, Enterprise, etc…) and the API Request
+      Type (Light, Medium, Heavy, etc…). Some APIs are access-limited to specific account types. Use the API Rate
+      Limits & API Reference Documentation for complete details.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: API
     tag: Meetings
   skypeForBusinessInteroperability:
-    description: "Allows Lync users 2010, 2013 and Skype for Business users to initiate a Zoom meeting from the Lync contact list."
+    description: Allows Lync users 2010, 2013 and Skype for Business users to initiate a Zoom meeting
+      from the Lync contact list.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Meetings
   streaming:
-    description: "Stream live to Facebook, Youtube or a 3rd party service."
+    description: Stream live to Facebook, Youtube or a 3rd party service.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
     tag: Meetings
   reporting:
-    description: "Run usage reports to learn how many meetings are taking place, which days, number of participants, number of meeting minutes and more."
+    description: Run usage reports to learn how many meetings are taking place, which days, number of participants,
+      number of meeting minutes and more.
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Meetings
   userManagement:
-    description: "Owners and Admins can add, delete and assign roles and add-on features"
+    description: Owners and Admins can add, delete and assign roles and add-on features.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Meetings
   adminPortal:
-    description: ""
+    description: Manage users in your company on one account for simplified billing, advanced user management
+      settings, and comprehensive usage insights all in the Zoom Admin Portal.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Meetings
   ltiIntegration:
-    description: ""
+    description: Easily add a meeting to any course activity and invite the right students from your learning
+      management system (works with Moodle, Canvas, Desire2Learn and Blackboard).
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: MARKETPLACE
     tag: Meetings
   recordingTranscripts:
-    description: ""
+    description: Cloud recording transcripts are audio transcripts that transcribe the audio of a meeting or webinar that you record to the cloud. Please note this is currently supported for English language.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: BOT
     tag: Meetings
   branding:
-    description: ""
+    description: Add your company's branding to your own customized page where your users can join a meeting. Create a branded email template to send invites to participants.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Meetings
   managedDomains:
-    description: ""
+    description: Use your company/university email address domain to add users to your account automatically.
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Meetings
   languageInterpretations:
-    description: ""
+    description: Allows the meeting host to designate interpreters in their meetings and webinar. Upon starting the
+      meeting or webinar, the meeting host can start the interpretation feature, which will give the interpreters
+      access to their own audio channels. Participants can select an audio channel to hear their language of choice.
+      Participants will hear the translated audio and can choose if they want to hear the original audio at a lower volume.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Meetings
   directChat:
-    description: ""
+    description: Easily communicate in 1 on 1 messages
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   channelChat:
-    description: ""
+    description: Easily communicate in small groups
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   groupChat:
-    description: ""
+    description: Easily communicate with large teams
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   messageHistory:
-    description: ""
+    description: Message history in team chat
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Team Chat
   fileHistory:
-    description: ""
+    description: File history in team chat
     valueType: BOOLEAN
     defaultValue: true
     type: INFORMATION
     tag: Team Chat
   findPeopleInSearch:
-    description: ""
+    description: Quickly find contacts, keeping knowledge and information at your fingertips
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   findChannelsInSearch:
-    description: ""
+    description: Quickly find channels, keeping knowledge and information at your fingertips
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   findFilesInSearch:
-    description: ""
+    description: Quickly find files, keeping knowledge and information at your fingertips
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   applicationIntegrations:
-    description: ""
+    description: Boost productivity by leveraging your favourite Apps right within Team Chat.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: MARKETPLACE
     tag: Team Chat
   secureFileSharing:
-    description: ""
+    description: Enhance collaboration with seamless file sharing
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     tag: Team Chat
   persistentMeetingChat:
-    description: ""
+    description: Never lose track of meeting conversations. Communicate before, during, and after a meeting in a
+      dedicated group chat in Zoom Team Chat for all meeting participants.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Team Chat
   cloudStorage:
-    description: ""
+    description: Back channels to the Zoom Cloud or a third-party storage provider.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Core Features
   microsoft:
-    description: ""
+    description: "Microsoft integration with Zoom includes:
+      - Zoom's In-App integration for Microsoft Teams
+      - Zoom Phone for Microsoft Teams
+      - Zoom Contact Center and Microsoft Teams integration
+      - Microsoft Dynamics 365 Integration for Zoom Phone, Zoom Contact Center, and Zoom Revenue Accelerator
+      - Zoom Rooms and Teams Rooms interoperability
+      - Workvivo's Microsoft Teams integration
+      - Microsoft Email and Calendar within Zoom Workplace
+      - Zoom for Outlook Add-in
+      - Zoom Scheduler with Outlook
+      - Zoom Workspace Reservation with Microsoft Outlook
+      - Sharepoint and OneDrive in Zoom Workplace
+      - Sharepoint and OneDrive with Custom AI companion
+      - Single Sing-On with Microsoft Entra ID
+      - Microsoft Purview Compliance Manager for Zoom
+      - Microsoft Authenticator for Multi-Factor Authentication
+      - Zoom for Intune"
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Integrations
   google:
-    description: ""
+    description: Use Zoom to easily schedule, join, manage, and customize meetings and calls from Gmail and Google Calendar.
+    
+      Help your organization meet happy with the Zoom Google Workspace add-on for Gmail and Google Calendar. With the
+      add-on, you can easily deploy and install the Zoom integration for Google Workspace to your whole organization with a
+      few simple steps.
+      
+      Streamline how your team schedules, starts, and manages their meetings directly from Gmail and Google Calendar.
+      Simplify your scheduling process with Zoom Meeting details added to your Google Calendar invitations with 1-click.
+      Generate meaningful meeting details by automatically adding the topic, attendees, and attachments based on subject,
+      recipients, and sent documents. And customize meeting options like join with video on, join with audio muted, join
+      before host, and other options to help you host your meetings your way.
+      
+      You can also place Zoom Phone calls directly within your Google email or Google Calendar workspace. Simply click
+      on the Zoom icon on the right side of the screen and search for the contact you wish to call or use the dialpad.
+      You can even call the list of attendees for a specific meeting or event by selecting the meeting or event from your
+      calendar and the contact information for the attendee list will populate under the Call Contacts list.
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Integrations
   salesforce:
-    description: ""
+    description: "With the power of Sales Cloud 360 and Zoom your sales organizations can:
+      - Review and improve every sales call by uncovering conversation trends and surfacing coachable moments with
+        Salesforce Einstein Conversation Insights. Unlock actionable insights from your sales calls on Zoom to
+        redefine selling and enablement strategies, prioritize coaching techniques at every deal stage, and
+        accelerate onboarding and training. Check out the video below to learn more about Salesforce Einstein
+        Conversation Insights.
+      - Seamlessly schedule sales calls and reduce the number of no shows by automatically generating Zoom meeting
+        links when using the Insert Availability feature in Salesforce Inbox."
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Integrations
   servicenow:
-    description: ""
+    description: "The ServiceNow-Zoom integration enables customers to use ServiceNow's Flow Designer to automatically
+      create incidents, generate notifications, and perform other tasks for Zoom Room generated alarms which include:
+
+      - Zoom Room offline/online
+      - Controller disconnected/connected and battery low/charging
+      - Audio usability threshold poor/acceptable
+      - High CPU detected
+      - Network bandwidth unstable
+      - SIP registration failed/re-enabled
+      - Mic/speaker/camera disconnected/reconnected"
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Integrations
   hubspot:
-    description: ""
+    description: "**Integrate with HubSpot meetings**
+      Automatically send dial-in and conference call details to your HubSpot prospects. Turn every meeting booked in your
+      HubSpot CRM into a Zoom meeting.
+      
+      **Promote your Zoom webinars with HubSpot workflows**
+      When someone registers for a Zoom webinar, they're created as a contact in HubSpot. Use HubSpot workflows to send
+      them automated event reminders, follow-up emails, and more.
+      
+      **Track Zoom webinar attendance and Recordings in HubSpot CRM**
+      Create lists and views in the HubSpot CRM based on Zoom webinar activities. Use contact properties to see when
+      contacts register and attend webinars and how long they typically stay. View Zoom recordings directly on the
+      contact timeline."
     valueType: BOOLEAN
     defaultValue: true
     type: INTEGRATION
     integrationType: WEB_SAAS
     tag: Integrations
   avatars:
-    description: ""
+    description: Customize your own avatar to bring some fun into meetings and present yourself dynamically
+      without needing to be on video.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Engagement
   inMeetingsReactions:
-    description: ""
+    description: Show engagement and quickly communicate with other participants in a non-verbal way.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Engagement
   quizzes:
-    description: ""
+    description: Create single-choice or multiple-choice polling questions for your meetings.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Engagement
   appearanceTouchUp:
-    description: ""
+    description: The touch up my appearance feature gives your picture display a softer focus and enhances your
+      digital appearance in real-time.
     valueType: BOOLEAN
     defaultValue: true
     type: DOMAIN
     tag: Engagement
   originalSoundForMusicians:
-    description: ""
+    description: The Original sound for musicians and Live performance audio profiles allow for greater preservation of
+      audio received from your microphone without using Zoom's echo cancellation and audio filters. These are ideal if
+      your microphone or sound equipment has these features built in or if you want to preserve the full range of
+      sound from a musical instrument.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Engagement
   endToEndEncryptionForZoomMeetings:
-    description: "When enabled, Zoom’s end-to-end encryption (E2EE) for Zoom Meetings means that communications between all meeting participants using Zoom clients in a given meeting are encrypted using cryptographic keys known only to the devices of those participants. This means that no third party — including Zoom — has access to the meeting’s private keys."
+    description: When enabled, Zoom's end-to-end encryption (E2EE) for Zoom Meetings means that communications
+      between all meeting participants using Zoom clients in a given meeting are encrypted using cryptographic
+      keys known only to the devices of those participants. This means that no third party — including Zoom — has access
+      to the meeting's private keys.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     tag: Security and Compliance
   zoomCustomerManagedKey:
-    description: "Bring your own encryption keys to protect Zoom data at rest"
+    description: Bring your own encryption keys to protect Zoom data at rest
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
     tag: Security and Compliance
   enterpriseGradeSecurity:
-    description: "256-bit AES-GCM encryption for real-time content in transit, advanced chat encryption, passcodes, Waiting Rooms, lock a meeting, audio signatures, screen share watermarks, two-factor authentication, and more."
+    description: 256-bit AES-GCM encryption for real-time content in transit, advanced chat encryption, passcodes,
+      Waiting Rooms, lock a meeting, audio signatures, screen share watermarks, two-factor authentication, and more.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     tag: Security and Compliance
   encryptionByDefault:
-    description: ""
+    description: Encryption is enabled by default
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     tag: Security and Compliance
   chatEtiquette:
-    description: ""
+    description: Account owners and admins can use the Chat Etiquette Tool to create policies that identify defined
+      keywords and text patterns/regular expressions (such as account numbers and social security numbers). These
+      policies help prevent users from inadvertently sharing unwanted messages in Zoom Chat, in-meeting chat, webinar chat,
+      and webinar Q&A. When a user sends a message that triggers a policy, the message will be blocked or a warning
+      prompt will be displayed for the user to confirm that they want to send the message, depending on what the admin set.
+      For example, an admin can create a policy to identify and block an offensive word being sent in chat, and if a
+      user enters that word, then a prompt will appear stating that the message can't be sent because of
+      Chat Etiquette policies.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Security and Compliance
   gdprControl:
-    description: ""
+    description: Zoom applauds the GDPR as a data protection foundation for the benefit of all, not only in Europe. Zoom
+      supports our customers by implementing technical and organizational measures in a manner that aligns with the GDPR's
+      compliance obligations. Zoom is here to help our customers in their role as data controllers.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     tag: Security and Compliance
   singleSignOn:
-    description: ""
+    description: Supports Microsoft Active Directory, Google, Ping, Okta, Centrify. Requires Business, Education, or Enterprise account.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: IDENTITY_PROVIDER
     tag: Phone
   unlimitedInternalCalling:
-    description: ""
+    description: Unlimited internal calling
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   meteredUnboundCalling:
-    description: ""
+    description: Metered outbound calling
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   unlimitedOutboundCalling:
-    description: ""
+    description: Unlimited outbound calling
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   industryLeadingHdCallQuality:
-    description: ""
+    description: Industry-leading HD call quality with active noise cancellation, echo cancellation, and keyboard
+      typing suppression
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   nativeWindowsApp:
-    description: ""
+    description: Native Windows Zoom Phone app
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   nativeMacOsApp:
-    description: ""
+    description: Native MacOS Zoom Phone app
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   nativeLinuxApp:
-    description: ""
+    description: Native Linux Zoom Phone app
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   nativeIosApp:
-    description: ""
+    description: Native iOS Zoom Phone app
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   nativeAndroidApp:
-    description: ""
+    description: Native Android Zoom Phone app
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   portExistingNumers:
-    description: ""
+    description: Port existing phone numbers
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   purchaseNewNumbers:
-    description: ""
+    description: Purchase new phone numbers (DID)
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   tollFreeNumbers:
-    description: ""
+    description: Toll free numbers
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   phoneExtensionNumber:
-    description: ""
+    description: Phone extension number
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   voicemailWithTranscription:
-    description: ""
+    description: Voicemail with transcription
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   unlimitedAutoAttendants:
-    description: ""
+    description: Unlimited auto attendants. An auto attendant is an automated system that guides callers through
+      a menu using voice commands or keypad inputs, enabling them to select the options that best match their needs.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   dialByNameDirectory:
-    description: ""
+    description: A dial-by-name directory allows callers to search a site's phone users by entering a first or last name.
+      After performing a search, the caller can route to the phone user. You must route to the dial-by-name directory
+      from an IVR system. The dial-by-name directory only supports British and American English.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   automaticCallDistributionGroups:
-    description: ""
+    description: Automatic call distribution groups (ACD) with call queueing
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   barge:
-    description: ""
+    description: "Call monitoring. Barge: Join a call and speak to all parties. The call will become a 3-way call."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   monitor:
-    description: ""
+    description: If your admin assigned you as a monitor with call monitoring privileges, you can listen,
+      whisper, barge, or take over calls. You admin has control over which monitoring privileges you can use.
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Phone
   whisper:
-    description: ""
+    description: "Call monitoring. Whisper: Speak to a phone user in a call without other parties being aware."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   takeover:
-    description: ""
+    description: "Call monitoring. Take over: Take over the call from a Zoom Phone user."
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   holidayHoursRouting:
-    description: ""
+    description: Holiday hours routing
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   businessHoursRouting:
-    description: ""
+    description: Business hours routing
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   3WayAdHocConferenceCalls:
-    description: ""
+    description: 3-Way ad hoc conference calls
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   callRecording:
-    description: ""
+    description: Call recording. Automatic and manual call recording are available. Full time and on-demand call
+      recording with transcriptions
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   configurableAnonymousBlocking:
-    description: ""
+    description: Configurable anonymous call blocking
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Phone
   configurableSpecifiedCallBlocking:
-    description: ""
+    description: Configurable specified call blocking
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TASK_AUTOMATION
     tag: Phone
   emergencyCalling:
-    description: ""
+    description: Place calls to local emergency services
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   nomadicE911Addressing:
-    description: ""
+    description: Dynamically detect user location and report corresponding emergency address to local
+      emergency services (US & Canada only) and to internal safety team.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   emergenceResponseCenter:
-    description: ""
+    description: Enable your internal safety team to be alerted for emergency calls and record/monitor/barge
+      into emergency calls to help coordinate the response.
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Phone
   sharedLineAppearance:
-    description: ""
+    description: Shared line appearance
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   sharedLineDelegation:
-    description: ""
+    description: Shared line delegation
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   callHandoffBetweenDevices:
-    description: ""
+    description: Call handoff between devices
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   callPark:
-    description: ""
+    description: Call park allows phone users to place a call on hold and let another phone user resume the call
+      from any phone or Zoom client. After parking a call, Zoom Phone generates a retrieval code. Any other phone
+      user can use the retrieval code to resume the call. Admins can set routing rules if parked calls are not
+      answered after a specified amount of time.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   end2EndEncriptionForZoomPhone:
-    description: ""
+    description: End-to-End Encryption (E2EE) for Zoom Phone calls is available for account owners and admins to
+      allow their users to switch their one-on-one calls to E2EE when additional protection is needed. Using
+      Zoom Phone E2EE requires the caller and callee to be part of the same Zoom account, to join from the Zoom
+      desktop or mobile app, and for automatic call recording to be disabled, or the user is allowed to pause
+      automatic call recording if it is enabled.
     valueType: BOOLEAN
     defaultValue: true
     type: GUARANTEE
     tag: Phone
   zeroTouchProvisioningOfPhones:
-    description: ""
+    description: Zero-touch provisioning of phones
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   mixTypesOfPlansInAnAccount:
-    description: ""
+    description: Mix types of plans in an account
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   realTimeReporting:
-    description: ""
+    description: Real time reporting
     valueType: BOOLEAN
     defaultValue: false
     type: AUTOMATION
     automationType: TRACKING
     tag: Phone
   qualityDashboards:
-    description: ""
+    description: Quality dashboards
     valueType: BOOLEAN
     defaultValue: false
     type: INFORMATION
     tag: Phone
   supportForVirtualDesktopEnvironment:
-    description: ""
+    description: Support for virtual desktop (VDI) environment
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   24x7GlobalCustomerCare:
-    description: ""
+    description: 24/7 global customer care
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Phone
   bringYourOwnCarrierSupport:
-    description: ""
+    description: Bring your own carrier support. Support for direct and premise-based peering to your existing
+      PSTN service provider
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Phone
   hybridIntegrationToLegacyPbxs:
-    description: ""
+    description: Hybrid integration to legacy PBXs
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
     tag: Phone
   sms:
-    description: ""
+    description: Send SMS
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   mms:
-    description: ""
+    description: Send MMS
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
     tag: Phone
   helpCenterTechnicalSupport:
-    description: ""
+    description: Help center technical support
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   ticketTechnicalSupport:
-    description: ""
+    description: Ticket technical support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   liveChatTechnicalSupport:
-    description: ""
+    description: Live chat technical support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   phoneTechnicalSupport:
-    description: ""
+    description: Phone technical support
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   knowledgeBase:
-    description: ""
+    description: Troubleshoot technical issues and access support resources by searching our knowledge base articles.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   zoomCommunity:
-    description: ""
+    description: A place to find solutions, ask questions and collaborate with other Zoom users.
     valueType: BOOLEAN
     defaultValue: true
     type: SUPPORT
     tag: Support
   chatBot:
-    description: ""
+    description: Get answers to questions and troubleshoot technical issues by interacting with our virtual agent
     valueType: BOOLEAN
     defaultValue: true
     type: AUTOMATION
     automationType: BOT
     tag: Support
   meetWithAgentOnVideo:
-    description: ""
+    description: Get answers to questions and troubleshoot technical issues by interacting with our virtual agent on video
     valueType: BOOLEAN
     defaultValue: false
     type: SUPPORT
     tag: Support
   zoomWebinars:
-    description: ""
+    description: Host webinars in Zoom
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   zoomSessions:
-    description: ""
+    description: The host or event organizer can select either a meeting session or a webinar session in the event creation
+      flow. This feature is useful when the host wants a more controlled environment for their event.
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   callOutDialIn:
-    description: ""
+    description: While in a meeting or webinar, you can call others to join the meeting or webinar
+      by phone (also known as "call out").
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   globalTollFreeDialIn:
-    description: ""
+    description: As an account administrator or a meeting organizer, you can choose one or more countries from which
+      you commonly invite attendees that dial in to your meetings. The dial-in numbers for the countries that you
+      choose appear by default in the meeting invitation that you send to participants. The dial-in numbers that
+      appear in the invitation can be overridden when you schedule a specific meeting.
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   localDialInForPremiumCountries:
-    description: ""
+    description: Local dial in for Premium countries
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   zoomPhonePowerPack:
-    description: ""
+    description: Zoom phone Power Pack
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   conferenceRoomConnector:
-    description: "Connect your H.323/SIP systems with desktop, tablet, mobile devices, Zoom Rooms and other H.323/SIP endpoints"
+    description: Connect your H.323/SIP systems with desktop, tablet, mobile devices, Zoom Rooms and other H.323/SIP endpoints
     valueType: BOOLEAN
     defaultValue: false
     type: INTEGRATION
     integrationType: EXTERNAL_DEVICE
   zoomClipsPlus:
-    description: ""
+    description: Zoom Clips Plus
     valueType: BOOLEAN
     defaultValue: false
     type: DOMAIN
   zoomCompliantManager:
-    description: ""
+    description: Zoom compliant manager
     valueType: BOOLEAN
     defaultValue: false
     type: MANAGEMENT
 usageLimits:
   maxParticipants:
-    description: 'A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a Zoom account in order to join a meeting.'
+    description: A Participant is an invitee in a meeting scheduled by someone with a Host license. Participants can
+      join your meeting for free from their phone, desktop, mobile and tablet devices. A participant does not require a
+      Zoom account in order to join a meeting.
     valueType: NUMERIC
     defaultValue: 100
     unit: participant
@@ -904,21 +1077,21 @@ usageLimits:
     linkedFeatures:
     - meetings
   minLicenses:
-    description: ''
+    description: Minimum licenses to purchase
     valueType: NUMERIC
     defaultValue: 1
     unit: license
     type: NON_RENEWABLE
     linkedFeatures: null
   maxLicenses:
-    description: ''
+    description: Maximum licenses to purchase
     valueType: NUMERIC
     defaultValue: 1
     unit: license
     type: NON_RENEWABLE
     linkedFeatures: null
   maxMeetingDuration:
-    description: ''
+    description: Maximum meeting duration available
     valueType: NUMERIC
     defaultValue: 40
     unit: min
@@ -926,7 +1099,7 @@ usageLimits:
     linkedFeatures:
     - meetings
   maxBreakoutRooms:
-    description: ''
+    description: Maximum breakout rooms available
     valueType: NUMERIC
     defaultValue: 50
     unit: room
@@ -934,7 +1107,7 @@ usageLimits:
     linkedFeatures:
     - breakoutRooms
   maxCloudRecordingSize:
-    description: ''
+    description: Maximum cloud recording file size
     valueType: NUMERIC
     defaultValue: 0
     unit: GB
@@ -943,7 +1116,7 @@ usageLimits:
     - cloudRecording
     - cloudStorage
   zoomWhiteBoardsLimit:
-    description: ''
+    description: Maximum whiteboards available
     valueType: NUMERIC
     defaultValue: 3
     unit: board
@@ -951,7 +1124,7 @@ usageLimits:
     linkedFeatures:
     - zoomWhiteBoards
   clipsLimit:
-    description: ''
+    description: Maximum Zoom clips available
     valueType: NUMERIC
     defaultValue: 5
     unit: clip
